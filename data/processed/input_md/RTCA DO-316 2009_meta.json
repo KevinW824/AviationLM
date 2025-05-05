@@ -1,0 +1,1605 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            "1.0 PURPOSE AND SCOPE",
+            11
+        ],
+        [
+            2,
+            "1.1 Introduction",
+            11
+        ],
+        [
+            2,
+            "1.2 System Overview",
+            13
+        ],
+        [
+            3,
+            "1.2.1 GNSS Satellite Signal Characteristics",
+            13
+        ],
+        [
+            4,
+            "1.2.2 GPS Signal Characteristics",
+            13
+        ],
+        [
+            2,
+            "1.3 Operational Goals",
+            14
+        ],
+        [
+            3,
+            "1.3.1 Operational Environment",
+            14
+        ],
+        [
+            3,
+            "1.3.2 International Compatibility",
+            14
+        ],
+        [
+            2,
+            "1.4 Equipment Type",
+            15
+        ],
+        [
+            2,
+            "1.5 FDE with Barometric Aiding ",
+            15
+        ],
+        [
+            2,
+            "1.6 Test Considerations",
+            15
+        ],
+        [
+            3,
+            "1.6.1 Environmental Tests",
+            15
+        ],
+        [
+            3,
+            "1.6.2 Bench Tests",
+            15
+        ],
+        [
+            2,
+            "1.7 Definition of Key Terms",
+            16
+        ],
+        [
+            3,
+            "1.7.1 General Terms",
+            16
+        ],
+        [
+            3,
+            "1.7.2 Alert Limits and Protection Levels",
+            16
+        ],
+        [
+            3,
+            "1.7.3 Fault Detection and Exclusion (FDE) Terms",
+            17
+        ],
+        [
+            2,
+            "1.8 Assumptions and Approach to Selected Issues",
+            22
+        ],
+        [
+            3,
+            "1.8.1 General",
+            22
+        ],
+        [
+            4,
+            "1.8.1.1 GPS Constellation ",
+            22
+        ],
+        [
+            4,
+            "1.8.1.2 GPS Performance",
+            22
+        ],
+        [
+            4,
+            "1.8.1.3 Navigational Waypoints",
+            23
+        ],
+        [
+            4,
+            "1.8.1.4 RF Interference",
+            23
+        ],
+        [
+            1,
+            "2.0 EQUIPMENT PERFORMANCE AND TEST PROCEDURES",
+            25
+        ],
+        [
+            2,
+            "2.1 General Requirements",
+            25
+        ],
+        [
+            3,
+            "2.1.1 Requirements Applicable to GPS Equipment",
+            25
+        ],
+        [
+            4,
+            "2.1.1.1 General Requirements for All Navigation Modes",
+            25
+        ],
+        [
+            5,
+            "2.1.1.1.1 Airworthiness",
+            25
+        ],
+        [
+            5,
+            "2.1.1.1.2 General Performance",
+            25
+        ],
+        [
+            5,
+            "2.1.1.1.3 Fire Resistance",
+            25
+        ],
+        [
+            5,
+            "2.1.1.1.4 Equipment Interfaces",
+            25
+        ],
+        [
+            5,
+            "2.1.1.1.5 Effects of Test",
+            25
+        ],
+        [
+            4,
+            "2.1.1.2 GPS Signal Processing Requirements",
+            25
+        ],
+        [
+            4,
+            "2.1.1.3 Satellite Integrity Status",
+            26
+        ],
+        [
+            5,
+            "2.1.1.3.1 Step Detector",
+            26
+        ],
+        [
+            5,
+            "2.1.1.3.2 GPS UNHEALTHY Designation",
+            27
+        ],
+        [
+            5,
+            "2.1.1.3.3 GPS HEALTHY Designation",
+            27
+        ],
+        [
+            4,
+            "2.1.1.4 Satellite Selection",
+            27
+        ],
+        [
+            4,
+            "2.1.1.5 Initial Acquisition Time",
+            28
+        ],
+        [
+            4,
+            "2.1.1.6 GPS Satellite Acquisition Time",
+            28
+        ],
+        [
+            4,
+            "2.1.1.7 Satellite Reacquisition Time",
+            28
+        ],
+        [
+            4,
+            "2.1.1.8 Sensitivity and Dynamic Range",
+            28
+        ],
+        [
+            4,
+            "2.1.1.9 Equipment Burnout Protection",
+            31
+        ],
+        [
+            4,
+            "2.1.1.10 Integrity in the Presence of Interference",
+            31
+        ],
+        [
+            4,
+            "2.1.1.11 Alerts/Outputs",
+            32
+        ],
+        [
+            5,
+            "2.1.1.11.1 Protection Level",
+            32
+        ],
+        [
+            5,
+            "2.1.1.11.2 Navigation Alert",
+            32
+        ],
+        [
+            3,
+            "2.1.2 Requirements for En Route and Terminal Mode",
+            32
+        ],
+        [
+            4,
+            "2.1.2.1 Accuracy",
+            32
+        ],
+        [
+            4,
+            "2.1.2.2 Integrity Requirements",
+            33
+        ],
+        [
+            5,
+            "2.1.2.2.1 Development Assurance",
+            33
+        ],
+        [
+            6,
+            "2.1.2.2.1.1 Hardware Compliance",
+            34
+        ],
+        [
+            6,
+            "2.1.2.2.1.2 Software Compliance",
+            34
+        ],
+        [
+            5,
+            "2.1.2.2.2 FDE-Provided Integrity Monitoring",
+            34
+        ],
+        [
+            6,
+            "2.1.2.2.2.1 Time-to-Alert",
+            35
+        ],
+        [
+            6,
+            "2.1.2.2.2.2 Missed Alert Probability",
+            35
+        ],
+        [
+            6,
+            "2.1.2.2.2.3 False Alert Probability",
+            35
+        ],
+        [
+            6,
+            "2.1.2.2.2.4 Failed Exclusion Probability",
+            36
+        ],
+        [
+            6,
+            "2.1.2.2.2.5 Availability",
+            36
+        ],
+        [
+            4,
+            "2.1.2.3 Equipment Reliability",
+            36
+        ],
+        [
+            4,
+            "2.1.2.4 Satellite Tracking Capability",
+            36
+        ],
+        [
+            4,
+            "2.1.2.5 Dynamic Tracking",
+            36
+        ],
+        [
+            4,
+            "2.1.2.6 Position Output",
+            37
+        ],
+        [
+            5,
+            "2.1.2.6.1 Position Output Data Update Rate",
+            37
+        ],
+        [
+            5,
+            "2.1.2.6.2 Position Output Data Latency",
+            38
+        ],
+        [
+            5,
+            "2.1.2.6.3 Position Solution",
+            38
+        ],
+        [
+            5,
+            "2.1.2.6.4 Smoothing ",
+            38
+        ],
+        [
+            5,
+            "2.1.2.6.4.1 Smoothing Pseudorange Accuracy",
+            39
+        ],
+        [
+            5,
+            "2.1.2.6.5 Velocity Accuracy",
+            39
+        ],
+        [
+            3,
+            "2.1.3 Requirements for LNAV",
+            39
+        ],
+        [
+            4,
+            "2.1.3.1 Accuracy",
+            39
+        ],
+        [
+            4,
+            "2.1.3.2 Integrity Requirements",
+            40
+        ],
+        [
+            5,
+            "2.1.3.2.1 Development Assurance",
+            40
+        ],
+        [
+            6,
+            "2.1.3.2.1.1 Hardware Compliance",
+            40
+        ],
+        [
+            6,
+            "2.1.3.2.1.2 Software Compliance",
+            40
+        ],
+        [
+            5,
+            "2.1.3.2.2 FDE-Provided Integrity Monitoring",
+            40
+        ],
+        [
+            6,
+            "2.1.3.2.2.1 Time-to-Alert",
+            40
+        ],
+        [
+            6,
+            "2.1.3.2.2.2 Missed Alert Probability",
+            40
+        ],
+        [
+            6,
+            "2.1.3.2.2.3 False Alert Probability",
+            40
+        ],
+        [
+            6,
+            "2.1.3.2.2.4 Failed Exclusion Probability",
+            40
+        ],
+        [
+            6,
+            "2.1.3.2.2.5 Availability",
+            40
+        ],
+        [
+            6,
+            "2.1.3.2.2.6 FD Prediction",
+            40
+        ],
+        [
+            4,
+            "2.1.3.3 Equipment Reliability",
+            41
+        ],
+        [
+            4,
+            "2.1.3.4 Satellite Tracking Capability",
+            41
+        ],
+        [
+            4,
+            "2.1.3.5 Dynamic Tracking",
+            41
+        ],
+        [
+            4,
+            "2.1.3.6 Position Output",
+            41
+        ],
+        [
+            5,
+            "2.1.3.6.1 Position Output Update Rate",
+            41
+        ],
+        [
+            5,
+            "2.1.3.6.2 Position Output Latency",
+            41
+        ],
+        [
+            5,
+            " See Section 2.1.2.6.2",
+            41
+        ],
+        [
+            4,
+            "2.1.3.6.3 Position Solution",
+            42
+        ],
+        [
+            4,
+            "2.1.3.6.4 Smoothing",
+            42
+        ],
+        [
+            4,
+            "2.1.3.6.5 Velocity Accuracy",
+            42
+        ],
+        [
+            2,
+            "2.2 Airborne Equipment Performance - Environmental Conditions",
+            42
+        ],
+        [
+            3,
+            "2.2.1.1 Required Performance",
+            43
+        ],
+        [
+            4,
+            "2.2.1.1.1 Accuracy",
+            43
+        ],
+        [
+            4,
+            "2.2.1.1.2 Loss of Navigation Indication",
+            43
+        ],
+        [
+            4,
+            "2.2.1.1.3 Loss of Integrity Indication",
+            43
+        ],
+        [
+            4,
+            "2.2.1.1.4 Initial Acquisition Test ",
+            43
+        ],
+        [
+            4,
+            "2.2.1.1.5 Sensitivity and Dynamic Range",
+            43
+        ],
+        [
+            4,
+            "2.2.1.1.6 System Operating",
+            43
+        ],
+        [
+            4,
+            "2.2.1.2 Clarification of Environmental Tests",
+            44
+        ],
+        [
+            5,
+            "2.2.1.2.1 Power Input Tests",
+            44
+        ],
+        [
+            5,
+            "2.2.1.2.2 Icing Tests",
+            44
+        ],
+        [
+            5,
+            "2.2.1.2.3 RF and Induced Signal Susceptibility Tests",
+            44
+        ],
+        [
+            5,
+            "2.2.1.2.4 Lightning Induced Transient Susceptibility Tests",
+            45
+        ],
+        [
+            5,
+            "2.2.1.2.5 Lightning Direct Effects Tests",
+            45
+        ],
+        [
+            5,
+            "2.2.1.2.6 Crash Safety Shock",
+            45
+        ],
+        [
+            2,
+            "2.3 Test Methods and Procedures",
+            47
+        ],
+        [
+            3,
+            "2.3.1 Reserved ",
+            49
+        ],
+        [
+            3,
+            "2.3.2 Step Detector Test",
+            49
+        ],
+        [
+            4,
+            "2.3.2.1 Verification of Step Detector Operation Without Exclusion Capability",
+            49
+        ],
+        [
+            4,
+            "2.3.2.2 Verification of No Interference with Fault Detection Algorithm",
+            50
+        ],
+        [
+            4,
+            "2.3.2.3 Verification of Step Detector Operation with Exclusion Capability",
+            50
+        ],
+        [
+            4,
+            "2.3.2.4 Verification of No Interference with Exclusion of the FDE Algorithm",
+            51
+        ],
+        [
+            3,
+            "2.3.3 Initial Acquisition Test Procedures",
+            51
+        ],
+        [
+            4,
+            "2.3.3.1 Simulator and Interference Conditions",
+            51
+        ],
+        [
+            4,
+            "2.3.3.2 Test Procedures (Initial Acquisition)",
+            52
+        ],
+        [
+            4,
+            "2.3.3.3 Pass/Fail Determination",
+            52
+        ],
+        [
+            4,
+            "2.3.3.4 Test Procedures (Initial Acquisition After Abnormal Interference)",
+            53
+        ],
+        [
+            3,
+            "2.3.4 Satellite Reacquisition Time Test",
+            54
+        ],
+        [
+            4,
+            "2.3.4.1 Simulator and Interference Conditions",
+            54
+        ],
+        [
+            4,
+            "2.3.4.2 Test Procedures",
+            54
+        ],
+        [
+            4,
+            "2.3.4.3 Pass/Fail Determination",
+            55
+        ],
+        [
+            3,
+            "2.3.5 Interference Rejection Test",
+            55
+        ],
+        [
+            4,
+            "2.3.5.1 Simulator and Interference Conditions",
+            55
+        ],
+        [
+            4,
+            "2.3.5.2 Test Procedures",
+            56
+        ],
+        [
+            4,
+            "2.3.5.3 Pass/Fail Determination",
+            56
+        ],
+        [
+            3,
+            "2.3.6 Accuracy Tests",
+            57
+        ],
+        [
+            4,
+            "2.3.6.1 Measurement Accuracy Test",
+            57
+        ],
+        [
+            4,
+            "2.3.6.2  Simulator and Interference Conditions",
+            57
+        ],
+        [
+            5,
+            "2.3.6.2.1  Test Procedures",
+            59
+        ],
+        [
+            4,
+            "2.3.6.3  24Hour Actual Satellite Accuracy Test",
+            61
+        ],
+        [
+            5,
+            "2.3.6.3.1 Test Procedure",
+            61
+        ],
+        [
+            4,
+            "2.3.6.3.2 Pass/Fail Criteria",
+            62
+        ],
+        [
+            4,
+            "2.3.6.4 Velocity Accuracy and Velocity Figure of Merit Tests (Optional)",
+            62
+        ],
+        [
+            4,
+            "2.3.6.4.1 Horizontal Velocity Accuracy Test Conditions Commensurate with NACV = 1",
+            63
+        ],
+        [
+            4,
+            "2.3.6.4.1.1 Horizontal Accuracy Pass/Fail Determination",
+            64
+        ],
+        [
+            4,
+            "2.3.6.4.1.2 Horizontal Velocity Figure of Merit Pass/Fail Determination",
+            65
+        ],
+        [
+            4,
+            "2.3.6.4.2 Vertical Velocity Accuracy Test Conditions Commensurate with NACV = 1",
+            65
+        ],
+        [
+            4,
+            "2.3.6.4.2.1 Vertical Velocity Accuracy Pass/Fail Determination",
+            68
+        ],
+        [
+            4,
+            "2.3.6.4.2.2 Vertical Velocity Figure of Merit Pass/Fail Determination",
+            68
+        ],
+        [
+            4,
+            "2.3.6.4.3 Additional Tests to Demonstrate Accuracy Commensurate with NACV = 2",
+            68
+        ],
+        [
+            3,
+            "2.3.7 Integrity Monitoring Test Procedures",
+            69
+        ],
+        [
+            4,
+            "2.3.7.1 General Test Conditions",
+            69
+        ],
+        [
+            5,
+            "2.3.7.1.1 Test Philosophy",
+            69
+        ],
+        [
+            5,
+            "2.3.7.1.2 GPS Constellation",
+            70
+        ],
+        [
+            5,
+            "2.3.7.1.3 Applicability of RTCA/DO-178B",
+            70
+        ],
+        [
+            5,
+            "2.3.7.1.4 Test Repetition",
+            70
+        ],
+        [
+            5,
+            "2.3.7.1.5 Protection Level/Alert Limit",
+            70
+        ],
+        [
+            5,
+            "2.3.7.1.6 Time-to-Alert",
+            70
+        ],
+        [
+            4,
+            "2.3.7.2 Availability Tests",
+            71
+        ],
+        [
+            4,
+            "2.3.7.3 Off-Line FDE Tests",
+            73
+        ],
+        [
+            5,
+            "2.3.7.3.1 Off-Line Test Setup",
+            73
+        ],
+        [
+            5,
+            "2.3.7.3.2 Selection of Geometries",
+            74
+        ],
+        [
+            5,
+            "2.3.7.3.3 Test Procedure",
+            74
+        ],
+        [
+            5,
+            "2.3.7.3.4 Pass/Fail Criteria",
+            75
+        ],
+        [
+            4,
+            "2.3.7.4 False Alert Rate Test",
+            75
+        ],
+        [
+            5,
+            "2.3.7.4.1 False Alert Rate Simulations for Snapshot Algorithms",
+            76
+        ],
+        [
+            5,
+            "2.3.7.4.2 False Alert Rate Simulations for Non-Snapshot Algorithms",
+            76
+        ],
+        [
+            4,
+            "2.3.7.5 On-Line Verification Test",
+            77
+        ],
+        [
+            5,
+            "2.3.7.5.1 On-Target Computational Test",
+            77
+        ],
+        [
+            5,
+            "2.3.7.5.2 On-Line Behavioral Test",
+            77
+        ],
+        [
+            1,
+            "3.0 INSTALLED EQUIPMENT PERFORMANCE",
+            79
+        ],
+        [
+            1,
+            "4.0 OPERATIONAL CHARACTERISTICS",
+            81
+        ],
+        [
+            1,
+            "5.0 MEMBERSHIP",
+            83
+        ],
+        [
+            1,
+            "APPENDIX A",
+            89
+        ],
+        [
+            1,
+            "APPENDIX BSTANDARD GPS ASSUMPTIONS",
+            91
+        ],
+        [
+            2,
+            "B.1 GPS Constellation",
+            93
+        ],
+        [
+            2,
+            "B.2 GPS Satellite Failure",
+            93
+        ],
+        [
+            2,
+            "B.3 GPS Constellation for Availability Analysis",
+            93
+        ],
+        [
+            2,
+            "B.4 Signal Quality Monitoring",
+            94
+        ],
+        [
+            3,
+            "B.4.1 Dead Zones",
+            94
+        ],
+        [
+            3,
+            "B.4.2 False Peaks",
+            94
+        ],
+        [
+            3,
+            "B.4.3 Distortions",
+            95
+        ],
+        [
+            3,
+            "B.4.4 Threat Models",
+            95
+        ],
+        [
+            4,
+            "B.4.4.1 Threat Model A",
+            95
+        ],
+        [
+            4,
+            "B.4.4.2 Threat Model B",
+            95
+        ],
+        [
+            4,
+            "B.4.4.3 Threat Model C",
+            95
+        ],
+        [
+            1,
+            "APPENDIX CSTANDARD RECEIVED SIGNAL AND INTERFERENCE ENVIRONMENT",
+            97
+        ],
+        [
+            2,
+            "C.1 Introduction",
+            99
+        ],
+        [
+            2,
+            "C.2 Operating Interference Environment",
+            99
+        ],
+        [
+            3,
+            "C.2.1 Out-of-Band Interference",
+            99
+        ],
+        [
+            4,
+            "C.2.1.1 Out-of-Band Pulse Interference",
+            100
+        ],
+        [
+            3,
+            "C.2.2 In-Band and Near-Band Interference",
+            100
+        ],
+        [
+            4,
+            "C.2.2.1 In-Band and Near-Band Pulsed Interference",
+            101
+        ],
+        [
+            3,
+            "C.2.3 GNSS Noise",
+            102
+        ],
+        [
+            2,
+            "C.3 Minimum Standard Antenna Frequency Selectivity",
+            102
+        ],
+        [
+            1,
+            "APPENDIX DRESERVED",
+            105
+        ],
+        [
+            1,
+            "APPENDIX EBASELINE WEIGHTED NAVIGATION SOLUTION AND NAVIGATION SYSTEM ERROR ALGORITHMS",
+            107
+        ],
+        [
+            2,
+            "E.1 Introduction",
+            109
+        ],
+        [
+            2,
+            "E.2 Baseline Navigation Solution",
+            109
+        ],
+        [
+            2,
+            "E.3 References",
+            110
+        ],
+        [
+            1,
+            "APPENDIX FEXAMPLE VELOCITY AND VELOCITY FIGURE OF MERIT COMPUTATION",
+            111
+        ],
+        [
+            2,
+            "F.1 Introduction",
+            113
+        ],
+        [
+            2,
+            "F.2 Velocity Solution with Figure of Merit",
+            113
+        ],
+        [
+            2,
+            "F.3 References",
+            115
+        ],
+        [
+            1,
+            "APPENDIX GREQUIREMENTS FOR BAROMETRIC ALTIMETER AIDING",
+            117
+        ],
+        [
+            2,
+            "G.1 General",
+            119
+        ],
+        [
+            2,
+            "G.2 Altimeter Aiding with GNSS Calibration",
+            119
+        ],
+        [
+            3,
+            "G.2.1 Requirements for Calibration",
+            119
+        ],
+        [
+            3,
+            "G.2.2 Calculation of (baro",
+            120
+        ],
+        [
+            3,
+            "G.2.3 Actual Use of the Altitude Measurement to Augment GNSS",
+            121
+        ],
+        [
+            2,
+            "G.3 Barometric Altimeter Aiding Using Baro-corrected Pressure Altitude",
+            122
+        ],
+        [
+            3,
+            "G.3.1 Requirements for calibration",
+            122
+        ],
+        [
+            3,
+            "G.3.2 Calculation of (baro",
+            122
+        ],
+        [
+            3,
+            "G.3.3 Actual Use of the Barometric Altitude Measurement to Augment GNSS",
+            123
+        ],
+        [
+            3,
+            "G.3.4 Requirements for Pilot Interaction",
+            123
+        ],
+        [
+            2,
+            "G.4 Test Procedures",
+            123
+        ],
+        [
+            2,
+            "G.5 References",
+            123
+        ],
+        [
+            1,
+            "APPENDIX HSTANDARD OUTPUT FORMAT",
+            125
+        ],
+        [
+            2,
+            "H.1  Introduction",
+            127
+        ],
+        [
+            2,
+            "H.2 GPS Minimum Output and Output Timing",
+            127
+        ],
+        [
+            3,
+            "H.2.1 Minimum GPS Output",
+            127
+        ],
+        [
+            3,
+            "H.2.2 Timing",
+            129
+        ],
+        [
+            2,
+            "H.3 Other Desirable GPS Outputs",
+            130
+        ],
+        [
+            2,
+            "H.4 Summary",
+            130
+        ],
+        [
+            2,
+            "H.5 References",
+            130
+        ],
+        [
+            1,
+            "APPENDIX IRESERVED",
+            131
+        ],
+        [
+            1,
+            "APPENDIX JWEIGHTS FOR USE IN GENERAL LEAST SQUARES SOLUTIONS AND TROPOSPHERIC CORRECTION ALGORITHM ",
+            133
+        ],
+        [
+            2,
+            "J.1 Weights ",
+            135
+        ],
+        [
+            3,
+            "J.2 Variance of Ionospheric Delay",
+            135
+        ],
+        [
+            3,
+            "J.3 Variance of Airborne Receiver Errors",
+            136
+        ],
+        [
+            3,
+            "J.4 Tropospheric Correction Model  ",
+            137
+        ],
+        [
+            3,
+            "J.5 Model Standard Deviation for Tropospheric Error",
+            139
+        ],
+        [
+            1,
+            "APPENDIX KFAULT DETECTION AND EXCLUSION REFERENCES",
+            141
+        ],
+        [
+            1,
+            "APPENDIX LTHE DIRECT AND INDIRECT GEODETIC PROBLEMS FOR GREAT CIRCLE NAVIGATION",
+            145
+        ],
+        [
+            2,
+            "L.1 General",
+            147
+        ],
+        [
+            2,
+            "L.2 Definitions of Terms",
+            147
+        ],
+        [
+            2,
+            "L.3 Nomenclature",
+            148
+        ],
+        [
+            2,
+            "L.4 WGS84 Parameters (from [5])",
+            148
+        ],
+        [
+            2,
+            "L.5 The Indirect Problem",
+            148
+        ],
+        [
+            2,
+            "L.6 The Direct Problem",
+            150
+        ],
+        [
+            2,
+            "L.7 Validation",
+            152
+        ],
+        [
+            2,
+            "L.8 References",
+            153
+        ],
+        [
+            1,
+            "APPENDIX M",
+            155
+        ],
+        [
+            2,
+            "M.1 Introduction",
+            157
+        ],
+        [
+            2,
+            "M.2 (Initial) Acquisition and Reacquisition Testing Statistical Justification",
+            157
+        ],
+        [
+            2,
+            "M.3 Accuracy Statistical Justification",
+            158
+        ],
+        [
+            2,
+            "M.4 General Simulator Scenario Conditions",
+            160
+        ],
+        [
+            2,
+            "M.5 Example Test Set-up and Compensation of Signals, Noise and Interference",
+            161
+        ],
+        [
+            3,
+            "M.5.1 Description of the Test Set-up",
+            161
+        ],
+        [
+            3,
+            "M.5.2 Use of the Test Set-up for the Accuracy Test (See 2.3.6)",
+            162
+        ],
+        [
+            1,
+            "APPENDIX NREFERENCE MATERIAL FOR DETERMINING THE MEAN SEA LEVEL HEIGHT FROM WGS-84 COORDINATES",
+            165
+        ],
+        [
+            2,
+            "N.1 Introduction",
+            167
+        ],
+        [
+            3,
+            "N.1.1 General Altimetry",
+            167
+        ],
+        [
+            3,
+            "N.1.2 Mean Sea Level (MSL) Altitude",
+            167
+        ],
+        [
+            3,
+            "N.1.3 Barometric Altitude",
+            168
+        ],
+        [
+            3,
+            "N.1.4 Radar Altitude",
+            168
+        ],
+        [
+            3,
+            "N.1.5 GPS Altitude",
+            168
+        ],
+        [
+            1,
+            "APPENDIX OGLOSSARY AND ACRONYMS",
+            169
+        ],
+        [
+            1,
+            "APPENDIX PRESERVED",
+            179
+        ],
+        [
+            1,
+            "APPENDIX QRESERVED",
+            181
+        ],
+        [
+            1,
+            "APPENDIX RREQUIREMENTS AND TEST PROCEDURES FOR TIGHTLY INTEGRATED GPS/INERTIAL SYSTEMS",
+            183
+        ],
+        [
+            2,
+            "R.1 Introduction",
+            185
+        ],
+        [
+            2,
+            "R.2 Requirements",
+            185
+        ],
+        [
+            3,
+            "R.2.1 General FDE Requirements",
+            185
+        ],
+        [
+            4,
+            "R.2.1.1 Fault Free Performance",
+            186
+        ],
+        [
+            3,
+            "R.2.2 Unique Additional Requirements",
+            187
+        ],
+        [
+            4,
+            "R.2.2.1 Assumed Failure Mechanisms",
+            187
+        ],
+        [
+            4,
+            "R.2.2.2 Detection limit",
+            188
+        ],
+        [
+            4,
+            "R.2.2.3 SatZap",
+            188
+        ],
+        [
+            4,
+            "R.2.2.4 Receiver Clock Aiding",
+            189
+        ],
+        [
+            4,
+            "R.2.2.5 Altitude Aiding",
+            189
+        ],
+        [
+            4,
+            "R.2.2.6 Discriminator Averaging",
+            189
+        ],
+        [
+            4,
+            "R.2.2.7 Inertial Coasting Performance Evaluation",
+            190
+        ],
+        [
+            5,
+            "R.2.2.7.1 Accuracy Coasting",
+            190
+        ],
+        [
+            5,
+            "R.2.2.7.2 Integrity Coasting",
+            191
+        ],
+        [
+            4,
+            "R.2.2.8 Gravity Compensation ",
+            192
+        ],
+        [
+            2,
+            "R.3 Tightly Integrated GPS/Inertial Design Concepts",
+            193
+        ],
+        [
+            3,
+            "R.3.1 Integration Methods",
+            193
+        ],
+        [
+            4,
+            "R.3.1.1 Pre-residual (Innovation) Screening",
+            193
+        ],
+        [
+            4,
+            "R.3.1.2 Post-Residual Monitoring",
+            194
+        ],
+        [
+            4,
+            "R.3.1.3 Additional Measurement Bias States",
+            194
+        ],
+        [
+            4,
+            "R.3.1.4 Multiple Kalman Filters",
+            194
+        ],
+        [
+            4,
+            "R.3.1.5 Extrapolation Method",
+            194
+        ],
+        [
+            4,
+            "R.3.1.6 Solution Separation Method",
+            194
+        ],
+        [
+            3,
+            "R.3.2 Detection and Exclusion Mechanisms",
+            195
+        ],
+        [
+            4,
+            "R.3.2.1 Transient Detection/Exclusion for 2 nmi/hour Grade Systems",
+            195
+        ],
+        [
+            4,
+            "R.3.2.2 Satellite Redundancy",
+            195
+        ],
+        [
+            4,
+            "R.3.2.3 Integrity Coasting",
+            195
+        ],
+        [
+            4,
+            "R.3.2.4 Gravity/Schuler Coupling",
+            195
+        ],
+        [
+            4,
+            "R.3.2.5 Other Schuler Coupling Related Effects",
+            196
+        ],
+        [
+            2,
+            "R.4 Assumptions",
+            196
+        ],
+        [
+            3,
+            "R.4.1 Signal Error Model",
+            196
+        ],
+        [
+            3,
+            "R.4.2 Satellite Clock Drift Characteristics",
+            197
+        ],
+        [
+            2,
+            "R.5 Validation",
+            197
+        ],
+        [
+            3,
+            "R.5.1 Categorization of Detection and Exclusion Mechanisms",
+            197
+        ],
+        [
+            4,
+            "R.5.1.1 Examples",
+            198
+        ],
+        [
+            3,
+            "R.5.2 Covariance Simulation",
+            198
+        ],
+        [
+            4,
+            "R.5.2.1 Covariance Simulation Methods for Availability Evaluation",
+            198
+        ],
+        [
+            3,
+            "R.5.3 False Alert Probability",
+            199
+        ],
+        [
+            3,
+            "R.5.4 Fault Free Accuracy Performance",
+            199
+        ],
+        [
+            3,
+            "R.5.5 Off-Line Rare Normal Verification",
+            200
+        ],
+        [
+            3,
+            "R.5.6 Off-Line Detection/Exclusion Verification",
+            200
+        ],
+        [
+            4,
+            "R.5.6.1 Detection and Exclusion Mechanism Equivalent to RAIM",
+            200
+        ],
+        [
+            4,
+            "R.5.6.2 Claimed Additional Detection and Exclusion Mechanisms",
+            200
+        ],
+        [
+            5,
+            "R.5.6.2.1  Examples",
+            201
+        ],
+        [
+            6,
+            "R.5.6.2.1.1 RAIM with Transient Detection/Exclusion",
+            201
+        ],
+        [
+            6,
+            "R.5.6.2.1.2 Solution Separation Detection and Exclusion",
+            201
+        ],
+        [
+            5,
+            "R.5.6.2.2 Reference RAIM Models",
+            202
+        ],
+        [
+            4,
+            "R.5.6.3 Integrity Coasting",
+            202
+        ],
+        [
+            3,
+            "R.5.7 On-Line Validation",
+            203
+        ],
+        [
+            3,
+            "R.5.8 Gravity Compensation Validation",
+            203
+        ],
+        [
+            3,
+            "R.5.9 Ionospheric Error Models",
+            204
+        ],
+        [
+            4,
+            "R.5.9.1 Ionospheric Daily Variation",
+            204
+        ],
+        [
+            4,
+            "R.5.9.2 Ionospheric Storms",
+            204
+        ],
+        [
+            2,
+            "R.6 References",
+            205
+        ],
+        [
+            1,
+            "APPENDIX SRESERVED",
+            207
+        ],
+        [
+            1,
+            "APPENDIX TRESERVED",
+            209
+        ],
+        [
+            1,
+            "APPENDIX UGUIDANCE MATERIAL FOR INTERFACING WITH ADS-B",
+            211
+        ],
+        [
+            2,
+            "U.1 Purpose and Scope",
+            213
+        ],
+        [
+            2,
+            "U.2 Position Output and Validity",
+            213
+        ],
+        [
+            2,
+            "U.3 Horizontal Figure of Merit (HFOMP)",
+            213
+        ],
+        [
+            2,
+            "U.4 Horizontal Protection Limit (HPL)",
+            213
+        ],
+        [
+            2,
+            "U.5 Velocity",
+            214
+        ],
+        [
+            2,
+            "U.6 Vertical Figure of Merit and Vertical Protection Limit (VPL)",
+            214
+        ]
+    ],
+    "pages": 214,
+    "ocr_stats": {
+        "ocr_pages": 5,
+        "ocr_failed": 5,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 19,
+        "table": 37,
+        "equations": {
+            "successful_ocr": 83,
+            "unsuccessful_ocr": 6,
+            "equations": 89
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

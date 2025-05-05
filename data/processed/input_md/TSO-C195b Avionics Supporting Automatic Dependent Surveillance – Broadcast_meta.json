@@ -1,0 +1,35 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            "1. PURPOSE.  This technical standard order (TSO) is for manufacturers applying for a TSO authorization (TSOA) or letter of design approval (LODA).  In it, we (the Federal Aviation Administration or FAA) tell you what minimum performance standards (MPS...",
+            1
+        ],
+        [
+            1,
+            "2. APPLICABILITY.  This TSO affects new applications submitted after its effective date.",
+            1
+        ]
+    ],
+    "pages": 14,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 26,
+        "code": 0,
+        "table": 0,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

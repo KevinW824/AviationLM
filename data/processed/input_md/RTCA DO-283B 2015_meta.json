@@ -1,0 +1,1205 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            "1.              Purpose and Scope",
+            13
+        ],
+        [
+            2,
+            "1.1 Introduction",
+            13
+        ],
+        [
+            2,
+            "1.2 System Overview and Intended Function",
+            15
+        ],
+        [
+            3,
+            "1.2.1 Position Estimation",
+            16
+        ],
+        [
+            3,
+            "1.2.2 Path Definition",
+            16
+        ],
+        [
+            3,
+            "1.2.3 Path Steering",
+            16
+        ],
+        [
+            4,
+            "1.2.3.1 Lateral Steering",
+            17
+        ],
+        [
+            4,
+            "1.2.3.2 Vertical Steering",
+            17
+        ],
+        [
+            3,
+            "1.2.4 Displays and System Alerting",
+            17
+        ],
+        [
+            3,
+            "1.2.5 Aircraft Flight Control System",
+            17
+        ],
+        [
+            2,
+            "1.3 Operational Goals and Applications",
+            17
+        ],
+        [
+            3,
+            "1.3.1 Path Definition",
+            18
+        ],
+        [
+            3,
+            "1.3.2 Containment Methodology",
+            18
+        ],
+        [
+            3,
+            "1.3.3 Contribution to Increased Capacity",
+            18
+        ],
+        [
+            3,
+            "1.3.4 User-Preferred Trajectories and Trajectory Based Operations",
+            18
+        ],
+        [
+            3,
+            "1.3.5 Advanced RNP Applications",
+            19
+        ],
+        [
+            2,
+            "1.4 Required Navigation Performance (RNP)",
+            19
+        ],
+        [
+            3,
+            "1.4.1 Area Navigation",
+            19
+        ],
+        [
+            3,
+            "1.4.2 PBN and RNP Concept",
+            19
+        ],
+        [
+            3,
+            "1.4.3 Application of the Term RNP",
+            20
+        ],
+        [
+            3,
+            "1.4.4 Navigation Accuracy",
+            20
+        ],
+        [
+            3,
+            "1.4.5 Vertical Navigation (VNAV)",
+            20
+        ],
+        [
+            3,
+            "1.4.6 Advanced RNP",
+            20
+        ],
+        [
+            2,
+            "1.5 Assumptions",
+            21
+        ],
+        [
+            3,
+            "1.5.1 Navigation Infrastructure",
+            21
+        ],
+        [
+            3,
+            "1.5.2 Defining Airspace",
+            22
+        ],
+        [
+            4,
+            "1.5.2.1 RNP",
+            22
+        ],
+        [
+            4,
+            "1.5.2.2 VNAV",
+            22
+        ],
+        [
+            3,
+            "1.5.3 Navigation Error",
+            22
+        ],
+        [
+            3,
+            "1.5.4 Navigation Data",
+            22
+        ],
+        [
+            4,
+            "1.5.4.1 Reference Earth Model",
+            22
+        ],
+        [
+            4,
+            "1.5.4.2 Desired Path",
+            23
+        ],
+        [
+            4,
+            "1.5.4.3 Flight Plan Leg Transitions",
+            23
+        ],
+        [
+            5,
+            "1.5.4.3.1 Lateral",
+            23
+        ],
+        [
+            5,
+            "1.5.4.3.2 Vertical",
+            23
+        ],
+        [
+            3,
+            "1.5.5 Datalink Considerations",
+            24
+        ],
+        [
+            3,
+            "1.5.6 Polar Navigation",
+            24
+        ],
+        [
+            3,
+            "1.5.7 Dispatch Assessment",
+            24
+        ],
+        [
+            2,
+            "1.6 Test Requirements",
+            24
+        ],
+        [
+            2,
+            "1.7 Definitions",
+            25
+        ],
+        [
+            3,
+            "1.7.1 Required Navigation Performance",
+            25
+        ],
+        [
+            3,
+            "1.7.2 Error Terms",
+            25
+        ],
+        [
+            4,
+            "1.7.2.1 Lateral",
+            25
+        ],
+        [
+            4,
+            "1.7.2.2 Vertical",
+            27
+        ],
+        [
+            3,
+            "1.7.3 Lateral Containment Concept",
+            27
+        ],
+        [
+            3,
+            "1.7.4 Vertical Performance",
+            31
+        ],
+        [
+            4,
+            "1.7.4.1 Vertical Path Performance Limit (VPPL)",
+            31
+        ],
+        [
+            2,
+            "1.8                     Equipment Classes",
+            31
+        ],
+        [
+            1,
+            "2.              EQUIPMENT PERFORMANCE REQUIREMENTS AND TEST PROCEDURES",
+            33
+        ],
+        [
+            2,
+            "2.1 General Requirements",
+            33
+        ],
+        [
+            3,
+            "2.1.1 Airworthiness",
+            33
+        ],
+        [
+            3,
+            "2.1.2 General Performance",
+            33
+        ],
+        [
+            3,
+            "2.1.3 Fire Resistance",
+            33
+        ],
+        [
+            3,
+            "2.1.4 Displays and Controls",
+            33
+        ],
+        [
+            3,
+            "2.1.5 Accessibility of Functions Not Intended for Use in Flight",
+            33
+        ],
+        [
+            3,
+            "2.1.6 Equipment Interfaces",
+            33
+        ],
+        [
+            3,
+            "2.1.7 Reserved",
+            34
+        ],
+        [
+            3,
+            "2.1.8 Effects of Tests",
+            34
+        ],
+        [
+            3,
+            "2.1.9 Development Assurance",
+            34
+        ],
+        [
+            4,
+            "2.1.9.1 Hardware Compliance",
+            34
+        ],
+        [
+            4,
+            "2.1.9.2 Software Compliance",
+            34
+        ],
+        [
+            2,
+            "2.2 Equipment Performance - Standard Conditions",
+            35
+        ],
+        [
+            3,
+            "2.2.1 2D (RNAV) Function and Performance",
+            35
+        ],
+        [
+            4,
+            "2.2.1.1 Position Estimation",
+            35
+        ],
+        [
+            5,
+            "2.2.1.1.1 Estimate of Present Position",
+            35
+        ],
+        [
+            5,
+            "2.2.1.1.2 Estimate of Position Uncertainty (EPU)",
+            35
+        ],
+        [
+            5,
+            "2.2.1.1.3 Containment Radius",
+            35
+        ],
+        [
+            5,
+            "2.2.1.1.4 Position Initialization",
+            35
+        ],
+        [
+            5,
+            "2.2.1.1.5 Navigation Aid Selection",
+            36
+        ],
+        [
+            6,
+            "2.2.1.1.5.1 Equipment",
+            36
+        ],
+        [
+            6,
+            "2.2.1.1.5.2 Ground-Based Navaids",
+            36
+        ],
+        [
+            6,
+            "2.2.1.1.5.3 Space-Based Navaids",
+            36
+        ],
+        [
+            5,
+            "2.2.1.1.6 Navigation Sensors",
+            36
+        ],
+        [
+            4,
+            "2.2.1.2 Path Definition",
+            37
+        ],
+        [
+            5,
+            "2.2.1.2.1 Leg Types",
+            37
+        ],
+        [
+            5,
+            "2.2.1.2.2 Flight Planning",
+            37
+        ],
+        [
+            5,
+            "2.2.1.2.3 Direct-To Function",
+            38
+        ],
+        [
+            5,
+            "2.2.1.2.4 Entry of User-Defined Fixes",
+            38
+        ],
+        [
+            5,
+            "2.2.1.2.5 User-Defined Course-to-a-Fix",
+            39
+        ],
+        [
+            5,
+            "2.2.1.2.6 Holding",
+            39
+        ],
+        [
+            6,
+            "2.2.1.2.6.1 RNP Holding Area Dimensions",
+            39
+        ],
+        [
+            6,
+            "2.2.1.2.6.2 RNP Holding Area Entry Procedures",
+            42
+        ],
+        [
+            6,
+            "2.2.1.2.6.3 RNP Holding Area Exit Procedures",
+            42
+        ],
+        [
+            5,
+            "2.2.1.2.7 Parallel Offsets",
+            42
+        ],
+        [
+            5,
+            "2.2.1.2.8 Magnetic Variation",
+            45
+        ],
+        [
+            5,
+            "2.2.1.2.9 Transitions Between Legs",
+            47
+        ],
+        [
+            6,
+            "2.2.1.2.9.1 Fly-By Transitions",
+            48
+        ],
+        [
+            6,
+            "2.2.1.2.9.2 Fixed Radius Transitions",
+            49
+        ],
+        [
+            6,
+            "2.2.1.2.9.3 Application of Waypoint Constraints During Leg Transitions",
+            50
+        ],
+        [
+            5,
+            "2.2.1.2.10 Data Resolution",
+            51
+        ],
+        [
+            6,
+            "2.2.1.2.10.1 Coordinate Resolution",
+            51
+        ],
+        [
+            6,
+            "2.2.1.2.10.2 Turn Radius Resolution",
+            51
+        ],
+        [
+            6,
+            "2.2.1.2.10.3 Course Resolution",
+            51
+        ],
+        [
+            6,
+            "2.2.1.2.10.4 Magnetic Variation Resolution",
+            51
+        ],
+        [
+            5,
+            "2.2.1.2.11 Navigation Database",
+            51
+        ],
+        [
+            6,
+            "2.2.1.2.11.1 Database Standard",
+            51
+        ],
+        [
+            6,
+            "2.2.1.2.11.2 Database Interface",
+            52
+        ],
+        [
+            6,
+            "2.2.1.2.11.3 Database Version and Operating Period",
+            52
+        ],
+        [
+            5,
+            "2.2.1.2.12 RNP",
+            52
+        ],
+        [
+            6,
+            "2.2.1.2.12.1 Flight Plan RNP",
+            52
+        ],
+        [
+            6,
+            "2.2.1.2.12.2 RNP Associated with a Flight Plan Leg",
+            53
+        ],
+        [
+            6,
+            "2.2.1.2.12.3 RNP Associated with a Transition",
+            53
+        ],
+        [
+            5,
+            "2.2.1.2.13 Earth Reference Model",
+            53
+        ],
+        [
+            4,
+            "2.2.1.3 Path Steering",
+            54
+        ],
+        [
+            5,
+            "2.2.1.3.1 Fix/Leg Sequencing",
+            54
+        ],
+        [
+            5,
+            "2.2.1.3.2 Continuous Lateral Path Steering",
+            54
+        ],
+        [
+            6,
+            "2.2.1.3.2.1 Takeoff",
+            54
+        ],
+        [
+            6,
+            "2.2.1.3.2.2 Approach",
+            54
+        ],
+        [
+            4,
+            "2.2.1.4 Displays and System Alerting",
+            54
+        ],
+        [
+            5,
+            "2.2.1.4.1 Cross Track Deviation Display",
+            55
+        ],
+        [
+            6,
+            "2.2.1.4.1.1 Numeric Display Information",
+            55
+        ],
+        [
+            6,
+            "2.2.1.4.1.2 Non-Numeric Display/Output Requirements",
+            56
+        ],
+        [
+            7,
+            "2.2.1.4.1.2.1 Display",
+            56
+        ],
+        [
+            7,
+            "2.2.1.4.1.2.2 Electrical Output",
+            56
+        ],
+        [
+            5,
+            "2.2.1.4.2 Fix Distance Display",
+            56
+        ],
+        [
+            5,
+            "2.2.1.4.3 TO-FROM Indication",
+            57
+        ],
+        [
+            5,
+            "2.2.1.4.4 Bearing and Distance to Fix",
+            57
+        ],
+        [
+            5,
+            "2.2.1.4.5 Display of Fix Identifier",
+            57
+        ],
+        [
+            5,
+            "2.2.1.4.6 Display of Fix Latitude/Longitude",
+            57
+        ],
+        [
+            5,
+            "2.2.1.4.7 Desired Track",
+            57
+        ],
+        [
+            5,
+            "2.2.1.4.8 Groundspeed",
+            57
+        ],
+        [
+            5,
+            "2.2.1.4.9 Track Angle and Track Angle Error",
+            57
+        ],
+        [
+            5,
+            "2.2.1.4.10 Selection of RNP",
+            57
+        ],
+        [
+            5,
+            "2.2.1.4.11 Navigation Sensor Indication",
+            58
+        ],
+        [
+            5,
+            "2.2.1.4.12 Failure/Status Indications and Alerting",
+            58
+        ],
+        [
+            5,
+            "2.2.1.4.13 Response Time",
+            60
+        ],
+        [
+            5,
+            "2.2.1.4.14 Runway Position Monitoring",
+            60
+        ],
+        [
+            4,
+            "2.2.1.5 2D Accuracy, Containment, and Continuity Requirements",
+            61
+        ],
+        [
+            5,
+            "2.2.1.5.1 Lateral Accuracy",
+            61
+        ],
+        [
+            6,
+            "2.2.1.5.1.1 Position Estimation Error",
+            62
+        ],
+        [
+            7,
+            "2.2.1.5.1.1.1 Navigation Facility Assumptions",
+            62
+        ],
+        [
+            6,
+            "2.2.1.5.1.2 Path Steering Error",
+            63
+        ],
+        [
+            5,
+            "2.2.1.5.2 Integrity",
+            63
+        ],
+        [
+            6,
+            "2.2.1.5.2.1 Containment Limit",
+            63
+        ],
+        [
+            6,
+            "2.2.1.5.2.2 Equipment",
+            63
+        ],
+        [
+            7,
+            "2.2.1.5.2.2.1 Signal-in-Space Integrity",
+            64
+        ],
+        [
+            5,
+            "2.2.1.5.3 Containment Continuity",
+            64
+        ],
+        [
+            4,
+            "2.2.1.6 Lateral Control Performance",
+            64
+        ],
+        [
+            4,
+            "2.2.1.7 Speed Control Performance",
+            65
+        ],
+        [
+            3,
+            "2.2.2 Vertical Navigation (VNAV) Functional and Performance Requirements",
+            65
+        ],
+        [
+            4,
+            "2.2.2.1 Vertical Position Estimation",
+            66
+        ],
+        [
+            4,
+            "2.2.2.2 Vertical Path Definition",
+            66
+        ],
+        [
+            5,
+            "2.2.2.2.1 General",
+            66
+        ],
+        [
+            5,
+            "2.2.2.2.2 Altitude Constraints",
+            66
+        ],
+        [
+            5,
+            "2.2.2.2.3 Speed Restrictions",
+            67
+        ],
+        [
+            5,
+            "2.2.2.2.4 Vertical Direct-To",
+            68
+        ],
+        [
+            5,
+            "2.2.2.2.5 Climb",
+            69
+        ],
+        [
+            5,
+            "2.2.2.2.6 Descent and Approach",
+            69
+        ],
+        [
+            6,
+            "2.2.2.2.6.1 Descent Path Construction",
+            69
+        ],
+        [
+            7,
+            "2.2.2.2.6.1.1 Geometric Point to Point Paths",
+            70
+        ],
+        [
+            7,
+            "2.2.2.2.6.1.2 Flight Path Angle Paths",
+            71
+        ],
+        [
+            7,
+            "2.2.2.2.6.1.3 VNAV Path Transitions",
+            72
+        ],
+        [
+            4,
+            "2.2.2.3 Vertical Path Steering",
+            75
+        ],
+        [
+            5,
+            "2.2.2.3.1 Transition to Missed Approach",
+            75
+        ],
+        [
+            4,
+            "2.2.2.4 VNAV Displays and Alerting",
+            75
+        ],
+        [
+            5,
+            "2.2.2.4.1 General",
+            75
+        ],
+        [
+            5,
+            "2.2.2.4.2 Vertical Deviation",
+            76
+        ],
+        [
+            6,
+            "2.2.2.4.2.1 Vertical Deviation Scale Sensitivity",
+            76
+        ],
+        [
+            7,
+            "2.2.2.4.2.1.1 Final Approach Segment",
+            77
+        ],
+        [
+            7,
+            "2.2.2.4.2.1.2 Operations Outside the Final Approach Segment",
+            77
+        ],
+        [
+            5,
+            "2.2.2.4.3 Altitude and Speed Predictions",
+            77
+        ],
+        [
+            5,
+            "2.2.2.4.4 Level Flight Transition",
+            78
+        ],
+        [
+            5,
+            "2.2.2.4.5 Altitude Constraints",
+            78
+        ],
+        [
+            5,
+            "2.2.2.4.6 Speed Restrictions",
+            78
+        ],
+        [
+            5,
+            "2.2.2.4.7 Flight Path Angles",
+            78
+        ],
+        [
+            5,
+            "2.2.2.4.8 Vertical Navigation Operations",
+            78
+        ],
+        [
+            5,
+            "2.2.2.4.9 Vertical Alerting",
+            79
+        ],
+        [
+            4,
+            "2.2.2.5 Temperature Compensation",
+            79
+        ],
+        [
+            4,
+            "2.2.2.6 VNAV Accuracy, Integrity and Continuity Requirements",
+            79
+        ],
+        [
+            5,
+            "2.2.2.6.1 VNAV Accuracy Requirements - Standard Conditions",
+            79
+        ],
+        [
+            5,
+            "2.2.2.6.2 VNAV Path Steering Error",
+            81
+        ],
+        [
+            5,
+            "2.2.2.6.3 VNAV Integrity and Continuity Requirements",
+            81
+        ],
+        [
+            3,
+            "2.2.3 Estimated Time of Arrival",
+            82
+        ],
+        [
+            4,
+            "2.2.3.1 ETA Accuracy",
+            82
+        ],
+        [
+            4,
+            "2.2.3.2 ETA Response Time",
+            82
+        ],
+        [
+            3,
+            "2.2.4 Time of Arrival Control",
+            83
+        ],
+        [
+            2,
+            "2.3 Equipment Performance \u2013 Environmental Conditions",
+            83
+        ],
+        [
+            2,
+            "2.4 Equipment Test Requirements",
+            87
+        ],
+        [
+            3,
+            "2.4.1 Definitions of Terms and Conditions of Tests",
+            87
+        ],
+        [
+            3,
+            "2.4.2 Types of Tests and Cross Reference",
+            88
+        ],
+        [
+            4,
+            "2.4.2.1 Bench Testing",
+            88
+        ],
+        [
+            4,
+            "2.4.2.2 Equipment Class Requirements and Test Cross Reference",
+            88
+        ],
+        [
+            4,
+            "2.4.2.3 Verification by Demonstration",
+            93
+        ],
+        [
+            3,
+            "2.4.3 Functional and Accuracy Test Requirements - Standard Conditions",
+            93
+        ],
+        [
+            4,
+            "2.4.3.1 Test Scenario(s)",
+            93
+        ],
+        [
+            4,
+            "2.4.3.2 Test Set-Up",
+            94
+        ],
+        [
+            4,
+            "2.4.3.3 Accuracy",
+            94
+        ],
+        [
+            4,
+            "2.4.3.4 Ground Navaid Reasonableness and Integrity Evaluation",
+            95
+        ],
+        [
+            4,
+            "2.4.3.5 Waypoint Transitions",
+            95
+        ],
+        [
+            4,
+            "2.4.3.6 Data Resolution",
+            95
+        ],
+        [
+            4,
+            "2.4.3.7 Database Standard",
+            96
+        ],
+        [
+            4,
+            "2.4.3.8 Earth Reference Model",
+            96
+        ],
+        [
+            4,
+            "2.4.3.9 Cross Track Deviation Display",
+            96
+        ],
+        [
+            4,
+            "2.4.3.10 Vertical Deviation Display",
+            96
+        ],
+        [
+            4,
+            "2.4.3.11 Failure/Status Indications and Alerting",
+            96
+        ],
+        [
+            4,
+            "2.4.3.12 Time to Integrity Alert",
+            97
+        ],
+        [
+            4,
+            "2.4.3.13 Response Time",
+            97
+        ],
+        [
+            4,
+            "2.4.3.14 Radius to Fix Legs",
+            97
+        ],
+        [
+            4,
+            "2.4.3.15 Runway Position Monitoring Test Requirements",
+            98
+        ],
+        [
+            4,
+            "2.4.3.16 VNAV Test Requirements",
+            99
+        ],
+        [
+            5,
+            "2.4.3.16.1 VNAV Performance Test",
+            99
+        ],
+        [
+            5,
+            "2.4.3.16.2 VNAV Functional Test",
+            99
+        ],
+        [
+            4,
+            "2.4.3.17 Estimated Time of Arrival",
+            101
+        ],
+        [
+            1,
+            "3.              INSTALLED EQUIPMENT PERFORMANCE",
+            103
+        ],
+        [
+            2,
+            "3.1 Equipment Installation",
+            103
+        ],
+        [
+            2,
+            "3.2 Alert Limits",
+            103
+        ],
+        [
+            2,
+            "3.3 Accuracy Analysis",
+            104
+        ],
+        [
+            2,
+            "3.4 Performance Analysis",
+            104
+        ],
+        [
+            1,
+            "4.             OPERATIONAL CHARACTERISTICS",
+            105
+        ],
+        [
+            2,
+            "4.1 Introduction",
+            105
+        ],
+        [
+            2,
+            "4.2 RNP Capability and Display",
+            105
+        ],
+        [
+            2,
+            "4.3 RNP Selection",
+            106
+        ],
+        [
+            2,
+            "4.4 RNP RNAV Containment Continuity Effect",
+            106
+        ],
+        [
+            2,
+            "4.5 Equipment Operating Limitation",
+            106
+        ],
+        [
+            2,
+            "4.6 Navigation Facility Selection",
+            107
+        ],
+        [
+            1,
+            "5.        Membership",
+            109
+        ],
+        [
+            1,
+            "APPENDIX A REFERENCES, GLOSSARY, ACRONYMS AND ABBREVIATIONS",
+            113
+        ],
+        [
+            1,
+            "APPENDIX B    EXAMPLE OF COMPLIANCE ANALYSIS",
+            133
+        ],
+        [
+            1,
+            "APPENDIX C NAVIGATION SYSTEM REQUIREMENTS AND INFRASTRUCTURE CHARACTERISTICS",
+            143
+        ],
+        [
+            1,
+            "APPENDIX D LEG TYPE DEFINITIONS",
+            149
+        ],
+        [
+            1,
+            "APPENDIX E   WGS-84 EARTH MODEL",
+            153
+        ],
+        [
+            1,
+            "APPENDIX F   HUMAN FACTORS CONSIDERATIONS",
+            161
+        ],
+        [
+            1,
+            "F.2 Flight Crew Interface Guidelines",
+            161
+        ],
+        [
+            1,
+            "APPENDIX G   CNS-ATM SYSTEM CONSIDERATIONS",
+            171
+        ],
+        [
+            1,
+            "APPENDIX H TEMPERATURE COMPENSATION",
+            175
+        ],
+        [
+            1,
+            "APPENDIX i",
+            187
+        ],
+        [
+            1,
+            "APPENDIX J   HOLDING PATTERN ENTRY EXAMPLE",
+            189
+        ],
+        [
+            1,
+            "APPENDIX K",
+            193
+        ],
+        [
+            1,
+            "APPENDIX L   RF LEG SCENARIOS",
+            195
+        ],
+        [
+            1,
+            "APPENDIX M   FLIGHT TECHNICAL ERROR DATA COLLECTION AND ANALYSIS",
+            221
+        ],
+        [
+            1,
+            "APPENDIX N - TIME OF ARRIVAL CONTROL (TOAC)",
+            225
+        ],
+        [
+            1,
+            "APPENDIX O   EXAMPLE OF ETA COMPLIANCE ANALYSIS",
+            239
+        ],
+        [
+            1,
+            "APPENDIX P  EXAMPLE OF VNAV COMPLIANCE ANALYSIS",
+            243
+        ],
+        [
+            2,
+            "P.2 VNAV Static Accuracy Tests",
+            243
+        ],
+        [
+            2,
+            "P.3 Total Vertical System Error Analysis",
+            246
+        ],
+        [
+            1,
+            "APPENDIX Q   DESCENT PATH ILLUSTRATIONS",
+            249
+        ]
+    ],
+    "pages": 250,
+    "ocr_stats": {
+        "ocr_pages": 16,
+        "ocr_failed": 16,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 211,
+        "code": 52,
+        "table": 25,
+        "equations": {
+            "successful_ocr": 17,
+            "unsuccessful_ocr": 2,
+            "equations": 19
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

@@ -1,0 +1,390 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            "GreyCover",
+            1
+        ],
+        [
+            1,
+            "Disclaimer",
+            2
+        ],
+        [
+            1,
+            "Title Page",
+            3
+        ],
+        [
+            1,
+            "Foreword",
+            4
+        ],
+        [
+            1,
+            "Table of Contents",
+            5
+        ],
+        [
+            1,
+            "1.0 Introduction and Description",
+            11
+        ],
+        [
+            1,
+            "2.0 Interchangeability Standards",
+            18
+        ],
+        [
+            1,
+            "Att 1-1 - General Configuration Overview",
+            46
+        ],
+        [
+            1,
+            "Att 1-1A - Sample Dual Satcom Installation",
+            47
+        ],
+        [
+            1,
+            "Att 1-2 - Antenna Configuration",
+            48
+        ],
+        [
+            1,
+            "Att 1-3 - Standard Interwiring",
+            56
+        ],
+        [
+            1,
+            "Att 1-4 - Notes Applicable to Standard Interwiring",
+            74
+        ],
+        [
+            1,
+            "Att 1-4A - Steering Inhibit and HPA Mute Signal Characteristics",
+            83
+        ],
+        [
+            1,
+            "Att 1-4B - BSU/HPR Wiring Diagrams",
+            84
+        ],
+        [
+            1,
+            "Att 1-4C - System Configuration Pins Definition and Interpretation",
+            85
+        ],
+        [
+            1,
+            "Att 1-5 - SDU Form Factor",
+            92
+        ],
+        [
+            1,
+            "Att 1-5A - SDU Top Plug Connector Layout",
+            93
+        ],
+        [
+            1,
+            "Att 1-5B - SDU Middle Plug Connector Layout",
+            94
+        ],
+        [
+            1,
+            "Att 1-5C - SDU Bottom Plug Connector Layout",
+            95
+        ],
+        [
+            1,
+            "Att 1-6 - RFU Form Factor",
+            96
+        ],
+        [
+            1,
+            "Att 1-6A - RFU Top Plug Connector Layout",
+            97
+        ],
+        [
+            1,
+            "Att 1-6B - RFU Middle Plug Connector Layout",
+            98
+        ],
+        [
+            1,
+            "At 1-6C - RFU Top Plug Connector Layout",
+            99
+        ],
+        [
+            1,
+            "Att 1-7A - Beam Steering Unit (BSU) - \"Alternate A\"",
+            100
+        ],
+        [
+            1,
+            "Att 1-7B - Beam Steering Unit (BSU) - \"Alternate B\"",
+            101
+        ],
+        [
+            1,
+            "Att 1-7C - Beam Steering Unit (BSU) - \"Alternate C\"",
+            102
+        ],
+        [
+            1,
+            "Att 1-7D - 2MCU Beam Steering Unit (BSU) Rear Connector Configuration",
+            103
+        ],
+        [
+            1,
+            "Att 1-8 - Antenna Coverage",
+            104
+        ],
+        [
+            1,
+            "Att 1-9A - Type A, Modified Type A, and Type D - Diplexer/LNA Form Factor",
+            108
+        ],
+        [
+            1,
+            "Att 1-10 - HPA Form Factor",
+            109
+        ],
+        [
+            1,
+            "Att 1-10A - HPA Top Plug Connector Layout",
+            110
+        ],
+        [
+            1,
+            "Att 1-10B - HPA Middle Plug Connector Layout",
+            111
+        ],
+        [
+            1,
+            "Att 1-10C - HPA Bottom Plug Connector Layout",
+            112
+        ],
+        [
+            1,
+            "Att 1-11A - High-GAIN Antenna Form Factor \"Conformal-Phased Array Antenna 19.55 x 22.36 Inches\"",
+            113
+        ],
+        [
+            1,
+            "Att 1-11B - High-GAIN Antenna Form Factor \"Conforma-Phased Array Antenna 16 x 32 Inches\"",
+            114
+        ],
+        [
+            1,
+            "Att 1-11C - Top Mounted Low Profile Array -12 dBic (Side View)",
+            115
+        ],
+        [
+            1,
+            "Att 1-11D - Top mounted Low-Profile Array -12 dBic (Top View)",
+            116
+        ],
+        [
+            1,
+            "Att 1-11E - Closeup View of the Coaxial Interface Top Mounted Low-Profile Array -12 dBic",
+            117
+        ],
+        [
+            1,
+            "Att 1-11F - Blade Antenna High-GAIN Footprint",
+            118
+        ],
+        [
+            1,
+            "Att 1-11G-1 - Interface Control Drawing for 747 Fuselage-Mounted Mechanically Steered High-GAIN Antenna Subsystem",
+            119
+        ],
+        [
+            1,
+            "Att 1-11G-2 - Radome Outline",
+            120
+        ],
+        [
+            1,
+            "Att 1-11G-3 - Top View",
+            121
+        ],
+        [
+            1,
+            "Att 1-11G-4 - Stringer Locations",
+            122
+        ],
+        [
+            1,
+            "Att 1-11G-5 - Doubler Outline",
+            123
+        ],
+        [
+            1,
+            "Att 1-11H-1 - Interface Control Drawing for 747 Vertical Stablizer Mechanically Steered High-GAIN Antenna Subsystem",
+            124
+        ],
+        [
+            1,
+            "Att 1-11H-2 - Tail Fin Installation - 747SP",
+            125
+        ],
+        [
+            1,
+            "Att 1-11H-3 - Tail Fin Installation - 747-200 and 300",
+            126
+        ],
+        [
+            1,
+            "Att 1-11H-4 - Side View",
+            127
+        ],
+        [
+            1,
+            "Att 1-11I-1 - High GAIN Antenna Form Factor Phased Array Antenna (19.66 x 23.00) Fairing Form Factor (30.25 x 35.00)",
+            128
+        ],
+        [
+            1,
+            "Att 1-11I-2 - Connector Interface Antenna Seal Detail",
+            129
+        ],
+        [
+            1,
+            "Att 1-12A - Beam Sterring Unit (BSU) \"Antenna Configuration A\"",
+            130
+        ],
+        [
+            1,
+            "Att 1-12B - Beam Steering Unit (BSU) \"Antenna Configuration B\"",
+            131
+        ],
+        [
+            1,
+            "Att 1-12C - Beam Steering Unit (BSU) Side-Mount Antenna \"Configuration C\"",
+            132
+        ],
+        [
+            1,
+            "Att 1-13 - Low GAIN Antenna",
+            133
+        ],
+        [
+            1,
+            "Att 2 - ARINC 429 Labels and Word Formats used in the Aviation Satellite Communications System",
+            134
+        ],
+        [
+            1,
+            "Att 3 - Equipment Environmental Categories (Eurocae ED-140/RTCA DO-160C)",
+            150
+        ],
+        [
+            1,
+            "Att 4 - Wiring Provisions for Internal High Speed Data",
+            151
+        ],
+        [
+            1,
+            "Appendix 1 - BIT-Oriented Fault Reporting Protocol",
+            170
+        ],
+        [
+            1,
+            "Appendix 2 - Acronyms",
+            179
+        ],
+        [
+            1,
+            "Supplement 1",
+            183
+        ],
+        [
+            1,
+            "Supplement 2",
+            191
+        ],
+        [
+            1,
+            "Supplement 3",
+            203
+        ],
+        [
+            1,
+            "Supplement 4",
+            211
+        ],
+        [
+            1,
+            "Supplement 5",
+            217
+        ],
+        [
+            1,
+            "Supplement 6",
+            227
+        ],
+        [
+            1,
+            "Supplement 7",
+            233
+        ],
+        [
+            1,
+            "Supplement 8A",
+            237
+        ],
+        [
+            1,
+            "Supplement 9",
+            241
+        ],
+        [
+            1,
+            "Supplement 10",
+            245
+        ],
+        [
+            1,
+            "Supplement 11",
+            251
+        ],
+        [
+            1,
+            "Supplement 12",
+            261
+        ],
+        [
+            1,
+            "ARINC Standard - Errat Report",
+            265
+        ],
+        [
+            1,
+            "APIM",
+            267
+        ]
+    ],
+    "pages": 270,
+    "ocr_stats": {
+        "ocr_pages": 18,
+        "ocr_failed": 18,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 5,
+        "table": 111,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

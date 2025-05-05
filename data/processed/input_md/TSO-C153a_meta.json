@@ -1,0 +1,415 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            "Draft",
+            1
+        ],
+        [
+            1,
+            "APPENDIX 1",
+            7
+        ],
+        [
+            1,
+            "aPPENDIX 2",
+            16
+        ],
+        [
+            1,
+            "1. Purpose and scope",
+            18
+        ],
+        [
+            1,
+            "2. Requirement",
+            18
+        ],
+        [
+            2,
+            "2.1. Functional Requirements Common (CO) to all classes:",
+            18
+        ],
+        [
+            2,
+            "2.2. Characterization Requirements:",
+            19
+        ],
+        [
+            1,
+            "3. Verification requirements",
+            30
+        ],
+        [
+            1,
+            "4. Test Software representativeness",
+            30
+        ],
+        [
+            1,
+            "5. Verification procedures",
+            30
+        ],
+        [
+            2,
+            "APPENDIX 2.2",
+            32
+        ],
+        [
+            1,
+            "1. Purpose and scope",
+            32
+        ],
+        [
+            2,
+            "1.1. Introduction",
+            32
+        ],
+        [
+            2,
+            "1.2. Definitions",
+            32
+        ],
+        [
+            2,
+            "1.3. Intended function",
+            33
+        ],
+        [
+            1,
+            "2. Requirements",
+            34
+        ],
+        [
+            2,
+            "2.1. Requirements for Housing (F1)",
+            34
+        ],
+        [
+            2,
+            "2.2. Requirements for Shielding (F2)",
+            36
+        ],
+        [
+            3,
+            "2.2.2 Characterization Requirements for TSO-C153a CLASS RH (F2): Shielding",
+            38
+        ],
+        [
+            2,
+            "2.3.  Requirements for Interconnection (F3)",
+            39
+        ],
+        [
+            2,
+            "2.4 Requirements for Temperature control (F4)",
+            40
+        ],
+        [
+            1,
+            "3. Verification procedures",
+            42
+        ],
+        [
+            2,
+            "APPENDIX 2.3",
+            44
+        ],
+        [
+            1,
+            "1. Purpose and scope",
+            44
+        ],
+        [
+            2,
+            "1.1. Introduction",
+            44
+        ],
+        [
+            2,
+            "1.2. Definitions",
+            44
+        ],
+        [
+            2,
+            "1.3. Intended Function",
+            44
+        ],
+        [
+            1,
+            "2. Requirements",
+            45
+        ],
+        [
+            2,
+            "2.1. Functional requirements for TSO-C153a CLASS PR",
+            45
+        ],
+        [
+            2,
+            "2.2. Characterization requirements for TSO-C153a CLASS PR",
+            46
+        ],
+        [
+            1,
+            "3. Verification procedures",
+            47
+        ],
+        [
+            2,
+            "APPENDIX 2.4",
+            48
+        ],
+        [
+            1,
+            "1. Purpose and scope",
+            48
+        ],
+        [
+            2,
+            "1.1. Introduction",
+            48
+        ],
+        [
+            2,
+            "1.2. Definitions",
+            48
+        ],
+        [
+            2,
+            "1.3. Intended Function",
+            49
+        ],
+        [
+            1,
+            "2. Requirements",
+            50
+        ],
+        [
+            2,
+            "2.1. Functional requirements for TSO-C153a CLASS GP:",
+            50
+        ],
+        [
+            2,
+            "2.2. Characterization requirements for TSO-C153a CLASS GP:",
+            50
+        ],
+        [
+            1,
+            "3. Verification procedures",
+            51
+        ],
+        [
+            2,
+            "APPENDIX 2.5",
+            52
+        ],
+        [
+            1,
+            "1. Purpose and scope",
+            52
+        ],
+        [
+            2,
+            "1.1. Introduction",
+            52
+        ],
+        [
+            2,
+            "1.2. Definitions",
+            52
+        ],
+        [
+            2,
+            "1.3. Intended Function",
+            52
+        ],
+        [
+            1,
+            "2.  Requirements",
+            53
+        ],
+        [
+            2,
+            "2.1. Functional requirements for TSO-C153a CLASS DS:",
+            53
+        ],
+        [
+            2,
+            "2.2. Characterization requirements",
+            53
+        ],
+        [
+            1,
+            "3.   Verification procedures",
+            54
+        ],
+        [
+            2,
+            "APPENDIX 2.6",
+            55
+        ],
+        [
+            1,
+            "1. Purpose and scope",
+            55
+        ],
+        [
+            2,
+            "1.1. Introduction",
+            55
+        ],
+        [
+            2,
+            "1.2. Definitions",
+            55
+        ],
+        [
+            2,
+            "1.3. Intended Function",
+            55
+        ],
+        [
+            1,
+            "2. Requirements",
+            56
+        ],
+        [
+            2,
+            "2.1. Functional requirements for TSO-C153a CLASS IF:",
+            56
+        ],
+        [
+            2,
+            "1.1. Characterization requirements for TSO-C153a CLASS IF:",
+            57
+        ],
+        [
+            2,
+            "2. Verification procedures",
+            58
+        ],
+        [
+            3,
+            "APPENDIX 2.7",
+            59
+        ],
+        [
+            1,
+            "1. Purpose and scope",
+            59
+        ],
+        [
+            2,
+            "1.1. Introduction",
+            59
+        ],
+        [
+            2,
+            "1.2. Definitions",
+            59
+        ],
+        [
+            2,
+            "1.3. Intended Function",
+            60
+        ],
+        [
+            1,
+            "2. Requirements",
+            60
+        ],
+        [
+            2,
+            "2.1. Functional requirements for TSO-C153a CLASS PS:",
+            60
+        ],
+        [
+            2,
+            "2.2. Characterization requirements",
+            61
+        ],
+        [
+            1,
+            "3. Verification procedures",
+            62
+        ],
+        [
+            2,
+            "APPENDIX 2.8",
+            63
+        ],
+        [
+            1,
+            "1. Purpose and scope",
+            63
+        ],
+        [
+            2,
+            "1.1. Introduction",
+            63
+        ],
+        [
+            2,
+            "1.2. Definitions",
+            63
+        ],
+        [
+            2,
+            "1.3. Intended Function",
+            63
+        ],
+        [
+            1,
+            "2. Requirements",
+            64
+        ],
+        [
+            2,
+            "2.1. Functional requirements for TSO-C153a CLASS DH:",
+            64
+        ],
+        [
+            2,
+            "2.2. Characterization requirements for TSO-C153a CLASS DH:",
+            65
+        ],
+        [
+            1,
+            "3. Verification procedures",
+            66
+        ],
+        [
+            2,
+            "APPENDIX 3",
+            67
+        ],
+        [
+            2,
+            "APPENDIX 4",
+            72
+        ]
+    ],
+    "pages": 79,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 156,
+        "code": 1,
+        "table": 22,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "language": "Chinese",
+    "filetype": "pdf",
+    "toc": [],
+    "pages": 80,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 80,
+        "code": 14,
+        "table": 2,
+        "equations": {
+            "successful_ocr": 18,
+            "unsuccessful_ocr": 4,
+            "equations": 22
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "language": "Chinese",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            " \u9644\u5f55 1 \u9640\u87ba\u7a33\u5b9a\u578b\u78c1\u822a\u5411\u4eea\u7684\u6700\u4f4e\u65b0\u80fd\u6807\u51c6 ",
+            8
+        ]
+    ],
+    "pages": 8,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 14,
+        "code": 0,
+        "table": 0,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

@@ -1,0 +1,442 @@
+ 
+Department of Transportation Federal Aviation Administration Aircraft Certification Service Washington, D.C. Effective  
+Date:  09/29/14 
+
+## Technical Standard Order
+
+
+## Subject: Avionics Supporting Automatic Dependent Surveillance - Broadcast (Ads-B) Aircraft Surveillance Applications (Asa)
+
+ 
+1. PURPOSE.  This technical standard order (TSO) is for manufacturers applying for a TSO 
+authorization (TSOA) or letter of design approval (LODA).  In it, we (the Federal Aviation Administration or FAA) tell you what minimum performance standards (MPS) your ADS-B 
+ASA systems and equipment must meet for approval and identification with the applicable TSO marking. 
+
+ 
+2. APPLICABILITY.  This TSO affects new applications submitted after its effective date. 
+
+ 
+a.  TSO-C195a will remain effective until March 23, 2016.  After this date, we will no longer accept applications for TSO-C195a.  
+   
+b.  ADS-B ASA approved under a previous TSOA may still be manufactured under the provisions of its original approval. 
+
+ 
+c.  Major design changes to ADS-B ASA approved under this TSO will require a new authorization. See Title 14 of the Code of Federal Regulations (14 CFR) § 21.619(b). 
+
+ 
+3. 
+
+REQUIREMENTS.  New models of ADS-B ASA systems and equipment identified and manufactured on or after the effective date of this TSO must meet the MPS qualification and documentation requirements in Sections 2.1 through 2.3 of RTCA Document No. RTCA/DO-317B, Minimum Operational Performance Standards for Aircraft Surveillance Applications System, dated June 17, 2014, as appropriate to the functional equipment classes listed in Table 1 as modified by **Appendix 2**.  Functional equipment classes for this TSO are defined by the avionics equipment functionality they provide for one or more of the applications listed in Table 1.   The four equipment functionalities are Cockpit Display of Traffic Information (CDTI) (Surface Only), CDTI, Airborne Surveillance and Separation Assurance Processing (ASSAP), and ADS-B Traffic Advisory System (ATAS) Annunciator Panel.  Applicable performance standards for these classes are identified by equipment class in Appendix L of DO-317B and are based on Section 2 of RTCA/DO-317B.  The functional equipment classes are shown in Table 1. 
+
+ 
+Criticality 
+Equipment Class 
+Hazardous &  
+CDTI 
+CDTI 
+ASSAP 
+ATAS 
+Application 
+Loss of 
+Function 
+(B) 
+(C) 
+Misleading  
+Information 
+(Surface 
+Only) 
+Annunciator 
+Panel 
+(A) 
+(D) 
+Minor 
+Major 
+Not 
+B1 
+C1 
+Not 
+Permitted 
+Applicable 
+(1) Enhanced Visual Acquisition (EVAcq)  
+A2 
+B2 
+C2 
+Not 
+Minor 
+Major (> 80 Knots) 
+Minor (< 80 Knots) 
+Applicable 
+(2) Basic Surface 
+(SURF) 
+(Runways)  
+A3 
+B3 
+C3 
+Not 
+Minor 
+Major (> 80 Knots) 
+Minor (< 80 Knots) 
+Applicable 
+(3) Basic Surface (SURF) (Runways + Taxiways)  
+Minor 
+Major 
+Not 
+B4 
+C4 
+Not 
+Permitted 
+Applicable 
+(4) Visual Separation on Approach (VSA)  
+Minor 
+Major 
+Not 
+B5 
+C5 
+Not 
+Permitted 
+Applicable 
+(5) Basic Airborne (AIRB)  
+Minor 
+Major 
+Not 
+B6 
+C6 
+Not 
+Permitted 
+Applicable 
+(6) In-Trail Procedures (ITP)  
+Minor 
+Major 
+Not 
+B7 
+C7 
+ D7 
+Permitted 
+(7) ADS-B Traffic Advisory System (ATAS)  
+Minor 
+Major 
+Not 
+B8 
+C8 
+Not 
+Permitted 
+Applicable 
+(8) CDTI Assisted Visual Separation (CAVS)  
+ 
+
+## 
+
+ 
+a. Functionality.  This TSO's standards apply to equipment intended to be used in aircraft to display traffic using ADS-B message data from other aircraft.  Applications 1 through 5, 7, and 8 in Table 1 support a pilot's see and avoid responsibility as defined by 14 CFR 91.113(b).  
+No existing responsibility is changed by virtue of installation of this equipment. 
+
+(1)  The In-Trail Procedures (ITP) application (item 6 in **Table 1**) supports a new separation standard in procedural airspace.  ITP application enables aircraft that desire flight level changes in procedural airspace to achieve these changes on a more frequent basis, thus improving flight efficiency and safety.  The ITP achieves this objective by permitting a climbthrough or descend-through maneuver between properly equipped aircraft, using a new distancebased longitudinal separation minimum during the maneuver. When performing ITP operations, regional air traffic procedures must be observed.  Crew training and operational approvals are required.  Any operating limitations of the equipment must be clearly stated in the installation documents and in the airplane flight manual. If limitations have geographical boundaries, such as in polar areas, then those boundaries must be included with the relevant limitations. Additional operational guidance has been published by the FAA Flight Standards organization under AC 90-114, Change 1, *ADS-B Surveillance Broadcast Operations*. 
+
+ 
+(2) ASSAP equipment authorized under this TSO must contain or support an interface to an ADS-B receiver.  If the receiver is embedded in the equipment, it must meet TSO-C154c, Universal Access Transceiver (UAT) Automatic Dependent Surveillance-Broadcast (ADS-B) 
+Equipment Operating on Frequency of 978 MHz or TSO-C166b, Extended Squitter Automatic Dependent Surveillance - Broadcast (ADS-B) and Traffic Information Service - Broadcast (TIS-
+B) Equipment Operating on the Radio Frequency of 1090 Megahertz (MHz).  If the receiver is not embedded, the installation manual must have a requirement to interface to a TSO-C154c or TSO-C166b approved ADS-B receiver. 
+
+ 
+(3)  If intended for installation on aircraft with Traffic Advisory System (TAS) or Traffic alert and Collision Avoidance System (TCAS) equipment, ASSAP equipment authorized under this TSO must contain or support an interface to equipment complying with TSO-C147()a, Traffic Advisory System (TAS) Airborne Equipment, TSO-C118(), Traffic Alert and Collision Avoidance System (TCAS) Airborne Equipment, TCAS I, or TSO-C119(), Traffic Alert and Collision Avoidance System, (TCAS) Airborne Equipment, TCAS II with Hybrid Surveillance.  If the ASSAP equipment does not support this functionality, the installation manual must prohibit installation on an aircraft equipped with TAS or TCAS.  
+ 
+(4)  Class A and B equipment authorized under this TSO must comply with  
+TSO-C165a, Electronic Map Display Equipment for Graphical Depiction of Aircraft Position (Own-Ship) when implementing Surface Applications. This TSO shall take precedence where it differs from TSO-C165a.  Databases used to support moving maps integrated with the SURF application must meet at least 5 meter accuracy and 1 meter resolution.  Databases used to support moving maps integrated with the SURF application must meet DO-200A, Standards for Processing Aeronautical Data, Data Process Assurance Level 2 for state-provided data with Essential Integrity as defined in DO-272B, User Requirements for Aerodrome Mapping Information. 
+
+ 
+ 
+(5) Equipment authorized under this TSO may include or interface with airborne multipurpose electronic display equipment complying with TSO-C113a, Airborne Multipurpose Electronic Displays.  
+ 
+(6) Equipment authorized under this TSO must contain or support an interface to position sources that meet one of the following TSOs: TSO-C129( ), Airborne Supplemental Navigation Equipment using the Global Positioning System (GPS), TSO-C145( ), Airborne Navigation Sensors Using the Global Positioning System Augmented by the Satellite Based Augmentation System, TSO-C146( ), Stand-Alone Airborne Navigation Equipment Using The Global Positioning System Augmented By The Satellite Based Augmentation System, TSO-C196 
+( ), Airborne Supplemental Navigation Sensors for Global Positioning System Equipment Using Aircraft-Based Augmentation or equivalent. 
+
+ 
+(7) ADS-B Traffic Advisory System (ATAS) is the only ADS-B application which can be installed without a traffic display.  All other applications require a traffic display as defined by the CDTI requirements.  This application is named Traffic Situational Awareness with Alerts (TSAA) in RTCA DO-317B. 
+
+ 
+b. **Failure Condition Classifications**.   
+ 
+(1)  Failure of the function defined in paragraph 3.a of this TSO has been determined to be a major failure condition for malfunctions causing the display of hazardously misleading information in airborne aircraft and aircraft on the ground with groundspeed greater than 80 
+knots.  Failure of the function defined in paragraph 3.a of this TSO has been determined to be a minor failure condition for malfunctions causing the display of hazardously misleading information in aircraft on the ground with a groundspeed of 80 knots or less.   
+ 
+(2)  Loss of function defined in paragraph 3.a has been determined to be a minor failure condition. 
+
+(3)  Design the system to, at least, the design assurance level applicable to these failure condition classifications. Design assurance levels should be based upon the guidance of AC 23.1309-1E for Part 23 aircraft, AC 25.1309-1A for Part 25 aircraft, AC 27-1B for normal category rotorcraft, and AC 29-2C for transport category rotorcraft.  To clarify this requirement for aircraft types, Table 2 indicates the minimum Design Assurance Level required for small airplanes, transport category airplanes, and rotorcraft. 
+
+ 
+
+ASA Equipment Classes for installation in  
+14 CFR § 23 Class 1, 2, and 3  
+(per AC 23-1309-1E) 
+Minimum Required 
+Software Design Assurance Level 
+ASA Equipment Classes for installation in  
+14 CFR § 23 Class 4, 14 CFR § 25, 14 CFR § 27, 14 CFR § 29 
+Maximum Allowable 
+Hardware Failure Probability (HMI) (per flight hour) 
+Minimum Required 
+Airborne Electronic 
+Hardware Design Assurance 
+Level 
+A2, A3 
+10-3 
+Level D 
+Level D 
+A2, A3, B1, B2, B3, B4, B5, B7, B8, C1, C2, C3, C4, C5, C7, C8, D7 
+10-5 
+Level C 
+Level C 
+B6, C6 
+B1, B2, B3, B4, B5, B6, B7, B8, C1, C2, C3, C4, C5, C6, C7, C8, D7 
+
+ 
+
+## Table 2 - Design Assurance Levels By Aircraft Class
+
+ 
+c. Functional Qualification.  Demonstrate the required functional performance under the test conditions specified in RTCA/DO-317B, Sections 2.5 and 2.6.  All equipment authorized under this TSO must demonstrate interoperability with an FAA Automatic Dependent Surveillance-Rebroadcast (ADS-R) service broadcast.  In addition, equipment authorized under this TSO that includes a Traffic Information Service - Broadcast (TIS-B) function must demonstrate interoperability with an FAA TIS-B service broadcast.  Applicants must propose a method to demonstrate interoperability with FAA ADS-R and TIS-B services. This method must include operation with live data within an ADS-R and/or TIS-B service volume.  **Appendix 1** 
+gives guidance for applicants performing interoperability testing with TIS-B services. 
+
+ 
+Note: Equipment designed for installations that include a TCAS or TAS processor are not required to implement TIS-B for airborne applications.  Equipment designed to support Class C2 and C3 of this TSO must also implement TIS-B for surface applications. 
+
+ 
+d. Environmental Qualification.  Demonstrate the required performance under the test conditions specified in RTCA/DO-317B, Section 2.4 using standard environmental conditions and test procedures appropriate for airborne equipment.   A different standard environmental condition and test procedure other than RTCA/DO-160G, Environmental Conditions and Test Procedures for Airborne Equipment, dated December 8, 2010, may be used, provided the standard is appropriate for the ADS-B ASA. 
+
+ 
+Note:  The use of RTCA/DO-160D, Environmental Conditions and Test Conditions for Airborne Equipment, dated July 29, 1997, 
+(with Changes 1 and 2 only, incorporated) or earlier versions is generally not considered appropriate and will require substantiation via the deviation process as discussed in paragraph 3.g of the TSO. 
+
+
+ 
+ 
+e. Software Qualification.  If the article includes software, develop the software according to RTCA, Inc. document RTCA/DO-178C, Software Considerations in Airborne Systems and Equipment Certification, dated December 13, 2011, including referenced supplements as applicable, to at least the software level consistent with the failure condition classification defined in paragraph 3.b of this TSO. You may also develop the software according to RTCA, Inc. document RTCA/DO-178B, dated December 1, 1992, if you follow the guidance in AC 20- 115C, *Airborne Software Assurance,* dated July 19, 2013. 
+
+ 
+ 
+f.   Electronic Hardware Qualification.  If the article includes complex custom airborne electronic hardware, develop the component according to RTCA, Inc. document RTCA/DO-254, Design Assurance Guidance for Airborne Electronic Hardware, dated April 19, 2000, to at least the design assurance level consistent with the failure condition classification defined in paragraph 3.b of this TSO.  For custom airborne electronic hardware determined to be simple, RTCA/DO-254, paragraph 1.6 applies. 
+
+Note:  The certification liaison process objectives will be  
+considered satisfied after FAA review of the applicable life-cycle data. 
+
+ 
+g. Deviations.  We have provisions for using alternate or equivalent means of compliance to the criteria in the MPS of this TSO.  If you invoke these provisions, you must show that your equipment maintains an equivalent level of safety.  Apply for a deviation under the provision of 14 CFR § 21.618. 
+
+ 
+4. 
+
+MARKING. 
+
+ 
+a.   Mark at least one major component permanently and legibly with all the information in 
+14 CFR § 45.15(b).  The marking must include the serial number.  The markings may include functional equipment class(es) in accordance with Table 1 of Section 3, or they may be included in the manual referenced in Section 5.a.  An acceptable way to mark the supported equipment class is as follows: TSO-C195b Class C3, C4, C5. 
+
+ 
+b. Also, mark the following permanently and legibly, with at least the manufacturer's name, subassembly part number, and the TSO number: 
+
+ 
+(1) Each component that is easily removable (without hand tools), and 
+ 
+(2) Each subassembly of the article that you determined may be interchangeable. 
+ 
+c. If the article includes software and/or airborne electronic hardware, then the article part numbering scheme must identify the software and airborne electronic hardware configuration. The part numbering scheme can use separate, unique part numbers for software, hardware, and airborne electronic hardware. 
+
+
+
+d. You may use electronic part marking to identify software or airborne electronic hardware components by embedding the identification within the hardware component itself (using software) rather than marking it on the equipment nameplate.  If electronic marking is used, it must be readily accessible without the use of special tools or equipment. 
+
+ 
+Note:  Similar software versions, developed and tested to different software levels, must be differentiated by part number. 
+
+ 
+5. 
+
+APPLICATION DATA REQUIREMENTS.  You must give the FAA aircraft certification office (ACO) manager responsible for your facility a statement of conformance, as specified in 
+14 CFR § 21.603(a)(1) and one copy each of the following technical data to support your design and production approval.  LODA applicants must submit the same data (excluding paragraph 5.g) 
+through their civil aviation authority.  
+ 
+a. A manual(s) containing the following: 
+ 
+(1) Operating instructions and equipment limitations sufficient to describe the equipment's operational capability. 
+
+(2) Describe in detail any deviations. 
+
+ 
+(3) Installation procedures and limitations sufficient to ensure that the ADS-B ASA 
+equipment, when installed according to the installation or operational procedures, still meets this TSO's requirements.  Limitations must identify any unique aspects of the installation.  The limitations must include a note with the following statement:  
+ 
+"This article meets the minimum performance and quality control standards required by a technical standard order (TSO).   
+Installation of this article requires separate approval." 
+(4) For each unique configuration of software and airborne electronic hardware, reference the following: 
+
+(a) Software part number including revision and design assurance level; 
+ 
+(b) Airborne electronic hardware part number including revision and design 
+assurance level; and, 
+(c) Functional description. 
+ 
+(5) A summary of the test conditions used for environmental qualifications for each component of the article.  For example, a form as described in RTCA/DO-160G, Environmental Conditions and Test Procedures for Airborne Equipment, Appendix A. 
+
+ 
+ 
+(6) Schematic drawings, wiring diagrams, and any other documentation necessary for installation of the ADS-B ASA equipment.   
+(7) List of replaceable components, by part number, that makes up the ADS-B ASA 
+equipment article.  Include vendor part number cross-references, when applicable. 
+
+b. Instructions covering periodic maintenance, calibration, and repair, for the continued airworthiness of ADS-B ASA equipment.  Include recommended inspection intervals and service life, as appropriate. 
+
+c. If the article includes software:  a plan for software aspects of certification (PSAC), software configuration index, and software accomplishment summary (SAS). 
+
+ 
+d. If the article includes simple or complex custom airborne electronic hardware, a plan for hardware aspects of certification (PHAC), hardware verification plan, top-level drawing, and hardware accomplishment summary (or similar document, as applicable). 
+
+e. Nameplate drawing with the information required by paragraph 4 of this TSO. 
+
+ 
+f. Identify functionality or performance contained in the article not evaluated under paragraph 3 of this TSO (that is, non-TSO functions).   Non-TSO functions are accepted in parallel with the TSO authorization.   For those non-TSO functions to be accepted, you must declare these functions and include the following information with your TSO application: 
+ 
+(1) Description of the non-TSO function(s), such as performance specifications, failure condition classifications, software, hardware, and environmental qualification levels.  Include a statement confirming that the non-TSO function(s) don't interfere with the article's compliance with the requirements of paragraph 3. 
+
+ 
+(2) Installation procedures and limitations sufficient to ensure that the non-TSO 
+function(s) meets the declared functions and performance specification(s) described in paragraph 
+5.f.(1). 
+
+ 
+(3) Instructions for continued performance applicable to the non-TSO function(s) 
+described in paragraph 5.f.(1).   
+ 
+(4) Interface requirements and applicable installation test procedures to ensure compliance with the performance data defined in paragraph 5.f.(1).   
+ 
+(5) Test plans, analysis and results, as appropriate, to verify that performance of the hosting TSO article is not affected by the non-TSO function(s). 
+
+(6) Test plans, analysis and results, as appropriate, to verify the function and performance of the non-TSO function(s) as described in paragraph 5.f.(1).   
+
+
+g. The quality system description required by 14 CFR 21.608, including functional test specifications.  The quality system should ensure that you will detect any change to the approved design that could adversely affect compliance with the TSO MPS, and reject the article accordingly.  (Not required for LODA applicants.) 
+h. Material and process specifications list. 
+
+ 
+i. List of all drawings and processes (including revision level) that define the article's design. 
+
+j. Manufacturer's TSO qualification report showing results of testing accomplished according to paragraph **3.c** of this TSO.  
+ 
+6. 
+
+MANUFACTURER DATA REQUIREMENTS.  Besides the data given directly to the responsible ACO, have the following technical data available for review by the responsible ACO:  
+ 
+a.   Functional qualification specifications for qualifying each production article to ensure compliance with this TSO; 
+
+ 
+b. Article calibration procedures; 
+ 
+c. Schematic drawings; 
+ 
+d. Wiring diagrams; 
+ 
+e. Material and process specifications; 
+ 
+f. The results of the environmental qualification tests conducted according to paragraph 
+3.d of this TSO; 
+ 
+g. If the article includes software, the appropriate documentation defined in the version of RTCA/DO-178 specified by paragraph 3.e of this TSO, including all data supporting the applicable objectives in Annex A*, Process Objectives and Outputs by Software Level*; 
+ 
+h.  If the article includes complex custom airborne electronic hardware, the appropriate hardware life cycle data in combination with design assurance level, as defined in RTCA/DO-254, Appendix A, Table A-l.  For simple custom airborne electronic hardware, the following data: test cases or procedures, test results, test coverage analysis, tool assessment and qualification data, and configuration management records, including problem reports; and 
+ 
+i. If the article contains non-TSO function(s), you must also make available items 6.a through 6.h as they pertain to the non-TSO function(s). 
+
+
+## 7. Furnished Data Requirements.
+
+ 
+a. If furnishing one or more articles manufactured under this TSO to one entity (such as an operator or repair station), provide one copy or on-line access to the data in paragraphs 5.a and 5.b of this TSO.  Add any other data needed for the proper installation, certification, use, or for continued compliance with the TSO, of the ADS-B ASA equipment.   
+ 
+b. If the article contains declared non-TSO function(s), include one copy of the data in paragraphs **5.f.(1)** through **5.f.(4).** 
+ 
+
+## 8. How To Get Referenced Documents.
+
+ 
+a. Order RTCA documents from RTCA Inc., 1150 18th St, NW, Suite 910, Washington, D.C. 20036.  Telephone (202) 833-9339, fax (202) 833-9434.  You can also order copies online at www.rtca.org. 
+
+ 
+b.   Order copies of 14 CFR parts from the Superintendent of Documents, Government Printing Office, P.O. Box 979050, St. Louis, MO 63197.  Telephone (202) 512-1800, fax (202) 512-2250.  You can also order copies online at www.access.gpo.gov.  Select, "Access," then "Online Bookstore."  Select "Aviation," then "Code of Federal Regulations."  
+ 
+c.   You can find a current list of technical standard orders and advisory circulars on the FAA Internet website Regulatory and Guidance Library at http://rgl.faa.gov/.  You will also find the TSO Index of Articles at the same website. 
+
+ 
+Susan J. M. Cabler Acting Manager, Design, Manufacturing & 
+   Airworthiness Division Aircraft Certification Service
+ 
+
+## Appendix 1. Tis-B And Fis-B Testing Guidance A1.1 Purpose This Appendix Provides Guidance For Testing A Device Capable Of Transmitting Ads-B Information In Order To Receive Traffic Information Services-Broadcast (Tis-B) Information. It Also Provides Guidance For Testing Devices Capable Of Receiving Flight Information Services-Broadcast (Fis-B) Information. A1.2 Tis-B Testing
+
+ 
+A1.2.1 Obtaining an FCC license Before testing can begin, a license is needed to broadcast into the NAS. To get a license, you must submit an application to the FCC in accordance with 47 CFR Part 87. This allows the operator to transmit information on the desired frequency. 
+
+A1.2.2 Obtaining a temporary 24-bit ICAO address for TIS-B and FIS-B testing 
+ 
+Once a license has been issued by the FCC, the applicant must obtain a 24-bit ICAO address. This can be obtained in two ways. If at an aircraft level, whether the aircraft is in your possession or in production, an application can be submitted to the FAA Aircraft Registry office (AFS-750) in Oklahoma City. However, if testing will be conducted in a laboratory environment, hangar, or other test facility then a temporary 24-bit ICAO address specifically assigned for TIS-B and FIS-B testing must be requested. To request a 24-bit ICAO address, the applicant must send an e-mail to  
+9-AVS-9-TIS-B-FIS-B@faa.gov, with the following information: 
+
+1) Purpose for the Request 2) Company Name and Location 
+3) Company Point-of-Contact (POC) 
+4) Phone, Address, and E-mail for POC 
+ Upon receiving the request, a temporary 24-bit ICAO address will be assigned.  The assigned ICAO address may be used until such time the FAA suspends authorization of its use. 
+
+A1.2.3 Coordination with local Air Traffic Control Once a 24-bit address is obtained, the applicant must coordinate with the local Air Traffic Control (ATC) office. This ensures the ATC facility is aware of any testing efforts in the area to prevent confusion and suspicion.  In order to standardize testing, the FAA recommends setting Flight ID = GNDTEST, and a Mode 3/A code = 1200. 
+
+ 
+ 
+Note: Any Mode A code assigned by the local ATC facility supersedes that of this guidance. 
+
+A1.2.4 Parameters to be verified before TIS-B testing After coordination with ATC, the applicant should verify the following parameters on the transmitting device: 
+
+a. The 1090-In and/or UAT-In bit is set to "1", as appropriate to the design. b.  ADS-B device is set to "airborne" status in order to be recognized as a TIS-B client.  
+There are surface service volumes where TIS-B is available, but the FAA does not 
+recommend testing at those sites due to the heavy traffic density at those locations. 
+c. The emitter category is set to be a Type A aircraft.  You can select the aircraft class of 
+your choice. 
+d. The SDA and SIL values are set to "0".  This will ensure that your aircraft information is 
+not forwarded to ATC for separation purposes. 
+e. The altitude value must be set to: 
+1. The actual uncorrected pressure altitude; or 
+2. Hardcoded to -1000 ft. 
+f. The Navigation Integrity Category (NIC) and Navigation Accuracy Category (NAC) 
+values are not required since there is no performance requirement for TIS-B client status. Actual values reported by the position source are acceptable. 
+ The test antenna must be in coverage of an ADS-B ground station and a Secondary Surveillance Radar (SSR) to receive the TIS-B/ADS-R service status message.  It is uncommon to be able to test the Service Status Message successfully while on the ground as SSR coverage is unlikely. The Service Status Message indicates that the system can provide a "complete" set of information for ADS-B equipped aircraft on the opposing link, Automatic Dependent Surveillance- Rebroadcast (ADS-R service) and transponder equipped aircraft (TIS-B service) within the vicinity of the ADS-B device. 
+
+A1.3 
+FIS-B Testing No ADS-B transmissions are required in order for the system to receive FIS-B broadcasts.  FAA 
+recommends FIS-B testing to be performed with the ADS-B transmitter disabled.  The FIS-B 
+products your test station receives will depend on what tier FIS-B radio stations are in line-ofsight.  Refer to the Surveillance and Broadcast Services Description Document (SBS DD) at the following hyperlink for more information on this topic:  
+http://rgl.faa.gov/Regulatory_and_Guidance_Library/rgTSO.nsf/0/a742d5047d73c258862579b30 05501d2/$FILE/SDD_Rev2.pdf. 
+
+ 
+
+## Appendix 2. Amendments To Do-317B A2.1. Introduction This Appendix Amends Do-317B To Address Specific Issues Raised Since Publication Of The Document. A2.2. Tcas Ii Integration With Tsaa
+
+ TCAS integration is addressed in DO-317B section 2.2.4.5.3.3, titled "TSAA Traffic Caution alerts on Correlated TCAS Tracks".  Replace the current section 2.2.4.5.3.3 with the following text: 
+
+The TSAA application may be integrated with TCAS I, TCAS II, or TAS systems. If an ADS-B/ADS-R/TIS-B track is correlated with a TCAS track, then the alerts shall (2223) only be presented from either the TSAA application or the TCAS 
+system (i.e., not both). If TSAA and TCAS II are installed on the same aircraft, TCAS II resolution advisories (RAs) shall (####) have priority over all other alerts. If TSAA and TCAS II are installed on the same aircraft, TCAS II traffic advisories (TAs) shall (####) be generated for the TCAS tracks by the TCAS II TA function. TSAA may generate traffic alerts for ADS-B only traffic not correlated with a 
+TCAS track. TSAA alerts should take precedence over TCAS I or TAS traffic alerts (TAs) when 
+the TCAS track is correlated with an ADS-B or ADS-R track; but, TCAS traffic 
+alerts should take precedence over TSAA alerts when the TCAS track is correlated with a TIS-B track. 
+
+## A2.3. Tcas Validation Of Itp Traffic
+
+ 
+TCAS validation of ITP traffic is addressed in DO-317B section 2.2.4.4.2.1, titled "Validation of Traffic Position with TCAS Data".  Add the following text to the end of the second paragraph. 
+
+ 
+ASSAP is not required to support ADS-R or TIS-B traffic for use with the ITP application. 
+
+TCAS Validation of CAVS Traffic 
+ 
+TCAS validation of CAVS traffic is addressed in DO-317B section 2.2.4.6.2.1, titled "Validation of Traffic Position with TCAS Data".  Remove all instances of the text "/ADS-R" from this section and add the following text to the end of the second paragraph. 
+
+ 
+ASSAP is not required to support ADS-R or TIS-B traffic for use with the CAVS application. 
+
+ 

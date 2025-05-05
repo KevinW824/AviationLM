@@ -1,0 +1,190 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            "Cover\r",
+            1
+        ],
+        [
+            1,
+            "Disclaimer\r",
+            2
+        ],
+        [
+            1,
+            "Title Page\r",
+            3
+        ],
+        [
+            1,
+            "Foreword\r",
+            4
+        ],
+        [
+            1,
+            "Table of Contetns",
+            5
+        ],
+        [
+            1,
+            "01 Introduction\r",
+            6
+        ],
+        [
+            1,
+            "429P1 - Supplements",
+            7
+        ],
+        [
+            1,
+            "Supplement 1\r",
+            8
+        ],
+        [
+            1,
+            "Supplement 2\r",
+            12
+        ],
+        [
+            1,
+            "Supplement 3\r",
+            20
+        ],
+        [
+            1,
+            "Supplement 4\r",
+            29
+        ],
+        [
+            1,
+            "Supplement 5\r",
+            41
+        ],
+        [
+            1,
+            "Supplement 6\r",
+            48
+        ],
+        [
+            1,
+            "Supplement 7\r",
+            51
+        ],
+        [
+            1,
+            "Supplement 8\r",
+            53
+        ],
+        [
+            1,
+            "Supplement 9\r",
+            55
+        ],
+        [
+            1,
+            "Supplement 10\r",
+            57
+        ],
+        [
+            1,
+            "Supplement 11\r",
+            82
+        ],
+        [
+            1,
+            "Supplement 12\r",
+            84
+        ],
+        [
+            1,
+            "Supplement 13\r",
+            87
+        ],
+        [
+            1,
+            "Supplement 14\r",
+            90
+        ],
+        [
+            1,
+            "Supplement 15\r",
+            94
+        ],
+        [
+            1,
+            "Supplement 16\r",
+            102
+        ],
+        [
+            1,
+            "Supplement 17\r",
+            114
+        ],
+        [
+            1,
+            "Supplement 18\r",
+            117
+        ],
+        [
+            1,
+            "429P2 - Supplement ",
+            125
+        ],
+        [
+            1,
+            "Supplement 16\r",
+            126
+        ],
+        [
+            1,
+            "429P3 - Supplements\r",
+            128
+        ],
+        [
+            1,
+            "Supplement 15\r",
+            129
+        ],
+        [
+            1,
+            "Supplement 16\r",
+            136
+        ],
+        [
+            1,
+            "Supplement 17\r",
+            142
+        ],
+        [
+            1,
+            "Supplement 18\r",
+            146
+        ],
+        [
+            1,
+            "Supplement 19\r",
+            149
+        ]
+    ],
+    "pages": 152,
+    "ocr_stats": {
+        "ocr_pages": 6,
+        "ocr_failed": 6,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 3,
+        "table": 56,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

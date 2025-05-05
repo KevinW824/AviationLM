@@ -1,0 +1,285 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            "Subject: AIRBORNE COLLISION AVOIDANCE SYSTEM (ACAS) Xa/Xo",
+            1
+        ],
+        [
+            2,
+            "4.     MARKING.",
+            4
+        ],
+        [
+            2,
+            "7. FURNISHED DATA REQUIREMENTS.",
+            8
+        ],
+        [
+            2,
+            "8. HOW TO GET REFERENCED   DOCUMENTS",
+            8
+        ],
+        [
+            2,
+            "APPENDIX A.  FAA MODIFICATIONS TO RTCA/DO-385 and CHANGE 1",
+            9
+        ],
+        [
+            2,
+            "This appendix lists FAA modifications to RTCA/DO-385 and Change 1, Minimum Operational Performance Standards for Airborne Collision Avoidance System (ACAS X) (ACAS Xa and ACAS Xo).",
+            9
+        ],
+        [
+            2,
+            "Replace 3rd sentence in 5th paragraph in Section 2.2.3.6.1 with",
+            9
+        ],
+        [
+            2,
+            "Replace 2nd and 4th paragraph in Section 2.2.3.9.2.1 with",
+            9
+        ],
+        [
+            2,
+            "Replace Section 2.2.4.6.2.2.1 with",
+            9
+        ],
+        [
+            2,
+            "Replace Section 2.2.4.6.2.2.2 with",
+            9
+        ],
+        [
+            2,
+            "Replace 2nd paragraph in Section 2.2.4.6.4.2.1 with",
+            10
+        ],
+        [
+            2,
+            "Replace 1st paragraph in Section 2.2.4.6.4.2.4 with",
+            11
+        ],
+        [
+            2,
+            "Include in Section 2.2.5.5.9 ReceiveStateVectorPosition",
+            11
+        ],
+        [
+            2,
+            "Additional input requirements include the following:",
+            11
+        ],
+        [
+            2,
+            "\u2026\u2026..",
+            11
+        ],
+        [
+            2,
+            "Notes:",
+            11
+        ],
+        [
+            2,
+            "\u2026\u2026",
+            11
+        ],
+        [
+            2,
+            "Include in Section 2.2.5.5.10 ReceiveStateVectorVelocity",
+            11
+        ],
+        [
+            2,
+            "Additional input requirements include the following:",
+            11
+        ],
+        [
+            2,
+            "\u2026\u2026..",
+            11
+        ],
+        [
+            2,
+            "Notes:",
+            11
+        ],
+        [
+            2,
+            "4.   The requirement in item #11 above implies that the non-ICAO data item will always be set to FALSE",
+            11
+        ],
+        [
+            2,
+            "Include in Section 2.2.5.5.11 ReceiveStateMode Status",
+            11
+        ],
+        [
+            2,
+            "Additional input requirements include the following:",
+            11
+        ],
+        [
+            2,
+            "\u2026\u2026..",
+            11
+        ],
+        [
+            2,
+            "Notes:",
+            12
+        ],
+        [
+            2,
+            "4.   The requirement in item #11 above implies that the non-ICAO data item will always be set to FALSE",
+            12
+        ],
+        [
+            2,
+            "Include and Replace in Section 2.4.2.11.11 Verification of DF=18 ADS-B and ADS-R Only Passive Surveillance as indicated below:",
+            12
+        ],
+        [
+            2,
+            "Replace in Test 1 Scenario Descriptions",
+            12
+        ],
+        [
+            2,
+            "From:",
+            12
+        ],
+        [
+            2,
+            "To:",
+            12
+        ],
+        [
+            2,
+            "From:",
+            12
+        ],
+        [
+            2,
+            "To:",
+            12
+        ],
+        [
+            2,
+            "To:",
+            13
+        ],
+        [
+            2,
+            "Include in Test 1 Scenarios:",
+            13
+        ],
+        [
+            2,
+            "Include in Test 1 Success Criteria:",
+            13
+        ],
+        [
+            2,
+            "Replace in Test 2 Scenario Descriptions",
+            13
+        ],
+        [
+            2,
+            "From:",
+            13
+        ],
+        [
+            2,
+            "To:",
+            14
+        ],
+        [
+            2,
+            "From:",
+            14
+        ],
+        [
+            2,
+            "To:",
+            14
+        ],
+        [
+            2,
+            "From:",
+            14
+        ],
+        [
+            2,
+            "To:",
+            14
+        ],
+        [
+            2,
+            "Include in Test 2 Scenario Descriptions:",
+            15
+        ],
+        [
+            2,
+            "Include in Test 2 Success Criteria:",
+            15
+        ],
+        [
+            2,
+            "Update and Replace in DO-385 Section 2.4.2.2, Appendix F, ACAS X Test Suite Encounter Set found in RTCA DO-385 Electronic Supplement, and DO-385 Volume II as indicated below:",
+            15
+        ],
+        [
+            2,
+            "1. Update information in Section 2.4.2.2 (Test Suite Test Procedures) of DO-385 Volume I and DO-385 Change 1 in accordance with \u201cModifications for MOPS Volume I Section 2.4.2.2 (Test Suite Test Procedures) associated with DO-385 Change 1, CP-001\u201d in T...",
+            15
+        ],
+        [
+            2,
+            "2. Update information in Appendix F (Test Suite Encounter List) of DO-385 Volume I in accordance with \u201cModifications for MOPS Volume I Appendix F (Test Suite Encounter List) associated with DO-385 Change 1, CP-001\u201d in TestSuiteXaDO385Change1CP001Appen...",
+            15
+        ],
+        [
+            2,
+            "3. Replace the entire DO-385 ACAS X Test Suite Encounter with TestSuiteXaDO385Change1CP001.zip",
+            15
+        ],
+        [
+            2,
+            "4. Update information in DO-385 Volume II in accordance with \u201cFAA Modifications to Volume II: Algorithm Design Description of RTCA/DO-385 and Change 1 Associated with DO-385 Change 1, Change Proposal 001 (CP-001)\u201d in ACAS_RPT_20_003_V1R1.pdf",
+            15
+        ],
+        [
+            2,
+            "5. Replace all PDIFs with those in DO-385Change1CP-001_PDIFs.zip. The filenames of all PDIFs, including those that changed, have been updated to reflect this revision. The new PDIF names will begin with DO-385Change1CP-001. The checksums of the files ...",
+            15
+        ],
+        [
+            2,
+            "All documents listed for this change are available by submitting an email request to the TCAS Program office: 9-AVS-AIR-ACASX-Test@faa.gov.",
+            15
+        ]
+    ],
+    "pages": 15,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 28,
+        "code": 0,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

@@ -1,0 +1,1495 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            "1 PURPOSE AND SCOPE",
+            15
+        ],
+        [
+            2,
+            "1.1 Introduction",
+            15
+        ],
+        [
+            2,
+            "1.2 System Overview",
+            17
+        ],
+        [
+            2,
+            "1.3 Operational Goals",
+            18
+        ],
+        [
+            3,
+            "1.3.1 GBAS Approach Service Types",
+            18
+        ],
+        [
+            3,
+            "1.3.2 Notable Changes from Previous Version",
+            18
+        ],
+        [
+            2,
+            "1.4 LAAS Airborne Equipment Functions",
+            19
+        ],
+        [
+            2,
+            "1.5 Assumptions",
+            21
+        ],
+        [
+            3,
+            "1.5.1 GPS Signal-in-Space",
+            21
+        ],
+        [
+            3,
+            "1.5.2 SBAS Signal-in-Space",
+            21
+        ],
+        [
+            3,
+            "1.5.3 LAAS Signal-in-Space",
+            21
+        ],
+        [
+            3,
+            "1.5.4 GPS/LAAS Applications",
+            21
+        ],
+        [
+            3,
+            "1.5.5 Applicability",
+            21
+        ],
+        [
+            3,
+            "1.5.6 LAAS Ground Subsystem",
+            22
+        ],
+        [
+            3,
+            "1.5.7 Interoperability",
+            22
+        ],
+        [
+            3,
+            "1.5.8 RF Interference",
+            22
+        ],
+        [
+            2,
+            "1.6 Test Considerations",
+            22
+        ],
+        [
+            3,
+            "1.6.1 Environmental Tests",
+            23
+        ],
+        [
+            3,
+            "1.6.2 Bench Tests",
+            23
+        ],
+        [
+            3,
+            "1.6.3 Installed Tests",
+            23
+        ],
+        [
+            2,
+            "1.7 Applicable Standards and Regulatory Documents",
+            23
+        ],
+        [
+            1,
+            "2 Equipment Performance Requirements and Test Procedures",
+            27
+        ],
+        [
+            2,
+            "2.1 General GPS/LAAS Airborne Requirements",
+            27
+        ],
+        [
+            3,
+            "2.1.1 Airworthiness",
+            28
+        ],
+        [
+            3,
+            "2.1.2 Intended Function",
+            28
+        ],
+        [
+            3,
+            "2.1.3 Fire Protection",
+            28
+        ],
+        [
+            3,
+            "2.1.4 General Human Factors Requirements and Applicable Documents",
+            28
+        ],
+        [
+            4,
+            "2.1.4.1 Operation of Controls",
+            29
+        ],
+        [
+            4,
+            "2.1.4.2 Accessibility of Controls ",
+            29
+        ],
+        [
+            4,
+            "2.1.4.3 Control Labels",
+            29
+        ],
+        [
+            4,
+            "2.1.4.4 Equipment Operating Procedures",
+            30
+        ],
+        [
+            4,
+            "2.1.4.5 Minimum Workload Functions",
+            30
+        ],
+        [
+            4,
+            "2.1.4.6 Displays",
+            30
+        ],
+        [
+            5,
+            "2.1.4.6.1 Discriminability",
+            30
+        ],
+        [
+            5,
+            "2.1.4.6.2 Brightness, Contrast, and Color",
+            31
+        ],
+        [
+            5,
+            "2.1.4.6.3 Angle of Regard",
+            31
+        ],
+        [
+            5,
+            "2.1.4.6.4 Symbology",
+            31
+        ],
+        [
+            5,
+            "2.1.4.6.5 Alphanumerics",
+            31
+        ],
+        [
+            4,
+            "2.1.4.7 Annunciations",
+            32
+        ],
+        [
+            5,
+            "2.1.4.7.1 Annunciators",
+            32
+        ],
+        [
+            5,
+            "2.1.4.7.2 Pilot Indications",
+            32
+        ],
+        [
+            3,
+            "2.1.5 Effects of Test",
+            32
+        ],
+        [
+            2,
+            "2.2 VHF Data Broadcast (VDB) Receiver Subsystem",
+            32
+        ],
+        [
+            3,
+            "2.2.1 General Requirements",
+            32
+        ],
+        [
+            4,
+            "2.2.1.1 Design Assurance",
+            33
+        ],
+        [
+            5,
+            "2.2.1.1.1 Hardware",
+            33
+        ],
+        [
+            5,
+            "2.2.1.1.2 Software",
+            33
+        ],
+        [
+            3,
+            "2.2.2 Tuning",
+            34
+        ],
+        [
+            4,
+            "2.2.2.1 Frequency Range",
+            34
+        ],
+        [
+            4,
+            "2.2.2.2 Frequency Selection",
+            34
+        ],
+        [
+            4,
+            "2.2.2.3 Response Time",
+            34
+        ],
+        [
+            3,
+            "2.2.3 Data Latency",
+            34
+        ],
+        [
+            3,
+            "2.2.4 Data Format Decoding",
+            35
+        ],
+        [
+            3,
+            "2.2.5 Message Failure Rate",
+            35
+        ],
+        [
+            3,
+            "2.2.6 VDB Signal Tracking Requirements",
+            35
+        ],
+        [
+            4,
+            "2.2.6.1 Carrier Frequency Capture Range",
+            35
+        ],
+        [
+            4,
+            "2.2.6.2 Carrier Frequency Slew Rate",
+            36
+        ],
+        [
+            4,
+            "2.2.6.3 Symbol Rate Tolerance",
+            36
+        ],
+        [
+            3,
+            "2.2.7 Co-Channel Rejection",
+            36
+        ],
+        [
+            4,
+            "2.2.7.1 VDB as the Undesired Signal",
+            36
+        ],
+        [
+            4,
+            "2.2.7.2 VOR as the Undesired Signal",
+            36
+        ],
+        [
+            4,
+            "2.2.7.3 ILS Localizer as the Undesired Signal",
+            36
+        ],
+        [
+            3,
+            "2.2.8 Adjacent Channel Rejection",
+            36
+        ],
+        [
+            4,
+            "2.2.8.1 1st Adjacent 25 kHz Channels ((25 kHz)",
+            36
+        ],
+        [
+            4,
+            "2.2.8.2 2nd Adjacent 25 kHz Channels ((50 kHz)",
+            37
+        ],
+        [
+            4,
+            "2.2.8.3 3rd Adjacent 25 kHz Channels ((75 kHz) and Beyond",
+            37
+        ],
+        [
+            3,
+            "2.2.9 Out-of-Band Rejection",
+            37
+        ],
+        [
+            4,
+            "2.2.9.1 VDB Interference Immunity",
+            37
+        ],
+        [
+            4,
+            "2.2.9.2 FM Immunity",
+            38
+        ],
+        [
+            5,
+            "2.2.9.2.1 Desensitization",
+            38
+        ],
+        [
+            5,
+            "2.2.9.2.2 Intermodulation Rejection",
+            39
+        ],
+        [
+            4,
+            "2.2.9.3 Burn Out Protection",
+            40
+        ],
+        [
+            3,
+            "2.2.10 Receiver-to-Antenna Interface",
+            40
+        ],
+        [
+            4,
+            "2.2.10.1 Receiver Voltage Standing Wave Ratio (VSWR)",
+            40
+        ],
+        [
+            4,
+            "2.2.10.2 Antenna Characteristics",
+            40
+        ],
+        [
+            5,
+            "2.2.10.2.1 Horizontally Polarized Antenna Characteristics",
+            41
+        ],
+        [
+            6,
+            "2.2.10.2.1.1 Horizontal Antenna Gain",
+            41
+        ],
+        [
+            6,
+            "2.2.10.2.1.2 Horizontal Antenna VSWR",
+            41
+        ],
+        [
+            5,
+            "2.2.10.2.2 Vertically Polarized Antenna Characteristics",
+            41
+        ],
+        [
+            6,
+            "2.2.10.2.2.1 Vertical Antenna Gain",
+            41
+        ],
+        [
+            6,
+            "2.2.10.2.2.2 Vertical Antenna VSWR",
+            42
+        ],
+        [
+            2,
+            "2.3 Position and Navigation (PAN) Subsystem",
+            42
+        ],
+        [
+            3,
+            "2.3.1 General",
+            42
+        ],
+        [
+            3,
+            "2.3.2 Design Assurance",
+            42
+        ],
+        [
+            4,
+            "2.3.2.1 Hardware",
+            42
+        ],
+        [
+            4,
+            "2.3.2.2 Software",
+            43
+        ],
+        [
+            3,
+            "2.3.3 Interference and Dynamics Environment",
+            43
+        ],
+        [
+            3,
+            "2.3.4 Approach and Reference Station Selection",
+            43
+        ],
+        [
+            3,
+            "2.3.5 Reference Data Selectors and Frequency Mapping",
+            44
+        ],
+        [
+            3,
+            "2.3.6 GNSS Receiver Function",
+            44
+        ],
+        [
+            4,
+            "2.3.6.1 Ranging Sources",
+            44
+        ],
+        [
+            4,
+            "2.3.6.2 Sensitivity and Dynamic Range",
+            45
+        ],
+        [
+            4,
+            "2.3.6.3 Equipment Burnout Protection",
+            47
+        ],
+        [
+            4,
+            "2.3.6.4 GPS Signal Processing",
+            47
+        ],
+        [
+            5,
+            "2.3.6.4.1 GPS Tracking Constraints",
+            48
+        ],
+        [
+            5,
+            "2.3.6.4.2 Correlation Peak Validation",
+            52
+        ],
+        [
+            5,
+            "2.3.6.4.3 GPS Satellite Acquisition Time",
+            52
+        ],
+        [
+            5,
+            "2.3.6.4.4 GPS Satellite Reacquisition Time",
+            52
+        ],
+        [
+            5,
+            "2.3.6.4.5 GPS Satellite Initial Acquisition Time",
+            52
+        ],
+        [
+            4,
+            "2.3.6.5 SBAS Signal Processing",
+            53
+        ],
+        [
+            4,
+            "2.3.6.6 Smoothing",
+            54
+        ],
+        [
+            5,
+            "2.3.6.6.1 GAST D Smoothing Requirement",
+            55
+        ],
+        [
+            4,
+            "2.3.6.7 Measurement Quality Monitoring",
+            55
+        ],
+        [
+            4,
+            "2.3.6.8 Accuracy",
+            56
+        ],
+        [
+            5,
+            "2.3.6.8.1 GPS Satellites",
+            56
+        ],
+        [
+            6,
+            "2.3.6.8.1.1 Equipment Class Specific Accuracy Requirements",
+            57
+        ],
+        [
+            5,
+            "2.3.6.8.2 SBAS Satellites",
+            57
+        ],
+        [
+            4,
+            "2.3.6.9 Integrity in the Presence of Interference",
+            58
+        ],
+        [
+            4,
+            "2.3.6.10 Integrity in the Presence of Abnormal Dynamics",
+            58
+        ],
+        [
+            4,
+            "2.3.6.11 Airborne Code Carrier Divergence Filtering",
+            59
+        ],
+        [
+            3,
+            "2.3.7 Message Processing Function",
+            60
+        ],
+        [
+            4,
+            "2.3.7.1 VDB Message Validity Check",
+            60
+        ],
+        [
+            4,
+            "2.3.7.2 VDB Message Block Identifier Check",
+            60
+        ],
+        [
+            4,
+            "2.3.7.3 VDB Message Authentication Protocols",
+            60
+        ],
+        [
+            4,
+            "2.3.7.4 Message Processing Requirements for Forward Compatibility",
+            61
+        ],
+        [
+            3,
+            "2.3.8 Corrected Pseudorange",
+            62
+        ],
+        [
+            4,
+            "2.3.8.1 Conditions for Use of Differential Corrections",
+            62
+        ],
+        [
+            5,
+            "2.3.8.1.1 Ephemeris CRC Conditions",
+            62
+        ],
+        [
+            5,
+            "2.3.8.1.2 Reference Time Conditions",
+            62
+        ],
+        [
+            5,
+            "2.3.8.1.3 Other Ranging Source Conditions",
+            63
+        ],
+        [
+            6,
+            "2.3.8.1.3.1 Ranging Source Conditions for AEC D equipment",
+            64
+        ],
+        [
+            4,
+            "2.3.8.2 Application of Differential Corrections",
+            64
+        ],
+        [
+            5,
+            "2.3.8.2.1 Application of Differential Corrections for 100 Second Smoothed Pseudoranges",
+            65
+        ],
+        [
+            5,
+            "2.3.8.2.2 Application of Differential Corrections for 30 Second Smoothed Pseudoranges",
+            66
+        ],
+        [
+            4,
+            "2.3.8.3 Tropospheric Correction",
+            66
+        ],
+        [
+            3,
+            "2.3.9 LAAS Differential Position Requirements",
+            66
+        ],
+        [
+            4,
+            "2.3.9.1 Differential Position Solution \u2013 One Acceptable Means",
+            67
+        ],
+        [
+            4,
+            "2.3.9.2 Service Type Specific Differential Position Solution Requirements",
+            69
+        ],
+        [
+            5,
+            "2.3.9.2.1 Differential Position Solution for the GBAS Positioning Service",
+            69
+        ],
+        [
+            5,
+            "2.3.9.2.2 Differential Position Solution for Approach Service GAST C",
+            69
+        ],
+        [
+            5,
+            "2.3.9.2.3 Differential Position Solution for Approach Service GAST D",
+            70
+        ],
+        [
+            4,
+            "2.3.9.3 Dual Solution Ionospheric Gradient Monitoring",
+            70
+        ],
+        [
+            4,
+            "2.3.9.4 Satellite Geometry Screening",
+            70
+        ],
+        [
+            4,
+            "2.3.9.5 Differential Correction Magnitude Check",
+            71
+        ],
+        [
+            4,
+            "2.3.9.6 Fault Detection",
+            72
+        ],
+        [
+            5,
+            "2.3.9.6.1 Fault Detection for Satellite Addition",
+            72
+        ],
+        [
+            3,
+            "2.3.10 Position, Velocity, and Time (PVT) Outputs",
+            73
+        ],
+        [
+            4,
+            "2.3.10.1 Message Processing -- GBAS ID Selection",
+            73
+        ],
+        [
+            4,
+            "2.3.10.2 Protection Level, Ephemeris Error Bound, & Figures of Merit",
+            73
+        ],
+        [
+            4,
+            "2.3.10.3 Figures of Merit Outputs",
+            76
+        ],
+        [
+            4,
+            "2.3.10.4 PVT Output Latency",
+            77
+        ],
+        [
+            4,
+            "2.3.10.5 Velocity Accuracy",
+            77
+        ],
+        [
+            3,
+            "2.3.11 Precision Approach Guidance Outputs",
+            77
+        ],
+        [
+            4,
+            "2.3.11.1 Message Processing",
+            77
+        ],
+        [
+            5,
+            "2.3.11.1.1 FAS Data Block Selection and Confirmation",
+            78
+        ],
+        [
+            5,
+            "2.3.11.1.2 GBAS ID Selection",
+            78
+        ],
+        [
+            5,
+            "2.3.11.1.3 Approach Service Type (AST) Selection",
+            78
+        ],
+        [
+            6,
+            "2.3.11.1.3.1 AST Selection for Single Approach Service Type Capable Equipment",
+            78
+        ],
+        [
+            6,
+            "2.3.11.1.3.2 AST Selection for Multiple Approach Service Type Capable Airborne Equipment",
+            78
+        ],
+        [
+            6,
+            "2.3.11.1.3.3 Approach Service Type Output",
+            79
+        ],
+        [
+            4,
+            "2.3.11.2 Precision Approach Region",
+            79
+        ],
+        [
+            4,
+            "2.3.11.3 Approach Status Verification",
+            80
+        ],
+        [
+            4,
+            "2.3.11.4 Ground Continuity Integrity Designator (GCID) Conditions",
+            80
+        ],
+        [
+            4,
+            "2.3.11.5 Outputs",
+            80
+        ],
+        [
+            5,
+            "2.3.11.5.1 Deviations",
+            80
+        ],
+        [
+            6,
+            "2.3.11.5.1.1 Lateral Deviations for the Approach Segment",
+            82
+        ],
+        [
+            7,
+            "2.3.11.5.1.1.1 Proportional Lateral Deviation",
+            82
+        ],
+        [
+            7,
+            "2.3.11.5.1.1.2 Rectilinear Lateral Deviation",
+            83
+        ],
+        [
+            6,
+            "2.3.11.5.1.2 Vertical Deviations for the Approach Segment",
+            83
+        ],
+        [
+            7,
+            "2.3.11.5.1.2.1 Proportional Vertical Deviation",
+            84
+        ],
+        [
+            7,
+            "2.3.11.5.1.2.2 Rectilinear Vertical Deviation",
+            85
+        ],
+        [
+            6,
+            "2.3.11.5.1.3 Deviation Output Rate and Latency",
+            85
+        ],
+        [
+            6,
+            "2.3.11.5.1.4 Missed Approach Guidance",
+            86
+        ],
+        [
+            5,
+            "2.3.11.5.2 Alerts",
+            86
+        ],
+        [
+            6,
+            "2.3.11.5.2.1 Loss of Approach Guidance",
+            86
+        ],
+        [
+            7,
+            "2.3.11.5.2.1.1 Loss of Approach Guidance \u2013 GAST C",
+            86
+        ],
+        [
+            7,
+            "2.3.11.5.2.1.2 Loss of Approach Guidance \u2013 GAST D",
+            87
+        ],
+        [
+            7,
+            "2.3.11.5.2.1.3 Alert Limits",
+            88
+        ],
+        [
+            8,
+            "2.3.11.5.2.1.3.1 Lateral Alert Limits",
+            88
+        ],
+        [
+            8,
+            "2.3.11.5.2.1.3.2 Vertical Alert Limits",
+            89
+        ],
+        [
+            7,
+            "2.3.11.5.2.1.4 Lateral and Vertical Protection Levels",
+            89
+        ],
+        [
+            7,
+            "2.3.11.5.2.1.5 Vertical and Lateral Ephemeris Error Position Bounds",
+            92
+        ],
+        [
+            6,
+            "2.3.11.5.2.2 Bias Approach Monitor (BAM)",
+            94
+        ],
+        [
+            6,
+            "2.3.11.5.2.3 Reference Receiver Fault Monitor (RRFM)",
+            94
+        ],
+        [
+            6,
+            "2.3.11.5.2.4 Protection Levels - Service Type Specific Requirements",
+            95
+        ],
+        [
+            5,
+            "2.3.11.5.3 Distance to Threshold",
+            96
+        ],
+        [
+            6,
+            "2.3.11.5.3.1 Distance to Threshold Output",
+            96
+        ],
+        [
+            6,
+            "2.3.11.5.3.2 Distance to Threshold Output Latency",
+            96
+        ],
+        [
+            3,
+            "2.3.12 Error Models",
+            96
+        ],
+        [
+            4,
+            "2.3.12.1 Model of Airborne Pseudorange Performance",
+            96
+        ],
+        [
+            4,
+            "2.3.12.2 Model of Tropospheric Residual Uncertainty",
+            98
+        ],
+        [
+            4,
+            "2.3.12.3 Model of Ionospheric Residual Uncertainty",
+            98
+        ],
+        [
+            2,
+            "2.4 Equipment Performance Environmental Conditions",
+            99
+        ],
+        [
+            3,
+            "2.4.1 Environmental Tests",
+            100
+        ],
+        [
+            4,
+            "2.4.1.1 VDB Required Performance",
+            100
+        ],
+        [
+            5,
+            "2.4.1.1.1 Antenna Test",
+            105
+        ],
+        [
+            5,
+            "2.4.1.1.2 System Accuracy",
+            105
+        ],
+        [
+            4,
+            "2.4.1.2 PAN Required Performance",
+            105
+        ],
+        [
+            5,
+            "2.4.1.2.1 Accuracy",
+            107
+        ],
+        [
+            5,
+            "2.4.1.2.2 Sensitivity and Dynamic Range",
+            107
+        ],
+        [
+            5,
+            "2.4.1.2.3 System Operating",
+            107
+        ],
+        [
+            4,
+            "2.4.1.3 Clarification of Environmental Tests",
+            108
+        ],
+        [
+            5,
+            "2.4.1.3.1 Power Input Tests",
+            108
+        ],
+        [
+            5,
+            "2.4.1.3.2 Icing Tests",
+            108
+        ],
+        [
+            5,
+            "2.4.1.3.3 RF Susceptibility Tests",
+            108
+        ],
+        [
+            5,
+            "2.4.1.3.4 Lightning Induced Transient Susceptibility Tests",
+            109
+        ],
+        [
+            5,
+            "2.4.1.3.5 Lightning Direct Effects Tests",
+            109
+        ],
+        [
+            5,
+            "2.4.1.3.6 Crash Safety Shock",
+            109
+        ],
+        [
+            2,
+            "2.5 Equipment Test Procedures",
+            109
+        ],
+        [
+            3,
+            "2.5.1 Definition of General Test Terms and Conditions",
+            109
+        ],
+        [
+            4,
+            "2.5.1.1 Power Input Voltage",
+            109
+        ],
+        [
+            4,
+            "2.5.1.2 Power Input Frequency",
+            110
+        ],
+        [
+            4,
+            "2.5.1.3 RF Signal Levels",
+            110
+        ],
+        [
+            4,
+            "2.5.1.4 Adjustment of Equipment",
+            110
+        ],
+        [
+            4,
+            "2.5.1.5 Test Instrument Precautions",
+            110
+        ],
+        [
+            4,
+            "2.5.1.6 Ambient Conditions",
+            110
+        ],
+        [
+            4,
+            "2.5.1.7 Warm-Up",
+            110
+        ],
+        [
+            4,
+            "2.5.1.8 Connected Loads",
+            110
+        ],
+        [
+            4,
+            "2.5.1.9 EMI Testing",
+            111
+        ],
+        [
+            4,
+            "2.5.1.10 Analysis",
+            111
+        ],
+        [
+            4,
+            "2.5.1.11 Demonstration",
+            111
+        ],
+        [
+            4,
+            "2.5.1.12 Inspection",
+            111
+        ],
+        [
+            4,
+            "2.5.1.13 Test",
+            111
+        ],
+        [
+            4,
+            "2.5.1.14 Test Cross Reference Matrix",
+            111
+        ],
+        [
+            3,
+            "2.5.2 VDB Receiver Subsystem Test Procedures",
+            144
+        ],
+        [
+            4,
+            "2.5.2.1 Definition of VDB Test Terms and Conditions",
+            144
+        ],
+        [
+            5,
+            "2.5.2.1.1 Standard Test Signals",
+            144
+        ],
+        [
+            5,
+            "2.5.2.1.2 Test Message Format",
+            145
+        ],
+        [
+            5,
+            "2.5.2.1.3 Statistical Sample Size and Pass/Fail Criteria",
+            145
+        ],
+        [
+            5,
+            "2.5.2.1.4 Standard Output",
+            146
+        ],
+        [
+            4,
+            "2.5.2.2 Detailed Test Procedures",
+            146
+        ],
+        [
+            5,
+            "2.5.2.2.1 General Requirements",
+            146
+        ],
+        [
+            5,
+            "2.5.2.2.2 Tuning",
+            146
+        ],
+        [
+            6,
+            "2.5.2.2.2.1 Frequency Range",
+            146
+        ],
+        [
+            6,
+            "2.5.2.2.2.2 Frequency Selection",
+            146
+        ],
+        [
+            6,
+            "2.5.2.2.2.3 Response Time",
+            146
+        ],
+        [
+            5,
+            "2.5.2.2.3 Data Latency",
+            148
+        ],
+        [
+            5,
+            "2.5.2.2.4 Data Format Decoding",
+            149
+        ],
+        [
+            5,
+            "2.5.2.2.5 Message Failure Rate",
+            150
+        ],
+        [
+            6,
+            "2.5.2.2.5.1 Sensitivity and Dynamic Range",
+            150
+        ],
+        [
+            6,
+            "2.5.2.2.5.2 Frame-to-Frame Variations for a Given Slot",
+            151
+        ],
+        [
+            6,
+            "2.5.2.2.5.3 Slot-to-Slot Variations Within a Given Frame",
+            153
+        ],
+        [
+            6,
+            "2.5.2.2.5.4 Training Sequence and Message Failure Rate Test",
+            155
+        ],
+        [
+            5,
+            "2.5.2.2.6 VDB Signal Tracking Requirements",
+            157
+        ],
+        [
+            6,
+            "2.5.2.2.6.1 Carrier Frequency Capture Range",
+            157
+        ],
+        [
+            6,
+            "2.5.2.2.6.2 Carrier Frequency Slew Rate",
+            159
+        ],
+        [
+            6,
+            "2.5.2.2.6.3 Symbol Rate Tolerance",
+            160
+        ],
+        [
+            5,
+            "2.5.2.2.7 Co-Channel Rejection",
+            161
+        ],
+        [
+            6,
+            "2.5.2.2.7.1 VDB as the Undesired Signal",
+            161
+        ],
+        [
+            6,
+            "2.5.2.2.7.2 VOR as the Undesired Signal",
+            164
+        ],
+        [
+            6,
+            "2.5.2.2.7.3 ILS Localizer as the Undesired Signal",
+            165
+        ],
+        [
+            5,
+            "2.5.2.2.8 Adjacent Channel Rejection",
+            166
+        ],
+        [
+            5,
+            "2.5.2.2.9 Out-of-Band Rejection",
+            172
+        ],
+        [
+            6,
+            "2.5.2.2.9.1 VDB Interference Immunity",
+            172
+        ],
+        [
+            6,
+            "2.5.2.2.9.2 FM Immunity",
+            174
+        ],
+        [
+            7,
+            "2.5.2.2.9.2.1 Desensitization",
+            174
+        ],
+        [
+            7,
+            "2.5.2.2.9.2.2 Intermodulation Rejection",
+            176
+        ],
+        [
+            5,
+            "2.5.2.2.10 Receiver-to-Antenna Interface",
+            179
+        ],
+        [
+            6,
+            "2.5.2.2.10.1 Receiver Voltage Standing Wave Ratio (VSWR)",
+            179
+        ],
+        [
+            6,
+            "2.5.2.2.10.2 Antenna Characteristics",
+            179
+        ],
+        [
+            7,
+            "2.5.2.2.10.2.1 Horizontal Polarized Antenna",
+            179
+        ],
+        [
+            8,
+            "2.5.2.2.10.2.1.1 Horizontal Antenna Gain",
+            179
+        ],
+        [
+            8,
+            "2.5.2.2.10.2.1.2 Horizontal Antenna VSWR",
+            181
+        ],
+        [
+            7,
+            "2.5.2.2.10.2.2 Vertical Polarized Antenna Characteristics",
+            182
+        ],
+        [
+            8,
+            "2.5.2.2.10.2.2.1 Vertical Antenna Gain",
+            182
+        ],
+        [
+            8,
+            "2.5.2.2.10.2.2.2 Vertical Antenna VSWR",
+            184
+        ],
+        [
+            3,
+            "2.5.3 Precision Approach Navigator Tests",
+            184
+        ],
+        [
+            4,
+            "2.5.3.1 Definition of PAN Test Terms and Conditions",
+            184
+        ],
+        [
+            5,
+            "2.5.3.1.1 Standard Test Signals and Simulator Requirements",
+            184
+        ],
+        [
+            4,
+            "2.5.3.2 Accuracy",
+            186
+        ],
+        [
+            5,
+            "2.5.3.2.1 Simulator and Interference Conditions",
+            187
+        ],
+        [
+            5,
+            "2.5.3.2.2 Test Procedure",
+            189
+        ],
+        [
+            5,
+            "2.5.3.2.3 SBAS Tracking Bias",
+            192
+        ],
+        [
+            4,
+            "2.5.3.3 Interference Rejection",
+            192
+        ],
+        [
+            5,
+            "2.5.3.3.1 Simulator and Interference Conditions",
+            192
+        ],
+        [
+            5,
+            "2.5.3.3.2 Test Procedures",
+            193
+        ],
+        [
+            5,
+            "2.5.3.3.3 Pass/Fail Determination",
+            193
+        ],
+        [
+            4,
+            "2.5.3.4 Velocity Accuracy and Velocity Figure of Merit Tests",
+            194
+        ],
+        [
+            5,
+            "2.5.3.4.1 Horizontal Velocity Accuracy Test Conditions",
+            194
+        ],
+        [
+            6,
+            "2.5.3.4.1.1 Horizontal Velocity Accuracy Pass/Fail determination",
+            196
+        ],
+        [
+            6,
+            "2.5.3.4.1.2 Horizontal Velocity Figure of Merit Pass/Fail Determination",
+            196
+        ],
+        [
+            5,
+            "2.5.3.4.2 Vertical Velocity Accuracy Test Conditions",
+            196
+        ],
+        [
+            6,
+            "2.5.3.4.2.1 Vertical Velocity Accuracy Pass/Fail determination",
+            199
+        ],
+        [
+            6,
+            "2.5.3.4.2.2 Vertical Velocity Figure of Merit Pass/Fail Determination",
+            199
+        ],
+        [
+            5,
+            "2.5.3.4.3 Optional Additional Tests To Demonstrate an Improved Level of Accuracy",
+            200
+        ],
+        [
+            1,
+            "3 Installed Equipment Performance Requirements",
+            201
+        ],
+        [
+            2,
+            "3.1 General Performance Requirement",
+            201
+        ],
+        [
+            2,
+            "3.2 Interference Effects",
+            201
+        ],
+        [
+            2,
+            "3.3 Inadvertent Turnoff",
+            201
+        ],
+        [
+            2,
+            "3.4 Test Environment",
+            201
+        ],
+        [
+            2,
+            "3.5 Associated Equipment or Systems",
+            201
+        ],
+        [
+            2,
+            "3.6 Environmental Conditions",
+            201
+        ],
+        [
+            2,
+            "3.7 Adjustment of Equipment",
+            202
+        ],
+        [
+            2,
+            "3.8 Warm-Up Period",
+            202
+        ],
+        [
+            2,
+            "3.9 GPS Antenna and Installation Requirements",
+            202
+        ],
+        [
+            2,
+            "3.10 VDB Aircraft Implementation Factor",
+            202
+        ],
+        [
+            2,
+            "3.11 GNSS Electromagnetic Compatibility",
+            202
+        ],
+        [
+            2,
+            "3.12 VDB Electromagnetic Compatibility",
+            203
+        ],
+        [
+            2,
+            "3.13 Equipment Interfaces",
+            203
+        ],
+        [
+            1,
+            "4 OPERATIONAL PERFORMANCE REQUIREMENTS",
+            205
+        ],
+        [
+            2,
+            "4.1 Alert Presentation",
+            205
+        ],
+        [
+            2,
+            "4.2 Guidance Reference Point",
+            205
+        ],
+        [
+            2,
+            "4.3 Missed Approach Guidance",
+            205
+        ],
+        [
+            1,
+            "5 MEMBERSHIP",
+            207
+        ]
+    ],
+    "pages": 286,
+    "ocr_stats": {
+        "ocr_pages": 6,
+        "ocr_failed": 6,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 548,
+        "code": 106,
+        "table": 64,
+        "equations": {
+            "successful_ocr": 79,
+            "unsuccessful_ocr": 8,
+            "equations": 87
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

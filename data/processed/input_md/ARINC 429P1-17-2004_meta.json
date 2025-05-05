@@ -1,0 +1,260 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            "Cover",
+            1
+        ],
+        [
+            1,
+            "Disclaimer",
+            2
+        ],
+        [
+            1,
+            "Title Page",
+            3
+        ],
+        [
+            1,
+            "Foreword",
+            4
+        ],
+        [
+            1,
+            "Table of Contents",
+            5
+        ],
+        [
+            1,
+            "1.0 Introduction",
+            7
+        ],
+        [
+            1,
+            "2.0 Digital Information Transfer System Standards",
+            8
+        ],
+        [
+            1,
+            "3.0 Mark 33 DITS Applications Notes",
+            17
+        ],
+        [
+            1,
+            "Att 1-1 - Label Codes",
+            19
+        ],
+        [
+            1,
+            "Att 1-2 - Equipment Codes",
+            49
+        ],
+        [
+            1,
+            "Att 2 - Data Standards",
+            53
+        ],
+        [
+            1,
+            "Att 3 - Voltage Levels",
+            81
+        ],
+        [
+            1,
+            "Att 4 - Input/Output",
+            82
+        ],
+        [
+            1,
+            "Att 5 - International Standards Organization Code #5",
+            83
+        ],
+        [
+            1,
+            "Att 6 - General Word Formats and Encoding Examples",
+            84
+        ],
+        [
+            1,
+            "Att 7 - Data Bit Encoding Logic",
+            123
+        ],
+        [
+            1,
+            "Att 8 - Output Signal Timing Tolerances",
+            124
+        ],
+        [
+            1,
+            "Att 9A - General Aviation Labels and Data Standards",
+            125
+        ],
+        [
+            1,
+            "Att 9B - General Aviation Word Examples",
+            127
+        ],
+        [
+            1,
+            "Att 9C - General Aviation Equipment Indentifiers",
+            134
+        ],
+        [
+            1,
+            "Att 10 - Manufacturer Specific Status Word",
+            135
+        ],
+        [
+            1,
+            "Att 11 - System Address Labels",
+            136
+        ],
+        [
+            1,
+            "App A - Laboratory Verification of ARINC 429 DITS Electrical Characteristics",
+            136
+        ],
+        [
+            1,
+            "App B - An Approach to a Hybrid Broadcast - Command/Response Data Bus Architecture",
+            171
+        ],
+        [
+            1,
+            "App C - Digital Systems Guidance (Part 1)",
+            176
+        ],
+        [
+            1,
+            "App D - Digital Systems Guidance (Part 2)",
+            183
+        ],
+        [
+            1,
+            "App E - Guidelines for Label Assignments",
+            188
+        ],
+        [
+            1,
+            "App X - Chronology & Bibliography",
+            190
+        ],
+        [
+            1,
+            "Supplement 1",
+            194
+        ],
+        [
+            1,
+            "Supplement 2",
+            198
+        ],
+        [
+            1,
+            "Supplement 3",
+            206
+        ],
+        [
+            1,
+            "Supplement 4",
+            215
+        ],
+        [
+            1,
+            "Supplement 5",
+            227
+        ],
+        [
+            1,
+            "Supplement 6",
+            234
+        ],
+        [
+            1,
+            "Supplement 7",
+            237
+        ],
+        [
+            1,
+            "Supplement 8",
+            239
+        ],
+        [
+            1,
+            "Supplement 9",
+            241
+        ],
+        [
+            1,
+            "Supplement 10",
+            243
+        ],
+        [
+            1,
+            "Supplement 11",
+            268
+        ],
+        [
+            1,
+            "Supplement 12",
+            270
+        ],
+        [
+            1,
+            "Supplement 13",
+            273
+        ],
+        [
+            1,
+            "Supplement 14",
+            276
+        ],
+        [
+            1,
+            "Supplement 15",
+            280
+        ],
+        [
+            1,
+            "Supplement 16",
+            288
+        ],
+        [
+            1,
+            "Supplement 17",
+            300
+        ],
+        [
+            1,
+            "ARINC IA Project Initiation/Modification (APIM) Guidelines for Submittal",
+            303
+        ],
+        [
+            1,
+            "ARINC Standard - Errata REport",
+            307
+        ]
+    ],
+    "pages": 307,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 2,
+        "table": 46,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

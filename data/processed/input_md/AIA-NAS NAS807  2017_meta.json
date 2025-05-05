@@ -1,0 +1,200 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            "1. iNTRODUCTION",
+            3
+        ],
+        [
+            1,
+            "2. TYPES",
+            3
+        ],
+        [
+            2,
+            "2.1 Landing gear for amphibious floats",
+            3
+        ],
+        [
+            1,
+            "3. MATERIAL AND WORKMANSHIP",
+            3
+        ],
+        [
+            2,
+            "3.1 Fabrication methods",
+            3
+        ],
+        [
+            2,
+            "3.2 Composite materials",
+            3
+        ],
+        [
+            3,
+            "3.2.1 Composite structural considerations",
+            4
+        ],
+        [
+            2,
+            "3.3 Standard fastenings",
+            4
+        ],
+        [
+            2,
+            "3.4 Protection",
+            4
+        ],
+        [
+            2,
+            "3.5 Inspection provisions",
+            5
+        ],
+        [
+            2,
+            "3.6 Identification",
+            5
+        ],
+        [
+            1,
+            "4. DETAIL REQUIREMENTS",
+            5
+        ],
+        [
+            2,
+            "4.1 Buoyancy",
+            5
+        ],
+        [
+            3,
+            "4.1.1 Flooded compartment buoyancy",
+            5
+        ],
+        [
+            2,
+            "4.2 Strength",
+            5
+        ],
+        [
+            3,
+            "4.2.1 Material Strength Properties",
+            5
+        ],
+        [
+            3,
+            "4.2.2 Loads",
+            5
+        ],
+        [
+            3,
+            "4.2.3 Factor of safety",
+            5
+        ],
+        [
+            4,
+            "4.2.3.1 Special factors",
+            6
+        ],
+        [
+            4,
+            "4.2.3.2 Casting Factors",
+            6
+        ],
+        [
+            4,
+            "4.2.3.3 Bearing factors",
+            6
+        ],
+        [
+            4,
+            "4.2.3.4 Fitting factor",
+            6
+        ],
+        [
+            4,
+            "4.2.3.5 Structural Bonds",
+            6
+        ],
+        [
+            3,
+            "4.2.4 Strength and deformation",
+            6
+        ],
+        [
+            2,
+            "4.3 Water loads",
+            6
+        ],
+        [
+            3,
+            "4.3.1 Design weights",
+            6
+        ],
+        [
+            3,
+            "4.3.2 Design landing conditions",
+            7
+        ],
+        [
+            3,
+            "4.3.3 Limit load factors for general structure design",
+            7
+        ],
+        [
+            4,
+            "4.3.3.1 Step landing",
+            7
+        ],
+        [
+            4,
+            "4.3.3.2 Bow landing",
+            8
+        ],
+        [
+            4,
+            "4.3.3.3 Stern landing",
+            8
+        ],
+        [
+            4,
+            "4.3.3.4 Unsymmetrical landing - two-float landing with drift",
+            8
+        ],
+        [
+            3,
+            "4.3.4 Float detail design",
+            8
+        ],
+        [
+            4,
+            "4.3.4.1 Local pressure distribution",
+            8
+        ],
+        [
+            4,
+            "4.3.4.2 Distributed bottom pressures for general design",
+            9
+        ]
+    ],
+    "pages": 13,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 52,
+        "code": 0,
+        "table": 0,
+        "equations": {
+            "successful_ocr": 4,
+            "unsuccessful_ocr": 0,
+            "equations": 4
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

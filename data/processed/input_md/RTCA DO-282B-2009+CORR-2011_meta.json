@@ -1,0 +1,4050 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            "1 PURPOSE AND SCOPE",
+            31
+        ],
+        [
+            2,
+            "1.1 Introduction",
+            31
+        ],
+        [
+            2,
+            "1.2 ADS-B System Overview",
+            34
+        ],
+        [
+            2,
+            "1.3 UAT System Overview",
+            35
+        ],
+        [
+            3,
+            "1.3.1 UAT Medium Access for ADS-B and Ground Uplink Segments",
+            35
+        ],
+        [
+            3,
+            "1.3.2 Ground Uplink Message Transmissions",
+            36
+        ],
+        [
+            3,
+            "1.3.3 ADS-B Message Transmissions",
+            37
+        ],
+        [
+            3,
+            "1.3.4 Traffic Information Service - Broadcast (TIS-B) Transmission",
+            37
+        ],
+        [
+            3,
+            "1.3.5 UAT ADS-B Message Structure and Scheduling",
+            38
+        ],
+        [
+            2,
+            "1.4 Operational Goals and Applications",
+            39
+        ],
+        [
+            3,
+            "1.4.1 Applications Involving Cockpit Display of Traffic Information (CDTI)",
+            40
+        ],
+        [
+            4,
+            "1.4.1.1 Aid to Visual Acquisition",
+            40
+        ],
+        [
+            4,
+            "1.4.1.2 Enhanced Traffic Situational Awareness",
+            40
+        ],
+        [
+            4,
+            "1.4.1.3 Station Keeping and Maintenance of Established Separation",
+            40
+        ],
+        [
+            4,
+            "1.4.1.4 CDTI-Based Electronic Flight Rules (CEFR)",
+            41
+        ],
+        [
+            3,
+            "1.4.2 Applications Involving Airborne Conflict Management and Future Collision Avoidance",
+            41
+        ],
+        [
+            4,
+            "1.4.2.1 Future Airborne Collision Avoidance",
+            41
+        ],
+        [
+            4,
+            "1.4.2.2 Airborne Conflict Management",
+            41
+        ],
+        [
+            3,
+            "1.4.3 Airport Surface Applications",
+            41
+        ],
+        [
+            3,
+            "1.4.4 Support of Ground-Based Surveillance Applications",
+            42
+        ],
+        [
+            3,
+            "1.4.5 Other Applications",
+            42
+        ],
+        [
+            2,
+            "1.5 Assumptions and Rationale",
+            42
+        ],
+        [
+            2,
+            "1.6 Test Procedures",
+            42
+        ],
+        [
+            1,
+            "2 Equipment Performance Requirements and Test Procedures",
+            45
+        ],
+        [
+            2,
+            "2.1 General Requirements",
+            45
+        ],
+        [
+            3,
+            "2.1.1 Airworthiness",
+            45
+        ],
+        [
+            3,
+            "2.1.2 Intended Function",
+            45
+        ],
+        [
+            3,
+            "2.1.3 Federal Communications Commission Rules",
+            45
+        ],
+        [
+            3,
+            "2.1.4 Fire Protection",
+            45
+        ],
+        [
+            3,
+            "2.1.5 Operation of Controls",
+            45
+        ],
+        [
+            3,
+            "2.1.6 Accessibility of Controls",
+            45
+        ],
+        [
+            3,
+            "2.1.7 Equipment Interfaces",
+            45
+        ],
+        [
+            3,
+            "2.1.8 Effects of Test",
+            46
+        ],
+        [
+            3,
+            "2.1.9 Integration with Other Avionics Equipment",
+            46
+        ],
+        [
+            3,
+            "2.1.10 Design Assurance",
+            46
+        ],
+        [
+            3,
+            "2.1.11 Equipage Classes",
+            46
+        ],
+        [
+            3,
+            "2.1.12 Transmitting Subsystem",
+            48
+        ],
+        [
+            3,
+            "2.1.13 Receiving Subsystem",
+            49
+        ],
+        [
+            3,
+            "2.1.14 Antenna Subsystem",
+            49
+        ],
+        [
+            2,
+            "2.2 Equipment Performance \u2013 Standard Conditions",
+            49
+        ],
+        [
+            3,
+            "2.2.1 Definition of Standard Conditions",
+            49
+        ],
+        [
+            4,
+            "2.2.1.1 Signal Levels",
+            49
+        ],
+        [
+            4,
+            "2.2.1.2 Desired Signals",
+            49
+        ],
+        [
+            4,
+            "2.2.1.3 Data Quantization",
+            49
+        ],
+        [
+            3,
+            "2.2.2 ADS-B Transmitter Characteristics",
+            50
+        ],
+        [
+            4,
+            "2.2.2.1 Transmission Frequency",
+            50
+        ],
+        [
+            4,
+            "2.2.2.2 Modulation Rate",
+            50
+        ],
+        [
+            4,
+            "2.2.2.3 Modulation Type",
+            50
+        ],
+        [
+            4,
+            "2.2.2.4 Modulation Distortion",
+            51
+        ],
+        [
+            4,
+            "2.2.2.5 Transmitter Power Output",
+            51
+        ],
+        [
+            4,
+            "2.2.2.6 In Band Transmission Spectrum",
+            52
+        ],
+        [
+            4,
+            "2.2.2.7 Out-of-Band Emissions",
+            53
+        ],
+        [
+            3,
+            "2.2.3 Broadcast Message Characteristics",
+            53
+        ],
+        [
+            4,
+            "2.2.3.1 ADS-B Message Format",
+            54
+        ],
+        [
+            5,
+            "2.2.3.1.1 Synchronization",
+            54
+        ],
+        [
+            5,
+            "2.2.3.1.2 Payload",
+            54
+        ],
+        [
+            5,
+            "2.2.3.1.3 FEC Parity",
+            54
+        ],
+        [
+            6,
+            "2.2.3.1.3.1 Code Type",
+            54
+        ],
+        [
+            6,
+            "2.2.3.1.3.2 Generation and Transmission Order of FEC Parity",
+            55
+        ],
+        [
+            4,
+            "2.2.3.2 Ground Uplink Message Format",
+            55
+        ],
+        [
+            5,
+            "2.2.3.2.1 Synchronization",
+            56
+        ],
+        [
+            5,
+            "2.2.3.2.2 Payload (Before Interleaving and After De-interleaving)",
+            56
+        ],
+        [
+            6,
+            "2.2.3.2.2.1 UAT-Specific Header",
+            57
+        ],
+        [
+            7,
+            "2.2.3.2.2.1.1 \u201cGROUND STATION LATITUDE\u201d Field Encoding",
+            57
+        ],
+        [
+            7,
+            "2.2.3.2.2.1.2 \u201cGROUND STATION LONGITUDE\u201d Field Encoding",
+            57
+        ],
+        [
+            7,
+            "2.2.3.2.2.1.3 \u201cPOSITION VALID\u201d Field Encoding",
+            58
+        ],
+        [
+            7,
+            "2.2.3.2.2.1.4 \u201cUTC COUPLED\u201d Field Encoding",
+            58
+        ],
+        [
+            7,
+            "2.2.3.2.2.1.5 Reserved Bit",
+            58
+        ],
+        [
+            7,
+            "2.2.3.2.2.1.6 \u201cAPPLICATION DATA VALID\u201d Field Encoding",
+            58
+        ],
+        [
+            7,
+            "2.2.3.2.2.1.7 \u201cSLOT ID\u201d Field Encoding",
+            58
+        ],
+        [
+            7,
+            "2.2.3.2.2.1.8 \u201cTIS-B SITE ID\u201d Field Encoding",
+            58
+        ],
+        [
+            7,
+            "2.2.3.2.2.1.9 Reserved Bits",
+            59
+        ],
+        [
+            6,
+            "2.2.3.2.2.2 Ground Uplink Application Data",
+            59
+        ],
+        [
+            7,
+            "2.2.3.2.2.2.1 The Length Subfield Encoding",
+            59
+        ],
+        [
+            7,
+            "2.2.3.2.2.2.2 The Reserved Subfield Encoding",
+            59
+        ],
+        [
+            7,
+            "2.2.3.2.2.2.3 The Frame Type Subfield Encoding",
+            60
+        ],
+        [
+            7,
+            "2.2.3.2.2.2.4 The Frame Data Content",
+            60
+        ],
+        [
+            8,
+            "2.2.3.2.2.2.4.1 FIS-B APDU",
+            60
+        ],
+        [
+            8,
+            "2.2.3.2.2.2.4.2 TIS-B/ADS-R Service Status",
+            60
+        ],
+        [
+            8,
+            "2.2.3.2.2.2.4.3 Other Potential Future Frame Data Content",
+            60
+        ],
+        [
+            5,
+            "2.2.3.2.3 FEC Parity (Before Interleaving and After De-interleaving)",
+            61
+        ],
+        [
+            6,
+            "2.2.3.2.3.1 Code Type ",
+            61
+        ],
+        [
+            6,
+            "2.2.3.2.3.2 Generation and Transmission Order of FEC Parity",
+            61
+        ],
+        [
+            5,
+            "2.2.3.2.4 Interleaved Payload and FEC Parity",
+            61
+        ],
+        [
+            3,
+            "2.2.4 The ADS-B Message Payload",
+            62
+        ],
+        [
+            4,
+            "2.2.4.1 Payload Type",
+            62
+        ],
+        [
+            4,
+            "2.2.4.2 Payload Elements",
+            62
+        ],
+        [
+            4,
+            "2.2.4.3 ADS-B Payload Composition by Payload Type Code",
+            63
+        ],
+        [
+            4,
+            "2.2.4.4 Payload Transmission Order",
+            63
+        ],
+        [
+            4,
+            "2.2.4.5 Payload Contents",
+            64
+        ],
+        [
+            5,
+            "2.2.4.5.1 HEADER Element",
+            64
+        ],
+        [
+            6,
+            "2.2.4.5.1.1 \u201cPAYLOAD TYPE CODE\u201d Field Encoding",
+            64
+        ],
+        [
+            6,
+            "2.2.4.5.1.2 \u201cADDRESS QUALIFIER\u201d Field Encoding",
+            64
+        ],
+        [
+            6,
+            "2.2.4.5.1.3 \u201cADDRESS\u201d Field Encoding",
+            65
+        ],
+        [
+            7,
+            "2.2.4.5.1.3.1 ICAO 24-bit Aircraft Address of Transmitting Aircraft",
+            65
+        ],
+        [
+            7,
+            "2.2.4.5.1.3.2 Self-Assigned Temporary Address of Transmitting Aircraft",
+            65
+        ],
+        [
+            7,
+            "2.2.4.5.1.3.3 ICAO 24-bit Aircraft Address of TIS-B or ADS-R Target Aircraft",
+            66
+        ],
+        [
+            7,
+            "2.2.4.5.1.3.4 TIS-B Track File Identifier",
+            66
+        ],
+        [
+            7,
+            "2.2.4.5.1.3.5 Surface Vehicle Address",
+            66
+        ],
+        [
+            7,
+            "2.2.4.5.1.3.6 Fixed ADS-B Beacon Address",
+            66
+        ],
+        [
+            7,
+            "2.2.4.5.1.3.7 ADS-R Target with Non-ICAO Address",
+            66
+        ],
+        [
+            5,
+            "2.2.4.5.2 STATE VECTOR Element",
+            67
+        ],
+        [
+            6,
+            "2.2.4.5.2.1 \u201cLATITUDE\u201d and \u201cLONGITUDE\u201d Field Encoding",
+            67
+        ],
+        [
+            6,
+            "2.2.4.5.2.2 \u201cALTITUDE TYPE\u201d Field Encoding",
+            70
+        ],
+        [
+            6,
+            "2.2.4.5.2.3 \u201cALTITUDE\u201d Field Encoding",
+            70
+        ],
+        [
+            6,
+            "2.2.4.5.2.4 \u201cNIC\u201d Field Encoding",
+            71
+        ],
+        [
+            6,
+            "2.2.4.5.2.5 \u201cA/G STATE\u201d Field Encoding",
+            73
+        ],
+        [
+            7,
+            "2.2.4.5.2.5.1 Determination of Vertical Status",
+            74
+        ],
+        [
+            7,
+            "2.2.4.5.2.5.2 Validation of Vertical Status",
+            76
+        ],
+        [
+            6,
+            "2.2.4.5.2.6 \u201cHORIZONTAL VELOCITY\u201d Subfields",
+            77
+        ],
+        [
+            7,
+            "2.2.4.5.2.6.1 Encoding as \u201cNorth Velocity\u201d Form ",
+            77
+        ],
+        [
+            7,
+            "2.2.4.5.2.6.2 Encoding as \u201cGround Speed\u201d Form",
+            78
+        ],
+        [
+            7,
+            "2.2.4.5.2.6.3 Encoding as \u201cEast Velocity\u201d Form",
+            79
+        ],
+        [
+            7,
+            "2.2.4.5.2.6.4 Encoding as \u201cTrack Angle/Heading\u201d Form ",
+            80
+        ],
+        [
+            6,
+            "2.2.4.5.2.7 \u201cVERTICAL VELOCITY or A/V SIZE\u201d Field",
+            81
+        ],
+        [
+            7,
+            "2.2.4.5.2.7.1 Encoding as \u201cVertical Velocity\u201d Form",
+            81
+        ],
+        [
+            8,
+            "2.2.4.5.2.7.1.1 \u201cVV Src\u201d Subfield Encoding",
+            81
+        ],
+        [
+            8,
+            "2.2.4.5.2.7.1.2 \u201cVV Sign\u201d Subfield Encoding",
+            82
+        ],
+        [
+            8,
+            "2.2.4.5.2.7.1.3 \u201cVertical Rate\u201d Subfield Encoding",
+            82
+        ],
+        [
+            7,
+            "2.2.4.5.2.7.2 Encoding as \u201cA/V Size\u201d Form",
+            83
+        ],
+        [
+            6,
+            "2.2.4.5.2.8 \u201cUTC\u201d Field Encoding",
+            85
+        ],
+        [
+            6,
+            "2.2.4.5.2.9 Uplink Feedback Encoding",
+            85
+        ],
+        [
+            6,
+            "2.2.4.5.2.10 Reserved Byte 18 of Payload Type Zero",
+            87
+        ],
+        [
+            5,
+            "2.2.4.5.3 STATE VECTOR Element (For TIS-B or ADS-R)",
+            87
+        ],
+        [
+            6,
+            "2.2.4.5.3.1 \u201cTIS-B SITE ID\u201d Field Encoding",
+            88
+        ],
+        [
+            6,
+            "2.2.4.5.3.2 Encoding for All Other Fields",
+            88
+        ],
+        [
+            5,
+            "2.2.4.5.4 MODE STATUS Element",
+            89
+        ],
+        [
+            6,
+            "2.2.4.5.4.1 \u201cEMITTER CATEGORY\u201d Field ",
+            89
+        ],
+        [
+            6,
+            "2.2.4.5.4.2 \u201cCALL SIGN/FLIGHT PLAN ID\u201d Field",
+            90
+        ],
+        [
+            6,
+            "2.2.4.5.4.3 Compressed Format Encoding for \u201cEMITTER CATEGORY\u201d and \u201cCALL SIGN /FLIGHT PLAN ID\u201d",
+            92
+        ],
+        [
+            7,
+            "2.2.4.5.4.3.1 Bytes 18 and 19",
+            92
+        ],
+        [
+            7,
+            "2.2.4.5.4.3.2 Bytes 20 and 21",
+            92
+        ],
+        [
+            7,
+            "2.2.4.5.4.3.3 Bytes 22 and 23",
+            92
+        ],
+        [
+            6,
+            "2.2.4.5.4.4 \u201cEMERGENCY/PRIORITY STATUS\u201d Field Encoding",
+            93
+        ],
+        [
+            6,
+            "2.2.4.5.4.5 \u201cUAT MOPS VERSION\u201d Field Encoding",
+            93
+        ],
+        [
+            6,
+            "2.2.4.5.4.6 \u201cSIL\u201d Field Encoding",
+            94
+        ],
+        [
+            6,
+            "2.2.4.5.4.7 \u201cTRANSMIT MSO\u201d Field Encoding",
+            95
+        ],
+        [
+            6,
+            "2.2.4.5.4.8 \u201cSystem Design Assurance\u201d (SDA) Field Encoding",
+            95
+        ],
+        [
+            6,
+            "2.2.4.5.4.9 \u201cNACP\u201d Field Encoding",
+            95
+        ],
+        [
+            6,
+            "2.2.4.5.4.10 \u201cNACV\u201d Field Encoding",
+            96
+        ],
+        [
+            6,
+            "2.2.4.5.4.11 \u201cNICBARO\u201d Field Encoding",
+            97
+        ],
+        [
+            6,
+            "2.2.4.5.4.12 \u201cCAPABILITY CODES\u201d Field Encoding",
+            98
+        ],
+        [
+            7,
+            "2.2.4.5.4.12.1 \u201cUAT IN Capability\u201d Subfield Encoding",
+            98
+        ],
+        [
+            7,
+            "2.2.4.5.4.12.2 \u201c1090ES IN Capability\u201d Subfield Encoding",
+            99
+        ],
+        [
+            7,
+            "2.2.4.5.4.12.3 \u201cTCAS/ACAS Operational\u201d Subfield Encoding",
+            99
+        ],
+        [
+            6,
+            "2.2.4.5.4.13 \u201cOPERATIONAL MODES\u201d Field Encoding",
+            99
+        ],
+        [
+            7,
+            "2.2.4.5.4.13.1 \u201cTCAS/ACAS Resolution Advisory\u201d Flag",
+            100
+        ],
+        [
+            7,
+            "2.2.4.5.4.13.2 \u201cIDENT Switch Active\u201d Flag",
+            100
+        ],
+        [
+            7,
+            "2.2.4.5.4.13.3 \u201cReserved for Receiving ATC Services\u201d Flag",
+            100
+        ],
+        [
+            6,
+            "2.2.4.5.4.14 Call Sign Identification (CSID) Flag",
+            101
+        ],
+        [
+            6,
+            "2.2.4.5.4.15 CSID Logic Configuration Item",
+            101
+        ],
+        [
+            6,
+            "2.2.4.5.4.16 Source Integrity Level (SIL) Supplement (SILSUPP) Flag Encoding",
+            101
+        ],
+        [
+            6,
+            "2.2.4.5.4.17 \u201cGeometric Vertical Accuracy\u201d (GVA) Field Encoding",
+            102
+        ],
+        [
+            6,
+            "2.2.4.5.4.18 \u201cSingle Antenna\u201d Flag Encoding",
+            102
+        ],
+        [
+            6,
+            "2.2.4.5.4.19 Navigational Integrity Category (NIC) Supplement (NICSUPP) Flag",
+            103
+        ],
+        [
+            6,
+            "2.2.4.5.4.20 Reserved Bits",
+            103
+        ],
+        [
+            5,
+            "2.2.4.5.5 AUXILIARY STATE VECTOR Element",
+            103
+        ],
+        [
+            6,
+            "2.2.4.5.5.1 \u201cSECONDARY ALTITUDE\u201d Field Encoding",
+            103
+        ],
+        [
+            6,
+            "2.2.4.5.5.2 Reserved Bits",
+            104
+        ],
+        [
+            5,
+            "2.2.4.5.6 TARGET STATE Element (Payload Type Codes \u201c3\u201d and \u201c4\u201d)",
+            104
+        ],
+        [
+            6,
+            "2.2.4.5.6.1 \u201cSelected Altitude Type (SAT)\u201d Field Encoding",
+            104
+        ],
+        [
+            6,
+            "2.2.4.5.6.2 \u201cSelected Altitude\u201d Field Encoding",
+            105
+        ],
+        [
+            6,
+            "2.2.4.5.6.3 \u201cBarometric Pressure Setting\u201d (Minus 800 millibars) Field Encoding",
+            105
+        ],
+        [
+            6,
+            "2.2.4.5.6.4 \u201cSelected Heading\u201d Field Encoding",
+            106
+        ],
+        [
+            6,
+            "2.2.4.5.6.5 \u201cStatus of MCP/FCU Mode Bits\u201d (ST) Field Encoding",
+            107
+        ],
+        [
+            6,
+            "2.2.4.5.6.6 \u201cMode Indicators: Autopilot Engaged\u201d (AP) Field Encoding",
+            107
+        ],
+        [
+            6,
+            "2.2.4.5.6.7 \u201cMode Indicators: VNAV Mode Engaged\u201d (VNAV) Field Encoding",
+            108
+        ],
+        [
+            6,
+            "2.2.4.5.6.8 \u201cMode Indicators: Altitude Hold Mode\u201d (ALT) Field Encoding",
+            108
+        ],
+        [
+            6,
+            "2.2.4.5.6.9 \u201cMode Indicators: Approach Mode\u201d (APP) Field Encoding",
+            108
+        ],
+        [
+            6,
+            "2.2.4.5.6.10 \u201cMode Indicators: LNAV Mode Engaged\u201d (LNAV) Field Encoding",
+            108
+        ],
+        [
+            6,
+            "2.2.4.5.6.11 Reserved Bits",
+            108
+        ],
+        [
+            5,
+            "2.2.4.5.7 TARGET STATE Element (Payload Type Code \u201c6\u201d)",
+            108
+        ],
+        [
+            5,
+            "2.2.4.5.8 TRAJECTORY CHANGE Element",
+            109
+        ],
+        [
+            3,
+            "2.2.5 Procedures for Processing of Time Data",
+            109
+        ],
+        [
+            4,
+            "2.2.5.1 UTC Coupled Condition",
+            109
+        ],
+        [
+            4,
+            "2.2.5.2 Non-UTC Coupled Condition",
+            111
+        ],
+        [
+            3,
+            "2.2.6 Procedures for ADS-B Message Transmission",
+            112
+        ],
+        [
+            4,
+            "2.2.6.1 Scheduling of ADS-B Message Types",
+            112
+        ],
+        [
+            5,
+            "2.2.6.1.1 Payload Selection Cycle",
+            112
+        ],
+        [
+            5,
+            "2.2.6.1.2 ADS-B Payload Type Allocation",
+            113
+        ],
+        [
+            6,
+            "2.2.6.1.2.1 Event-Driven ADS-B Payload Allocation",
+            113
+        ],
+        [
+            5,
+            "2.2.6.1.3 Message Transmission Cycle",
+            114
+        ],
+        [
+            4,
+            "2.2.6.2 ADS-B Message Transmit Timing",
+            114
+        ],
+        [
+            5,
+            "2.2.6.2.1 The Message Start Opportunity (MSO)",
+            114
+        ],
+        [
+            5,
+            "2.2.6.2.2 Relationship of the MSO to the Modulated Data",
+            115
+        ],
+        [
+            4,
+            "2.2.6.3 Report Assembly on Transmission of Ownship ADS-B Message",
+            116
+        ],
+        [
+            3,
+            "2.2.7 UAT Transmitter Message Data Characteristics",
+            116
+        ],
+        [
+            4,
+            "2.2.7.1 UAT Transmitter Input Requirements",
+            116
+        ],
+        [
+            4,
+            "2.2.7.2 Time Registration and Latency",
+            118
+        ],
+        [
+            5,
+            "2.2.7.2.1 Requirements When in Non-Precision Condition and UTC Coupled",
+            118
+        ],
+        [
+            5,
+            "2.2.7.2.2 Requirements When in Precision Condition and UTC Coupled",
+            119
+        ],
+        [
+            5,
+            "2.2.7.2.3 Requirements When Non-UTC Coupled",
+            119
+        ],
+        [
+            5,
+            "2.2.7.2.4 Total Latency of Position Measurements",
+            119
+        ],
+        [
+            5,
+            "2.2.7.2.5 Data Timeout",
+            119
+        ],
+        [
+            3,
+            "2.2.8 Receiver Characteristics",
+            120
+        ],
+        [
+            4,
+            "2.2.8.1 Receiving Diversity",
+            120
+        ],
+        [
+            4,
+            "2.2.8.2 Receiver Performance",
+            121
+        ],
+        [
+            5,
+            "2.2.8.2.1 Receiver Sensitivity",
+            121
+        ],
+        [
+            6,
+            "2.2.8.2.1.1 Long ADS-B Message As Desired Signal",
+            121
+        ],
+        [
+            6,
+            "2.2.8.2.1.2 Basic ADS-B Message As Desired Signal",
+            121
+        ],
+        [
+            6,
+            "2.2.8.2.1.3 Ground Uplink Message As Desired Signal",
+            122
+        ],
+        [
+            5,
+            "2.2.8.2.2 Receiver Desired Signal Dynamic Range",
+            122
+        ],
+        [
+            5,
+            "2.2.8.2.3 Receiver Selectivity",
+            122
+        ],
+        [
+            5,
+            "2.2.8.2.4 Receiver Tolerance to Pulsed Interference",
+            123
+        ],
+        [
+            5,
+            "2.2.8.2.5 Receiver Tolerance to Overlapping ADS-B Messages (Self Interference)",
+            124
+        ],
+        [
+            5,
+            "2.2.8.2.6 Rate of False \u201cTrigger\u201d",
+            124
+        ],
+        [
+            5,
+            "2.2.8.2.7 Trigger Processing Rate",
+            125
+        ],
+        [
+            4,
+            "2.2.8.3 Receiver Message Processing",
+            125
+        ],
+        [
+            5,
+            "2.2.8.3.1 Criteria for Successful Message Reception",
+            125
+        ],
+        [
+            6,
+            "2.2.8.3.1.1 ADS-B Messages",
+            125
+        ],
+        [
+            6,
+            "2.2.8.3.1.2 Ground Uplink Messages",
+            126
+        ],
+        [
+            5,
+            "2.2.8.3.2 Receiver Discrimination Between ADS-B and Ground Uplink Message Types",
+            126
+        ],
+        [
+            5,
+            "2.2.8.3.3 Receiver Processing of ADS-B Synchronization \u201cTrigger\u201d",
+            126
+        ],
+        [
+            5,
+            "2.2.8.3.4 Receiver Processing of Ground Uplink Synchronization \u201cTrigger\u201d",
+            127
+        ],
+        [
+            5,
+            "2.2.8.3.5 Receiver Time of Message Receipt",
+            127
+        ],
+        [
+            3,
+            "2.2.9 Report Assembly Requirements",
+            128
+        ],
+        [
+            4,
+            "2.2.9.1 Report Assembly on Receipt of ADS-B Message",
+            128
+        ],
+        [
+            4,
+            "2.2.9.2 Report Assembly on Receipt of Ground Uplink Message",
+            128
+        ],
+        [
+            3,
+            "2.2.10 Receiver Subsystem Capacity and Throughput Requirements",
+            129
+        ],
+        [
+            4,
+            "2.2.10.1 Fundamental Principals of Report Assembly",
+            129
+        ],
+        [
+            4,
+            "2.2.10.2 Capacity for Successful Message Reception",
+            130
+        ],
+        [
+            4,
+            "2.2.10.3 Applicable Messages",
+            130
+        ],
+        [
+            4,
+            "2.2.10.4 Message Reception-to-Report Completion Time",
+            131
+        ],
+        [
+            3,
+            "2.2.11 Special Requirements for Transceiver Implementations",
+            131
+        ],
+        [
+            4,
+            "2.2.11.1 Transmit-Receive Turnaround Time",
+            131
+        ],
+        [
+            4,
+            "2.2.11.2 Receive-Transmit Turnaround Time",
+            132
+        ],
+        [
+            3,
+            "2.2.12 Mutual Suppression Pulses",
+            132
+        ],
+        [
+            3,
+            "2.2.13 Self Test and Monitors",
+            132
+        ],
+        [
+            4,
+            "2.2.13.1 Self Test",
+            132
+        ],
+        [
+            4,
+            "2.2.13.2 Broadcast Monitoring",
+            133
+        ],
+        [
+            4,
+            "2.2.13.3 Address Verification",
+            133
+        ],
+        [
+            4,
+            "2.2.13.4 Receiver Self-Test Capability",
+            133
+        ],
+        [
+            4,
+            "2.2.13.5 Failure Annunciation",
+            133
+        ],
+        [
+            5,
+            "2.2.13.5.1 UAT Transmitting Subsystem and ADS-B Function Failure Annunciations",
+            133
+        ],
+        [
+            5,
+            "2.2.13.5.2 UAT Receiving Subsystem Failure Annunciation",
+            133
+        ],
+        [
+            5,
+            "2.2.13.5.3 Co-Located UAT Transmitting and Receiving Device Failure Annunciation",
+            134
+        ],
+        [
+            3,
+            "2.2.14 Antenna System",
+            134
+        ],
+        [
+            4,
+            "2.2.14.1 Polarization",
+            134
+        ],
+        [
+            4,
+            "2.2.14.2 Antenna Voltage Standing Wave Ratio (VSWR)",
+            134
+        ],
+        [
+            4,
+            "2.2.14.3 Requirements for Optional Passive Diplexer ",
+            134
+        ],
+        [
+            5,
+            "2.2.14.3.1 Diplexer RF Requirements",
+            135
+        ],
+        [
+            6,
+            "2.2.14.3.1.1 The UAT Channel",
+            135
+        ],
+        [
+            6,
+            "2.2.14.3.1.2 The Transponder Channel",
+            135
+        ],
+        [
+            6,
+            "2.2.14.3.1.3 Channel to Channel Isolation",
+            135
+        ],
+        [
+            3,
+            "2.2.15 Interfaces",
+            136
+        ],
+        [
+            4,
+            "2.2.15.1 UAT Transmitting Subsystem Interfaces",
+            136
+        ],
+        [
+            5,
+            "2.2.15.1.1 UAT Transmitting Subsystem Input Interfaces",
+            136
+        ],
+        [
+            6,
+            "2.2.15.1.1.1 Discrete Input Interfaces",
+            136
+        ],
+        [
+            6,
+            "2.2.15.1.1.2 Digital Communication Input Interfaces",
+            136
+        ],
+        [
+            6,
+            "2.2.15.1.1.3 Processing Efficiency",
+            136
+        ],
+        [
+            5,
+            "2.2.15.1.2 UAT Transmitting Subsystem Output Interfaces",
+            136
+        ],
+        [
+            6,
+            "2.2.15.1.2.1 Discrete Output Interfaces",
+            136
+        ],
+        [
+            6,
+            "2.2.15.1.2.2 Digital Communication Output Interfaces ",
+            136
+        ],
+        [
+            4,
+            "2.2.15.2 UAT Receiving Subsystem Interfaces",
+            137
+        ],
+        [
+            5,
+            "2.2.15.2.1 UAT Receiving Subsystem Input Interfaces",
+            137
+        ],
+        [
+            6,
+            "2.2.15.2.1.1 Discrete Input Interfaces",
+            137
+        ],
+        [
+            6,
+            "2.2.15.2.1.2 Digital Communication Input Interfaces",
+            137
+        ],
+        [
+            6,
+            "2.2.15.2.1.3 Processing Efficiency",
+            137
+        ],
+        [
+            5,
+            "2.2.15.2.2 UAT Receiving Subsystem Output Interfaces",
+            137
+        ],
+        [
+            6,
+            "2.2.15.2.2.1 Discrete Output Interfaces",
+            137
+        ],
+        [
+            6,
+            "2.2.15.2.2.2 Digital Communication Output Interfaces",
+            137
+        ],
+        [
+            3,
+            "2.2.16 Power Interruption",
+            137
+        ],
+        [
+            3,
+            "2.2.17 Compatibility with Other Systems",
+            138
+        ],
+        [
+            4,
+            "2.2.17.1 EMI Compatibility",
+            138
+        ],
+        [
+            4,
+            "2.2.17.2 Compatibility with GPS Receivers",
+            138
+        ],
+        [
+            4,
+            "2.2.17.3 Compatibility with Other Navigation Receivers and ATC Transponders",
+            138
+        ],
+        [
+            2,
+            "2.3 Equipment Performance \u2013 Environmental Conditions",
+            138
+        ],
+        [
+            3,
+            "2.3.1 Environmental Test Conditions",
+            139
+        ],
+        [
+            3,
+            "2.3.2 Detailed Environmental Test Procedures",
+            141
+        ],
+        [
+            4,
+            "2.3.2.1 Transmission Frequency (\u00a72.2.2.1)",
+            142
+        ],
+        [
+            4,
+            "2.3.2.2 Modulation Type (\u00a72.2.2.3)",
+            142
+        ],
+        [
+            4,
+            "2.3.2.3 Modulation Rate and Distortion (\u00a72.2.2.2 and \u00a72.2.2.4)",
+            142
+        ],
+        [
+            4,
+            "2.3.2.4 Transmitter Power Output (\u00a72.2.2.5)",
+            142
+        ],
+        [
+            4,
+            "2.3.2.5 In-Band Transmission Spectrum (\u00a72.2.2.6)",
+            142
+        ],
+        [
+            4,
+            "2.3.2.6 Message Transmission Cycle (Transmitter Diversity) (\u00a72.2.6.1.3)",
+            142
+        ],
+        [
+            4,
+            "2.3.2.7 Message Start Opportunity (MSO) (\u00a72.2.6.2.1)",
+            142
+        ],
+        [
+            4,
+            "2.3.2.8 Relationship of the MSO to the Modulated Data (\u00a72.2.6.2.2)",
+            142
+        ],
+        [
+            4,
+            "2.3.2.9 Report Assembly on Transmission of Ownship ADS-B Message (\u00a72.2.6.3 and \u00a72.2.7.1)",
+            142
+        ],
+        [
+            4,
+            "2.3.2.10 Receiving Diversity (\u00a72.2.8.1)",
+            144
+        ],
+        [
+            5,
+            "2.3.2.10.1 Full Diversity (\u00a72.2.8.1.a and \u00a72.2.8.1.b)",
+            144
+        ],
+        [
+            5,
+            "2.3.2.10.2 Antenna Switching (\u00a72.2.8.1.c)",
+            144
+        ],
+        [
+            4,
+            "2.3.2.11 Long ADS-B Message As Desired Signal (\u00a72.2.8.2.1.1)",
+            145
+        ],
+        [
+            4,
+            "2.3.2.12 Basic ADS-B Message As Desired Signal (\u00a72.2.8.2.1.2)",
+            145
+        ],
+        [
+            4,
+            "2.3.2.13 Ground Uplink Message As Desired Signal (\u00a72.2.8.2.1.3)",
+            145
+        ],
+        [
+            4,
+            "2.3.2.14 Receiver Desired Signal Dynamic Range (\u00a72.2.8.2.2)",
+            145
+        ],
+        [
+            4,
+            "2.3.2.15 Receiver Selectivity (\u00a72.2.8.2.3)",
+            145
+        ],
+        [
+            4,
+            "2.3.2.16 Report Assembly on Receipt of ADS-B Message (\u00a72.2.9.1)",
+            145
+        ],
+        [
+            4,
+            "2.3.2.17 Report Assembly on Receipt of Ground Uplink Message (\u00a72.2.9.2)",
+            145
+        ],
+        [
+            4,
+            "2.3.2.18 Address Verification (\u00a72.2.13.3)",
+            145
+        ],
+        [
+            4,
+            "2.3.2.19 Receiver Self Test Capability (\u00a72.2.13.4)",
+            145
+        ],
+        [
+            4,
+            "2.3.2.20 Transmission Device Failure Annunciation (\u00a72.2.13.5.1)",
+            145
+        ],
+        [
+            4,
+            "2.3.2.21 Requirements for Optional Passive Diplexer (\u00a72.2.14.3)",
+            145
+        ],
+        [
+            4,
+            "2.3.2.22 Power Interruption (\u00a72.2.16)",
+            146
+        ],
+        [
+            5,
+            "2.3.2.22.1 Power Interruption for ADS-B Transmitting Subsystems (\u00a72.2.16)",
+            146
+        ],
+        [
+            5,
+            "2.3.2.22.2 Power Interruption for ADS-B Receiving Subsystems (\u00a72.2.16)",
+            146
+        ],
+        [
+            2,
+            "2.4 Equipment Test Procedures",
+            146
+        ],
+        [
+            3,
+            "2.4.1 Definition of Standard Conditions of Test",
+            146
+        ],
+        [
+            4,
+            "2.4.1.1 Verification of Signal Levels (\u00a72.2.1.1)",
+            147
+        ],
+        [
+            4,
+            "2.4.1.2 Verification of Desired Signals (\u00a72.2.1.2)",
+            147
+        ],
+        [
+            4,
+            "2.4.1.3 Verification of Data Quantization (\u00a72.2.1.3)",
+            147
+        ],
+        [
+            3,
+            "2.4.2 Verification of ADS-B Transmitter Characteristics (\u00a72.2.2)",
+            147
+        ],
+        [
+            4,
+            "2.4.2.1 Verification of Transmission Frequency (\u00a72.2.2.1)",
+            148
+        ],
+        [
+            4,
+            "2.4.2.2 Verification of Modulation Rate (\u00a72.2.2.2)",
+            151
+        ],
+        [
+            4,
+            "2.4.2.3 Verification of Modulation Type (\u00a72.2.2.3)",
+            151
+        ],
+        [
+            4,
+            "2.4.2.4 Verification of Modulation Distortion (\u00a72.2.2.4)",
+            152
+        ],
+        [
+            4,
+            "2.4.2.5 Verification of Transmitter Power Output (\u00a72.2.2.5)",
+            153
+        ],
+        [
+            4,
+            "2.4.2.6 Verification of In Band Transmission Spectrum (\u00a72.2.2.6)",
+            156
+        ],
+        [
+            4,
+            "2.4.2.7 Verification of Out-of-Band Emissions (\u00a72.2.2.7)",
+            157
+        ],
+        [
+            3,
+            "2.4.3 Verification of Broadcast Message Characteristics (\u00a72.2.3)",
+            157
+        ],
+        [
+            4,
+            "2.4.3.1 Verification of ADS-B Message Format (\u00a72.2.3.1)",
+            157
+        ],
+        [
+            5,
+            "2.4.3.1.1 Verification of Synchronization (\u00a72.2.3.1.1)",
+            158
+        ],
+        [
+            5,
+            "2.4.3.1.2 Verification of Payload (\u00a72.2.3.1.2)",
+            158
+        ],
+        [
+            5,
+            "2.4.3.1.3 Verification of FEC Parity (\u00a72.2.3.1.3)",
+            158
+        ],
+        [
+            6,
+            "2.4.3.1.3.1 Verification of Code Type (\u00a72.2.3.1.3.1)",
+            158
+        ],
+        [
+            6,
+            "2.4.3.1.3.2 Verification of Generation and Transmission Order of FEC Parity (\u00a72.2.3.1.3.2)",
+            164
+        ],
+        [
+            4,
+            "2.4.3.2 Verification of Ground Uplink Message Format (\u00a72.2.3.2)",
+            164
+        ],
+        [
+            5,
+            "2.4.3.2.1 Verification of Synchronization (\u00a72.2.3.2.1)",
+            164
+        ],
+        [
+            5,
+            "2.4.3.2.2 Verification of Payload (Before Interleaving and After De-interleaving) (\u00a72.2.3.2.2)",
+            164
+        ],
+        [
+            6,
+            "2.4.3.2.2.1 Verification of UAT-Specific Header (\u00a72.2.3.2.2.1)",
+            164
+        ],
+        [
+            7,
+            "2.4.3.2.2.1.1 Verification of \u201cGROUND STATION LATITUDE\u201d Field Encoding (\u00a72.2.3.2.2.1.1)",
+            164
+        ],
+        [
+            7,
+            "2.4.3.2.2.1.2 Verification of \u201cGROUND STATION LONGITUDE\u201d Field Encoding (\u00a72.2.3.2.2.1.2)",
+            164
+        ],
+        [
+            7,
+            "2.4.3.2.2.1.3 Verification of \u201cPOSITION VALID\u201d Field Encoding (\u00a72.2.3.2.2.1.3)",
+            164
+        ],
+        [
+            7,
+            "2.4.3.2.2.1.4 Verification of \u201cUTC Coupled\u201d Field Encoding (\u00a72.2.3.2.2.1.4)",
+            164
+        ],
+        [
+            7,
+            "2.4.3.2.2.1.5 Verification of Reserved Bits (\u00a72.2.3.2.2.1.5)",
+            164
+        ],
+        [
+            7,
+            "2.4.3.2.2.1.6 Verification of \u201cAPPLICATION DATA VALID\u201d Field Encoding (\u00a72.2.3.2.2.1.6)",
+            164
+        ],
+        [
+            7,
+            "2.4.3.2.2.1.7 Verification of \u201cSLOT ID\u201d Field Encoding (\u00a72.2.3.2.2.1.7)",
+            164
+        ],
+        [
+            7,
+            "2.4.3.2.2.1.8 Verification of \u201cTIS-B SITE ID\u201d Field Encoding (\u00a72.2.3.2.2.1.8)",
+            165
+        ],
+        [
+            7,
+            "2.4.3.2.2.1.9 Verification of Reserved Bits (\u00a72.2.3.2.2.1.9)",
+            165
+        ],
+        [
+            6,
+            "2.4.3.2.2.2 Verification of Ground Uplink Application Data (\u00a72.2.3.2.2.2)",
+            165
+        ],
+        [
+            7,
+            "2.4.3.2.2.2.1 Verification of The Length Subfield Encoding (\u00a72.2.3.2.2.2.1)",
+            165
+        ],
+        [
+            7,
+            "2.4.3.2.2.2.2 Verification of The Reserved Subfield Encoding (\u00a72.2.3.2.2.2.2)",
+            165
+        ],
+        [
+            7,
+            "2.4.3.2.2.2.3 Verification of The Frame Type Subfield Encoding (\u00a72.2.3.2.2.2.3)",
+            165
+        ],
+        [
+            7,
+            "2.4.3.2.2.2.4 Verification of The Frame Data Content (\u00a72.2.3.2.2.2.4)",
+            165
+        ],
+        [
+            8,
+            "2.4.3.2.2.2.4.1 Verification of FIS-B APDU (\u00a72.2.3.2.2.2.4.1)",
+            165
+        ],
+        [
+            8,
+            "2.4.3.2.2.2.4.2 Verification of Other Potential Future Frame Data Content (\u00a72.2.3.2.2.2.4.2)",
+            165
+        ],
+        [
+            5,
+            "2.4.3.2.3 Verification of FEC Parity (Before Interleaving and After De-interleaving) (\u00a72.2.3.2.3)",
+            165
+        ],
+        [
+            6,
+            "2.4.3.2.3.1 Verification of Code Type (\u00a72.2.3.2.3.1)",
+            165
+        ],
+        [
+            6,
+            "2.4.3.2.3.2 Verification of Generation and Transmission Order of FEC Parity (\u00a72.2.3.2.3.2)",
+            165
+        ],
+        [
+            5,
+            "2.4.3.2.4 Verification of Interleaved Payload and FEC Parity (\u00a72.2.3.2.4)",
+            165
+        ],
+        [
+            3,
+            "2.4.4 Verification of The ADS-B Message Payload (\u00a72.2.4)",
+            166
+        ],
+        [
+            4,
+            "2.4.4.1 Verification of Payload Type (\u00a72.2.4.1)",
+            166
+        ],
+        [
+            4,
+            "2.4.4.2 Verification of Payload Elements (\u00a72.2.4.2)",
+            166
+        ],
+        [
+            4,
+            "2.4.4.3 Verification of ADS-B Payload Composition by Payload Type Code (\u00a72.2.4.3)",
+            166
+        ],
+        [
+            4,
+            "2.4.4.4 Verification of Payload Transmission Order (\u00a72.2.4.4)",
+            166
+        ],
+        [
+            4,
+            "2.4.4.5 Verification of Payload Contents (\u00a72.2.4.5)",
+            166
+        ],
+        [
+            5,
+            "2.4.4.5.1 Verification of HEADER Element (\u00a72.2.4.5.1)",
+            166
+        ],
+        [
+            6,
+            "2.4.4.5.1.1 Verification of \u201cPAYLOAD TYPE CODE\u201d Field Encoding (\u00a72.2.4.5.1.1)",
+            166
+        ],
+        [
+            6,
+            "2.4.4.5.1.2 Verification of \u201cADDRESS QUALIFIER\u201d Field Encoding (\u00a72.2.4.5.1.2)",
+            167
+        ],
+        [
+            6,
+            "2.4.4.5.1.3 Verification of \u201cADDRESS\u201d Field Encoding (\u00a72.2.4.5.1.3)",
+            167
+        ],
+        [
+            7,
+            "2.4.4.5.1.3.1 Verification of ICAO 24-bit Aircraft Address of Transmitting Aircraft (\u00a72.2.4.5.1.3.1)",
+            168
+        ],
+        [
+            7,
+            "2.4.4.5.1.3.2 Verification of Self-Assigned Temporary Address of Transmitting Aircraft (\u00a72.2.4.5.1.3.2)",
+            169
+        ],
+        [
+            7,
+            "2.4.4.5.1.3.3 Verification of ICAO 24-bit Aircraft Address of TIS-B or ADS-R Target Aircraft (\u00a72.2.4.5.1.3.3)",
+            171
+        ],
+        [
+            7,
+            "2.4.4.5.1.3.4 Verification of TIS-B Track File Identifier (\u00a72.2.4.5.1.3.4)",
+            172
+        ],
+        [
+            7,
+            "2.4.4.5.1.3.5 Verification of Surface Vehicle Address (\u00a72.2.4.5.1.3.5)",
+            172
+        ],
+        [
+            7,
+            "2.4.4.5.1.3.6 Verification of Fixed ADS-D Beacon Address (\u00a72.2.4.5.1.3.6)",
+            172
+        ],
+        [
+            7,
+            "2.4.4.5.1.3.7 Verification of ADS-R Target with Non-ICAO Address (\u00a72.2.4.5.1.3.7)",
+            172
+        ],
+        [
+            5,
+            "2.4.4.5.2 Verification of STATE VECTOR Element (\u00a72.2.4.5.2)",
+            172
+        ],
+        [
+            6,
+            "2.4.4.5.2.1 Verification of \u201cLATITUDE\u201d and \u201cLONGITUDE\u201d Field Encoding (\u00a72.2.4.5.2.1)",
+            173
+        ],
+        [
+            7,
+            "2.4.4.5.2.1.1 Verification of Latitude and Longitude for NACP < 10 (\u00a72.2.4.5.2.1and \u00a72.2.7.2.1)",
+            174
+        ],
+        [
+            7,
+            "2.4.4.5.2.1.2 Verification of Latitude and Longitude for NACP \u2265 10 (\u00a72.2.4.5.2.1 and \u00a72.2.7.2.2)",
+            179
+        ],
+        [
+            6,
+            "2.4.4.5.2.2 Verification of \u201cALTITUDE TYPE\u201d Field Encoding (\u00a72.2.4.5.2.2)",
+            179
+        ],
+        [
+            6,
+            "2.4.4.5.2.3 Verification of \u201cALTITUDE\u201d Field Encoding (\u00a72.2.4.5.2.3)",
+            181
+        ],
+        [
+            6,
+            "2.4.4.5.2.4 Verification of \u201cNIC\u201d Field Encoding (\u00a72.2.4.5.2.4)",
+            184
+        ],
+        [
+            6,
+            "2.4.4.5.2.5 Verification of \u201cA/G STATE\u201d Field Encoding (\u00a72.2.4.5.2.5)",
+            186
+        ],
+        [
+            7,
+            "2.4.4.5.2.5.1 Verification of Determination of Vertical Status (\u00a72.2.4.5.2.5.1)",
+            188
+        ],
+        [
+            7,
+            "2.4.4.5.2.5.2 Verification of the Validation of Vertical Status (\u00a72.2.4.5.2.5.2)",
+            189
+        ],
+        [
+            6,
+            "2.4.4.5.2.6 Verification of \u201cHORIZONTAL VELOCITY\u201d Subfields (\u00a72.2.4.5.2.6)",
+            192
+        ],
+        [
+            7,
+            "2.4.4.5.2.6.1 Verification of Encoding as \u201cNorth Velocity\u201d Form (\u00a72.2.4.5.2.6.1)",
+            192
+        ],
+        [
+            8,
+            "2.4.4.5.2.6.1.1 Verification of the \u201cNorth/South Velocity\u201d Sign Flag (\u00a72.2.4.5.2.6.1.a)",
+            192
+        ],
+        [
+            8,
+            "2.4.4.5.2.6.1.2 Verification of the \u201cNorth Velocity Magnitude\u201d Subfield - Subsonic (\u00a72.2.4.5.2.6.1.b)",
+            193
+        ],
+        [
+            8,
+            "2.4.4.5.2.6.1.3 Verification of the \u201cNorth Velocity Magnitude\u201d Subfield - Supersonic (\u00a72.2.4.5.2.6.1.b)",
+            196
+        ],
+        [
+            7,
+            "2.4.4.5.2.6.2 Verification of Encoding as \u201cGround Speed\u201d Form (\u00a72.2.4.5.2.6.2)",
+            198
+        ],
+        [
+            8,
+            "2.4.4.5.2.6.2.1 Verification of Reserved Bit (\u00a72.2.4.5.2.6.2.a)",
+            199
+        ],
+        [
+            8,
+            "2.4.4.5.2.6.2.2 Verification of the Encoding of the Ground Speed Magnitude \u2013 Subsonic (\u00a72.2.4.5.2.6.2.b)",
+            199
+        ],
+        [
+            7,
+            "2.4.4.5.2.6.3 Verification of Encoding as \u201cEast Velocity\u201d Form (\u00a72.2.4.5.2.6.3)",
+            201
+        ],
+        [
+            8,
+            "2.4.4.5.2.6.3.1 Verification of the \u201cEast/West Velocity\u201d Sign Flag (\u00a72.2.4.5.2.6.3.a)",
+            201
+        ],
+        [
+            8,
+            "2.4.4.5.2.6.3.2 Verification of the \u201cEast Velocity Magnitude\u201d Subfield - Subsonic (\u00a72.2.4.5.2.6.3.b)",
+            203
+        ],
+        [
+            8,
+            "2.4.4.5.2.6.3.3 Verification of the \u201cEast Velocity Magnitude\u201d Subfield - Supersonic (\u00a72.2.4.5.2.6.3.b)",
+            205
+        ],
+        [
+            7,
+            "2.4.4.5.2.6.4 Verification of Encoding as \u201cTrack Angle/Heading\u201d Form (\u00a72.2.4.5.2.6.4)",
+            208
+        ],
+        [
+            8,
+            "2.4.4.5.2.6.4.1 Verification of \u201cTrack Angle/Heading Type\u201d Flag Subfield (\u00a72.2.4.5.2.6.4.a)",
+            208
+        ],
+        [
+            8,
+            "2.4.4.5.2.6.4.2 Verification of the \u201cTrack Angle/Heading\u201d Data Subfield (\u00a72.2.4.5.2.6.4.b)",
+            209
+        ],
+        [
+            6,
+            "2.4.4.5.2.7 Verification of \u201cVERTICAL VELOCITY or A/V SIZE\u201d Field (\u00a72.2.4.5.2.7)",
+            210
+        ],
+        [
+            7,
+            "2.4.4.5.2.7.1 Verification of Encoding as \u201cVertical Velocity\u201d Form (\u00a72.2.4.5.2.7.1)",
+            211
+        ],
+        [
+            8,
+            "2.4.4.5.2.7.1.1 Verification of \u201cVV Src\u201d Subfield Encoding (\u00a72.2.4.5.2.7.1.1)",
+            211
+        ],
+        [
+            8,
+            "2.4.4.5.2.7.1.2 Verification of \u201cVV Sign\u201d Subfield Encoding (\u00a72.2.4.5.2.7.1.2)",
+            211
+        ],
+        [
+            8,
+            "2.4.4.5.2.7.1.3 Verification of \u201cVertical Rate\u201d Subfield Encoding (\u00a72.2.4.5.2.7.1.3)",
+            213
+        ],
+        [
+            7,
+            "2.4.4.5.2.7.2 Verification of Encoding as \u201cA/V Size\u201d Form (\u00a72.2.4.5.2.7.2)",
+            215
+        ],
+        [
+            6,
+            "2.4.4.5.2.8 Verification of \u201cUTC\u201d Field Encoding (\u00a72.2.4.5.2.8)",
+            216
+        ],
+        [
+            6,
+            "2.4.4.5.2.9 Verification of Uplink Feedback Encoding (\u00a72.2.4.5.2.9)",
+            217
+        ],
+        [
+            6,
+            "2.4.4.5.2.10 Verification of Reserved Byte 18, Payload Type Zero (\u00a72.2.4.5.2.10)",
+            218
+        ],
+        [
+            5,
+            "2.4.4.5.3 Verification of STATE VECTOR Element (For TIS-B) (\u00a72.2.4.5.3)",
+            219
+        ],
+        [
+            6,
+            "2.4.4.5.3.1 Verification of \u201cTIS-B SITE ID\u201d Field Encoding (\u00a72.2.4.5.3.1)",
+            219
+        ],
+        [
+            6,
+            "2.4.4.5.3.2 Verification of Encoding for All Other Fields (\u00a72.2.4.5.3.2)",
+            219
+        ],
+        [
+            5,
+            "2.4.4.5.4 Verification of MODE STATUS Element (\u00a72.2.4.5.4)",
+            219
+        ],
+        [
+            6,
+            "2.4.4.5.4.1 Verification of \u201cEMITTER CATEGORY\u201d Field (\u00a72.2.4.5.4.1)",
+            219
+        ],
+        [
+            6,
+            "2.4.4.5.4.2 Verification of \u201cCALL SIGN/FLIGHT PLAN ID\u201d Field (\u00a72.2.4.5.4.2)",
+            220
+        ],
+        [
+            6,
+            "2.4.4.5.4.3 Verification of Compressed Format Encoding for \u201cEMITTER CATEGORY\u201d and \u201cCALL SIGN/FLIGHT PLAN ID\u201d (\u00a72.2.4.5.4.3)",
+            220
+        ],
+        [
+            7,
+            "2.4.4.5.4.3.1 Verification of Bytes #18 and #19 (\u00a72.2.4.5.4.3.1)",
+            220
+        ],
+        [
+            7,
+            "2.4.4.5.4.3.2 Verification of Bytes #20 and #21 (\u00a72.2.4.5.4.3.2)",
+            221
+        ],
+        [
+            7,
+            "2.4.4.5.4.3.3 Verification of Bytes #22 and 23 (\u00a72.2.4.5.4.3.3)",
+            223
+        ],
+        [
+            7,
+            "2.4.4.5.4.3.4 Verification of Unavailable \u201cCALL SIGN/FLIGHT PLAN ID\u201d Field (\u00a72.2.4.5.4.2)",
+            224
+        ],
+        [
+            6,
+            "2.4.4.5.4.4 Verification of \u201cEMERGENCY/PRIORITY STATUS\u201d Field Encoding (\u00a72.2.4.5.4.4)",
+            225
+        ],
+        [
+            6,
+            "2.4.4.5.4.5 Verification of \u201cUAT MOPS VERSION\u201d Field Encoding (\u00a72.2.4.5.4.5)",
+            226
+        ],
+        [
+            6,
+            "2.4.4.5.4.6 Verification of \u201cSIL\u201d Field Encoding (\u00a72.2.4.5.4.6)",
+            226
+        ],
+        [
+            6,
+            "2.4.4.5.4.7 Verification of \u201cTRANSMIT MSO\u201d Field Encoding (\u00a72.2.4.5.4.7)",
+            227
+        ],
+        [
+            6,
+            "2.4.4.5.4.8 Verification of System Design Assurance (SDA) Field Encoding (\u00a72.2.4.5.4.8)",
+            227
+        ],
+        [
+            6,
+            "2.4.4.5.4.9 Verification of \u201cNACP\u201d Field Encoding (\u00a72.2.4.5.4.9)",
+            228
+        ],
+        [
+            6,
+            "2.4.4.5.4.10 Verification of \u201cNACV\u201d Field Encoding (\u00a72.2.4.5.4.10)",
+            229
+        ],
+        [
+            6,
+            "2.4.4.5.4.11 Verification of \u201cNICBARO\u201d Field Encoding (\u00a72.2.4.5.4.11)",
+            230
+        ],
+        [
+            6,
+            "2.4.4.5.4.12 Verification of \u201cCAPABILITY CODES\u201d Field Encoding (\u00a72.2.4.5.4.12)",
+            231
+        ],
+        [
+            7,
+            "2.4.4.5.4.12.1 Verification of \u201cUAT IN Capability\u201d Subfield (\u00a72.2.4.5.4.12.1)",
+            231
+        ],
+        [
+            7,
+            "2.4.4.5.4.12.2 Verification of \u201c1090ES IN Capability Subfield Encoding (\u00a72.2.4.5.4.12.2)",
+            231
+        ],
+        [
+            7,
+            "2.4.4.5.4.12.3 Verification of \u201cTCAS/ACAS Operational\u201d Subfield (\u00a72.2.4.5.4.12.3)",
+            232
+        ],
+        [
+            6,
+            "2.4.4.5.4.13 Verification of \u201cOPERATIONAL MODES\u201d Field Encoding (\u00a72.2.4.5.4.13)",
+            233
+        ],
+        [
+            7,
+            "2.4.4.5.4.13.1 Verification of \u201cTCAS/ACAS Resolution Advisory\u201d Flag (\u00a72.2.4.5.4.13.1)",
+            233
+        ],
+        [
+            7,
+            "2.4.4.5.4.13.2 Verification of \u201cIDENT Switch Active\u201d Flag (\u00a72.2.4.5.4.13.2)",
+            234
+        ],
+        [
+            7,
+            "2.4.4.5.4.13.3 Verification of \u201cReserved for Receiving ATC Services\u201d Flag (\u00a72.2.4.5.4.13.3)",
+            235
+        ],
+        [
+            6,
+            "2.4.4.5.4.14 Verification of Call Sign Identification (CSID) Flag (\u00a72.2.4.5.4.14)",
+            235
+        ],
+        [
+            6,
+            "2.4.4.5.4.15 Verification of CSID Logic Configuration Item (\u00a72.2.4.5.4.15)",
+            236
+        ],
+        [
+            6,
+            "2.4.4.5.4.16 Verification of \u201cSIL Supplement (SILSUPP) (\u00a72.2.4.5.4.16)",
+            236
+        ],
+        [
+            6,
+            "2.4.4.5.4.17 Verification of \u201cGeometric Vertical Accuracy (GVA) (\u00a72.2.4.5.4.17)",
+            237
+        ],
+        [
+            6,
+            "2.4.4.5.4.18 Verification of \u201cSingle Antenna (SA) Flag) (\u00a72.2.4.5.4.18)",
+            238
+        ],
+        [
+            6,
+            "2.4.4.5.4.19 Verification of \u201cNIC Supplement\u201d (NICSUPP) Flag (\u00a72.2.4.5.4.19)",
+            239
+        ],
+        [
+            6,
+            "2.4.4.5.4.20 Verification of Reserved Bits (\u00a72.2.4.5.4.20)",
+            239
+        ],
+        [
+            5,
+            "2.4.4.5.5 Verification of AUXILIARY STATE VECTOR Element (\u00a72.2.4.5.5)",
+            239
+        ],
+        [
+            6,
+            "2.4.4.5.5.1 Verification of \u201cSECONDARY ALTITUDE\u201d Field Encoding (\u00a72.2.4.5.5.1)",
+            239
+        ],
+        [
+            6,
+            "2.4.4.5.5.2 Verification of Reserved Bits (\u00a72.2.4.5.5.2)",
+            242
+        ],
+        [
+            5,
+            "2.4.4.5.6 Verification of TARGET STATE Element (Payload Type Codes \u201c3\u201d and \u201c4\u201d) (\u00a72.2.4.5.6)",
+            243
+        ],
+        [
+            6,
+            "2.4.4.5.6.1 Verification of \u201cSELECTED ALTITUDE TYPE (SAT)\u201d Field Encoding (\u00a72.2.4.5.6.1)",
+            243
+        ],
+        [
+            6,
+            "2.4.4.5.6.2 Verification of \u201cSelected Altitude\u201d Field Encoding (\u00a72.2.4.5.6.2)",
+            243
+        ],
+        [
+            6,
+            "2.4.4.5.6.3 Verification of \u201cBarometric Pressure Setting\u201d (Minus 800 millibars) Field Encoding (\u00a72.2.4.5.6.3)",
+            244
+        ],
+        [
+            6,
+            "2.4.4.5.6.4 Verification of \u201cSelected Heading\u201d Field Encoding (\u00a72.2.4.5.6.4)",
+            245
+        ],
+        [
+            6,
+            "2.4.4.5.6.5 Verification of \u201cStatus of MCP/FCU Mode Bits\u201d (ST) Field Encoding (\u00a72.2.4.5.6.5)",
+            247
+        ],
+        [
+            6,
+            "2.4.4.5.6.6 Verification of \u201cMode Indicators: Autopilot Engaged\u201d (AP) Field Encoding (\u00a72.2.4.5.6.6)",
+            247
+        ],
+        [
+            6,
+            "2.4.4.5.6.7 Verification of \u201cMode Indicators: VNAV Mode Engaged\u201d (VNAV) Field Encoding (\u00a72.2.4.5.6.7)",
+            248
+        ],
+        [
+            6,
+            "2.4.4.5.6.8 Verification of \u201cMode Indicators: Altitude Hold Mode\u201d (ALT) Field Encoding (\u00a72.2.4.5.6.8)",
+            248
+        ],
+        [
+            6,
+            "2.4.4.5.6.9 Verification of \u201cMode Indicators: Approach Mode\u201d (APP) Field Encoding (\u00a72.2.4.5.6.9)",
+            249
+        ],
+        [
+            6,
+            "2.4.4.5.6.10 Verification of \u201cMode Indicators: LNAV Mode Engaged\u201d (LNAV) Field Encoding (\u00a72.2.4.5.6.10)",
+            250
+        ],
+        [
+            5,
+            "2.4.4.5.7 Verification of TARGET STATE Element (Payload Type Code \u201c6\u201d) (\u00a72.2.4.5.7)",
+            250
+        ],
+        [
+            5,
+            "2.4.4.5.8 Verification of TRAJECTORY CHANGE Element (\u00a72.2.4.5.8)",
+            250
+        ],
+        [
+            3,
+            "2.4.5 Verification of Procedures for Processing of Time Data (\u00a72.2.5)",
+            251
+        ],
+        [
+            4,
+            "2.4.5.1 Verification of UTC Coupled Condition (\u00a72.2.5.1)",
+            251
+        ],
+        [
+            4,
+            "2.4.5.2 Verification of Non-UTC Coupled Condition (\u00a72.2.5.2)",
+            252
+        ],
+        [
+            3,
+            "2.4.6 Verification of Procedures for ADS-B Message Transmission (\u00a72.2.6)",
+            254
+        ],
+        [
+            4,
+            "2.4.6.1 Verification of Scheduling of ADS-B Message Types (\u00a72.2.6.1)",
+            254
+        ],
+        [
+            5,
+            "2.4.6.1.1 Verification of Payload Selection Cycle (\u00a72.2.6.1.1)",
+            254
+        ],
+        [
+            5,
+            "2.4.6.1.2 Verification of ADS-B Payload Type Allocation (\u00a72.2.6.1.2)",
+            254
+        ],
+        [
+            5,
+            "2.4.6.1.3 Verification of Message Transmission Cycle (\u00a72.2.6.1.3)",
+            255
+        ],
+        [
+            4,
+            "2.4.6.2 Verification of ADS-B Message Transmit Timing (\u00a72.2.6.2)",
+            257
+        ],
+        [
+            5,
+            "2.4.6.2.1 Verification of The Message Start Opportunity (MSO) (\u00a72.2.6.2.1)",
+            257
+        ],
+        [
+            5,
+            "2.4.6.2.2 Verification of Relationship of the MSO to the Modulated Data (\u00a72.2.6.2.2)",
+            261
+        ],
+        [
+            4,
+            "2.4.6.3 Verification of Report Assembly on Transmission of Ownship ADS-B Message (\u00a72.2.6.3)",
+            262
+        ],
+        [
+            3,
+            "2.4.7 Verification of UAT Transmitter Message Data Characteristics (\u00a72.2.7)",
+            263
+        ],
+        [
+            4,
+            "2.4.7.1 Verification of UAT Transmitter Input Requirements (\u00a72.2.7.1)",
+            263
+        ],
+        [
+            4,
+            "2.4.7.2 Verification of Time Registration and Latency (\u00a72.2.7.2)",
+            265
+        ],
+        [
+            5,
+            "2.4.7.2.1 Verification of Requirements When in Non-Precision Condition and UTC Coupled (\u00a72.2.7.2.1)",
+            265
+        ],
+        [
+            6,
+            "2.4.7.2.1.1 Verification of Latitude and Longitude Requirements When in Non-Precision Condition and UTC Coupled (\u00a72.2.7.2.1.a, \u00a72.2.4.5.2.1, \u00a72.2.4.5.2.6)",
+            265
+        ],
+        [
+            6,
+            "2.4.7.2.1.2 Verification of Requirements for Other ADS-B Message Fields When in Non-Precision Condition and UTC Coupled (\u00a72.2.7.2.1.b)",
+            267
+        ],
+        [
+            5,
+            "2.4.7.2.2 Verification of Requirements When in Precision Condition and UTC Coupled (\u00a72.2.7.2.2)",
+            269
+        ],
+        [
+            6,
+            "2.4.7.2.2.1 Verification of Latitude and Longitude Requirements When in Precision Condition and UTC Coupled (\u00a72.2.7.2.2.a, \u00a72.2.4.5.2.1, \u00a72.2.4.5.2.6)",
+            269
+        ],
+        [
+            6,
+            "2.4.7.2.2.2 Verification of Requirements for Other ADS-B Message Fields When in Precision Condition and UTC Coupled (\u00a72.2.7.2.2.b)",
+            271
+        ],
+        [
+            5,
+            "2.4.7.2.3 Verification of Requirements When Non-UTC Coupled (\u00a72.2.7.2.3)",
+            272
+        ],
+        [
+            5,
+            "2.4.7.2.4 Verification of Total Latency of Position Measurements (\u00a72.2.7.2.4)",
+            273
+        ],
+        [
+            5,
+            "2.4.7.2.5 Verification of Data Timeout (\u00a72.2.7.2.5)",
+            274
+        ],
+        [
+            3,
+            "2.4.8 Verification of Receiver Characteristics (\u00a72.2.8)",
+            274
+        ],
+        [
+            4,
+            "2.4.8.1 Verification of Receiving Diversity (\u00a72.2.8.1)",
+            274
+        ],
+        [
+            5,
+            "2.4.8.1.1 Verification of Full Receiving Diversity (\u00a72.2.8.1.a and \u00a72.2.8.1.b)",
+            274
+        ],
+        [
+            5,
+            "2.4.8.1.2 Verification of Switching Receiving Diversity (\u00a72.2.8.1.c)",
+            275
+        ],
+        [
+            4,
+            "2.4.8.2 Verification of Receiver Performance (\u00a72.2.8.2)",
+            278
+        ],
+        [
+            5,
+            "2.4.8.2.1 Verification of Receiver Sensitivity (\u00a72.2.8.2.1)",
+            278
+        ],
+        [
+            6,
+            "2.4.8.2.1.1 Verification of Long ADS-B Message As Desired Signal (\u00a72.2.8.2.1.1)",
+            278
+        ],
+        [
+            6,
+            "2.4.8.2.1.2 Verification of Basic ADS-B Message As Desired Signal (\u00a72.2.8.2.1.2)",
+            279
+        ],
+        [
+            6,
+            "2.4.8.2.1.3 Verification of Ground Uplink Message As Desired Signal (\u00a72.2.8.2.1.3)",
+            281
+        ],
+        [
+            5,
+            "2.4.8.2.2 Verification of Receiver Desired Signal Dynamic Range (\u00a72.2.8.2.2)",
+            282
+        ],
+        [
+            5,
+            "2.4.8.2.3 Verification of Receiver Selectivity (\u00a72.2.8.2.3)",
+            283
+        ],
+        [
+            5,
+            "2.4.8.2.4 Verification of Receiver Tolerance to Pulsed Interference (\u00a72.2.8.2.4)",
+            288
+        ],
+        [
+            5,
+            "2.4.8.2.5 Verification of Receiver Tolerance to Overlapping ADS-B Messages (Self Interference) (\u00a72.2.8.2.5)",
+            293
+        ],
+        [
+            5,
+            "2.4.8.2.6 Verification of Rate of False \u201cTrigger\u201d (\u00a72.2.8.2.6)",
+            294
+        ],
+        [
+            5,
+            "2.4.8.2.7 Verification of Trigger Processing Rate (\u00a72.2.8.2.7)",
+            295
+        ],
+        [
+            4,
+            "2.4.8.3 Verification of Receiver Message Processing (\u00a72.2.8.3)",
+            296
+        ],
+        [
+            5,
+            "2.4.8.3.1 Verification of Criteria for Successful Message Reception (\u00a72.2.8.3.1)",
+            297
+        ],
+        [
+            6,
+            "2.4.8.3.1.1 Verification of ADS-B Messages (\u00a72.2.8.3.1.1)",
+            297
+        ],
+        [
+            6,
+            "2.4.8.3.1.2 Verification of Ground Uplink Messages (\u00a72.2.8.3.1.2)",
+            305
+        ],
+        [
+            5,
+            "2.4.8.3.2 Verification of Receiver Discrimination Between ADS-B and Ground Uplink Message Types (\u00a72.2.8.3.2)",
+            316
+        ],
+        [
+            5,
+            "2.4.8.3.3 Verification of Receiver Processing of ADS-B Synchronization \u201cTrigger\u201d (\u00a72.2.8.3.3)",
+            316
+        ],
+        [
+            5,
+            "2.4.8.3.4 Verification of Receiver Processing of Ground Uplink Synchronization \u201cTrigger\u201d (\u00a72.2.8.3.4)",
+            322
+        ],
+        [
+            5,
+            "2.4.8.3.5 Verification of Receiver Time of Message Receipt (\u00a72.2.8.3.5)",
+            324
+        ],
+        [
+            3,
+            "2.4.9 Verification of Report Assembly Requirements (\u00a72.2.9)",
+            325
+        ],
+        [
+            4,
+            "2.4.9.1 Verification of Report Assembly on Receipt of ADS-B Message (\u00a72.2.9.1)",
+            325
+        ],
+        [
+            4,
+            "2.4.9.2 Verification of Report Assembly on Receipt of Ground Uplink Message (\u00a72.2.9.2)",
+            326
+        ],
+        [
+            3,
+            "2.4.10 Verification of Receiver Subsystem Capacity and Throughput Requirements (\u00a72.2.10)",
+            327
+        ],
+        [
+            4,
+            "2.4.10.1 Verification of Fundamental Principals of Report Assembly (\u00a72.2.10.1)",
+            327
+        ],
+        [
+            4,
+            "2.4.10.2 Verification of Capacity for Successful Message Reception (\u00a72.2.10.2)",
+            327
+        ],
+        [
+            4,
+            "2.4.10.3 Verification of Applicable Messages (\u00a72.2.10.3)",
+            328
+        ],
+        [
+            4,
+            "2.4.10.4 Verification of Message Reception-to-Report Completion Time (\u00a72.2.10.4)",
+            330
+        ],
+        [
+            3,
+            "2.4.11 Verification of Special Requirements for Transceiver Implementations (\u00a72.2.11)",
+            330
+        ],
+        [
+            4,
+            "2.4.11.1 Verification of Transmit-Receive Turnaround Time (\u00a72.2.11.1)",
+            331
+        ],
+        [
+            4,
+            "2.4.11.2 Verification of Receive-Transmit Turnaround Time (\u00a72.2.11.2)",
+            332
+        ],
+        [
+            3,
+            "2.4.12 Verification of Mutual Suppression Pulses (\u00a72.2.12)",
+            332
+        ],
+        [
+            3,
+            "2.4.13 Verification of Self Test and Monitors (\u00a72.2.13)",
+            332
+        ],
+        [
+            4,
+            "2.4.13.1 Verification of Self Test (\u00a72.2.13.1)",
+            333
+        ],
+        [
+            4,
+            "2.4.13.2 Verification of Broadcast Monitoring (\u00a72.2.13.2)",
+            333
+        ],
+        [
+            4,
+            "2.4.13.3 Verification of Address Verification (\u00a72.2.13.3)",
+            334
+        ],
+        [
+            4,
+            "2.4.13.4 Verification of Receiver Self-Test Capability (\u00a72.2.13.4)",
+            334
+        ],
+        [
+            4,
+            "2.4.13.5 Verification of Failure Annunciation (\u00a72.2.13.5)",
+            335
+        ],
+        [
+            5,
+            "2.4.13.5.1 Verification of UAT Transmitting Device Failure Annunciation (\u00a72.2.13.5.1)",
+            335
+        ],
+        [
+            5,
+            "2.4.13.5.2 Verification of UAT Receiving Subsystem Failure Annunciation (\u00a72.2.13.5.2)",
+            336
+        ],
+        [
+            5,
+            "2.4.13.5.3 Verification of Co-Located UAT Transmitting and Receiving Device Failure Annunciation (\u00a72.2.13.5.3)",
+            336
+        ],
+        [
+            3,
+            "2.4.14 Verification of Antenna System (\u00a72.2.14)",
+            336
+        ],
+        [
+            4,
+            "2.4.14.1 Verification of Polarization (\u00a72.2.14.1)",
+            336
+        ],
+        [
+            4,
+            "2.4.14.2 Verification of Antenna Voltage Standing Wave Ratio (VSWR) (\u00a72.2.14.2)",
+            336
+        ],
+        [
+            4,
+            "2.4.14.3 Verification of Requirements for Optional Passive Diplexer (\u00a72.2.14.3)",
+            337
+        ],
+        [
+            5,
+            "2.4.14.3.1 Verification of Diplexer RF Requirements (\u00a72.2.14.3.1)",
+            337
+        ],
+        [
+            6,
+            "2.4.14.3.1.1 Verification of The UAT Channel (\u00a72.2.14.3.1.1)",
+            337
+        ],
+        [
+            6,
+            "2.4.14.3.1.2 Verification of The Transponder Channel (\u00a72.2.14.3.1.2)",
+            339
+        ],
+        [
+            6,
+            "2.4.14.3.1.3 Verification of Channel to Channel Isolation (\u00a72.2.14.3.1.3)",
+            341
+        ],
+        [
+            3,
+            "2.4.15 Verification of Interfaces (\u00a72.2.15)",
+            342
+        ],
+        [
+            4,
+            "2.4.15.1 Verification of UAT Transmitting Subsystem Interfaces (\u00a72.2.15.1)",
+            342
+        ],
+        [
+            5,
+            "2.4.15.1.1 Verification of UAT Transmitting Subsystem Input Interfaces (\u00a72.2.15.1.1)",
+            342
+        ],
+        [
+            6,
+            "2.4.15.1.1.1 Verification of Discrete Input Interfaces (\u00a72.2.15.1.1.1)",
+            342
+        ],
+        [
+            6,
+            "2.4.15.1.1.2 Verification of Digital Communication Input Interfaces (\u00a72.2.15.1.1.2)",
+            342
+        ],
+        [
+            6,
+            "2.4.15.1.1.3 Verification of Processing Efficiency (\u00a72.2.15.1.1.3)",
+            343
+        ],
+        [
+            5,
+            "2.4.15.1.2 Verification of UAT Transmitting Subsystem Output Interfaces (\u00a72.2.15.1.2)",
+            343
+        ],
+        [
+            6,
+            "2.4.15.1.2.1 Verification of Discrete Output Interfaces (\u00a72.2.15.1.2.1)",
+            343
+        ],
+        [
+            6,
+            "2.4.15.1.2.2 Verification of Digital Communication Output Interfaces (\u00a72.2.15.1.2.2)",
+            344
+        ],
+        [
+            4,
+            "2.4.15.2 Verification of UAT Receiving Subsystem Interfaces (\u00a72.2.15.2)",
+            344
+        ],
+        [
+            5,
+            "2.4.15.2.1 Verification of UAT Receiving Subsystem Input Interfaces (\u00a72.2.15.2.1)",
+            344
+        ],
+        [
+            6,
+            "2.4.15.2.1.1 Verification of Discrete Input Interfaces (\u00a72.2.15.2.1.1)",
+            344
+        ],
+        [
+            6,
+            "2.4.15.2.1.2 Verification of Digital Communication Input Interfaces (\u00a72.2.15.2.1.2)",
+            345
+        ],
+        [
+            6,
+            "2.4.15.2.1.3 Verification of Processing Efficiency (\u00a72.2.15.2.1.3)",
+            345
+        ],
+        [
+            5,
+            "2.4.15.2.2 Verification of UAT Receiving Subsystem Output Interfaces (\u00a72.2.15.2.2)",
+            345
+        ],
+        [
+            6,
+            "2.4.15.2.2.1 Verification of Discrete Output Interfaces (\u00a72.2.15.2.2.1)",
+            345
+        ],
+        [
+            6,
+            "2.4.15.2.2.2 Verification of Digital Communication Output Interfaces (\u00a72.2.15.2.2.2)",
+            346
+        ],
+        [
+            3,
+            "2.4.16 Verification of Power Interruption (\u00a72.2.16)",
+            346
+        ],
+        [
+            4,
+            "2.4.16.1 Verification of Power Interruption to UAT Transmitting Functions (\u00a72.2.16)",
+            346
+        ],
+        [
+            4,
+            "2.4.16.2 Verification of Power Interruption to UAT Receiving Functions (\u00a72.2.16)",
+            347
+        ],
+        [
+            3,
+            "2.4.17 Verification of Compatibility with Other Systems (\u00a72.2.17)",
+            348
+        ],
+        [
+            4,
+            "2.4.17.1 Verification of EMI Compatibility (\u00a72.2.17.1)",
+            348
+        ],
+        [
+            4,
+            "2.4.17.2 Verification of Compatibility with GPS Receivers (\u00a72.2.17.2)",
+            348
+        ],
+        [
+            4,
+            "2.4.17.3 Verification of Compatibility with Other Navigation Receivers and ATC Transponders (\u00a72.2.17.3)",
+            348
+        ],
+        [
+            1,
+            "3 Equipment Performance Characteristics",
+            351
+        ],
+        [
+            2,
+            "3.1 Equipment Installation",
+            351
+        ],
+        [
+            3,
+            "3.1.1 Installed Equipment Considerations",
+            351
+        ],
+        [
+            4,
+            "3.1.1.1 Data Sources",
+            351
+        ],
+        [
+            4,
+            "3.1.1.2 ADS-B Transmitter",
+            351
+        ],
+        [
+            4,
+            "3.1.1.3 ADS-B Receiver",
+            352
+        ],
+        [
+            4,
+            "3.1.1.4 Report Assembly",
+            352
+        ],
+        [
+            4,
+            "3.1.1.5 Applications",
+            352
+        ],
+        [
+            3,
+            "3.1.2 Aircraft Environment",
+            352
+        ],
+        [
+            3,
+            "3.1.3 Aircraft Power Source",
+            352
+        ],
+        [
+            4,
+            "3.1.3.1 Power Fluctuation",
+            352
+        ],
+        [
+            3,
+            "3.1.4 Accessibility",
+            352
+        ],
+        [
+            3,
+            "3.1.5 Display Visibility",
+            353
+        ],
+        [
+            3,
+            "3.1.6 Indicators",
+            353
+        ],
+        [
+            3,
+            "3.1.7 Alerts",
+            353
+        ],
+        [
+            3,
+            "3.1.8 Failure Protection",
+            353
+        ],
+        [
+            3,
+            "3.1.9 Failure Indication",
+            353
+        ],
+        [
+            3,
+            "3.1.10 Interference Effects",
+            353
+        ],
+        [
+            3,
+            "3.1.11 Mutual Suppression",
+            354
+        ],
+        [
+            2,
+            "3.2 Installed Equipment Performance Requirements",
+            354
+        ],
+        [
+            3,
+            "3.2.1 Antenna Installation",
+            354
+        ],
+        [
+            4,
+            "3.2.1.1 General Considerations",
+            354
+        ],
+        [
+            4,
+            "3.2.1.2 Transmission Lines",
+            354
+        ],
+        [
+            4,
+            "3.2.1.3 Antenna Polarization",
+            354
+        ],
+        [
+            4,
+            "3.2.1.4 Antenna Location",
+            355
+        ],
+        [
+            4,
+            "3.2.1.5 Minimum Distance from Other Antennas",
+            355
+        ],
+        [
+            4,
+            "3.2.1.6 Minimum Reception Range",
+            355
+        ],
+        [
+            4,
+            "3.2.1.7 Transmit Pattern Gain",
+            356
+        ],
+        [
+            4,
+            "3.2.1.8 Receive Pattern Gain",
+            356
+        ],
+        [
+            4,
+            "3.2.1.9 Dynamic Response",
+            356
+        ],
+        [
+            4,
+            "3.2.1.10 Antenna Diplexer",
+            356
+        ],
+        [
+            3,
+            "3.2.2 Mutual Suppression Bus",
+            357
+        ],
+        [
+            2,
+            "3.3 Conditions of Test",
+            357
+        ],
+        [
+            3,
+            "3.3.1 Safety Precautions",
+            357
+        ],
+        [
+            3,
+            "3.3.2 Power Input",
+            357
+        ],
+        [
+            3,
+            "3.3.3 Environment",
+            357
+        ],
+        [
+            3,
+            "3.3.4 Adjustment of Equipment",
+            357
+        ],
+        [
+            3,
+            "3.3.5 Warm-up Period",
+            358
+        ],
+        [
+            2,
+            "3.4 Test Procedures for Installed Equipment Performance",
+            358
+        ],
+        [
+            3,
+            "3.4.1 Verification of Antenna Installation (\u00a73.2.1)",
+            358
+        ],
+        [
+            4,
+            "3.4.1.1 Verification of General Considerations (\u00a73.2.1.1)",
+            358
+        ],
+        [
+            4,
+            "3.4.1.2 Verification of Transmission Lines (\u00a73.2.1.2)",
+            358
+        ],
+        [
+            4,
+            "3.4.1.3 Verification of Antenna Polarization (\u00a73.2.1.3)",
+            359
+        ],
+        [
+            4,
+            "3.4.1.4 Verification of Antenna Location (\u00a73.2.1.4)",
+            359
+        ],
+        [
+            4,
+            "3.4.1.5 Verification of Minimum Distance from Other Antennas (\u00a73.2.1.5)",
+            359
+        ],
+        [
+            4,
+            "3.4.1.6 Verification of Minimum Reception Range (\u00a73.2.1.6)",
+            359
+        ],
+        [
+            4,
+            "3.4.1.7 Verification of Transmit Pattern Gain (\u00a73.2.1.7)",
+            359
+        ],
+        [
+            5,
+            "3.4.1.7.1 Background Material on Gain Performance Verification",
+            359
+        ],
+        [
+            6,
+            "3.4.1.7.1.1 Full Scale Anechoic Antenna Range Measurements of Gain",
+            360
+        ],
+        [
+            6,
+            "3.4.1.7.1.2 Scaled Model Measurements of Gain",
+            360
+        ],
+        [
+            6,
+            "3.4.1.7.1.3 Model Tests",
+            361
+        ],
+        [
+            6,
+            "3.4.1.7.1.4 Theoretical Calculations of Antenna Gain",
+            361
+        ],
+        [
+            7,
+            "3.4.1.7.1.4.1 Validation of Theoretical Calculations",
+            361
+        ],
+        [
+            6,
+            "3.4.1.7.1.5 Distance Area Calculations",
+            361
+        ],
+        [
+            5,
+            "3.4.1.7.2 Success Criteria",
+            362
+        ],
+        [
+            5,
+            "3.4.1.7.3 Verification Procedure for Transmit Pattern Gain",
+            362
+        ],
+        [
+            4,
+            "3.4.1.8 Verification of Receive Pattern Gain (\u00a73.2.1.8)",
+            369
+        ],
+        [
+            4,
+            "3.4.1.9 Verification of Dynamic Response (\u00a73.2.1.9)",
+            371
+        ],
+        [
+            2,
+            "3.5 Flight Environment Data Sources",
+            371
+        ],
+        [
+            3,
+            "3.5.1 Navigation Integrity Category (NIC)",
+            371
+        ],
+        [
+            3,
+            "3.5.2 Navigation Accuracy Category \u2013 Position (NACP)",
+            371
+        ],
+        [
+            3,
+            "3.5.3 Altitude",
+            372
+        ],
+        [
+            4,
+            "3.5.3.1 Altitude Reporting Source",
+            372
+        ],
+        [
+            3,
+            "3.5.4 On-Ground / Airborne Status",
+            372
+        ],
+        [
+            3,
+            "3.5.5 Short-Term Intent Sources",
+            372
+        ],
+        [
+            3,
+            "3.5.6 IDENT Source",
+            372
+        ],
+        [
+            2,
+            "3.6 Aircraft / Vehicle Data",
+            372
+        ],
+        [
+            3,
+            "3.6.1 Fixed Data",
+            373
+        ],
+        [
+            3,
+            "3.6.2 Variable Data",
+            373
+        ],
+        [
+            3,
+            "3.6.3 On-Condition and Status Sensors",
+            373
+        ],
+        [
+            2,
+            "3.7 Flight Test Procedures",
+            373
+        ],
+        [
+            3,
+            "3.7.1 Displayed Data Reliability",
+            373
+        ],
+        [
+            3,
+            "3.7.2 Interference Effects",
+            374
+        ],
+        [
+            3,
+            "3.7.3 ADS-B Performance Testing",
+            374
+        ],
+        [
+            1,
+            "4 EQUIPMENT OPERATIONAL PERFORMANCE CHARACTERISTICS",
+            375
+        ],
+        [
+            2,
+            "4.1 Required Operational Performance Characteristics",
+            375
+        ],
+        [
+            3,
+            "4.1.1 Power Input and Control",
+            375
+        ],
+        [
+            4,
+            "4.1.1.1 Power On/Off (Optional)",
+            375
+        ],
+        [
+            3,
+            "4.1.2 Equipment Operating Modes",
+            375
+        ],
+        [
+            4,
+            "4.1.2.1 Transmission Modes",
+            375
+        ],
+        [
+            5,
+            "4.1.2.1.1 ON-GROUND Condition",
+            376
+        ],
+        [
+            5,
+            "4.1.2.1.2 AIRBORNE Condition",
+            376
+        ],
+        [
+            4,
+            "4.1.2.2 Receive Subsystem",
+            376
+        ],
+        [
+            5,
+            "4.1.2.2.1 Receive Function",
+            376
+        ],
+        [
+            5,
+            "4.1.2.2.2 Report Assembly Function",
+            376
+        ],
+        [
+            3,
+            "4.1.3 UAT Link Control (Optional)",
+            377
+        ],
+        [
+            3,
+            "4.1.4 Standby",
+            377
+        ],
+        [
+            3,
+            "4.1.5 Mode Status Message Control",
+            377
+        ],
+        [
+            3,
+            "4.1.6 Barometric Altitude",
+            377
+        ],
+        [
+            3,
+            "4.1.7 Broadcast Monitor",
+            377
+        ],
+        [
+            3,
+            "4.1.8 Address Monitor",
+            377
+        ],
+        [
+            3,
+            "4.1.9 Failure Indication",
+            377
+        ],
+        [
+            2,
+            "4.2 Certification Test Procedures for Operational Performance Requirements",
+            378
+        ],
+        [
+            3,
+            "4.2.1 Power Input",
+            378
+        ],
+        [
+            4,
+            "4.2.1.1 Ground Power Unit (GPU)",
+            378
+        ],
+        [
+            4,
+            "4.2.1.2 Auxiliary Power Unit (APU)",
+            378
+        ],
+        [
+            4,
+            "4.2.1.3 Engine Generator(s)",
+            378
+        ],
+        [
+            4,
+            "4.2.1.4 Power On/Off (Optional)",
+            378
+        ],
+        [
+            3,
+            "4.2.2 UAT Transmitting Subsystem Operating Modes",
+            378
+        ],
+        [
+            4,
+            "4.2.2.1 ON-GROUND Condition",
+            379
+        ],
+        [
+            4,
+            "4.2.2.2 AIRBORNE Condition",
+            379
+        ],
+        [
+            4,
+            "4.2.2.3 Automatic Operation ",
+            379
+        ],
+        [
+            3,
+            "4.2.3 Controls and Indicators",
+            379
+        ],
+        [
+            4,
+            "4.2.3.1 Standby Mode",
+            379
+        ],
+        [
+            4,
+            "4.2.3.2 UAT Link Control (Optional)",
+            379
+        ],
+        [
+            4,
+            "4.2.3.3 Barometric Altitude",
+            379
+        ],
+        [
+            4,
+            "4.2.3.4 Failure Indication",
+            379
+        ],
+        [
+            1,
+            "APPendix Combined.pdf",
+            -1
+        ],
+        [
+            2,
+            "UAT-App_A v1",
+            389
+        ],
+        [
+            3,
+            "A. Acronyms  &  Definition of Terms",
+            391
+        ],
+        [
+            4,
+            "A.1 Acronyms",
+            391
+        ],
+        [
+            4,
+            "A.2 Definition of Terms",
+            398
+        ],
+        [
+            2,
+            "UAT-App_B v1",
+            409
+        ],
+        [
+            3,
+            "B. MASPS Compliance Matrix",
+            411
+        ],
+        [
+            4,
+            "B.1 Introduction",
+            411
+        ],
+        [
+            4,
+            "B.2 ADS-B MASPS Compliance Matrix",
+            411
+        ],
+        [
+            4,
+            "B.3 FIS-B MASPS Compliance",
+            411
+        ],
+        [
+            2,
+            "UAT-App_C v1",
+            413
+        ],
+        [
+            3,
+            "C. Example ADS-B Message Encoding",
+            415
+        ],
+        [
+            4,
+            "C.1 Reed Solomon Encoding of Message Payload",
+            415
+        ],
+        [
+            4,
+            "C.2 Reed Solomon Encoding of Basic Type 0 ADS-B Message Payload",
+            416
+        ],
+        [
+            4,
+            "C.3 Reed Solomon Encoding of Long Type 1 ADS-B Message Payload  ",
+            417
+        ],
+        [
+            4,
+            "C.4 Reed Solomon Encoding of Ground Uplink Message Payload",
+            420
+        ],
+        [
+            2,
+            "UAT-App_D v1",
+            421
+        ],
+        [
+            3,
+            "D UAT Ground Infrastructure",
+            423
+        ],
+        [
+            4,
+            "General Description",
+            423
+        ],
+        [
+            5,
+            "D.1.1 Uplink: Broadcast",
+            423
+        ],
+        [
+            6,
+            "D.1.1.1 Geometric Coverage",
+            423
+        ],
+        [
+            7,
+            "D.1.1.1.1 Radio Coverage",
+            423
+        ],
+        [
+            7,
+            "D.1.1.1.2 FIS-B Product Coverage",
+            424
+        ],
+        [
+            7,
+            "D.1.1.1.3 TIS-B Product Coverage",
+            425
+        ],
+        [
+            6,
+            "D.1.1.2 Data Source For Ground Broadcast",
+            425
+        ],
+        [
+            5,
+            "D.1.2 Downlink: Surveillance",
+            425
+        ],
+        [
+            5,
+            "D.1.3 Summary of Infrastructure and Implications ",
+            426
+        ],
+        [
+            4,
+            "D.2 Ground Station Deployment",
+            427
+        ],
+        [
+            5,
+            "D.2.1 Time Slots",
+            427
+        ],
+        [
+            5,
+            "D.2.2 Slot Rotation",
+            428
+        ],
+        [
+            5,
+            "D.2.3 Antenna Considerations for Uplink",
+            428
+        ],
+        [
+            5,
+            "D.2.4 TIS-B Site ID",
+            430
+        ],
+        [
+            5,
+            "D.2.5 Sectorized Cells and Co-Site Transmission Isolation",
+            432
+        ],
+        [
+            4,
+            "D.3 RF Interference",
+            433
+        ],
+        [
+            5,
+            "D.3.1 JTIDS Interference",
+            433
+        ],
+        [
+            5,
+            "D.3.2 DME Interference",
+            433
+        ],
+        [
+            4,
+            "D.4 Multiple ADS-B Links",
+            434
+        ],
+        [
+            2,
+            "UAT-App_E v1",
+            435
+        ],
+        [
+            3,
+            "E. Aircraft Antenna Characteristics",
+            437
+        ],
+        [
+            4,
+            "E.1 Antenna Characteristics",
+            437
+        ],
+        [
+            5,
+            "E.1.1 General Characteristics",
+            437
+        ],
+        [
+            5,
+            "E.1.2 Radiation Patterns",
+            437
+        ],
+        [
+            5,
+            "E.1.3 Directional Gain Radiation Patterns",
+            437
+        ],
+        [
+            4,
+            "E.2 Typical VSWR Measurements of Existing Transponder / DME Antennas",
+            439
+        ],
+        [
+            5,
+            "E.2.1 Sensor Systems L Band Blade Antenna P/N S65-5366-7L",
+            441
+        ],
+        [
+            5,
+            "E.2.2 AeroAntenna P/N AT-130-1",
+            441
+        ],
+        [
+            5,
+            "E.2.3 \u00bc Wave Whip Antenna",
+            441
+        ],
+        [
+            4,
+            "E.3 Passive Antenna Diplexer Characteristics ",
+            442
+        ],
+        [
+            5,
+            "E.3.1 Antenna Diplexer Testing",
+            443
+        ],
+        [
+            6,
+            "E.3.1.1 SSR Transponder Testing ",
+            443
+        ],
+        [
+            6,
+            "E.3.1.2 UAT Diplexer Testing",
+            446
+        ],
+        [
+            6,
+            "E.3.1.3 Prototype Diplexer Performance",
+            447
+        ],
+        [
+            5,
+            "E.3.2 Typical Installation Diagram",
+            450
+        ],
+        [
+            2,
+            "UAT-App_F v1",
+            451
+        ],
+        [
+            3,
+            "F. Transmitter and Receiver Power Requirements",
+            453
+        ],
+        [
+            2,
+            "UAT-App_G v1",
+            455
+        ],
+        [
+            3,
+            "G. Standard Interference Environment",
+            457
+        ],
+        [
+            4,
+            "G.1 Background",
+            457
+        ],
+        [
+            4,
+            "G.2 Operational Environments",
+            457
+        ],
+        [
+            4,
+            "G.3 Co-Site Environment",
+            460
+        ],
+        [
+            4,
+            "G.4 Scenario Assessments",
+            461
+        ],
+        [
+            2,
+            "UAT-App_H v1",
+            467
+        ],
+        [
+            3,
+            "H. UAT Synchronization Issues",
+            469
+        ],
+        [
+            4,
+            "H.1 Introduction",
+            469
+        ],
+        [
+            4,
+            "H.2 Synchronization Process Description",
+            469
+        ],
+        [
+            4,
+            "H.3 Synchronization Performance",
+            471
+        ],
+        [
+            4,
+            "H.4 False Alarm Rate (Noise)",
+            476
+        ],
+        [
+            4,
+            "H.5 False Alarm Rate (Embedded Synchronization Sequence)",
+            478
+        ],
+        [
+            4,
+            "H.6 Up Link Message Considerations",
+            479
+        ],
+        [
+            4,
+            "H.7 Required Memory Size",
+            480
+        ],
+        [
+            4,
+            "H.8 Summary",
+            481
+        ],
+        [
+            2,
+            "UAT-App_I v1",
+            483
+        ],
+        [
+            3,
+            "I. UAT Timing Requirements",
+            485
+        ],
+        [
+            4,
+            "I.1 Background",
+            485
+        ],
+        [
+            4,
+            "I.2 Purpose",
+            485
+        ],
+        [
+            4,
+            "I.3 Installed End-End Timing Performance ",
+            485
+        ],
+        [
+            4,
+            "I.4 MOPS Timing Requirements ",
+            487
+        ],
+        [
+            4,
+            "I.5 Considerations for ADS-B Validation Applications",
+            488
+        ],
+        [
+            2,
+            "UAT-App_J v1",
+            491
+        ],
+        [
+            3,
+            "J. Reference Upper-Layer External Interface Format",
+            493
+        ],
+        [
+            4,
+            "J.1 Background",
+            493
+        ],
+        [
+            4,
+            "J.2 Scope",
+            493
+        ],
+        [
+            4,
+            "J.3 Serial Data Format Description",
+            493
+        ],
+        [
+            2,
+            "UAT-App_K v1",
+            495
+        ],
+        [
+            3,
+            "K. UAT System Performance Simulation Results",
+            497
+        ],
+        [
+            4,
+            "K.1 Introduction",
+            497
+        ],
+        [
+            5,
+            "K.1.1 Organization",
+            497
+        ],
+        [
+            5,
+            "K.1.2 Background",
+            497
+        ],
+        [
+            5,
+            "K.1.3 General Assumptions",
+            498
+        ],
+        [
+            5,
+            "K.1.4 UAT Detailed Simulation Description and Limitations",
+            498
+        ],
+        [
+            4,
+            "K.2 TLAT Antenna Model",
+            500
+        ],
+        [
+            4,
+            "K.3 Receiver Performance Model",
+            502
+        ],
+        [
+            5,
+            "K.3.1 Measured Data",
+            502
+        ],
+        [
+            5,
+            "K.3.2 Receiver Model Assumptions",
+            506
+        ],
+        [
+            5,
+            "K.3.3 Receiver Model Accuracy",
+            509
+        ],
+        [
+            4,
+            "K.4 Multi-Aircraft Simulation (MAUS) Results",
+            513
+        ],
+        [
+            5,
+            "K.4.1 Los Angeles Basin 2020 (LA2020)",
+            513
+        ],
+        [
+            5,
+            "K.4.2 Core Europe Scenarios",
+            529
+        ],
+        [
+            6,
+            "K.4.2.1 Current Core Europe",
+            531
+        ],
+        [
+            6,
+            "K.4.2.2 Core Europe 2015",
+            555
+        ],
+        [
+            5,
+            "K.4.3 Low Density Scenario",
+            569
+        ],
+        [
+            5,
+            "K.4.4 Acquisition Performance",
+            571
+        ],
+        [
+            5,
+            "K.4.5 Surface Performance",
+            574
+        ],
+        [
+            5,
+            "K.4.6 An A0 on the Surface Receiving an Aircraft that is on Approach",
+            583
+        ],
+        [
+            4,
+            "K.5 Model Validation",
+            585
+        ],
+        [
+            4,
+            "K.6 UAT A1S Performance Analysis",
+            587
+        ],
+        [
+            2,
+            "UAT-App_L v1",
+            591
+        ],
+        [
+            3,
+            "L. Proposed Support of the Trajectory Change Report",
+            593
+        ],
+        [
+            2,
+            "UAT-App_M v1",
+            595
+        ],
+        [
+            3,
+            "M. UAT Error Detection and Correction Performance",
+            597
+        ],
+        [
+            2,
+            "UAT-App_N v1",
+            605
+        ],
+        [
+            3,
+            "N. Setup Files for Test Procedures",
+            607
+        ],
+        [
+            2,
+            "UAT-App_O v1",
+            609
+        ],
+        [
+            3,
+            "O. DME Operation in the Presence of UAT Signals",
+            611
+        ],
+        [
+            2,
+            "UAT-App_P v1",
+            625
+        ],
+        [
+            3,
+            "P. UAT Message Overlap Statistics",
+            627
+        ],
+        [
+            4,
+            "P.1 Introduction",
+            627
+        ],
+        [
+            4,
+            "P.2 Statistical Model Results",
+            628
+        ],
+        [
+            5,
+            "P.2.1 Discussion",
+            635
+        ],
+        [
+            5,
+            "P.2.2 Effect of Uplink Message",
+            637
+        ],
+        [
+            4,
+            "P.3 MAUS Results",
+            637
+        ],
+        [
+            4,
+            "P.4 Summary",
+            640
+        ],
+        [
+            2,
+            "UAT-App_Q v1",
+            641
+        ],
+        [
+            3,
+            "Q Determining the Navigation Accuracy Category for Velocity (NACV)",
+            643
+        ],
+        [
+            4,
+            "Q.1 Purpose and Scope",
+            643
+        ],
+        [
+            4,
+            "Q.2 Background",
+            643
+        ],
+        [
+            4,
+            "Q.3 Tests to Determine Velocity Accuracy for Support Setting NACV = 1 or 2",
+            644
+        ],
+        [
+            5,
+            "Q.3.1 Horizontal Velocity Accuracy Test Conditions Commensurate with NACV = 1",
+            644
+        ],
+        [
+            6,
+            "Q.3.1.1 Pass/Fail Determination",
+            645
+        ],
+        [
+            6,
+            "Q.3.1.2 Vertical Velocity Accuracy Test Conditions Commensurate with NACV = 1",
+            646
+        ],
+        [
+            6,
+            "Q.3.1.3 Pass/Fail Determination",
+            648
+        ],
+        [
+            5,
+            "Q.3.2 Additional Tests to Demonstrate Accuracy Commensurate with NACV = 2",
+            648
+        ],
+        [
+            4,
+            "Q.4 Expected GNSS Velocity Accuracy in Stable Flight",
+            649
+        ],
+        [
+            2,
+            "UAT-App_R v1",
+            651
+        ],
+        [
+            3,
+            "R Proposed DO-282B Provisions for Backward Compatibility with DO-282A Message Formats",
+            653
+        ],
+        [
+            4,
+            "R.1 Background",
+            653
+        ],
+        [
+            4,
+            "R.2 Version 1 SIL Field Definition",
+            653
+        ],
+        [
+            2,
+            "UAT-App_S v1",
+            655
+        ],
+        [
+            3,
+            "S Provisioning For Potential Wake Vortex and Arrival Management ADS-B Applications",
+            657
+        ],
+        [
+            4,
+            "S.1 Introduction",
+            657
+        ],
+        [
+            5,
+            "S.1.1 Proposed Wake Turbulence Applications",
+            658
+        ],
+        [
+            5,
+            "S.1.2 Additional Capabilities",
+            661
+        ],
+        [
+            6,
+            "S.1.2.1 Improved Arrival Management Scheduling and Aircraft Trajectory Synthesis",
+            661
+        ],
+        [
+            6,
+            "S.1.2.2 Increased Wind Field Prediction Accuracy",
+            662
+        ],
+        [
+            6,
+            "S.1.2.3 Better Situational Awareness of Current Weather",
+            662
+        ],
+        [
+            5,
+            "S.1.3 Broadcast System Architecture",
+            662
+        ],
+        [
+            4,
+            "S.2 Data Requirements for Wake and Arrival Management Applications",
+            663
+        ],
+        [
+            4,
+            "S.3 Message Formats and Transmission Rates",
+            669
+        ],
+        [
+            5,
+            "S.3.1 Wind Triangle and Derivation of Wind Vector from Ground Vector and ARV Data",
+            669
+        ],
+        [
+            5,
+            "S.3.2 Derivation of Wind Vector from Ground Vector and Low Rate ARV Broadcasts",
+            671
+        ],
+        [
+            5,
+            "S.3.3 Proposed Update Rates for Wind Vector and ARV Broadcasts",
+            672
+        ],
+        [
+            5,
+            "S.3.4 Data Coasting for Continuity of ARV Data During Gaps in ARV Reception",
+            673
+        ],
+        [
+            4,
+            "S.4 Provisioning of MET and ARV Data",
+            674
+        ],
+        [
+            4,
+            "S.5 References",
+            680
+        ],
+        [
+            4,
+            "S.6 Addendum on CAS, Mach, and TAS Relationships",
+            680
+        ],
+        [
+            2,
+            "UAT-App_T v1",
+            685
+        ],
+        [
+            3,
+            "1150 18th Street, N.W., Suite 910",
+            685
+        ],
+        [
+            3,
+            "Washington, DC 20036, USA",
+            685
+        ]
+    ],
+    "pages": 704,
+    "ocr_stats": {
+        "ocr_pages": 36,
+        "ocr_failed": 36,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 517,
+        "code": 28,
+        "table": 126,
+        "equations": {
+            "successful_ocr": 85,
+            "unsuccessful_ocr": 5,
+            "equations": 90
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

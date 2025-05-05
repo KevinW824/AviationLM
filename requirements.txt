@@ -1,0 +1,16 @@
+# Core dependencies
+torch==2.1.0+cu118           # Adjust to your CUDA version (cu118 for CUDA 11.8)
+torchaudio==2.1.0+cu118
+torchvision==0.16.0+cu118
+
+sentence-transformers>=2.2.2
+transformers>=4.35.0
+tqdm>=4.64.0
+
+# LangChain + FAISS
+langchain>=0.2.0
+langchain-community>=0.0.19
+faiss-cpu>=1.7.4  # or faiss-gpu if you want GPU-accelerated FAISS
+
+# Optional
+python-dotenv>=1.0.0

@@ -1,0 +1,485 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            "Structure Bookmarks",
+            -1
+        ],
+        [
+            2,
+            "CHAPTER 1. GENERAL INFORMATION. ",
+            5
+        ],
+        [
+            2,
+            "1.1 Purpose of this Advisory Circular.  We wrote this advisory circular (AC) to guide applicants seeking airworthiness approval for TCAS II version 7.1 (V7.1) certified to technical standard order (TSO) C119c, TSO-C119d or TSO-C119e, Traffic Alert and Collision Avoidance System (TCAS) Airborne Equipment, TCAS II with Hybrid Surveillance.  This AC also provides guidance for applicants seeking airworthiness approval for stand-alone Mode S transponders certified to TSO-C112e, Air Traffic Control Radar Beacon S",
+            5
+        ],
+        [
+            2,
+            "1.2 Who this AC applies to.  Applicants seeking a type certificate (TC), amended type certificate, or supplemental type certificate (STC) under Title 14 of the Code of Federal Regulations (14 CFR) part 25 for initial approval and follow-on approvals of TCAS II systems or stand-alone Mode S transponder systems.  References to 14 CFR part 25 are appropriate when TCAS II is installed on transport category airplanes.  When TCAS II is to be certified for non-transport category airplanes, use the equivalents to t",
+            5
+        ],
+        [
+            2,
+            "1.3 Cancellation.  This revision cancels AC 20-151B, dated March 18, 2014. ",
+            5
+        ],
+        [
+            2,
+            "1.4 Significant Changes. This revision of the AC does the following: ",
+            5
+        ],
+        [
+            2,
+            "1.4.1 Mitigates spurious RAs with installation of TSO-C119e TCAS II units. ",
+            5
+        ],
+        [
+            2,
+            "1.4.2 Adds guidance for implementing select functionality associated with extended squitter, elementary and enhanced Mode S surveillance messaging. ",
+            5
+        ],
+        [
+            2,
+            "1.4.3 Elaborates on and clarifies the failure condition classification of TCAS II systems, particularly with regard to missing RAs (failure to provide an RA, or providing one late, when a threat is present). ",
+            5
+        ],
+        [
+            2,
+            "1.4.4 Sets policy and provides guidance to annunciate TCAS and transponder failures in the primary field of view as an advisory level alert. ",
+            6
+        ],
+        [
+            2,
+            "1.5 Scope. What this AC Covers. ",
+            6
+        ],
+        [
+            2,
+            "1.5.1 In this AC, we cover design aspects, characteristics, mechanization, testing, and the criticality of system failure cases for TCAS II V7.0 and V7.1 and associated Mode S transponders.  Our guidance focuses on systems that provide traffic advisories (TA) and resolution advisories (RA) in the vertical sense only (TCAS II), and where operational performance standards are defined in technical documents developed by a joint air transport industry-government group (the RTCA, Inc. Special Committee SC-147). ",
+            6
+        ],
+        [
+            2,
+            "1.5.2 We also cover TCAS II hybrid surveillance, which is now included in a TCAS II system. ",
+            6
+        ],
+        [
+            2,
+            "1.5.3 We do not cover traffic symbology for traffic displays in systems that integrate TCAS and Airborne Separation Applications System (ASAS).  Guidance for airworthiness approvals of ADS-B Out and ADS-B In can be found in Advisory Circulars 20-165B and 20-172B respectively. ",
+            6
+        ],
+        [
+            2,
+            "1.5.4 We also cover implementation of certain messaging capability of extended squitter and ELS/EHS Mode S Transponders, specifically, Selected Vertical Intention (BDS register 4016) and Target State and Status Information (BDS register 6216). ",
+            6
+        ],
+        [
+            2,
+            "1.5.5 For more thorough guidance on Mode S Elementary surveillance, refer to Joint Aviation Authorities (JAA) Temporary Guidance Leaflet (TGL) 13 Revision 1, Certification of Mode S Transponder Systems for Elementary Surveillance, and EASA Certification Specification and Acceptable Means of Compliance \u2013 Airborne Communication Navigation and Surveillance, (CS-ACNS). ",
+            6
+        ],
+        [
+            2,
+            "1.5.6 For more thorough guidance on Mode S Enhanced surveillance, refer to Acceptable Means of Compliance (AMC) 20-13, Certification of Mode S Transponder Systems for Enhanced Surveillance, and EASA CS-ACNS. ",
+            6
+        ],
+        [
+            2,
+            "1.5.7 This advisory circular provides applicants with guidance for obtaining an airworthiness approval for TCAS II.  Integration with flight guidance systems in an aircraft is out of scope for this document.  For guidance on integration with an aircraft\u2019s flight guidance system, refer to Advisory Circular 25.1329-1C, Approval of Flight Guidance Systems.",
+            6
+        ],
+        [
+            2,
+            "CHAPTER 2. TCAS II SYSTEM ",
+            7
+        ],
+        [
+            2,
+            "2.1 System Description. ",
+            7
+        ],
+        [
+            2,
+            "2.1.1 Description of a TCAS II System.  TCAS II is an airborne traffic alert and collision avoidance system that interrogates air traffic control (ATC) transponders in nearby aircraft and uses computer processing to identify and display potential and predicted collision threats.  The system is designed to protect a volume of airspace around the TCAS II equipped aircraft.  The system will provide appropriate aural and visual advisories to the flight crew to take action to ensure adequate separation when the ",
+            7
+        ],
+        [
+            2,
+            "2.1.2 System Advisories.  The system provides two types of advisories: ",
+            7
+        ],
+        [
+            2,
+            "2.1.3 System Flight Deck Displays.  The system provides two types of flight deck displays: ",
+            7
+        ],
+        [
+            2,
+            "2.1.4 Mode S Transponder. ",
+            8
+        ],
+        [
+            2,
+            "2.1.5 Hybrid Surveillance.  Hybrid surveillance is a function of TCAS used as a means to decrease Mode S interrogations.  Aircraft may use passive surveillance instead of active surveillance to track intruders that meet validation criteria and are not projected to be near-term collision threats.  Active surveillance uses the standard TCAS transponder interrogation that provides range, bearing and altitude to the intruder.  Passive surveillance uses automatic dependent surveillance-broadcast (ADS-B) data bro",
+            8
+        ],
+        [
+            2,
+            "2.2 System Components and Requirements. ",
+            8
+        ],
+        [
+            2,
+            "2.2.1 Mode S Transponder. ",
+            8
+        ],
+        [
+            2,
+            "2.2.2 Pilot Control.  A pilot control for the TCAS and transponder equipment must be provided. ",
+            9
+        ],
+        [
+            2,
+            "2.2.3 Antennas. The Mode S transponder must have a top and bottom omnidirectional antenna (also known as diversity antennas) when installed in an aircraft with TCAS II.  The TCAS II must have a top directional antenna and a bottom omnidirectional or directional antenna. ",
+            10
+        ],
+        [
+            2,
+            "2.2.4 Structural analysis.  Submit a structural analysis of the antenna installations showing compliance with the applicable regulations of 14 CFR to the FAA. ",
+            11
+        ],
+        [
+            2,
+            "2.2.5 The TCAS Processor.  The TCAS II processor unit uses both transponder reply information and information from the aircraft to identify and to display potential and predicted collision threats, and to issue RAs to avoid the threat aircraft.  The TCAS II processor unit must comply with the environmental qualification requirements and minimum performance standards specified in TSO-C119( ).  A manufacturer of TSO equipment can obtain authorization to produce equipment that deviates from the detailed criter",
+            11
+        ],
+        [
+            2,
+            "2.2.6 Traffic Display. ",
+            11
+        ],
+        [
+            2,
+            "2.2.7 Resolution Advisory Display. ",
+            12
+        ],
+        [
+            2,
+            "2.2.8 Caution/Warning Lights. ",
+            13
+        ],
+        [
+            2,
+            "2.2.9 Aural Alert Requirements. ",
+            13
+        ],
+        [
+            2,
+            "2.2.10   Failures, TCAS and Transponder.  14 CFR Sections 25.1302, 25.1309(c), and 25.1322 contain requirements for flight crew alerting.  For purposes of compliance with Sec. 25.1322(b) with regard to a TCAS II and or Mode S transponder system, accident experience has shown that loss of TCAS II or Mode S transponder functionality requires flight crew awareness and may require subsequent flight crew response.  This response includes checking for proper TCAS II system settings and operation as well as Mode S",
+            15
+        ],
+        [
+            2,
+            "2.3 Airworthiness Considerations. ",
+            16
+        ],
+        [
+            2,
+            "2.3.1 Certification Program.  This AC will guide your installation of TCAS II V7.0 or V7.1 systems and Mode S transponder systems.  TCAS II system installations include the TCAS, the Mode S system, antennas, control panel and display components.  Mode S transponder installations include the Mode S transponder, antennas, and control panel. These components are all certified initially as a single installed system with a defined configuration.  Any change to the defined configuration requires either a new Init",
+            16
+        ],
+        [
+            2,
+            "2.3.2 Certification plan.  Develop a comprehensive certification plan.  Include how you\u2019ll comply with the applicable certification requirements, and list the substantiating data and necessary tests in your plan.  Include a system description and an estimated time schedule.  A well-developed certification plan will be of significant value both to you (the applicant) and the appropriate FAA certification office. ",
+            16
+        ],
+        [
+            2,
+            "2.3.3 Equipment Compatibility Requirements. ",
+            16
+        ],
+        [
+            2,
+            "2.3.4 Aircraft Performance Considerations.  Use paragraphs 2.3.4 through ",
+            18
+        ],
+        [
+            2,
+            "2.3.5 Evaluating Aircraft Performance.  The configuration interface may need switches or sensors, besides the basic airplane flap position switches, to prevent unnecessary TCAS II inhibits.  For example, if you need to inhibit CLIMB RAs for the maximum takeoff flap setting only, and no switch exists to sense that position, install an additional switch instead of simply using one that may exist at lesser flap angle settings. ",
+            18
+        ],
+        [
+            2,
+            "2.3.6 How Aircraft Systems Should Interface with TCAS II. ",
+            24
+        ],
+        [
+            2,
+            "2.3.7 Verifying and Validating TCAS II Software.  For the first installation of a manufacturer\u2019s TCAS II equipment, you must verify and validate TCAS II software using the procedures below.  Also, apply these procedures to subsequent software changes to a manufacturer\u2019s TCAS II equipment.  A manufacturer may provide a design that partitions the software that affects RAs from other software, such as that necessary for the traffic display.  The TCAS II manufacturer may not use the minor change authority of th",
+            26
+        ],
+        [
+            2,
+            "2.3.8 Failure Conditions System Safety Assessment and Design Assurance.  Unannunciated failures of the TCAS II equipment, its associated transponder, or sensors or displays that could generate an incorrect or false RA, or result in a missing RA, must be improbable.  This can be accomplished using the methods described in AC 25.1309-1A, System Design and Analysis.  A functional hazard assessment (FHA), a failure modes and effects analysis (FMEA), and a quantitative probability analysis of the TCAS II equipme",
+            28
+        ],
+        [
+            2,
+            "2.3.9 Maintenance Considerations for Hybrid Surveillance Functionality (TSO-C119d and later). ",
+            29
+        ],
+        [
+            2,
+            "2.3.10 Populating Mode S Transponder registers 4016 and 6216 (if implemented). ",
+            30
+        ],
+        [
+            2,
+            "CHAPTER 3. TEST AND EVALUATION (INITIAL APPROVAL). ",
+            31
+        ],
+        [
+            2,
+            "3.1 General. ",
+            31
+        ],
+        [
+            2,
+            "3.2 Create a Test Plan. ",
+            31
+        ],
+        [
+            2,
+            "3.2.1 Basic Ground Tests. ",
+            31
+        ],
+        [
+            2,
+            "3.2.2 Basic Flight Tests. ",
+            33
+        ],
+        [
+            2,
+            "3.2.3 Planned Encounter Flight Tests. ",
+            35
+        ],
+        [
+            2,
+            "3.2.4 Mode S Transponder Tests. ",
+            36
+        ],
+        [
+            2,
+            "CHAPTER 4. FOLLOW-ON APPROVALS (STCs or Amended STC or Amended TC) - The Need for Tests and a Plan. ",
+            40
+        ],
+        [
+            2,
+            "4.1 General ",
+            40
+        ],
+        [
+            2,
+            "4.1.1 Provide a test plan including adequate aircraft ground testing and evaluations to verify that the design and installation performs its intended function when you install it in a different aircraft type under the expected operating conditions.  There should be no adverse interactions between the TCAS II or Mode S transponder and existing aircraft systems, and the installation should not compromise prior approvals of present aircraft equipment.  This test plan will generally require a combination of gro",
+            40
+        ],
+        [
+            2,
+            "4.1.2 You may need to conduct flight testing of TCAS II or Mode S transponder systems for follow-on approvals (previously approved TCAS II or Mode S transponder equipment installed in a different aircraft type or change to the defined configuration of a previously approved system installation) to verify that the design and installation performs its intended function under the expected operating conditions.  Determine that there are no adverse interactions between the TCAS II or Mode S transponder and existi",
+            40
+        ],
+        [
+            2,
+            "4.2 Ground Tests and Evaluations. ",
+            40
+        ],
+        [
+            2,
+            "4.2.1 Evaluate the general arrangement and operation of controls, displays, circuit breakers, annunciators, and placards of the TCAS II system.  Conduct a human factors evaluation of the controls, displays and annunciators.  Evaluate the TCAS controls and the controls of installed systems that interact with TCAS (for example, transponders) to determine that the control design and location prevents inadvertent actuation.  Evaluate TCAS displays and annunciations to determine that they support flight crew awa",
+            40
+        ],
+        [
+            2,
+            "legible, unambiguous, and attention-getting (as applicable).  In particular, where transponder functions are integrated with other system controls, ensure that unintended transponder mode switching, especially switching to STANDBY or OFF, is not possible.  Pay close attention to line select keys, touch screens or cursor controlled trackballs as these can be susceptible to unintended mode selection resulting from their location in the flight deck (for example proximity to a foot rest or adjacent to a tempora",
+            41
+        ],
+        [
+            2,
+            "4.2.2 Evaluate the TCAS II self-test features and failure mode displays and annunciators. ",
+            41
+        ],
+        [
+            2,
+            "4.2.3 Verify proper interface of the pressure altitude source and radio altimeter with the TCAS II equipment. ",
+            41
+        ],
+        [
+            2,
+            "4.2.4 Measure the performance of the directional antenna for 360 degrees coverage at 30 degree intervals, as specified under basic ground tests, paragraph ",
+            41
+        ],
+        [
+            2,
+            "4.2.5 Evaluate the TCAS II system installation for satisfactory identification, accessibility, and visibility during both day and night conditions. ",
+            41
+        ],
+        [
+            2,
+            "4.2.6 Determine that any configuration discretes (changes in logic or function with aircraft configuration, altitude, or speed) associated with the TCAS II logic, including inhibits of climb RAs, operate properly. ",
+            41
+        ],
+        [
+            2,
+            "4.2.7 Verify that the ICAO 24-bit aircraft address and maximum airspeed are correct.  Verify that the transponder and data sources meet the requirements of the failure condition classifications associated with the features. ",
+            41
+        ],
+        [
+            2,
+            "4.2.8 Verify that the windshear and GPWS/TAWS warnings and TCAS II voice alerts are compatible.  Also, verify that the flight crew can clearly understand windshear and GPWS/TAWS warnings and that TCAS II automatically switches to the TA Only mode when TCAS II and windshear voice or GPWS/TAWS announcements simultaneously occur.  The alert priorities should be windshear, GPWS/TAWS, and then TCAS II. ",
+            41
+        ],
+        [
+            2,
+            "4.2.9 If connected, verify that the altitude alerter is providing correct data to TCAS and that the TCAS II logic correctly weakens or strengthens the displayed RA using the altitude alerter input. ",
+            41
+        ],
+        [
+            2,
+            "4.2.10 Verify proper connection of the air/ground inputs. ",
+            41
+        ],
+        [
+            2,
+            "4.2.11 For forward fit or new installations (as defined in the note to section ",
+            42
+        ],
+        [
+            2,
+            "4.3 Flight Tests. ",
+            42
+        ],
+        [
+            2,
+            "4.3.1 The certification policy for follow-on approvals (STC or amended STC) of TCAS II V7.0 or V7.1 units is that you may not need to do flight tests, if you perform the appropriate testing on the ground to certify that you correctly installed the V7.0 or V7.1 unit and that any new interfaces operate correctly with the TCAS II logic. ",
+            42
+        ],
+        [
+            2,
+            "4.3.2 If we determine that you need to do certification flight-testing, demonstrate the following: ",
+            42
+        ],
+        [
+            2,
+            "4.3.3 Evaluate the effective surveillance range of the traffic display, including target azimuth reasonableness and track stability.  You may use a non-transport (low speed) Mode C equipped aircraft as a target or a fixed transponder or suitable test equipment for these tests. ",
+            43
+        ],
+        [
+            2,
+            "4.3.4 Evaluate the Mode S transponder air-to-ground ATCRBS function against an appropriate ground facility. ",
+            44
+        ],
+        [
+            2,
+            "4.3.5 Determine that any configuration discretes associated with the TCAS II logic, including inhibits of aural annunciations and RAs, operate properly unless you previously demonstrated this during ground tests.  (These include changes in logic or function with aircraft configuration, altitude, or speed.) ",
+            44
+        ],
+        [
+            2,
+            "4.3.6 Evaluate TCAS II for noninterference during coupled autopilot and flight director approaches to the lowest minimums approved for the aircraft. ",
+            44
+        ],
+        [
+            2,
+            "4.3.7 Evaluate all selectable modes of the TCAS II to determine that they perform their intended function. ",
+            44
+        ],
+        [
+            2,
+            "4.3.8 Reevaluate any previously installed aircraft systems that have required changes as a result of the TCAS II installation (such as CMC, EFIS, EICAS FD, PFD, ND, IVSI, and interface). ",
+            44
+        ],
+        [
+            2,
+            "4.4 Upgrading an Existing TCAS II Installation. ",
+            44
+        ],
+        [
+            2,
+            "4.5 Upgrading an Existing Mode S Transponder Installation ",
+            44
+        ],
+        [
+            2,
+            "CHAPTER 5. AIRPLANE FLIGHT MANUAL SUPPLEMENT ",
+            45
+        ],
+        [
+            2,
+            "5.1 Content of an AFMS. ",
+            45
+        ],
+        [
+            2,
+            "5.2 TCAS V7.1 AFMS Example. ",
+            45
+        ],
+        [
+            2,
+            "APPENDIX A. EXAMPLE TCAS II V7.1 AFMS ",
+            46
+        ],
+        [
+            2,
+            "APPENDIX B. TRANSPONDER GROUND TESTS & EVALUATIONS. ",
+            64
+        ],
+        [
+            2,
+            "APPENDIX C. HISTORICAL INFORMATION ON DEVELOPMENT OF TCAS. ",
+            68
+        ],
+        [
+            2,
+            "APPENDIX D. RELATED DOCUMENTS. ",
+            71
+        ],
+        [
+            2,
+            "APPENDIX E. DEFINITIONS AND ACRONYMS. ",
+            75
+        ],
+        [
+            2,
+            "APPENDIX F. INTERFACING THE TRANSPONDER TO AIRCRAFT SYSTEMS TO SUPPORT TRANSMISSION OF SHORT-TERM INTENT ",
+            79
+        ],
+        [
+            2,
+            "APPENDIX G. ADVISORY CIRCULAR FEEDBACK INFORMATION ",
+            94
+        ]
+    ],
+    "pages": 94,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 1,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 153,
+        "code": 0,
+        "table": 24,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

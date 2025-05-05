@@ -1,0 +1,710 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            "INTRODUCTION",
+            13
+        ],
+        [
+            2,
+            "Purpose",
+            13
+        ],
+        [
+            2,
+            "Background",
+            13
+        ],
+        [
+            2,
+            "Premise",
+            14
+        ],
+        [
+            1,
+            "TERMINOLOGY",
+            15
+        ],
+        [
+            2,
+            "Night Vision Goggles",
+            15
+        ],
+        [
+            3,
+            "Type",
+            15
+        ],
+        [
+            3,
+            "Class",
+            15
+        ],
+        [
+            4,
+            "Class A",
+            15
+        ],
+        [
+            4,
+            "Class B",
+            15
+        ],
+        [
+            4,
+            "Modified Class B",
+            15
+        ],
+        [
+            3,
+            "Generation",
+            15
+        ],
+        [
+            3,
+            "OMNIBUS",
+            16
+        ],
+        [
+            3,
+            "Resolution and Visual Acuity",
+            16
+        ],
+        [
+            2,
+            "Aviation Night Vision Imaging System (NVIS)",
+            16
+        ],
+        [
+            3,
+            "Look Under (Underview)",
+            16
+        ],
+        [
+            2,
+            "NVIS Lighting",
+            16
+        ],
+        [
+            3,
+            "Design Considerations",
+            16
+        ],
+        [
+            3,
+            "Compatible",
+            17
+        ],
+        [
+            2,
+            "NVIS Operation",
+            17
+        ],
+        [
+            3,
+            "Aided",
+            17
+        ],
+        [
+            3,
+            "Unaided",
+            17
+        ],
+        [
+            1,
+            "S",
+            21
+        ],
+        [
+            1,
+            "SYSTEM DESCRIPTION",
+            21
+        ],
+        [
+            2,
+            "NVIS Capabilities",
+            21
+        ],
+        [
+            3,
+            "Critical Elements",
+            21
+        ],
+        [
+            3,
+            "Visual Acuity",
+            21
+        ],
+        [
+            3,
+            "Situation Awareness",
+            21
+        ],
+        [
+            4,
+            "Environment Detection and Identification",
+            22
+        ],
+        [
+            3,
+            "Emergency Situations",
+            22
+        ],
+        [
+            2,
+            "Night Vision Goggles",
+            22
+        ],
+        [
+            3,
+            "NVG Head Up Display (NVG HUD)",
+            22
+        ],
+        [
+            2,
+            "NVG Limitations",
+            23
+        ],
+        [
+            3,
+            "NVG Design Characteristics",
+            23
+        ],
+        [
+            4,
+            "Visual Acuity",
+            23
+        ],
+        [
+            4,
+            "Field of View",
+            23
+        ],
+        [
+            4,
+            "Field of Regard",
+            23
+        ],
+        [
+            4,
+            "NVG Weight & Center of Gravity",
+            23
+        ],
+        [
+            4,
+            "Monochromatic Image",
+            23
+        ],
+        [
+            4,
+            "Ambient or Artificial Light",
+            24
+        ],
+        [
+            4,
+            "Daytime Use for NVGs",
+            24
+        ],
+        [
+            3,
+            "Physiological and Other Conditions",
+            24
+        ],
+        [
+            4,
+            "Cockpit Resource Management",
+            24
+        ],
+        [
+            4,
+            "Fatigue",
+            24
+        ],
+        [
+            4,
+            "Overconfidence",
+            24
+        ],
+        [
+            4,
+            "Spatial Orientation",
+            24
+        ],
+        [
+            4,
+            "Depth Perception & Distance Estimation",
+            25
+        ],
+        [
+            4,
+            "Instrument Lighting Brightness Considerations",
+            25
+        ],
+        [
+            4,
+            "Dark Adaptation Time from NVG to Unaided Operations",
+            26
+        ],
+        [
+            4,
+            "Complacency",
+            26
+        ],
+        [
+            4,
+            "Experience",
+            26
+        ],
+        [
+            4,
+            "Recency of Experience",
+            26
+        ],
+        [
+            1,
+            "OPERATIONS",
+            27
+        ],
+        [
+            2,
+            "Personnel Considerations",
+            27
+        ],
+        [
+            3,
+            "Minimum Crew",
+            27
+        ],
+        [
+            3,
+            "Pilot Eligibility",
+            27
+        ],
+        [
+            3,
+            "Pilot Qualifications",
+            28
+        ],
+        [
+            3,
+            "Pilot Recency of Experience (also see 3.3.2.8)",
+            28
+        ],
+        [
+            4,
+            "General",
+            28
+        ],
+        [
+            4,
+            "High Latitude Operations",
+            28
+        ],
+        [
+            3,
+            "Instructor Qualifications",
+            28
+        ],
+        [
+            3,
+            "Flight and Duty Time Limitations & Rest Requirements (also see 3.3.2.2)",
+            29
+        ],
+        [
+            3,
+            "Additional Personnel Qualifications",
+            29
+        ],
+        [
+            2,
+            "Operating Environment Considerations",
+            29
+        ],
+        [
+            3,
+            "Weather and Atmospheric Obscurants",
+            29
+        ],
+        [
+            4,
+            "Weather",
+            29
+        ],
+        [
+            4,
+            "Deteriorating Weather",
+            30
+        ],
+        [
+            4,
+            "Airborne Obscurants",
+            30
+        ],
+        [
+            4,
+            "Winter Operations",
+            30
+        ],
+        [
+            5,
+            "Snow",
+            31
+        ],
+        [
+            5,
+            "Ice Fog",
+            31
+        ],
+        [
+            5,
+            "Icing",
+            31
+        ],
+        [
+            5,
+            "Low Ambient Temperatures",
+            31
+        ],
+        [
+            3,
+            "Illumination",
+            31
+        ],
+        [
+            4,
+            "Natural Illumination",
+            31
+        ],
+        [
+            5,
+            "Moon Phase",
+            31
+        ],
+        [
+            5,
+            "Lunar Azimuth and Elevation",
+            32
+        ],
+        [
+            5,
+            "Shadowing",
+            32
+        ],
+        [
+            6,
+            "Benefits of Shadows",
+            32
+        ],
+        [
+            6,
+            "Disadvantages Due to Shadows",
+            32
+        ],
+        [
+            5,
+            "Skyglow",
+            32
+        ],
+        [
+            4,
+            "Artificial Illumination",
+            33
+        ],
+        [
+            3,
+            "Terrain Contrast",
+            33
+        ],
+        [
+            2,
+            "Aircraft Considerations",
+            33
+        ],
+        [
+            3,
+            "Lighting",
+            33
+        ],
+        [
+            3,
+            "Cockpit Ergonomics",
+            33
+        ],
+        [
+            3,
+            "Windshield Reflectivity",
+            34
+        ],
+        [
+            2,
+            "Industry Considerations",
+            34
+        ],
+        [
+            3,
+            "Agriculture",
+            34
+        ],
+        [
+            3,
+            "Air Medical Operations",
+            34
+        ],
+        [
+            3,
+            "Fire Fighting",
+            34
+        ],
+        [
+            3,
+            "Law Enforcement",
+            35
+        ],
+        [
+            3,
+            "Offshore",
+            35
+        ],
+        [
+            3,
+            "Other",
+            35
+        ],
+        [
+            2,
+            "Generic Operating Considerations",
+            35
+        ],
+        [
+            3,
+            "Normal Procedures",
+            35
+        ],
+        [
+            4,
+            "Scanning",
+            35
+        ],
+        [
+            5,
+            "Instrument Crosscheck Scan",
+            36
+        ],
+        [
+            5,
+            "NVG Scan",
+            36
+        ],
+        [
+            5,
+            "Unaided Scan",
+            36
+        ],
+        [
+            5,
+            "Scan Patterns",
+            36
+        ],
+        [
+            4,
+            "Pre-Flight Planning",
+            37
+        ],
+        [
+            5,
+            "Departure/Enroute/Destination Weather",
+            37
+        ],
+        [
+            5,
+            "Night VFR",
+            37
+        ],
+        [
+            5,
+            "Illumination Criteria",
+            37
+        ],
+        [
+            5,
+            "NVIS Pre-flight",
+            37
+        ],
+        [
+            5,
+            "Aircraft Pre-flight",
+            37
+        ],
+        [
+            5,
+            "Equipment",
+            37
+        ],
+        [
+            5,
+            "Route Planning",
+            38
+        ],
+        [
+            5,
+            "Obstacles",
+            38
+        ],
+        [
+            5,
+            "Risk Assessment",
+            38
+        ],
+        [
+            4,
+            "Departure",
+            38
+        ],
+        [
+            5,
+            "Controlled vs. Uncontrolled Airspace",
+            38
+        ],
+        [
+            5,
+            "Heliport vs. Remote Area Considerations",
+            38
+        ],
+        [
+            4,
+            "Enroute",
+            39
+        ],
+        [
+            5,
+            "Elevated Terrain",
+            39
+        ],
+        [
+            5,
+            "Over Water",
+            39
+        ],
+        [
+            4,
+            "Arrival",
+            39
+        ],
+        [
+            5,
+            "Airport and Heliport Landings",
+            39
+        ],
+        [
+            5,
+            "Low Ambient Illumination Sites",
+            39
+        ],
+        [
+            5,
+            "Reconnaissance",
+            39
+        ],
+        [
+            4,
+            "Landing",
+            39
+        ],
+        [
+            5,
+            "Sources of High Illumination",
+            39
+        ],
+        [
+            3,
+            "Emergency Procedures",
+            39
+        ],
+        [
+            3,
+            "Inadvertent IMC",
+            40
+        ],
+        [
+            1,
+            "TRAINING",
+            41
+        ],
+        [
+            2,
+            "Pilot Ground Training",
+            41
+        ],
+        [
+            2,
+            "Pilot Flight Training",
+            41
+        ],
+        [
+            2,
+            "Training for Additional Personnel",
+            42
+        ],
+        [
+            2,
+            "Support Personnel Training",
+            42
+        ],
+        [
+            2,
+            "Recurrent and Refresher Training",
+            42
+        ],
+        [
+            2,
+            "Flight Training Conditions",
+            42
+        ],
+        [
+            1,
+            "CONTINUED AIRWORTHINESS",
+            43
+        ],
+        [
+            1,
+            "OTHER SUPPORTING AGENCIES",
+            47
+        ],
+        [
+            2,
+            "Weather Facilities",
+            47
+        ],
+        [
+            2,
+            "Air Traffic / Airports / Airspace",
+            47
+        ],
+        [
+            1,
+            "AC",
+            59
+        ]
+    ],
+    "pages": 71,
+    "ocr_stats": {
+        "ocr_pages": 3,
+        "ocr_failed": 3,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 0,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

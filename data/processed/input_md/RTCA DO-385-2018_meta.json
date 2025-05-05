@@ -1,0 +1,890 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            "DO-385 Volume II.pdf",
+            -1
+        ],
+        [
+            2,
+            "Table of Contents",
+            840
+        ],
+        [
+            2,
+            "Table of Tables",
+            844
+        ],
+        [
+            2,
+            "Table of Figures",
+            846
+        ],
+        [
+            2,
+            "Table of Algorithms",
+            847
+        ],
+        [
+            2,
+            "Table of Types",
+            855
+        ],
+        [
+            2,
+            "Introduction",
+            859
+        ],
+        [
+            3,
+            "Purpose",
+            859
+        ],
+        [
+            3,
+            "Scope",
+            859
+        ],
+        [
+            3,
+            "Background",
+            859
+        ],
+        [
+            3,
+            "Context",
+            860
+        ],
+        [
+            3,
+            "Prescription",
+            860
+        ],
+        [
+            3,
+            "Specification Language: Julia",
+            861
+        ],
+        [
+            4,
+            "Data Types",
+            861
+        ],
+        [
+            4,
+            "Built-In Values and Functions",
+            861
+        ],
+        [
+            3,
+            "Notation",
+            862
+        ],
+        [
+            4,
+            "Variables",
+            863
+        ],
+        [
+            4,
+            "Physical Quantities",
+            864
+        ],
+        [
+            4,
+            "Statistical Quantities",
+            865
+        ],
+        [
+            4,
+            "Functions",
+            866
+        ],
+        [
+            4,
+            "Diagrams",
+            866
+        ],
+        [
+            3,
+            "References",
+            866
+        ],
+        [
+            2,
+            "Surveillance and Tracking Module Description",
+            869
+        ],
+        [
+            3,
+            "System Overview",
+            869
+        ],
+        [
+            3,
+            "Active Surveillance",
+            870
+        ],
+        [
+            4,
+            "Input Processing",
+            871
+        ],
+        [
+            5,
+            "Mode S Surveillance",
+            871
+        ],
+        [
+            5,
+            "Mode C Surveillance",
+            879
+        ],
+        [
+            4,
+            "Intruder Horizontal Estimation",
+            884
+        ],
+        [
+            5,
+            "Cartesian Tracker",
+            885
+        ],
+        [
+            5,
+            "Range Tracker",
+            892
+        ],
+        [
+            4,
+            "Intruder Vertical Estimation",
+            899
+        ],
+        [
+            3,
+            "Passive Surveillance",
+            904
+        ],
+        [
+            4,
+            "Input Processing",
+            905
+        ],
+        [
+            5,
+            "State Vector Position Report",
+            905
+        ],
+        [
+            5,
+            "State Vector Velocity Report",
+            918
+        ],
+        [
+            5,
+            "Mode Status Report",
+            921
+        ],
+        [
+            4,
+            "Intruder Horizontal Estimation",
+            923
+        ],
+        [
+            4,
+            "Intruder Vertical Estimation",
+            928
+        ],
+        [
+            3,
+            "Ownship Tracking",
+            928
+        ],
+        [
+            4,
+            "Input Processing",
+            928
+        ],
+        [
+            4,
+            "Ownship Discretes",
+            928
+        ],
+        [
+            4,
+            "Target Designation",
+            929
+        ],
+        [
+            4,
+            "Barometric Altitude Estimation",
+            933
+        ],
+        [
+            4,
+            "Radio Altitude Estimation",
+            937
+        ],
+        [
+            4,
+            "Heading Estimation",
+            937
+        ],
+        [
+            4,
+            "WGS84 State Estimation",
+            943
+        ],
+        [
+            3,
+            "Coordination Processing",
+            944
+        ],
+        [
+            4,
+            "Input Processing",
+            944
+        ],
+        [
+            5,
+            "Active Coordination",
+            944
+        ],
+        [
+            5,
+            "Coordination Capability Report",
+            947
+        ],
+        [
+            3,
+            "Track Management",
+            949
+        ],
+        [
+            4,
+            "Sensitivity Level Calculation",
+            949
+        ],
+        [
+            4,
+            "Transponder Mode Management",
+            951
+        ],
+        [
+            4,
+            "Surveillance Source Correlation",
+            952
+        ],
+        [
+            4,
+            "STM Report Generation",
+            953
+        ],
+        [
+            5,
+            "Mode S Track File",
+            959
+        ],
+        [
+            5,
+            "ADS-B Track File",
+            966
+        ],
+        [
+            5,
+            "Mode C Track File",
+            970
+        ],
+        [
+            4,
+            "Track Deletion",
+            972
+        ],
+        [
+            4,
+            "Active Validation",
+            977
+        ],
+        [
+            4,
+            "Target Designation",
+            981
+        ],
+        [
+            4,
+            "Proximity Estimation",
+            1004
+        ],
+        [
+            2,
+            "Threat Resolution Module Description",
+            1007
+        ],
+        [
+            3,
+            "System Overview",
+            1007
+        ],
+        [
+            4,
+            "Inputs and Outputs to the TRM",
+            1013
+        ],
+        [
+            4,
+            "System Architecture",
+            1014
+        ],
+        [
+            4,
+            "Intruder Designation and Protection Modes",
+            1015
+        ],
+        [
+            3,
+            "State and Cost Estimation",
+            1016
+        ],
+        [
+            4,
+            "Intruder Prep",
+            1020
+        ],
+        [
+            4,
+            "State Estimation",
+            1023
+        ],
+        [
+            5,
+            "Tau Estimation",
+            1030
+        ],
+        [
+            5,
+            "Combine Vertical Beliefs",
+            1035
+        ],
+        [
+            5,
+            "Set Belief-Based Online Cost",
+            1036
+        ],
+        [
+            4,
+            "Offline Cost Estimation",
+            1041
+        ],
+        [
+            4,
+            "Online Cost Estimation Independent of Coordination",
+            1047
+        ],
+        [
+            5,
+            "Advisory Restart Cost",
+            1052
+        ],
+        [
+            5,
+            "Altitude Dependent Clear of Conflict Cost",
+            1053
+        ],
+        [
+            5,
+            "Altitude Inhibit Cost",
+            1054
+        ],
+        [
+            5,
+            "Bad Transition Cost",
+            1055
+        ],
+        [
+            5,
+            "Critical Interval Protection Cost",
+            1058
+        ],
+        [
+            5,
+            "Initialization Cost",
+            1063
+        ],
+        [
+            5,
+            "Prevent Early COC Cost",
+            1063
+        ],
+        [
+            5,
+            "Safe Crossing Resolution Advisory Deferral Cost",
+            1065
+        ],
+        [
+            4,
+            "Update Intruder Inputs Mid-Cycle",
+            1067
+        ],
+        [
+            4,
+            "Online Cost Estimation Dependent on Coordination",
+            1069
+        ],
+        [
+            5,
+            "Response Estimation",
+            1074
+        ],
+        [
+            5,
+            "Compatibility Cost",
+            1078
+        ],
+        [
+            5,
+            "Coordinated Resolution Advisory Deferral Cost",
+            1082
+        ],
+        [
+            5,
+            "Coordination Delay Cost",
+            1084
+        ],
+        [
+            5,
+            "Crossing No Alert Cost",
+            1085
+        ],
+        [
+            5,
+            "Low Altitude Parallel Resolution Advisory Deferral Cost",
+            1087
+        ],
+        [
+            5,
+            "Max Reversal Cost",
+            1092
+        ],
+        [
+            5,
+            "Prevent Early Weakening Cost",
+            1094
+        ],
+        [
+            5,
+            "Restrict Clear of Conflict Due To Reversal",
+            1095
+        ],
+        [
+            5,
+            "SA01 Heuristic",
+            1096
+        ],
+        [
+            5,
+            "Time-Based Non-Compliance Cost",
+            1099
+        ],
+        [
+            4,
+            "Individual Cost Estimation",
+            1104
+        ],
+        [
+            3,
+            "Action Selection",
+            1106
+        ],
+        [
+            4,
+            "Single Intruder Rate Selection",
+            1109
+        ],
+        [
+            4,
+            "Multiple Intruder Rate Selection",
+            1110
+        ],
+        [
+            5,
+            "Sandwich Prevention Cost for Unequipped Intruders",
+            1113
+        ],
+        [
+            5,
+            "Cost Fusion for Unequipped Intruders",
+            1115
+        ],
+        [
+            5,
+            "Multi Threat Level Off (MTLO) Determination",
+            1116
+        ],
+        [
+            5,
+            "Balancing Intruder Costs",
+            1119
+        ],
+        [
+            5,
+            "Action Arbitration",
+            1122
+        ],
+        [
+            3,
+            "Coordination Selection",
+            1125
+        ],
+        [
+            3,
+            "Track Threat Assessment",
+            1130
+        ],
+        [
+            4,
+            "Determine Intruder Alert",
+            1131
+        ],
+        [
+            4,
+            "Determine Code",
+            1133
+        ],
+        [
+            4,
+            "Determine Score",
+            1134
+        ],
+        [
+            3,
+            "Display Logic",
+            1136
+        ],
+        [
+            4,
+            "Determine Crossing",
+            1138
+        ],
+        [
+            4,
+            "Determine Display Data",
+            1139
+        ],
+        [
+            4,
+            "Determine Aural Inhibit",
+            1144
+        ],
+        [
+            4,
+            "Determine Traffic Alert",
+            1145
+        ],
+        [
+            3,
+            "Generate TRM Output",
+            1146
+        ],
+        [
+            4,
+            "TA-Only Mode Processing",
+            1149
+        ],
+        [
+            4,
+            "TA/RA Mode Processing",
+            1154
+        ],
+        [
+            4,
+            "Standby Mode Processing",
+            1163
+        ],
+        [
+            4,
+            "Resolution Advisory Output Messages",
+            1164
+        ],
+        [
+            5,
+            "Common RA Output Message Data",
+            1166
+        ],
+        [
+            5,
+            "RA Report Message",
+            1169
+        ],
+        [
+            5,
+            "Broadcast Interrogation Message",
+            1174
+        ],
+        [
+            4,
+            "Intruder Management",
+            1176
+        ],
+        [
+            3,
+            "Standard States and Conversions",
+            1182
+        ],
+        [
+            2,
+            "Acknowledgments",
+            1203
+        ],
+        [
+            2,
+            "Appendix STM Housekeeping",
+            1205
+        ],
+        [
+            2,
+            "Appendix Mode C Processing Implementation",
+            1207
+        ],
+        [
+            2,
+            "Appendix Correlation Processing Implementation",
+            1227
+        ],
+        [
+            3,
+            "Track Extrapolation",
+            1227
+        ],
+        [
+            3,
+            "Track Decorrelation",
+            1231
+        ],
+        [
+            3,
+            "Track Correlation",
+            1236
+        ],
+        [
+            2,
+            "Appendix Constant Variables",
+            1247
+        ],
+        [
+            3,
+            "Geometric Constants",
+            1247
+        ],
+        [
+            3,
+            "Global Constants",
+            1248
+        ],
+        [
+            2,
+            "Appendix Data Structure Definitions",
+            1253
+        ],
+        [
+            3,
+            "STM Output Data Structures",
+            1253
+        ],
+        [
+            3,
+            "STM Internal Data Structures",
+            1255
+        ],
+        [
+            3,
+            "STM Output-TRM Input Data Structures",
+            1270
+        ],
+        [
+            3,
+            "TRM Output-STM Input Data Structures",
+            1273
+        ],
+        [
+            3,
+            "TRM Internal Data Structures",
+            1280
+        ],
+        [
+            3,
+            "TRM Context-Specific State Data Structures",
+            1290
+        ],
+        [
+            2,
+            "Appendix Parameter File Specification",
+            1297
+        ],
+        [
+            3,
+            "ACAS X Parameter Data Item File (PDIF) Checksums",
+            1297
+        ],
+        [
+            3,
+            "STM Parameters",
+            1298
+        ],
+        [
+            3,
+            "TRM Parameters",
+            1308
+        ],
+        [
+            2,
+            "Appendix Data Table Format Specification",
+            1337
+        ],
+        [
+            2,
+            "Appendix Math Utilities",
+            1339
+        ],
+        [
+            2,
+            "Appendix Data Management Utilities",
+            1343
+        ],
+        [
+            2,
+            "Appendix Julia Standard Library Functions",
+            1347
+        ],
+        [
+            2,
+            "Appendix Design Notes",
+            1351
+        ],
+        [
+            3,
+            "Overview",
+            1351
+        ],
+        [
+            3,
+            "Interfacing with ACAS X",
+            1351
+        ],
+        [
+            4,
+            "General",
+            1351
+        ],
+        [
+            4,
+            "Input Message Entry Points",
+            1351
+        ],
+        [
+            4,
+            "Report Generation",
+            1353
+        ],
+        [
+            5,
+            "Module Memory Management",
+            1353
+        ],
+        [
+            3,
+            "Specific Implementation Details",
+            1355
+        ],
+        [
+            4,
+            "Julia Pseudocode",
+            1355
+        ],
+        [
+            5,
+            "Julia Math and Array Notation",
+            1355
+        ],
+        [
+            5,
+            "Automatic Data Type Conversions",
+            1356
+        ],
+        [
+            5,
+            "Handling Symbols",
+            1357
+        ],
+        [
+            4,
+            "Single versus Multi-Threaded Execution",
+            1357
+        ],
+        [
+            4,
+            "32-Bit versus 64-Bit Applications",
+            1357
+        ],
+        [
+            4,
+            "Floating Point Precision",
+            1357
+        ],
+        [
+            4,
+            "Subsystem Modularity",
+            1358
+        ],
+        [
+            4,
+            "Running Julia as a Development Tool",
+            1358
+        ],
+        [
+            4,
+            "Static Allocation",
+            1359
+        ],
+        [
+            4,
+            "Target IDs",
+            1362
+        ],
+        [
+            3,
+            "Error Checking",
+            1363
+        ],
+        [
+            4,
+            "Divide-by-Zero Errors",
+            1363
+        ],
+        [
+            4,
+            "Invalid Input",
+            1365
+        ]
+    ],
+    "pages": 1366,
+    "ocr_stats": {
+        "ocr_pages": 36,
+        "ocr_failed": 36,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 414,
+        "table": 486,
+        "equations": {
+            "successful_ocr": 45,
+            "unsuccessful_ocr": 9,
+            "equations": 54
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

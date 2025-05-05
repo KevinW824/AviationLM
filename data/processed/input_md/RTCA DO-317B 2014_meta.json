@@ -1,0 +1,3285 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            "FOREWORD",
+            3
+        ],
+        [
+            1,
+            "TABLE OF CONTENTS",
+            5
+        ],
+        [
+            1,
+            "TABLE OF FIGURES",
+            11
+        ],
+        [
+            1,
+            "TABLE OF TABLES",
+            14
+        ],
+        [
+            1,
+            "1 PURPOSE AND SCOPE",
+            19
+        ],
+        [
+            2,
+            "1.1 Introduction",
+            19
+        ],
+        [
+            3,
+            "1.1.1 Revisions to Previous Version",
+            20
+        ],
+        [
+            2,
+            "1.2 System Overview",
+            20
+        ],
+        [
+            3,
+            "1.2.1 Aircraft Surveillance Applications",
+            20
+        ],
+        [
+            3,
+            "1.2.2 ASA System Function",
+            22
+        ],
+        [
+            4,
+            "1.2.2.1 ASSAP",
+            22
+        ],
+        [
+            4,
+            "1.2.2.2 CDTI",
+            22
+        ],
+        [
+            4,
+            "1.2.2.3 TSAA Installations without a Traffic Display",
+            22
+        ],
+        [
+            2,
+            "1.3 Operational Application(s)",
+            23
+        ],
+        [
+            3,
+            "1.3.1 Supported Applications",
+            23
+        ],
+        [
+            4,
+            "1.3.1.1 Application History",
+            25
+        ],
+        [
+            3,
+            "1.3.2 Future Applications",
+            26
+        ],
+        [
+            3,
+            "1.3.3 Application Integration",
+            26
+        ],
+        [
+            2,
+            "1.4 Intended Function",
+            27
+        ],
+        [
+            2,
+            "1.5 Assumptions",
+            27
+        ],
+        [
+            3,
+            "1.5.1 ASSAP Assumptions",
+            27
+        ],
+        [
+            4,
+            "1.5.1.1 Ownship Position",
+            27
+        ],
+        [
+            4,
+            "1.5.1.2 Traffic Position",
+            27
+        ],
+        [
+            5,
+            "1.5.1.2.1 ADS-B Traffic",
+            28
+        ],
+        [
+            5,
+            "1.5.1.2.2 ADS-R Traffic",
+            28
+        ],
+        [
+            5,
+            "1.5.1.2.3 TIS-B Traffic",
+            28
+        ],
+        [
+            4,
+            "1.5.1.3 ADS-B Reports",
+            28
+        ],
+        [
+            4,
+            "1.5.1.4 Dual Link Transmissions from Traffic",
+            29
+        ],
+        [
+            4,
+            "1.5.1.5 1090ES Duplicate 24-Bit Address",
+            29
+        ],
+        [
+            4,
+            "1.5.1.6 24-bit Mode S Address with TCAS Track Updates",
+            29
+        ],
+        [
+            4,
+            "1.5.1.7 Dual Link Receiver",
+            29
+        ],
+        [
+            4,
+            "1.5.1.8 TIS-B Service Status",
+            30
+        ],
+        [
+            4,
+            "1.5.1.9 VDL4 support for TIS-B and ADS-R",
+            30
+        ],
+        [
+            4,
+            "1.5.1.10 TIS-B & ADS-R Ground Infrastructure",
+            30
+        ],
+        [
+            4,
+            "1.5.1.11 24-bit Addresses",
+            30
+        ],
+        [
+            4,
+            "1.5.1.12 Airborne/On Ground Status",
+            30
+        ],
+        [
+            4,
+            "1.5.1.13 1090ES Data link Versions",
+            31
+        ],
+        [
+            4,
+            "1.5.1.14 UAT Version",
+            31
+        ],
+        [
+            4,
+            "1.5.1.15 VDL4 Version",
+            31
+        ],
+        [
+            4,
+            "1.5.1.16 Transmitted Message Information Integrity",
+            31
+        ],
+        [
+            3,
+            "1.5.2 CDTI Assumptions",
+            32
+        ],
+        [
+            4,
+            "1.5.2.1 Source Selection",
+            32
+        ],
+        [
+            4,
+            "1.5.2.2 CDTI Display Platform",
+            32
+        ],
+        [
+            4,
+            "1.5.2.3 Display Depictions",
+            32
+        ],
+        [
+            4,
+            "1.5.2.4 Integration of CDTI with other Display Functions",
+            32
+        ],
+        [
+            4,
+            "1.5.2.5 Units of Measure",
+            32
+        ],
+        [
+            4,
+            "1.5.2.6 Map Database",
+            32
+        ],
+        [
+            2,
+            "1.6 Test Procedures",
+            33
+        ],
+        [
+            2,
+            "1.7 Definition of Terms",
+            34
+        ],
+        [
+            3,
+            "1.7.1 Select and Designate",
+            34
+        ],
+        [
+            2,
+            "1.8 Additional Information",
+            35
+        ],
+        [
+            1,
+            "2  Equipment Performance Requirements",
+            37
+        ],
+        [
+            2,
+            "2.1 General Requirements",
+            37
+        ],
+        [
+            3,
+            "2.1.1 Airworthiness",
+            37
+        ],
+        [
+            3,
+            "2.1.2 Intended Function",
+            37
+        ],
+        [
+            3,
+            "2.1.3 Federal Communications Commission Rules",
+            37
+        ],
+        [
+            3,
+            "2.1.4 Fire Protection",
+            37
+        ],
+        [
+            3,
+            "2.1.5 Operation of Controls",
+            37
+        ],
+        [
+            3,
+            "2.1.6 Effects of Test",
+            37
+        ],
+        [
+            3,
+            "2.1.7 Design Assurance",
+            37
+        ],
+        [
+            3,
+            "2.1.8 Latency",
+            38
+        ],
+        [
+            3,
+            "2.1.9 Equipment Classes",
+            38
+        ],
+        [
+            2,
+            "2.2 Airborne Surveillance and Separation Assurance Processing (ASSAP) Subsystem Requirements",
+            39
+        ],
+        [
+            3,
+            "2.2.1 Introduction",
+            39
+        ],
+        [
+            3,
+            "2.2.2 ASSAP Input/Output Requirements",
+            41
+        ],
+        [
+            4,
+            "2.2.2.1 EVAcq Input/Output Requirements",
+            42
+        ],
+        [
+            5,
+            "2.2.2.1.1 ASSAP Input Requirements from ADS-B/ADS-R/TIS-B Receiver",
+            42
+        ],
+        [
+            6,
+            "2.2.2.1.1.1 Traffic State Vector Report Input Requirements",
+            42
+        ],
+        [
+            6,
+            "2.2.2.1.1.2 Traffic ID/Status Data Report Input Requirements",
+            43
+        ],
+        [
+            6,
+            "2.2.2.1.1.3 TIS-B/ADS-R Service Status Input Requirements",
+            44
+        ],
+        [
+            5,
+            "2.2.2.1.2 ASSAP Input Requirements from TCAS",
+            44
+        ],
+        [
+            5,
+            "2.2.2.1.3 ASSAP Input Requirements from Ownship Position Source",
+            45
+        ],
+        [
+            6,
+            "2.2.2.1.3.1 Ownship State Data Input Requirements",
+            46
+        ],
+        [
+            6,
+            "2.2.2.1.3.2 Ownship Quality Data Input Requirements",
+            46
+        ],
+        [
+            5,
+            "2.2.2.1.4 ASSAP Input Requirements from CDTI",
+            47
+        ],
+        [
+            5,
+            "2.2.2.1.5 ASSAP Output Requirements to CDTI",
+            47
+        ],
+        [
+            6,
+            "2.2.2.1.5.1 Traffic Information Output Requirements",
+            47
+        ],
+        [
+            7,
+            "2.2.2.1.5.1.1 Traffic Output Capacity",
+            47
+        ],
+        [
+            7,
+            "2.2.2.1.5.1.2 Traffic Priority",
+            47
+        ],
+        [
+            8,
+            "2.2.2.1.5.1.2.1 SURF Relevant Traffic",
+            49
+        ],
+        [
+            7,
+            "2.2.2.1.5.1.3 Track ID",
+            50
+        ],
+        [
+            7,
+            "2.2.2.1.5.1.4 Traffic Altitude",
+            50
+        ],
+        [
+            7,
+            "2.2.2.1.5.1.5 Traffic Geometric Altitude",
+            50
+        ],
+        [
+            7,
+            "2.2.2.1.5.1.6 Traffic Track Angle/Heading (Traffic Directionality)",
+            50
+        ],
+        [
+            7,
+            "2.2.2.1.5.1.7 Traffic Horizontal Position",
+            51
+        ],
+        [
+            7,
+            "2.2.2.1.5.1.8 Traffic Vertical Direction",
+            52
+        ],
+        [
+            7,
+            "2.2.2.1.5.1.9 Traffic Air/Ground Status",
+            52
+        ],
+        [
+            7,
+            "2.2.2.1.5.1.10 Traffic TCAS Correlated Status",
+            52
+        ],
+        [
+            7,
+            "2.2.2.1.5.1.11 Traffic Application Capability",
+            52
+        ],
+        [
+            7,
+            "2.2.2.1.5.1.12 Traffic TCAS Alert Status",
+            53
+        ],
+        [
+            7,
+            "2.2.2.1.5.1.13 Traffic Emergency Priority Status",
+            53
+        ],
+        [
+            6,
+            "2.2.2.1.5.2 Ownship Information Output Requirements",
+            53
+        ],
+        [
+            7,
+            "2.2.2.1.5.2.1 Ownship PVT Data",
+            53
+        ],
+        [
+            6,
+            "2.2.2.1.5.3 ASSAP Status Output Requirements",
+            53
+        ],
+        [
+            7,
+            "2.2.2.1.5.3.1 ASA Application Status",
+            54
+        ],
+        [
+            7,
+            "2.2.2.1.5.3.2 ASSAP Fault",
+            54
+        ],
+        [
+            6,
+            "2.2.2.1.5.4 TIS-B/ADS-R Service Status Output Requirement",
+            54
+        ],
+        [
+            5,
+            "2.2.2.1.6 ASSAP Aural Requirements",
+            54
+        ],
+        [
+            4,
+            "2.2.2.2 ASA System Latency",
+            55
+        ],
+        [
+            4,
+            "2.2.2.3 SURF Input/Output Requirements",
+            56
+        ],
+        [
+            5,
+            "2.2.2.3.1 ASSAP Input Requirements from ADS-B/ADS-R/TIS-B Receiver",
+            56
+        ],
+        [
+            5,
+            "2.2.2.3.2 ASSAP Input Requirements from Ownship Position Source",
+            56
+        ],
+        [
+            5,
+            "2.2.2.3.3 ASSAP Output Requirements to CDTI",
+            56
+        ],
+        [
+            6,
+            "2.2.2.3.3.1 Traffic Length/Width Codes and Antenna offset",
+            56
+        ],
+        [
+            6,
+            "2.2.2.3.3.2 SURF Traffic Application Capability",
+            57
+        ],
+        [
+            4,
+            "2.2.2.4 AIRB Input/Output Requirements",
+            57
+        ],
+        [
+            5,
+            "2.2.2.4.1 ASSAP Input Requirements from ADS-B/ADS-R/TIS-B Receiver",
+            57
+        ],
+        [
+            5,
+            "2.2.2.4.2 ASSAP Input Requirements from Ownship Position Source",
+            57
+        ],
+        [
+            5,
+            "2.2.2.4.3 ASSAP Output Requirements to CDTI",
+            57
+        ],
+        [
+            6,
+            "2.2.2.4.3.1 Traffic Identification",
+            57
+        ],
+        [
+            6,
+            "2.2.2.4.3.2 Traffic Category (Emitter Category)",
+            57
+        ],
+        [
+            6,
+            "2.2.2.4.3.3 Traffic Ground Speed",
+            57
+        ],
+        [
+            6,
+            "2.2.2.4.3.4 AIRB Traffic Application Capability",
+            58
+        ],
+        [
+            5,
+            "2.2.2.4.4 ACAS Traffic Designation Support Input/Output Requirements",
+            58
+        ],
+        [
+            6,
+            "2.2.2.4.4.1 ASSAP Input Requirements from ACAS",
+            58
+        ],
+        [
+            6,
+            "2.2.2.4.4.2 ASSAP Output Requirements to ACAS",
+            59
+        ],
+        [
+            6,
+            "2.2.2.4.4.3 ASSAP Output Requirements to CDTI",
+            59
+        ],
+        [
+            4,
+            "2.2.2.5 VSA Input/Output Requirements",
+            59
+        ],
+        [
+            5,
+            "2.2.2.5.1 ASSAP Input Requirements from ADS-B/ADS-R/TIS-B Receiver",
+            59
+        ],
+        [
+            5,
+            "2.2.2.5.2 ASSAP Input Requirements from Ownship Position Source",
+            59
+        ],
+        [
+            5,
+            "2.2.2.5.3 ASSAP Output Requirements to CDTI",
+            59
+        ],
+        [
+            6,
+            "2.2.2.5.3.1 VSA Traffic Application Capability",
+            60
+        ],
+        [
+            6,
+            "2.2.2.5.3.2 Differential Ground Speed (DGS)",
+            60
+        ],
+        [
+            4,
+            "2.2.2.6 ITP Input/Output Requirements",
+            60
+        ],
+        [
+            5,
+            "2.2.2.6.1 ASSAP Input Requirements from Ownship Position Source",
+            60
+        ],
+        [
+            5,
+            "2.2.2.6.2 ASSAP Output Requirements to CDTI",
+            60
+        ],
+        [
+            6,
+            "2.2.2.6.2.1 ITP Distance",
+            60
+        ],
+        [
+            6,
+            "2.2.2.6.2.2 Ahead or Behind Status",
+            61
+        ],
+        [
+            6,
+            "2.2.2.6.2.3 ITP Geometric Status",
+            61
+        ],
+        [
+            6,
+            "2.2.2.6.2.4 Rate of Change of ITP Distance (Optional)",
+            61
+        ],
+        [
+            6,
+            "2.2.2.6.2.5 ITP Traffic Application Capability",
+            61
+        ],
+        [
+            4,
+            "2.2.2.7 TSAA Input/Output Requirements",
+            61
+        ],
+        [
+            5,
+            "2.2.2.7.1 ASSAP Input Requirements from ADS-B/ADS-R/TIS-B Receiver",
+            61
+        ],
+        [
+            5,
+            "2.2.2.7.2 ASSAP Input Requirements from Ownship Position Source",
+            61
+        ],
+        [
+            5,
+            "2.2.2.7.3 ASSAP Output Requirements to CDTI",
+            62
+        ],
+        [
+            6,
+            "2.2.2.7.3.1 TSAA Traffic Application Capability",
+            62
+        ],
+        [
+            6,
+            "2.2.2.7.3.2 TSAA Traffic Caution Alert Status",
+            62
+        ],
+        [
+            6,
+            "2.2.2.7.3.3 TSAA Aural Alert Output",
+            62
+        ],
+        [
+            5,
+            "2.2.2.7.4 ASSAP Output Requirements to Annunciator Panel",
+            62
+        ],
+        [
+            6,
+            "2.2.2.7.4.1 TSAA Caution Alert Status",
+            62
+        ],
+        [
+            6,
+            "2.2.2.7.4.2 TSAA Aural Alert Output",
+            62
+        ],
+        [
+            6,
+            "2.2.2.7.4.3 TSAA System Status",
+            62
+        ],
+        [
+            4,
+            "2.2.2.8 CAVS Input/Output Requirements",
+            63
+        ],
+        [
+            5,
+            "2.2.2.8.1 ASSAP Input Requirements from ADS-B/ADS-R/TIS-B Receiver",
+            63
+        ],
+        [
+            5,
+            "2.2.2.8.2 ASSAP Input Requirements from Ownship Position Source",
+            63
+        ],
+        [
+            5,
+            "2.2.2.8.3 ASSAP Output Requirements to CDTI",
+            63
+        ],
+        [
+            6,
+            "2.2.2.8.3.1 Differential Ground Speed (DGS)",
+            64
+        ],
+        [
+            6,
+            "2.2.2.8.3.2 Caution \u201cCAVS Minimum Range\u201d Alert Status",
+            64
+        ],
+        [
+            6,
+            "2.2.2.8.3.3 CAVS Traffic Application Capability",
+            64
+        ],
+        [
+            3,
+            "2.2.3 Surveillance Processing",
+            64
+        ],
+        [
+            4,
+            "2.2.3.1 Source Level Track Generation and Maintenance",
+            66
+        ],
+        [
+            5,
+            "2.2.3.1.1 Track Initiation",
+            66
+        ],
+        [
+            5,
+            "2.2.3.1.2 Track Storage",
+            66
+        ],
+        [
+            5,
+            "2.2.3.1.3 Track Maintenance",
+            66
+        ],
+        [
+            6,
+            "2.2.3.1.3.1 Report Validity Checks",
+            66
+        ],
+        [
+            6,
+            "2.2.3.1.3.2 Additional Velocity Quality Monitoring",
+            67
+        ],
+        [
+            6,
+            "2.2.3.1.3.3 Duplicate Address Processing for UAT and VDL4 Systems",
+            69
+        ],
+        [
+            6,
+            "2.2.3.1.3.4 Duplicate Address Processing for 1090 MHz Systems",
+            69
+        ],
+        [
+            6,
+            "2.2.3.1.3.5 Additional Validation of Traffic Position with TCAS Data",
+            70
+        ],
+        [
+            4,
+            "2.2.3.2 Inter-source Correlation",
+            71
+        ],
+        [
+            5,
+            "2.2.3.2.1 Inter-Source Correlation of TIS-B with ADS-B and ADS-R Tracks",
+            72
+        ],
+        [
+            5,
+            "2.2.3.2.2 Inter-Source Correlation of TIS-B Tracks with the Ownship",
+            73
+        ],
+        [
+            5,
+            "2.2.3.2.3 Inter-Source Correlation of TCAS with ADS-B, ADS-R, and TIS-B Tracks",
+            74
+        ],
+        [
+            5,
+            "2.2.3.2.4 Intra-Source Correlation of TIS-B with TIS-B Tracks",
+            74
+        ],
+        [
+            4,
+            "2.2.3.3 Best Source Selection",
+            75
+        ],
+        [
+            4,
+            "2.2.3.4 Track Termination",
+            76
+        ],
+        [
+            4,
+            "2.2.3.5 Common Time of Track Extrapolation and Traffic State File Generation",
+            76
+        ],
+        [
+            4,
+            "2.2.3.6 Individual Time of Track Extrapolation and Traffic State File Generation",
+            77
+        ],
+        [
+            3,
+            "2.2.4 Application Processing",
+            77
+        ],
+        [
+            4,
+            "2.2.4.1 Enhanced Visual Acquisition (EVAcq) or Basic Airborne Situation Awareness (AIRB)",
+            84
+        ],
+        [
+            5,
+            "2.2.4.1.1 Ownship Requirements for EVAcq or AIRB",
+            84
+        ],
+        [
+            5,
+            "2.2.4.1.2 Traffic Requirements for EVAcq or AIRB",
+            84
+        ],
+        [
+            5,
+            "2.2.4.1.3 Aural Annunciation Input",
+            86
+        ],
+        [
+            4,
+            "2.2.4.2 Basic Surface Situation Awareness (SURF)",
+            86
+        ],
+        [
+            5,
+            "2.2.4.2.1 Ownship Requirements for SURF",
+            87
+        ],
+        [
+            5,
+            "2.2.4.2.2 Traffic Requirements for SURF",
+            87
+        ],
+        [
+            6,
+            "2.2.4.2.2.1 Traffic is On Ground",
+            88
+        ],
+        [
+            6,
+            "2.2.4.2.2.2 Traffic is Airborne",
+            89
+        ],
+        [
+            7,
+            "2.2.4.2.2.2.1 Traffic is Inside of the Surface Volume",
+            89
+        ],
+        [
+            8,
+            "2.2.4.2.2.2.1.1 Ownship is On Ground",
+            89
+        ],
+        [
+            8,
+            "2.2.4.2.2.2.1.2 Ownship is Airborne",
+            90
+        ],
+        [
+            7,
+            "2.2.4.2.2.2.2 Traffic is Outside of the Surface Volume",
+            91
+        ],
+        [
+            4,
+            "2.2.4.3 Visual Separation on Approach (VSA)",
+            92
+        ],
+        [
+            5,
+            "2.2.4.3.1 Ownship Requirements",
+            92
+        ],
+        [
+            5,
+            "2.2.4.3.2 VSA Traffic Requirements",
+            93
+        ],
+        [
+            5,
+            "2.2.4.3.3 Differential Ground Speed",
+            94
+        ],
+        [
+            4,
+            "2.2.4.4 In-Trail Procedure (ITP)",
+            94
+        ],
+        [
+            5,
+            "2.2.4.4.1 Ownship Requirements",
+            94
+        ],
+        [
+            5,
+            "2.2.4.4.2 ITP Traffic Requirements",
+            95
+        ],
+        [
+            6,
+            "2.2.4.4.2.1 Validation of Traffic Position with TCAS Data",
+            95
+        ],
+        [
+            6,
+            "2.2.4.4.2.2 Validation of Traffic Velocity",
+            96
+        ],
+        [
+            5,
+            "2.2.4.4.3 ITP Computation Requirements",
+            96
+        ],
+        [
+            6,
+            "2.2.4.4.3.1 Similar Track Criteria",
+            96
+        ],
+        [
+            6,
+            "2.2.4.4.3.2 ITP Distance",
+            97
+        ],
+        [
+            6,
+            "2.2.4.4.3.3 Ahead or Behind Status",
+            101
+        ],
+        [
+            6,
+            "2.2.4.4.3.4 Rate of Change of ITP Distance",
+            103
+        ],
+        [
+            6,
+            "2.2.4.4.3.5 ITP Geometric Status",
+            104
+        ],
+        [
+            4,
+            "2.2.4.5 TSAA Application Processing Requirements",
+            104
+        ],
+        [
+            5,
+            "2.2.4.5.1 TSAA Ownship Requirements",
+            104
+        ],
+        [
+            5,
+            "2.2.4.5.2 TSAA Traffic Requirements",
+            105
+        ],
+        [
+            5,
+            "2.2.4.5.3 TSAA Traffic Caution Alert Criteria",
+            105
+        ],
+        [
+            6,
+            "2.2.4.5.3.1 TSAA Traffic Caution Alert Performance Requirements",
+            105
+        ],
+        [
+            7,
+            "2.2.4.5.3.1.1 Must Alert Tracks",
+            106
+        ],
+        [
+            7,
+            "2.2.4.5.3.1.2 Must Not Alert Tracks",
+            107
+        ],
+        [
+            6,
+            "2.2.4.5.3.2 Concurrent TSAA Traffic Caution Alerts",
+            108
+        ],
+        [
+            6,
+            "2.2.4.5.3.3 TSAA Traffic Caution Alerts on Correlated TCAS Tracks",
+            108
+        ],
+        [
+            5,
+            "2.2.4.5.4 TSAA Aural Alerts",
+            108
+        ],
+        [
+            6,
+            "2.2.4.5.4.1 TSAA Traffic Caution Alert Acknowledge",
+            108
+        ],
+        [
+            6,
+            "2.2.4.5.4.2 Aural Alert Components",
+            109
+        ],
+        [
+            6,
+            "2.2.4.5.4.3 Updated Aural Alert Components",
+            109
+        ],
+        [
+            5,
+            "2.2.4.5.5 TSAA Alert Status Duration",
+            109
+        ],
+        [
+            5,
+            "2.2.4.5.6 TSAA Alert Suppression",
+            110
+        ],
+        [
+            5,
+            "2.2.4.5.7 Nearby Airborne Traffic",
+            110
+        ],
+        [
+            4,
+            "2.2.4.6 CDTI Assisted Visual Separation (CAVS)",
+            110
+        ],
+        [
+            5,
+            "2.2.4.6.1 Ownship Requirements",
+            110
+        ],
+        [
+            5,
+            "2.2.4.6.2 CAVS Traffic Requirements",
+            111
+        ],
+        [
+            6,
+            "2.2.4.6.2.1 Validation of Traffic Position with TCAS Data",
+            112
+        ],
+        [
+            6,
+            "2.2.4.6.2.2 Validation of Traffic Velocity",
+            113
+        ],
+        [
+            5,
+            "2.2.4.6.3 Caution \u201cCAVS Minimum Range\u201d Alert",
+            113
+        ],
+        [
+            5,
+            "2.2.4.6.4 CAVS Differential Ground Speed",
+            113
+        ],
+        [
+            3,
+            "2.2.5 ASSAP Monitor Function",
+            114
+        ],
+        [
+            3,
+            "2.2.6 TIS-B/ADS-R Service Status",
+            114
+        ],
+        [
+            4,
+            "2.2.6.1 UAT and 1090 ES",
+            114
+        ],
+        [
+            4,
+            "2.2.6.2 VDL4",
+            114
+        ],
+        [
+            2,
+            "2.3 Cockpit Display of Traffic Information (CDTI) Subsystem Requirements",
+            114
+        ],
+        [
+            3,
+            "2.3.1 General CDTI Requirements",
+            114
+        ],
+        [
+            4,
+            "2.3.1.1 Traffic Display Criteria (TDC)",
+            115
+        ],
+        [
+            5,
+            "2.3.1.1.1 Default Traffic Display Criteria",
+            116
+        ],
+        [
+            5,
+            "2.3.1.1.2 Alternate Traffic Display Criteria",
+            116
+        ],
+        [
+            4,
+            "2.3.1.2 Required Information",
+            116
+        ],
+        [
+            3,
+            "2.3.2 Interfaces",
+            117
+        ],
+        [
+            4,
+            "2.3.2.1 CDTI Latency Requirements",
+            117
+        ],
+        [
+            4,
+            "2.3.2.2 Time of Applicability of Traffic State Vector (SV) Data",
+            117
+        ],
+        [
+            4,
+            "2.3.2.3 CDTI Input Requirements from ASSAP",
+            118
+        ],
+        [
+            5,
+            "2.3.2.3.1 Ownship PVT Requirements to CDTI",
+            118
+        ],
+        [
+            6,
+            "2.3.2.3.1.1 Ownship Horizontal Position",
+            118
+        ],
+        [
+            6,
+            "2.3.2.3.1.2 Ownship N/S and E/W Velocities",
+            118
+        ],
+        [
+            6,
+            "2.3.2.3.1.3 Ownship Directionality (Track Angle/Heading)",
+            118
+        ],
+        [
+            6,
+            "2.3.2.3.1.4 Ownship Pressure Altitude",
+            119
+        ],
+        [
+            5,
+            "2.3.2.3.2 Ownship Length/Width",
+            119
+        ],
+        [
+            4,
+            "2.3.2.4 Outputs from CDTI to ASSAP",
+            119
+        ],
+        [
+            5,
+            "2.3.2.4.1 Application Selection",
+            119
+        ],
+        [
+            5,
+            "2.3.2.4.2 Designated Traffic",
+            119
+        ],
+        [
+            5,
+            "2.3.2.4.3 Selected Traffic",
+            120
+        ],
+        [
+            5,
+            "2.3.2.4.4 Map Data",
+            120
+        ],
+        [
+            6,
+            "2.3.2.4.4.1 Surface Volume Determination",
+            120
+        ],
+        [
+            6,
+            "2.3.2.4.4.2 Airport Runway Information",
+            120
+        ],
+        [
+            5,
+            "2.3.2.4.5 TSAA Alert Acknowledge",
+            120
+        ],
+        [
+            5,
+            "2.3.2.4.6 Traffic Display Criteria",
+            120
+        ],
+        [
+            5,
+            "2.3.2.4.7 TSAA Alert Update",
+            120
+        ],
+        [
+            5,
+            "2.3.2.4.8 Additional Crew Input",
+            121
+        ],
+        [
+            3,
+            "2.3.3 Display Design \u2013 General",
+            121
+        ],
+        [
+            4,
+            "2.3.3.1 Display Characteristics",
+            121
+        ],
+        [
+            4,
+            "2.3.3.2 Dynamics",
+            121
+        ],
+        [
+            4,
+            "2.3.3.3 Labels",
+            121
+        ],
+        [
+            4,
+            "2.3.3.4 Symbols",
+            121
+        ],
+        [
+            3,
+            "2.3.4 Display Elements",
+            122
+        ],
+        [
+            4,
+            "2.3.4.1 Ownship Symbol",
+            122
+        ],
+        [
+            4,
+            "2.3.4.2 Traffic Information Formats",
+            123
+        ],
+        [
+            5,
+            "2.3.4.2.1 Data Tags",
+            123
+        ],
+        [
+            5,
+            "2.3.4.2.2 Data Blocks",
+            124
+        ],
+        [
+            5,
+            "2.3.4.2.3 Traffic Symbols",
+            124
+        ],
+        [
+            6,
+            "2.3.4.2.3.1 Traffic Symbol Location",
+            125
+        ],
+        [
+            6,
+            "2.3.4.2.3.2 Traffic Symbols and Variations",
+            125
+        ],
+        [
+            7,
+            "2.3.4.2.3.2.1 Basic Directional Traffic",
+            125
+        ],
+        [
+            7,
+            "2.3.4.2.3.2.2 Basic Non-directional Traffic",
+            126
+        ],
+        [
+            7,
+            "2.3.4.2.3.2.3 Traffic Directionality",
+            126
+        ],
+        [
+            7,
+            "2.3.4.2.3.2.4 Traffic Application Capability",
+            126
+        ],
+        [
+            7,
+            "2.3.4.2.3.2.5 Traffic On-Ground Status",
+            127
+        ],
+        [
+            7,
+            "2.3.4.2.3.2.6 Basic Ground Vehicle",
+            127
+        ],
+        [
+            7,
+            "2.3.4.2.3.2.7 Alerts",
+            128
+        ],
+        [
+            7,
+            "2.3.4.2.3.2.8 Proximate and Nearby Airborne Traffic",
+            129
+        ],
+        [
+            7,
+            "2.3.4.2.3.2.9 Selected Traffic",
+            129
+        ],
+        [
+            7,
+            "2.3.4.2.3.2.10 Designated Traffic",
+            130
+        ],
+        [
+            6,
+            "2.3.4.2.3.3 TCAS Alert Symbology for TCAS/ASA Integrated Systems",
+            130
+        ],
+        [
+            7,
+            "2.3.4.2.3.3.1 Traffic Advisories",
+            130
+        ],
+        [
+            7,
+            "2.3.4.2.3.3.2 Resolution Advisories",
+            131
+        ],
+        [
+            6,
+            "2.3.4.2.3.4 Other Traffic Symbol Considerations",
+            131
+        ],
+        [
+            4,
+            "2.3.4.3 Number of Traffic Elements",
+            132
+        ],
+        [
+            3,
+            "2.3.5 Information Elements",
+            132
+        ],
+        [
+            4,
+            "2.3.5.1 Traffic Monitored by TCAS",
+            132
+        ],
+        [
+            4,
+            "2.3.5.2 Traffic Application Capability",
+            132
+        ],
+        [
+            4,
+            "2.3.5.3 Traffic Air/Ground Status",
+            133
+        ],
+        [
+            4,
+            "2.3.5.4 Differential Ground Speed (DGS)",
+            133
+        ],
+        [
+            4,
+            "2.3.5.5 Traffic Altitude",
+            134
+        ],
+        [
+            5,
+            "2.3.5.5.1 Traffic Relative Altitude",
+            134
+        ],
+        [
+            5,
+            "2.3.5.5.2 Traffic Actual Altitude",
+            135
+        ],
+        [
+            5,
+            "2.3.5.5.3 Traffic Geometric Altitude",
+            136
+        ],
+        [
+            5,
+            "2.3.5.5.4 Traffic Pressure Altitude",
+            136
+        ],
+        [
+            4,
+            "2.3.5.6 Traffic Vertical Direction",
+            136
+        ],
+        [
+            4,
+            "2.3.5.7 Traffic Identification",
+            136
+        ],
+        [
+            4,
+            "2.3.5.8 Traffic Ground Speed",
+            137
+        ],
+        [
+            4,
+            "2.3.5.9 Traffic Category (Emitter Category)",
+            137
+        ],
+        [
+            4,
+            "2.3.5.10 Traffic Emergency Priority Status",
+            137
+        ],
+        [
+            4,
+            "2.3.5.11 Traffic Horizontal Velocity Vector",
+            137
+        ],
+        [
+            4,
+            "2.3.5.12 Display Range",
+            138
+        ],
+        [
+            4,
+            "2.3.5.13 Display Orientation",
+            138
+        ],
+        [
+            4,
+            "2.3.5.14 Traffic Coasting Indicator",
+            138
+        ],
+        [
+            4,
+            "2.3.5.15 Traffic Range",
+            139
+        ],
+        [
+            3,
+            "2.3.6 Display Design \u2013 Other",
+            139
+        ],
+        [
+            4,
+            "2.3.6.1 Traffic Display Symbol Prioritization for Overlay",
+            139
+        ],
+        [
+            4,
+            "2.3.6.2 Decluttering",
+            139
+        ],
+        [
+            4,
+            "2.3.6.3 CDTI Monitoring Function",
+            140
+        ],
+        [
+            4,
+            "2.3.6.4 Display of Status Indication",
+            140
+        ],
+        [
+            5,
+            "2.3.6.4.1 System Status",
+            140
+        ],
+        [
+            5,
+            "2.3.6.4.2 ASA Application Status",
+            140
+        ],
+        [
+            5,
+            "2.3.6.4.3 TIS-B/ADS-R Service Status",
+            141
+        ],
+        [
+            4,
+            "2.3.6.5 Alerting - General",
+            141
+        ],
+        [
+            3,
+            "2.3.7 Inputs and Controls \u2013 General",
+            141
+        ],
+        [
+            4,
+            "2.3.7.1 Display Range",
+            141
+        ],
+        [
+            4,
+            "2.3.7.2 Altitude Band",
+            142
+        ],
+        [
+            4,
+            "2.3.7.3 Traffic Altitude Selection",
+            142
+        ],
+        [
+            4,
+            "2.3.7.4 Traffic Selection",
+            142
+        ],
+        [
+            4,
+            "2.3.7.5 Traffic Display Criteria Selection",
+            142
+        ],
+        [
+            4,
+            "2.3.7.6 Decluttering",
+            142
+        ],
+        [
+            4,
+            "2.3.7.7 Application and Designate Traffic Control",
+            142
+        ],
+        [
+            4,
+            "2.3.7.8 Brightness Control",
+            143
+        ],
+        [
+            3,
+            "2.3.8 Flight Deck Integration",
+            143
+        ],
+        [
+            4,
+            "2.3.8.1 Multi-function Display",
+            143
+        ],
+        [
+            3,
+            "2.3.9 Application-Specific Requirements",
+            144
+        ],
+        [
+            4,
+            "2.3.9.1 AIRB",
+            145
+        ],
+        [
+            5,
+            "2.3.9.1.1 ACAS Traffic Designation Support (optional)",
+            145
+        ],
+        [
+            4,
+            "2.3.9.2 SURF",
+            145
+        ],
+        [
+            4,
+            "2.3.9.3 VSA",
+            146
+        ],
+        [
+            4,
+            "2.3.9.4 In Trail Procedure (ITP)",
+            147
+        ],
+        [
+            5,
+            "2.3.9.4.1 ITP Distance",
+            147
+        ],
+        [
+            5,
+            "2.3.9.4.2 Ahead or Behind Status",
+            147
+        ],
+        [
+            5,
+            "2.3.9.4.3 ITP Geometric Status",
+            147
+        ],
+        [
+            5,
+            "2.3.9.4.4 Rate of Change of ITP Distance (Optional)",
+            148
+        ],
+        [
+            4,
+            "2.3.9.5 Traffic Situation Awareness with Alerts (TSAA)",
+            148
+        ],
+        [
+            5,
+            "2.3.9.5.1 TSAA Alert Control",
+            148
+        ],
+        [
+            5,
+            "2.3.9.5.2 TSAA Aural Alerts",
+            149
+        ],
+        [
+            4,
+            "2.3.9.6 CAVS",
+            149
+        ],
+        [
+            3,
+            "2.3.10 Accessibility of Controls",
+            150
+        ],
+        [
+            3,
+            "2.3.11 Color",
+            151
+        ],
+        [
+            2,
+            "2.4 Alternate Systems",
+            152
+        ],
+        [
+            3,
+            "2.4.1 TSAA without a Traffic Display",
+            152
+        ],
+        [
+            4,
+            "2.4.1.1 TSAA Aural and Control Latency",
+            153
+        ],
+        [
+            4,
+            "2.4.1.2 Outputs from Annunciator Panel to ASSAP",
+            153
+        ],
+        [
+            5,
+            "2.4.1.2.1 Alert Acknowledge",
+            153
+        ],
+        [
+            5,
+            "2.4.1.2.2 Alert Update",
+            153
+        ],
+        [
+            4,
+            "2.4.1.3 TSAA Alert Control",
+            153
+        ],
+        [
+            4,
+            "2.4.1.4 Display of Status Indication",
+            153
+        ],
+        [
+            5,
+            "2.4.1.4.1 System Status",
+            153
+        ],
+        [
+            5,
+            "2.4.1.4.2 TIS-B/ADS-R Service Status",
+            154
+        ],
+        [
+            4,
+            "2.4.1.5 Accessibility of Controls",
+            154
+        ],
+        [
+            4,
+            "2.4.1.6 Visual Traffic Alert Annunciation",
+            154
+        ],
+        [
+            4,
+            "2.4.1.7 TSAA Aural Alerts",
+            154
+        ],
+        [
+            1,
+            "3 EQUIPMENT Test Procedures",
+            155
+        ],
+        [
+            2,
+            "3.1 Equipment Performance\u2014Environmental Conditions",
+            155
+        ],
+        [
+            3,
+            "3.1.1 Environmental Test Conditions",
+            155
+        ],
+        [
+            2,
+            "3.2  ASSAP Equipment Test Procedures",
+            158
+        ],
+        [
+            3,
+            "3.2.1 Definition of Standard Conditions of Test",
+            158
+        ],
+        [
+            3,
+            "3.2.2 Verification of ASSAP Input/Output Requirements (\u00a72.2.2)",
+            159
+        ],
+        [
+            4,
+            "3.2.2.1 Verification of EVAcq Input/Output Requirements (\u00a72.2.2.1)",
+            159
+        ],
+        [
+            5,
+            "3.2.2.1.1 Verification of ASSAP Input Requirements from ADS-B/ADS-R/TIS-B Receiver (\u00a72.2.2.1.1)",
+            159
+        ],
+        [
+            6,
+            "3.2.2.1.1.1 Verification of Traffic State Vector Report Input Requirements (\u00a72.2.2.1.1.1)",
+            159
+        ],
+        [
+            6,
+            "3.2.2.1.1.2 Verification of Traffic ID/Status Data Report Input Requirements (\u00a72.2.2.1.1.2)",
+            160
+        ],
+        [
+            6,
+            "3.2.2.1.1.3 Verification of TIS-B/ADS-R Service Status Input Requirements (\u00a72.2.2.1.1.3)",
+            161
+        ],
+        [
+            5,
+            "3.2.2.1.2 Verification of ASSAP Input Requirements from TCAS (\u00a72.2.2.1.2)",
+            162
+        ],
+        [
+            5,
+            "3.2.2.1.3 Verification of ASSAP Input Requirements from Ownship Position Source (\u00a72.2.2.1.3)",
+            162
+        ],
+        [
+            6,
+            "3.2.2.1.3.1 Verification of Ownship State Data Input Requirements (\u00a72.2.2.1.3.1)",
+            162
+        ],
+        [
+            6,
+            "3.2.2.1.3.2 Verification of Ownship Quality Data Input Requirements (\u00a72.2.2.1.3.2)",
+            162
+        ],
+        [
+            5,
+            "3.2.2.1.4 Verification of ASSAP Input Requirements from CDTI (\u00a72.2.2.1.4)",
+            163
+        ],
+        [
+            5,
+            "3.2.2.1.5 Verification of ASSAP Output Requirements to CDTI (\u00a72.2.2.1.5)",
+            163
+        ],
+        [
+            6,
+            "3.2.2.1.5.1 Verification of Traffic Information Output Requirements (\u00a72.2.2.1.5.1)",
+            163
+        ],
+        [
+            7,
+            "3.2.2.1.5.1.1 Verification of Traffic Output Capacity (\u00a72.2.2.1.5.1)",
+            163
+        ],
+        [
+            7,
+            "3.2.2.1.5.1.2 Verification of Traffic Priority (\u00a72.2.2.1.5.1.2)",
+            164
+        ],
+        [
+            8,
+            "3.2.2.1.5.1.2.1 Verification of SURF Relevant Traffic (\u00a72.2.2.1.5.1.2.1)",
+            166
+        ],
+        [
+            7,
+            "3.2.2.1.5.1.3 Verification of Track ID (\u00a72.2.2.1.5.1.3)",
+            166
+        ],
+        [
+            7,
+            "3.2.2.1.5.1.4 Verification of Traffic Altitude (\u00a72.2.2.1.5.1.4)",
+            167
+        ],
+        [
+            7,
+            "3.2.2.1.5.1.5 Verification of Traffic Geometric Altitude (\u00a72.2.2.1.5.1.5)",
+            167
+        ],
+        [
+            7,
+            "3.2.2.1.5.1.6 Verification of Traffic Track Angle/Heading (Traffic Directionality) (\u00a72.2.2.1.5.1.6)",
+            167
+        ],
+        [
+            7,
+            "3.2.2.1.5.1.7 Verification of Traffic Horizontal Position (\u00a72.2.2.1.5.1.7)",
+            168
+        ],
+        [
+            7,
+            "3.2.2.1.5.1.8 Verification of Traffic Vertical Direction (\u00a72.2.2.1.5.1.8)",
+            168
+        ],
+        [
+            7,
+            "3.2.2.1.5.1.9 Verification of Traffic Air/Ground Status (\u00a72.2.2.1.5.1.9)",
+            169
+        ],
+        [
+            7,
+            "3.2.2.1.5.1.10 Verification of Traffic TCAS Correlated Status (\u00a72.2.2.1.5.1.10)",
+            169
+        ],
+        [
+            7,
+            "3.2.2.1.5.1.11 Verification of Traffic Application Capability (\u00a72.2.2.1.5.1.11)",
+            170
+        ],
+        [
+            7,
+            "3.2.2.1.5.1.12 Verification of Traffic TCAS Alert Status (\u00a72.2.2.1.5.1.12)",
+            170
+        ],
+        [
+            7,
+            "3.2.2.1.5.1.13 Verification of Traffic Emergency Priority Status (\u00a72.2.2.1.5.1.13)",
+            170
+        ],
+        [
+            6,
+            "3.2.2.1.5.2 Verification of Ownship Information Output Requirements (\u00a72.2.2.1.5.2)",
+            171
+        ],
+        [
+            7,
+            "3.2.2.1.5.2.1 Verification of Ownship PVT Data (\u00a72.2.2.1.5.2.1) (Optional)",
+            171
+        ],
+        [
+            6,
+            "3.2.2.1.5.3 Verification of ASSAP Status Output Requirements (\u00a72.2.2.1.5.3)",
+            171
+        ],
+        [
+            7,
+            "3.2.2.1.5.3.1 Verification of ASA Application Status (\u00a72.2.2.1.5.3.1)",
+            171
+        ],
+        [
+            7,
+            "3.2.2.1.5.3.2 Verification of ASSAP Fault (\u00a72.2.2.1.5.3.2)",
+            171
+        ],
+        [
+            6,
+            "3.2.2.1.5.4 Verification of TIS-B/ADS-R Service Status Output Requirement (\u00a72.2.2.1.5.4)",
+            171
+        ],
+        [
+            5,
+            "3.2.2.1.6 Verification of ASSAP Aural Requirements (\u00a72.2.2.1.6)",
+            172
+        ],
+        [
+            4,
+            "3.2.2.2 Verification of ASA System Latency (\u00a72.2.2.1.6, \u00a72.2.2.2, \u00a72.2.3.5, \u00a72.2.3.6, \u00a72.3.2.1, \u00a72.4.1.1)",
+            172
+        ],
+        [
+            4,
+            "3.2.2.3 Verification of SURF Input/Output Requirements (\u00a72.2.2.3)",
+            173
+        ],
+        [
+            5,
+            "3.2.2.3.1 Verification of ASSAP Input Requirements from ADS-B/ADS-R/TIS-B Receiver (\u00a72.2.2.3.1)",
+            174
+        ],
+        [
+            5,
+            "3.2.2.3.2 Verification of ASSAP Input Requirements from Ownship Position Source (\u00a72.2.2.3.2)",
+            174
+        ],
+        [
+            5,
+            "3.2.2.3.3 Verification of ASSAP Output Requirements to CDTI (\u00a72.2.2.3.3)",
+            174
+        ],
+        [
+            6,
+            "3.2.2.3.3.1 Verification of Traffic Length/Width Codes and Antenna Offset (\u00a72.2.2.3.3.1)",
+            174
+        ],
+        [
+            6,
+            "3.2.2.3.3.2 Verification of SURF Traffic Application Capability (\u00a72.2.2.3.3.2)",
+            174
+        ],
+        [
+            4,
+            "3.2.2.4 Verification of AIRB Input/Output Requirements (\u00a72.2.2.4)",
+            174
+        ],
+        [
+            5,
+            "3.2.2.4.1 Verification of ASSAP Input Requirements from ADS-B/ADS-R/TIS-B Receiver (\u00a72.2.2.4.1)",
+            174
+        ],
+        [
+            5,
+            "3.2.2.4.2 Verification of ASSAP Input Requirements from Ownship Position Source (\u00a72.2.2.4.2)",
+            174
+        ],
+        [
+            5,
+            "3.2.2.4.3 Verification of ASSAP Output Requirements to CDTI (\u00a72.2.2.4.3)",
+            175
+        ],
+        [
+            6,
+            "3.2.2.4.3.1 Verification of Traffic Identification (\u00a72.2.2.4.3.1)",
+            175
+        ],
+        [
+            6,
+            "3.2.2.4.3.2 Verification of Traffic Category (Emitter Category) (\u00a72.2.2.4.3.2)",
+            175
+        ],
+        [
+            6,
+            "3.2.2.4.3.3 Verification of Traffic Ground Speed (\u00a72.2.2.4.3.3)",
+            175
+        ],
+        [
+            6,
+            "3.2.2.4.3.4 Verification of AIRB Traffic Application Capability (\u00a72.2.2.4.3.4)",
+            175
+        ],
+        [
+            5,
+            "3.2.2.4.4 Verification of ACAS Traffic Designation Support Input/Output Requirements (\u00a72.2.2.4.4)",
+            175
+        ],
+        [
+            6,
+            "3.2.2.4.4.1 Verification of ASSAP Input Requirements from ACAS (\u00a72.2.2.4.4.1)",
+            175
+        ],
+        [
+            6,
+            "3.2.2.4.4.2 Verification of ASSAP Output Requirements to ACAS (\u00a72.2.2.4.4.2)",
+            176
+        ],
+        [
+            6,
+            "3.2.2.4.4.3 Verification of ASSAP Output Requirements to CDTI (\u00a72.2.2.4.4.3)",
+            176
+        ],
+        [
+            4,
+            "3.2.2.5 Verification of VSA Input/Output Requirements (\u00a72.2.2.5)",
+            176
+        ],
+        [
+            5,
+            "3.2.2.5.1 Verification of ASSAP Input Requirements from ADS-B/ADS-R/TIS-B Receiver (\u00a72.2.2.5.1)",
+            176
+        ],
+        [
+            5,
+            "3.2.2.5.2 Verification of ASSAP Input Requirements from Ownship Position Source (\u00a72.2.2.5.2)",
+            176
+        ],
+        [
+            5,
+            "3.2.2.5.3 Verification of ASSAP Output Requirements to CDTI (\u00a72.2.2.5.3)",
+            177
+        ],
+        [
+            6,
+            "3.2.2.5.3.1 Verification of VSA Traffic Application Capability (\u00a72.2.2.5.3.1)",
+            177
+        ],
+        [
+            6,
+            "3.2.2.5.3.2 Verification of Differential Ground Speed (\u00a72.2.2.5.3.2)",
+            177
+        ],
+        [
+            4,
+            "3.2.2.6 Verification of ITP Input/Output Requirements (\u00a72.2.2.6)",
+            177
+        ],
+        [
+            5,
+            "3.2.2.6.1 Verification of ASSAP Input Requirements from Ownship Position Source (\u00a72.2.2.6.1)",
+            177
+        ],
+        [
+            5,
+            "3.2.2.6.2 Verification of ASSAP Output Requirements to CDTI (\u00a72.2.2.6.2)",
+            177
+        ],
+        [
+            6,
+            "3.2.2.6.2.1 Verification of ITP Distance (\u00a72.2.2.6.2.1)",
+            177
+        ],
+        [
+            6,
+            "3.2.2.6.2.2 Verification of Ahead or Behind Status (\u00a72.2.2.6.2.2)",
+            177
+        ],
+        [
+            6,
+            "3.2.2.6.2.3 Verification of ITP Traffic Geometric Status (\u00a72.2.2.6.2.3)",
+            177
+        ],
+        [
+            6,
+            "3.2.2.6.2.4 Verification of Rate of Change of ITP Distance (Optional) (\u00a72.2.2.6.2.4)",
+            177
+        ],
+        [
+            6,
+            "3.2.2.6.2.5 Verification of ITP Traffic Application Capability (\u00a72.2.2.6.2.5)",
+            177
+        ],
+        [
+            4,
+            "3.2.2.7 Verification of TSAA Input/Output Requirements (\u00a72.2.2.7)",
+            177
+        ],
+        [
+            5,
+            "3.2.2.7.1 Verification of ASSAP Input Requirements from ADS-B/ADS-R/TIS-B Receiver (\u00a72.2.2.7.1)",
+            178
+        ],
+        [
+            5,
+            "3.2.2.7.2 Verification of ASSAP Input Requirements from Ownship Position Source (\u00a72.2.2.7.2)",
+            178
+        ],
+        [
+            5,
+            "3.2.2.7.3 Verification of ASSAP Output Requirements to CDTI (\u00a72.2.2.7.3)",
+            178
+        ],
+        [
+            6,
+            "3.2.2.7.3.1 Verification of TSAA Traffic Application Capability (\u00a72.2.2.7.3.1)",
+            178
+        ],
+        [
+            6,
+            "3.2.2.7.3.2 Verification of TSAA Traffic Caution Alert Status (\u00a72.2.2.7.3.2)",
+            178
+        ],
+        [
+            6,
+            "3.2.2.7.3.3 Verification of TSAA Aural Alert Output (\u00a72.2.2.7.3.3)",
+            178
+        ],
+        [
+            5,
+            "3.2.2.7.4 Verification of ASSAP Output Requirements to Annunciator Panel (\u00a72.2.2.7.4)",
+            178
+        ],
+        [
+            6,
+            "3.2.2.7.4.1 Verification of TSAA Traffic Caution Alert Status (\u00a72.2.2.7.4.1)",
+            178
+        ],
+        [
+            6,
+            "3.2.2.7.4.2 Verification of TSAA Aural Alert Output (\u00a72.2.2.7.4.2)",
+            178
+        ],
+        [
+            6,
+            "3.2.2.7.4.3 Verification of TSAA System Status (\u00a72.2.2.7.4.3)",
+            178
+        ],
+        [
+            4,
+            "3.2.2.8 Verification of CAVS Input/Output Requirements (\u00a72.2.2.8)",
+            179
+        ],
+        [
+            5,
+            "3.2.2.8.1 Verification of ASSAP Input Requirements from ADS-B/ADS-R/TIS-B Receiver (\u00a72.2.2.8.1)",
+            179
+        ],
+        [
+            5,
+            "3.2.2.8.2 Verification of ASSAP Input Requirements from Ownship Position Source (\u00a72.2.2.8.2)",
+            179
+        ],
+        [
+            5,
+            "3.2.2.8.3 Verification of ASSAP Output Requirements to CDTI (\u00a72.2.2.8.3)",
+            179
+        ],
+        [
+            6,
+            "3.2.2.8.3.1 Verification of Differential Ground Speed (DGS) (\u00a72.2.2.8.3.1)",
+            179
+        ],
+        [
+            6,
+            "3.2.2.8.3.2 Verification of Caution \u201cCAVS Minimum Range\u201d Alert Status (\u00a72.2.2.8.3.2)",
+            179
+        ],
+        [
+            6,
+            "3.2.2.8.3.3 Verification of CAVS Traffic Application Capability (\u00a72.2.2.8.3.3)",
+            179
+        ],
+        [
+            3,
+            "3.2.3 Verification of Surveillance Processing (\u00a72.2.3)",
+            179
+        ],
+        [
+            4,
+            "3.2.3.1 Verification of Source Level Track Generation and Maintenance (\u00a72.2.3.1)",
+            179
+        ],
+        [
+            5,
+            "3.2.3.1.1 Verification of Track Initiation (\u00a72.2.3.1.1)",
+            180
+        ],
+        [
+            5,
+            "3.2.3.1.2 Verification of Track Storage (\u00a72.2.3.1.2)",
+            180
+        ],
+        [
+            5,
+            "3.2.3.1.3 Verification of Track Maintenance (\u00a72.2.3.1.3)",
+            180
+        ],
+        [
+            6,
+            "3.2.3.1.3.1 Verification of Report Validity Checks (\u00a72.2.3.1.3.1)",
+            180
+        ],
+        [
+            6,
+            "3.2.3.1.3.2 Verification of Additional Velocity Quality Monitoring (\u00a72.2.3.1.3.2)",
+            181
+        ],
+        [
+            6,
+            "3.2.3.1.3.3 Verification of Duplicate Address Processing for UAT and VDL4 Systems (\u00a72.2.3.1.3.3)",
+            181
+        ],
+        [
+            6,
+            "3.2.3.1.3.4 Verification of Duplicate Address Processing for 1090 MHz Systems (\u00a72.2.3.1.3.4)",
+            181
+        ],
+        [
+            6,
+            "3.2.3.1.3.5 Validation of Additional Validation of Traffic Position with TCAS Data (\u00a72.2.3.1.3.5)",
+            182
+        ],
+        [
+            4,
+            "3.2.3.2 Verification of Inter-source Correlation (\u00a72.2.3.2)",
+            182
+        ],
+        [
+            5,
+            "3.2.3.2.1 Verification of Inter-Source Correlation of TIS-B with ADS-B and ADS-R Tracks (\u00a72.2.3.2.1)",
+            182
+        ],
+        [
+            5,
+            "3.2.3.2.2 Verification of Inter-Source Correlation of TIS-B Tracks with the Ownship ()",
+            184
+        ],
+        [
+            5,
+            "3.2.3.2.3 Verification of Inter-Source Correlation of TCAS with ADS-B, ADS-R and TIS-B Tracks (\u00a72.2.3.2.3)",
+            184
+        ],
+        [
+            5,
+            "3.2.3.2.4 Verification of Intra-Source Correlation of TIS-B with TIS-B Tracks (\u00a72.2.3.2.4)",
+            186
+        ],
+        [
+            4,
+            "3.2.3.3 Verification of Best Source Selection (\u00a72.2.3.3)",
+            187
+        ],
+        [
+            4,
+            "3.2.3.4 Verification of Track Termination (\u00a72.2.3.4)",
+            188
+        ],
+        [
+            4,
+            "3.2.3.5 Verification of Common Time of Track Extrapolation and Traffic State File Generation (\u00a72.2.3.5)",
+            188
+        ],
+        [
+            4,
+            "3.2.3.6 Verification of Individual Time of Track Extrapolation and Traffic State File Generation (\u00a72.2.3.6)",
+            189
+        ],
+        [
+            3,
+            "3.2.4 Verification of Application Processing (\u00a72.2.4)",
+            189
+        ],
+        [
+            4,
+            "3.2.4.1 Verification of Enhanced Visual Acquisition (EVAcq) or Basic Airborne Situation Awareness (AIRB) (\u00a72.2.4.1)",
+            189
+        ],
+        [
+            5,
+            "3.2.4.1.1 Verification of Ownship Requirements for EVAcq or AIRB (\u00a72.2.4.1.1)",
+            189
+        ],
+        [
+            5,
+            "3.2.4.1.2 Verification of Traffic Requirements for EVAcq or AIRB (\u00a72.2.4.1.2)",
+            191
+        ],
+        [
+            5,
+            "3.2.4.1.3 Verification Aural Annunciation Input (\u00a72.2.4.1.3)",
+            195
+        ],
+        [
+            4,
+            "3.2.4.2 Verification of Basic Surface Situation Awareness (SURF) (\u00a72.2.4.2)",
+            196
+        ],
+        [
+            5,
+            "3.2.4.2.1 Verification of Ownship Requirements for SURF (\u00a72.2.4.2.1)",
+            196
+        ],
+        [
+            5,
+            "3.2.4.2.2 Verification of Traffic Requirements for SURF (\u00a72.2.4.2.2)",
+            197
+        ],
+        [
+            6,
+            "3.2.4.2.2.1 Verification of Traffic is On Ground (\u00a72.2.4.2.2.1)",
+            197
+        ],
+        [
+            6,
+            "3.2.4.2.2.2 Verification of Traffic is Airborne (\u00a72.2.4.2.2.2)",
+            199
+        ],
+        [
+            7,
+            "3.2.4.2.2.2.1 Verification of Traffic is Inside of the Surface Volume (\u00a72.2.4.2.2.2.1)",
+            200
+        ],
+        [
+            8,
+            "3.2.4.2.2.2.1.1 Verification of Ownship is On Ground (\u00a72.2.4.2.2.2.1.1)",
+            200
+        ],
+        [
+            8,
+            "3.2.4.2.2.2.1.2 Verification of Ownship is Airborne (\u00a72.2.4.2.2.2.1.2)",
+            202
+        ],
+        [
+            7,
+            "3.2.4.2.2.2.2 Verification of Traffic is Outside of the Surface Volume (\u00a72.2.4.2.2.2.2)",
+            204
+        ],
+        [
+            4,
+            "3.2.4.3 Verification of Visual Separation on Approach (VSA) (\u00a72.2.4.3)",
+            206
+        ],
+        [
+            5,
+            "3.2.4.3.1 Verification of Ownship Requirements (\u00a72.2.4.3.1)",
+            206
+        ],
+        [
+            5,
+            "3.2.4.3.2 Verification of VSA Traffic Requirements (\u00a72.2.4.3.2)",
+            207
+        ],
+        [
+            5,
+            "3.2.4.3.3 Verification of Differential Ground Speed (\u00a72.2.4.3.3)",
+            209
+        ],
+        [
+            4,
+            "3.2.4.4 Verification of In-Trail Procedure (ITP) (\u00a72.2.4.4)",
+            210
+        ],
+        [
+            5,
+            "3.2.4.4.1 Verification of Ownship Requirements (\u00a72.2.4.4.1)",
+            210
+        ],
+        [
+            5,
+            "3.2.4.4.2 Verification of ITP Traffic Requirements (\u00a72.2.4.4.2)",
+            211
+        ],
+        [
+            6,
+            "3.2.4.4.2.1 Verification of Validation of Traffic Position with TCAS Data (\u00a72.2.4.4.2.1)",
+            212
+        ],
+        [
+            6,
+            "3.2.4.4.2.2 Verification of Validation of Traffic Velocity (\u00a72.2.4.4.2.2)",
+            214
+        ],
+        [
+            5,
+            "3.2.4.4.3 Verification of ITP Computation Requirements (\u00a72.2.4.4.3)",
+            214
+        ],
+        [
+            6,
+            "3.2.4.4.3.1 Verification of Similar Track Criteria (\u00a72.2.4.4.3.11)",
+            215
+        ],
+        [
+            6,
+            "3.2.4.4.3.2 Verification of ITP Distance (\u00a72.2.4.4.3.2)",
+            215
+        ],
+        [
+            6,
+            "3.2.4.4.3.3 Verification of Ahead or Behind (\u00a72.2.4.4.3.3)",
+            218
+        ],
+        [
+            6,
+            "3.2.4.4.3.4 Verification of Rate of Change of ITP Distance (\u00a72.2.4.4.3.4)",
+            220
+        ],
+        [
+            6,
+            "3.2.4.4.3.5 Verification of ITP Geometric Status (\u00a72.2.4.4.3.5)",
+            220
+        ],
+        [
+            4,
+            "3.2.4.5 Verification of TSAA Application Processing Requirements (\u00a72.2.4.5)",
+            222
+        ],
+        [
+            5,
+            "3.2.4.5.1 Verification of TSAA Ownship Requirements (\u00a72.2.4.5.1)",
+            222
+        ],
+        [
+            5,
+            "3.2.4.5.2 Verification of TSAA Traffic Requirements (\u00a72.2.4.5.2)",
+            223
+        ],
+        [
+            5,
+            "3.2.4.5.3 Verification of TSAA Traffic Caution Alert Criteria (\u00a72.2.4.5.3)",
+            223
+        ],
+        [
+            6,
+            "3.2.4.5.3.1 Verification of TSAA Traffic Caution Alert Performance Requirements (\u00a72.2.4.5.3.1)",
+            223
+        ],
+        [
+            7,
+            "3.2.4.5.3.1.1 Verification of Must Alert Tracks (\u00a72.2.4.5.3.1.1)",
+            223
+        ],
+        [
+            7,
+            "3.2.4.5.3.1.2 Verification of Must Not Alert Tracks (\u00a72.2.4.5.3.1.2)",
+            224
+        ],
+        [
+            6,
+            "3.2.4.5.3.2 Verification of Concurrent TSAA Traffic Caution Alerts (\u00a72.2.4.5.3.2)",
+            224
+        ],
+        [
+            6,
+            "3.2.4.5.3.3 Verification of TSAA Traffic Caution Alerts on Correlated TCAS tracks (\u00a72.2.4.5.3.3)",
+            224
+        ],
+        [
+            5,
+            "3.2.4.5.4 Verification of TSAA Aural Alerts (\u00a72.2.4.5.4)",
+            224
+        ],
+        [
+            6,
+            "3.2.4.5.4.1 Verification of TSAA Traffic Caution Alert Acknowledge (\u00a72.2.4.5.4.1)",
+            224
+        ],
+        [
+            6,
+            "3.2.4.5.4.2 Verification of Aural Alert Components (\u00a72.2.4.5.4.2)",
+            225
+        ],
+        [
+            6,
+            "3.2.4.5.4.3 Verification of Updated Aural Alert Components (\u00a72.2.4.5.4.3)",
+            225
+        ],
+        [
+            5,
+            "3.2.4.5.5 Verification of TSAA Alert Status Duration (\u00a72.2.4.5.5)",
+            225
+        ],
+        [
+            5,
+            "3.2.4.5.6 Verification of TSAA Alert Suppression (\u00a72.2.4.5.6)",
+            225
+        ],
+        [
+            5,
+            "3.2.4.5.7 Verification of Nearby Airborne Traffic (\u00a72.2.4.5.7)",
+            226
+        ],
+        [
+            4,
+            "3.2.4.6 Verification of CDTI Assisted Visual Separation (CAVS) (\u00a72.2.4.6)",
+            226
+        ],
+        [
+            5,
+            "3.2.4.6.1 Verification of Ownship Requirements (\u00a72.2.4.6.1)",
+            226
+        ],
+        [
+            5,
+            "3.2.4.6.2 Verification of CAVS Traffic Requirements (\u00a72.2.4.6.2)",
+            227
+        ],
+        [
+            6,
+            "3.2.4.6.2.1 Verification of Validation of Traffic Position with TCAS Data (\u00a72.2.4.6.2.1)",
+            230
+        ],
+        [
+            6,
+            "3.2.4.6.2.2 Verification of Traffic Velocity (\u00a72.2.4.6.2.2)",
+            232
+        ],
+        [
+            5,
+            "3.2.4.6.3 Verification of Caution \u201cCAVS Minimum Range\u201d Alert (\u00a72.2.4.6.3)",
+            232
+        ],
+        [
+            5,
+            "3.2.4.6.4 Verification of Differential Ground Speed (\u00a72.2.4.6.4)",
+            233
+        ],
+        [
+            3,
+            "3.2.5 Verification of ASSAP Monitor Function (\u00a72.2.5)",
+            233
+        ],
+        [
+            3,
+            "3.2.6 Verification of TIS-B/ADS-R Service Status (\u00a72.2.6)",
+            234
+        ],
+        [
+            4,
+            "3.2.6.1 Verification of UAT and 1090 ES (\u00a72.2.6.1)",
+            234
+        ],
+        [
+            4,
+            "3.2.6.2 Verification of VDL4 (\u00a72.2.6.2)",
+            235
+        ],
+        [
+            3,
+            "3.2.7 Description of Test Scenarios Used as ASSAP Test Stimulus",
+            235
+        ],
+        [
+            4,
+            "3.2.7.1 Trajectory Set #1: Check for Missed Correlations",
+            236
+        ],
+        [
+            4,
+            "3.2.7.2 Trajectory Set #2: Check for False Correlations due to Horizontal Closure",
+            237
+        ],
+        [
+            4,
+            "3.2.7.3 Trajectory Set #3: Check for False Correlations due to Vertical Closure",
+            238
+        ],
+        [
+            4,
+            "3.2.7.4 Trajectory Set #4: Check Track Capacity, Track Generation and Track Termination",
+            239
+        ],
+        [
+            4,
+            "3.2.7.5 Trajectory Set #5: Check for Coexistence of Multiple TIS-B Tracks per Aircraft due to Identifier Changes Across Service Volume Boundaries",
+            241
+        ],
+        [
+            3,
+            "3.2.8 Description of Test Scenarios Used as ITP Test Stimulus",
+            243
+        ],
+        [
+            3,
+            "3.2.9 Description of Polar Test Scenarios",
+            257
+        ],
+        [
+            4,
+            "3.2.9.1 Description of North Pole Scenario",
+            257
+        ],
+        [
+            4,
+            "3.2.9.2 Description of South Pole Scenario",
+            258
+        ],
+        [
+            3,
+            "3.2.10 Description of CAVS Test Scenarios",
+            259
+        ],
+        [
+            4,
+            "3.2.10.1 CAVS Test Scenario 1",
+            260
+        ],
+        [
+            4,
+            "3.2.10.2 CAVS Test Scenario 2",
+            260
+        ],
+        [
+            4,
+            "3.2.10.3 CAVS Test Scenario 3",
+            261
+        ],
+        [
+            4,
+            "3.2.10.4 CAVS Test Scenario 4",
+            262
+        ],
+        [
+            4,
+            "3.2.10.5 CAVS Test Scenario 5",
+            262
+        ],
+        [
+            3,
+            "3.2.11 Description of VSA Test Scenarios",
+            262
+        ],
+        [
+            4,
+            "3.2.11.1 VSA Test Scenario 1",
+            263
+        ],
+        [
+            4,
+            "3.2.11.2 VSA Test Scenario 2",
+            263
+        ],
+        [
+            4,
+            "3.2.11.3 VSA Test Scenario 3",
+            263
+        ],
+        [
+            2,
+            "3.3 CDTI Equipment Test Procedures",
+            263
+        ],
+        [
+            3,
+            "3.3.1 Definition of Terms and Conditions of Test",
+            264
+        ],
+        [
+            3,
+            "3.3.2 CDTI Test Procedures",
+            286
+        ],
+        [
+            4,
+            "3.3.2.1 Verification \u2013 General",
+            286
+        ],
+        [
+            4,
+            "3.3.2.2 Verification \u2013 Display Criteria",
+            287
+        ],
+        [
+            4,
+            "3.3.2.3 Verification \u2013 Ownship",
+            288
+        ],
+        [
+            4,
+            "3.3.2.4 Verification \u2013 Traffic Symbols",
+            289
+        ],
+        [
+            5,
+            "3.3.2.4.1 Verification - Traffic Location",
+            289
+        ],
+        [
+            5,
+            "3.3.2.4.2 Verification - Traffic Symbology",
+            290
+        ],
+        [
+            5,
+            "3.3.2.4.3 Verification - Traffic Altitude",
+            291
+        ],
+        [
+            5,
+            "3.3.2.4.4 Verification - Traffic Vertical Direction",
+            292
+        ],
+        [
+            5,
+            "3.3.2.4.5 Verification - Traffic Directionality",
+            292
+        ],
+        [
+            5,
+            "3.3.2.4.6 Verification - Traffic Ground Speed",
+            293
+        ],
+        [
+            5,
+            "3.3.2.4.7 Verification - Traffic Identification",
+            293
+        ],
+        [
+            5,
+            "3.3.2.4.8 Verification - Traffic Horizontal Velocity Vector",
+            293
+        ],
+        [
+            5,
+            "3.3.2.4.9 Verification - Traffic Category",
+            294
+        ],
+        [
+            5,
+            "3.3.2.4.10 Verification - Traffic Range",
+            294
+        ],
+        [
+            4,
+            "3.3.2.5 Verification \u2013 Differential Ground Speed",
+            294
+        ],
+        [
+            4,
+            "3.3.2.6 Verification \u2013 Traffic Selection (Optional \u2013 required for some applications)",
+            295
+        ],
+        [
+            5,
+            "3.3.2.6.1 Off Display Selected Traffic",
+            295
+        ],
+        [
+            4,
+            "3.3.2.7 Verification \u2013Designating Traffic (Required for some applications)",
+            296
+        ],
+        [
+            5,
+            "3.3.2.7.1 Off Display Designated Traffic",
+            296
+        ],
+        [
+            5,
+            "3.3.2.7.2 Verification \u2013 ACAS Traffic Designation Support",
+            296
+        ],
+        [
+            4,
+            "3.3.2.8 Verification \u2013 CDTI Outputs",
+            297
+        ],
+        [
+            4,
+            "3.3.2.9 Verification \u2013 Display Range",
+            297
+        ],
+        [
+            4,
+            "3.3.2.10 Verification \u2013 De-clutter",
+            298
+        ],
+        [
+            4,
+            "3.3.2.11 Verification \u2013 Multifunction Display",
+            298
+        ],
+        [
+            4,
+            "3.3.2.12 Verification - Status Indication",
+            298
+        ],
+        [
+            5,
+            "3.3.2.12.1 Verification - Status Indication",
+            299
+        ],
+        [
+            4,
+            "3.3.2.13 Verification \u2013 ITP",
+            299
+        ],
+        [
+            4,
+            "3.3.2.14 Verification - Lighting",
+            300
+        ],
+        [
+            4,
+            "3.3.2.15 Verification - Removed",
+            301
+        ],
+        [
+            4,
+            "3.3.2.16 Verification \u2013 Alerts",
+            301
+        ],
+        [
+            4,
+            "3.3.2.17 Verification \u2013 AIRB",
+            301
+        ],
+        [
+            4,
+            "3.3.2.18 Verification \u2013 SURF",
+            302
+        ],
+        [
+            4,
+            "3.3.2.19 Verification \u2013 Display Data Latency",
+            302
+        ],
+        [
+            4,
+            "3.3.2.20 Verification \u2013 Controls",
+            303
+        ],
+        [
+            4,
+            "3.3.2.21 Verification \u2013 Ownship and Traffic Symbol Reference Points",
+            303
+        ],
+        [
+            4,
+            "3.3.2.22 Verification \u2013 Map Function Present",
+            303
+        ],
+        [
+            4,
+            "3.3.2.23 Verification \u2013 TSAA",
+            304
+        ],
+        [
+            5,
+            "3.3.2.23.1 Verification of TSAA Traffic Caution alerts",
+            304
+        ],
+        [
+            5,
+            "3.3.2.23.2 Verification of TSAA Status Indications",
+            304
+        ],
+        [
+            5,
+            "3.3.2.23.3 Verification of Annunciator Panel Latency",
+            305
+        ],
+        [
+            4,
+            "3.3.2.24 Verification \u2013 CAVS",
+            305
+        ],
+        [
+            3,
+            "3.3.3 CDTI Test Setup",
+            306
+        ],
+        [
+            4,
+            "3.3.3.1 CDTI Test Setup #1 Ownship Data",
+            306
+        ],
+        [
+            4,
+            "3.3.3.2 CDTI Test Setup #2 Traffic Data",
+            306
+        ],
+        [
+            4,
+            "3.3.3.3 CDTI Test Setup #3 Differential Ground Speed",
+            307
+        ],
+        [
+            4,
+            "3.3.3.4 CDTI Test Setup #4 Traffic Alerts",
+            307
+        ],
+        [
+            4,
+            "3.3.3.5 CDTI Test Setup #5 Traffic Application Capability",
+            307
+        ],
+        [
+            4,
+            "3.3.3.6 CDTI Test Setup # 6 Traffic Selected/Designated Status",
+            308
+        ],
+        [
+            4,
+            "3.3.3.7 CDTI Test Setup #7 ASSAP Status Indication",
+            308
+        ],
+        [
+            4,
+            "3.3.3.8 CDTI Test Setup #8 - Removed",
+            308
+        ],
+        [
+            4,
+            "3.3.3.9 CDTI Test Setup #9 CDTI Status Indication",
+            308
+        ],
+        [
+            4,
+            "3.3.3.10 CDTI Test Setup #10 Surface Maps",
+            308
+        ],
+        [
+            4,
+            "3.3.3.11 CDTI Test Setup #11 Alternate Display Criteria",
+            308
+        ],
+        [
+            4,
+            "3.3.3.12 Test Setup #12 Environmental",
+            309
+        ],
+        [
+            4,
+            "3.3.3.13 Test Setup #13 TSAA Annunciator Panel Status Indication",
+            310
+        ],
+        [
+            2,
+            "3.4 Test Procedures for Alternate Systems",
+            310
+        ],
+        [
+            3,
+            "3.4.1 Test Procedures for TSAA Without a Traffic Display",
+            310
+        ],
+        [
+            1,
+            "4 Installed Equipment Performance",
+            311
+        ],
+        [
+            2,
+            "4.1 Installed Equipment Performance Requirements",
+            311
+        ],
+        [
+            3,
+            "4.1.1 Accessibility",
+            311
+        ],
+        [
+            3,
+            "4.1.2 Aircraft Environment",
+            311
+        ],
+        [
+            3,
+            "4.1.3 Display Visibility",
+            311
+        ],
+        [
+            3,
+            "4.1.4 Dynamic Environment",
+            311
+        ],
+        [
+            3,
+            "4.1.5 Failure Protection",
+            311
+        ],
+        [
+            3,
+            "4.1.6 Interference Effects",
+            311
+        ],
+        [
+            3,
+            "4.1.7 Inadvertent Turnoff",
+            312
+        ],
+        [
+            3,
+            "4.1.8 Other Requirements",
+            312
+        ],
+        [
+            3,
+            "4.1.9 Airport Surface Map",
+            312
+        ],
+        [
+            2,
+            "4.2 Installed Equipment Performance Requirements",
+            312
+        ],
+        [
+            2,
+            "4.3 Conditions of Test",
+            312
+        ],
+        [
+            3,
+            "4.3.1 Safety Precautions",
+            312
+        ],
+        [
+            3,
+            "4.3.2 Power Input",
+            312
+        ],
+        [
+            3,
+            "4.3.3 Environment",
+            313
+        ],
+        [
+            3,
+            "4.3.4 Adjustment of Equipment",
+            313
+        ],
+        [
+            3,
+            "4.3.5 Warm-up Period",
+            313
+        ],
+        [
+            2,
+            "4.4 Test Procedures for Installed Equipment Performance",
+            313
+        ],
+        [
+            3,
+            "4.4.1 Ground Test Procedures",
+            313
+        ],
+        [
+            4,
+            "4.4.1.1 Conformity Inspection",
+            313
+        ],
+        [
+            4,
+            "4.4.1.2 Equipment Function",
+            313
+        ],
+        [
+            4,
+            "4.4.1.3 Interference Effects",
+            313
+        ],
+        [
+            4,
+            "4.4.1.4 Power Supply Fluctuations",
+            314
+        ],
+        [
+            4,
+            "4.4.1.5 Equipment Accessibility",
+            314
+        ],
+        [
+            4,
+            "4.4.1.6 Ramp Test for Display Function",
+            314
+        ],
+        [
+            3,
+            "4.4.2 Flight Test Procedures",
+            314
+        ],
+        [
+            4,
+            "4.4.2.1 Displayed Data Readability",
+            314
+        ],
+        [
+            4,
+            "4.4.2.2 ASSAP Installed Flight Test",
+            314
+        ],
+        [
+            1,
+            "5 Membership",
+            317
+        ],
+        [
+            1,
+            "Appendix A  Acronyms and Definitions of Terms",
+            327
+        ],
+        [
+            1,
+            "Appendix B  TCAS/ASA system relationship",
+            343
+        ],
+        [
+            1,
+            "Appendix C  EXAMPLE FUNCTIONAL ARCHITECTURE FOR AIRBORNE SURVEILLANCE AND SEPARATION ASSURANCE PROCESSING (assap)",
+            347
+        ],
+        [
+            2,
+            "C.3.1.1.2.1 State Assembler",
+            356
+        ],
+        [
+            3,
+            "C.3.1.1.2.1.1 State Assembly With Position Updates",
+            359
+        ],
+        [
+            3,
+            "C.3.1.1.2.1.2 State Assembly With Velocity Updates",
+            361
+        ],
+        [
+            2,
+            "C.3.1.1.2.2 Correlation Window",
+            363
+        ],
+        [
+            2,
+            "C.3.1.1.2.3 Turn Rate Estimation",
+            364
+        ],
+        [
+            2,
+            "C.3.1.1.2.4 Track Updates",
+            365
+        ],
+        [
+            1,
+            "Appendix D",
+            411
+        ],
+        [
+            1,
+            "Example Validation Algorithm for Track Updating",
+            411
+        ],
+        [
+            1,
+            "Appendix E  Velocity Validation",
+            419
+        ],
+        [
+            1,
+            "Appendix F  ITP Design Considerations",
+            431
+        ],
+        [
+            1,
+            "Appendix G  TCAS/ADS-B Display Symbol Integration",
+            439
+        ],
+        [
+            1,
+            "Appendix H  Service Status Indication for TIS-B and ADS-R",
+            445
+        ],
+        [
+            1,
+            "Appendix I  ASSAP TEST SCENARIO GENERATION",
+            455
+        ],
+        [
+            1,
+            "Appendix J  System Interface Boundaries and Latency Allocation",
+            465
+        ],
+        [
+            1,
+            "Appendix K  reserved",
+            479
+        ],
+        [
+            1,
+            "Appendix L  REQUIREMENTS FOR FUNCTIONAL CLASSES OF ASA AVIONICS BY APPLICATION",
+            483
+        ],
+        [
+            1,
+            "Appendix M  Time of Applicability in Existing Link MOPS",
+            491
+        ],
+        [
+            1,
+            "Appendix N  BIBLIOGRAPHY",
+            501
+        ],
+        [
+            1,
+            "Appendix O  BASIC SURFACE SITUATION AWARENESS IN ASA SYSTEM MOPS",
+            505
+        ],
+        [
+            1,
+            "Appendix P  Reserved",
+            525
+        ],
+        [
+            1,
+            "Appendix Q  Applications integration",
+            529
+        ],
+        [
+            1,
+            "Appendix R  Requirements Traceability for AIRB, SURF, VSA, ITP, TSAA And CAvs Applications",
+            539
+        ],
+        [
+            1,
+            "Appendix S  OCEANIC IN-TRAIL PROCEDURE (ITP) APPLICATION SAMPLE ALGORITHMS",
+            595
+        ],
+        [
+            1,
+            "Appendix T  TRAFFIC SITUATION AWARENESS with alerting (TSAA) APPLICATION SAMPLE ALGORITHMS",
+            611
+        ],
+        [
+            1,
+            "Appendix U  TRAFFIC SITUATION AWARENESS with alerting (TSAA)  Test Tracks",
+            635
+        ],
+        [
+            1,
+            "Appendix V  System Interface Boundaries and Latency Allocation",
+            697
+        ]
+    ],
+    "pages": 708,
+    "ocr_stats": {
+        "ocr_pages": 20,
+        "ocr_failed": 20,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 511,
+        "code": 72,
+        "table": 112,
+        "equations": {
+            "successful_ocr": 62,
+            "unsuccessful_ocr": 14,
+            "equations": 76
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

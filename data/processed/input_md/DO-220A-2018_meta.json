@@ -1,0 +1,24 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [],
+    "pages": 212,
+    "ocr_stats": {
+        "ocr_pages": 2,
+        "ocr_failed": 2,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 409,
+        "code": 2,
+        "table": 63,
+        "equations": {
+            "successful_ocr": 62,
+            "unsuccessful_ocr": 0,
+            "equations": 62
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

@@ -1,0 +1,1075 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            "1.0 INTRODUCTION",
+            11
+        ],
+        [
+            2,
+            "1.1 Purpose",
+            11
+        ],
+        [
+            2,
+            "1.2 Scope",
+            11
+        ],
+        [
+            2,
+            "1.3 Relationship to Other Documents",
+            12
+        ],
+        [
+            2,
+            "1.4 How to Use This Document",
+            12
+        ],
+        [
+            2,
+            "1.5 Document Overview",
+            15
+        ],
+        [
+            1,
+            "2.0 SYSTEM ASPECTS RELATING TO SOFTWARE DEVELOPMENT",
+            17
+        ],
+        [
+            2,
+            "2.1 System Requirements Allocation to Software",
+            17
+        ],
+        [
+            2,
+            "2.2 Information Flow Between System and Software Life Cycle Processes",
+            18
+        ],
+        [
+            3,
+            "2.2.1 Information Flow from System Processes to Software Processes",
+            20
+        ],
+        [
+            3,
+            "2.2.2 Information Flow from Software Processes to System Processes",
+            20
+        ],
+        [
+            3,
+            "2.2.3 Information Flow between Software Processes and Hardware Processes",
+            21
+        ],
+        [
+            2,
+            "2.3 System Safety Assessment Process and Assurance Level",
+            21
+        ],
+        [
+            3,
+            "2.3.1 Relationship between Software Errors and Failure Conditions",
+            22
+        ],
+        [
+            3,
+            "2.3.2 Assurance Level Definitions",
+            22
+        ],
+        [
+            3,
+            "2.3.3 Assurance Level Definitions",
+            24
+        ],
+        [
+            3,
+            "2.3.4 Assurance Level Determination",
+            25
+        ],
+        [
+            2,
+            "2.4 Architectural Considerations",
+            25
+        ],
+        [
+            3,
+            "2.4.1 Partitioning",
+            25
+        ],
+        [
+            3,
+            "2.4.2 Multiple-Version Dissimilar Software",
+            26
+        ],
+        [
+            3,
+            "2.4.3 Safety Monitoring",
+            27
+        ],
+        [
+            2,
+            "2.5 Additional System Considerations",
+            27
+        ],
+        [
+            3,
+            "2.5.1 System Communication",
+            27
+        ],
+        [
+            3,
+            "2.5.2 Security",
+            27
+        ],
+        [
+            3,
+            "2.5.3 Adaptability",
+            27
+        ],
+        [
+            3,
+            "2.5.4 Cutover (Hot Swapping)",
+            27
+        ],
+        [
+            3,
+            "2.5.5 Post-Development Life Cycle",
+            28
+        ],
+        [
+            2,
+            "2.6 Software Considerations in System Life Cycle Processes",
+            28
+        ],
+        [
+            3,
+            "2.6.1 Adaptation Data Items",
+            28
+        ],
+        [
+            3,
+            "2.6.2 User-Modifiable Software",
+            29
+        ],
+        [
+            3,
+            "2.6.3 Commercial-Off-The-Shelf Software",
+            30
+        ],
+        [
+            3,
+            "2.6.4 Option-Selectable Software",
+            30
+        ],
+        [
+            3,
+            "2.6.5 Field-Loadable Software",
+            31
+        ],
+        [
+            3,
+            "2.6.6 Software Considerations in System Verification",
+            31
+        ],
+        [
+            2,
+            "2.7 System Considerations in Software Life Cycle Processes",
+            32
+        ],
+        [
+            1,
+            "3.0 SOFTWARE LIFE CYCLE",
+            33
+        ],
+        [
+            2,
+            "3.1 Software Life Cycle Processes",
+            33
+        ],
+        [
+            2,
+            "3.2 Software Life Cycle Definition",
+            33
+        ],
+        [
+            2,
+            "3.3 Transition Criteria Between Processes",
+            34
+        ],
+        [
+            1,
+            "4.0 SOFTWARE PLANNING PROCESS",
+            37
+        ],
+        [
+            2,
+            "4.1 Software Planning Process Objectives",
+            37
+        ],
+        [
+            2,
+            "4.2 Software Planning Process Activities",
+            37
+        ],
+        [
+            2,
+            "4.3 Software Plans",
+            38
+        ],
+        [
+            2,
+            "4.4 Software Life Cycle Environment Planning",
+            39
+        ],
+        [
+            3,
+            "4.4.1 Software Development Environment",
+            40
+        ],
+        [
+            3,
+            "4.4.2 Language and Compiler Considerations",
+            40
+        ],
+        [
+            3,
+            "4.4.3 Software Test Environment",
+            41
+        ],
+        [
+            2,
+            "4.5 Software Development Standards",
+            41
+        ],
+        [
+            2,
+            "4.6 Review of the Software Planning Process",
+            42
+        ],
+        [
+            1,
+            "5.0 SOFTWARE DEVELOPMENT PROCESSES",
+            43
+        ],
+        [
+            2,
+            "5.1 Software Requirements Process",
+            44
+        ],
+        [
+            3,
+            "5.1.1 Software Requirements Process Objectives",
+            44
+        ],
+        [
+            3,
+            "5.1.2 Software Requirements Process Activities",
+            44
+        ],
+        [
+            2,
+            "5.2 Software Design Process",
+            45
+        ],
+        [
+            3,
+            "5.2.1 Software Design Process Objectives",
+            45
+        ],
+        [
+            3,
+            "5.2.2 Software Design Process Activities",
+            45
+        ],
+        [
+            3,
+            "5.2.3 Designing for User-Modifiable Software",
+            46
+        ],
+        [
+            3,
+            "5.2.4 Designing for Deactivated Code",
+            46
+        ],
+        [
+            2,
+            "5.3 Software Coding Process",
+            47
+        ],
+        [
+            3,
+            "5.3.1 Software Coding Process Objectives",
+            47
+        ],
+        [
+            3,
+            "5.3.2 Software Coding Process Activities",
+            47
+        ],
+        [
+            2,
+            "5.4 Integration Process",
+            47
+        ],
+        [
+            3,
+            "5.4.1 Integration Process Objectives",
+            48
+        ],
+        [
+            3,
+            "5.4.2 Integration Process Activities",
+            48
+        ],
+        [
+            2,
+            "5.5 Software Development Process Traceability",
+            49
+        ],
+        [
+            1,
+            "6.0 SOFTWARE VERIFICATION PROCESS",
+            51
+        ],
+        [
+            2,
+            "6.1 Purpose of Software Verification",
+            51
+        ],
+        [
+            2,
+            "6.2 Overview of Software Verification Process Activities",
+            52
+        ],
+        [
+            2,
+            "6.3 Software Reviews and Analyses",
+            53
+        ],
+        [
+            3,
+            "6.3.1 Reviews and Analyses of High-Level Requirements",
+            53
+        ],
+        [
+            3,
+            "6.3.2 Reviews and Analyses of Low-Level Requirements",
+            54
+        ],
+        [
+            3,
+            "6.3.3 Reviews and Analyses of Software Architecture",
+            54
+        ],
+        [
+            3,
+            "6.3.4 Reviews and Analyses of Source Code",
+            55
+        ],
+        [
+            3,
+            "6.3.5 Reviews and Analyses of the Outputs of the Integration Process",
+            56
+        ],
+        [
+            2,
+            "6.4 Software Testing",
+            56
+        ],
+        [
+            3,
+            "6.4.1 Test Environment",
+            58
+        ],
+        [
+            3,
+            "6.4.2 Requirements-Based Test Selection",
+            58
+        ],
+        [
+            4,
+            "6.4.2.1 Normal Range Test Cases",
+            58
+        ],
+        [
+            4,
+            "6.4.2.2 Robustness Test Cases",
+            59
+        ],
+        [
+            3,
+            "6.4.3 Requirements-Based Testing Methods",
+            59
+        ],
+        [
+            3,
+            "6.4.4 Test Coverage Analysis",
+            61
+        ],
+        [
+            4,
+            "6.4.4.1 Requirements-Based Test Coverage Analysis",
+            61
+        ],
+        [
+            4,
+            "6.4.4.2 Structural Coverage Analysis",
+            62
+        ],
+        [
+            4,
+            "6.4.4.3 Structural Coverage Analysis Resolution",
+            62
+        ],
+        [
+            3,
+            "6.4.5 Reviews and Analyses of Test Cases, Procedures, and Results",
+            63
+        ],
+        [
+            2,
+            "6.5 Software Verification Process Traceability",
+            63
+        ],
+        [
+            2,
+            "6.6 Verification of Adaptation Data Items",
+            64
+        ],
+        [
+            1,
+            "7.0 SOFTWARE CONFIGURATION MANAGEMENT PROCESS",
+            65
+        ],
+        [
+            2,
+            "7.1 Software Configuration Management Process Objectives",
+            65
+        ],
+        [
+            2,
+            "7.2 Software Configuration Management Process Activities",
+            66
+        ],
+        [
+            3,
+            "7.2.1 Configuration Identification",
+            66
+        ],
+        [
+            3,
+            "7.2.2 Baselines and Traceability",
+            67
+        ],
+        [
+            3,
+            "7.2.3 Problem Reporting, Tracking, and Corrective Action",
+            67
+        ],
+        [
+            3,
+            "7.2.4 Change Control",
+            68
+        ],
+        [
+            3,
+            "7.2.5 Change Review",
+            68
+        ],
+        [
+            3,
+            "7.2.6 Configuration Status Accounting",
+            68
+        ],
+        [
+            3,
+            "7.2.7 Archive, Retrieval, and Release",
+            69
+        ],
+        [
+            2,
+            "7.3 Data Control Categories",
+            69
+        ],
+        [
+            2,
+            "7.4 Software Load Control",
+            70
+        ],
+        [
+            2,
+            "7.5 Software Life Cycle Environment Control",
+            71
+        ],
+        [
+            1,
+            "8.0 SOFTWARE QUALITY ASSURANCE PROCESS",
+            73
+        ],
+        [
+            2,
+            "8.1 Software Quality Assurance Process Objectives",
+            73
+        ],
+        [
+            2,
+            "8.2 Software Quality Assurance Process Activities",
+            73
+        ],
+        [
+            2,
+            "8.3 Software Conformity Review",
+            74
+        ],
+        [
+            1,
+            "9.0 APPROVAL LIAISON PROCESS",
+            77
+        ],
+        [
+            2,
+            "9.1 Means of Compliance and Planning",
+            77
+        ],
+        [
+            2,
+            "9.2 Compliance Substantiation",
+            77
+        ],
+        [
+            2,
+            "9.3 Minimum Software Life Cycle Data Submitted to Approval Authority",
+            78
+        ],
+        [
+            2,
+            "9.4 Software Life Cycle Data Related to the Approval Process",
+            78
+        ],
+        [
+            1,
+            "10.0 OVERVIEW OF CNS/ATM SYSTEM APPROVAL PROCESS",
+            79
+        ],
+        [
+            2,
+            "10.1 Approval Basis",
+            79
+        ],
+        [
+            2,
+            "10.2 Software Aspects of Approval",
+            79
+        ],
+        [
+            2,
+            "10.3 Compliance Determination",
+            79
+        ],
+        [
+            1,
+            "11.0 SOFTWARE LIFE CYCLE DATA",
+            81
+        ],
+        [
+            2,
+            "11.1 Plan for Software Aspects of Approval",
+            82
+        ],
+        [
+            2,
+            "11.2 Software Development Plan",
+            83
+        ],
+        [
+            2,
+            "11.3 Software Verification Plan",
+            83
+        ],
+        [
+            2,
+            "11.4 Software Configuration Management Plan",
+            84
+        ],
+        [
+            2,
+            "11.5 Software Quality Assurance Plan",
+            85
+        ],
+        [
+            2,
+            "11.6 Software Requirements Standards",
+            86
+        ],
+        [
+            2,
+            "11.7 Software Design Standards",
+            86
+        ],
+        [
+            2,
+            "11.8 Software Code Standards",
+            87
+        ],
+        [
+            2,
+            "11.9 Software Requirements Data",
+            87
+        ],
+        [
+            2,
+            "11.10 Design Description",
+            88
+        ],
+        [
+            2,
+            "11.11 Source Code",
+            88
+        ],
+        [
+            2,
+            "11.12 Executable Object Code",
+            89
+        ],
+        [
+            2,
+            "11.13 Software Verification Cases and Procedures",
+            89
+        ],
+        [
+            2,
+            "11.14 Software Verification Results",
+            89
+        ],
+        [
+            2,
+            "11.15 Software Life Cycle Environment Configuration Index",
+            89
+        ],
+        [
+            2,
+            "11.16 Software Configuration Index",
+            90
+        ],
+        [
+            2,
+            "11.17 Problem Reports",
+            90
+        ],
+        [
+            2,
+            "11.18 Software Configuration Management Records",
+            91
+        ],
+        [
+            2,
+            "11.19 Software Quality Assurance Records",
+            91
+        ],
+        [
+            2,
+            "11.20 Software Accomplishment Summary",
+            91
+        ],
+        [
+            2,
+            "11.21 Trace Data",
+            92
+        ],
+        [
+            2,
+            "11.22 Adaptation Data Item File",
+            93
+        ],
+        [
+            1,
+            "12.0 ADDITIONAL CONSIDERATIONS",
+            95
+        ],
+        [
+            2,
+            "12.1 Use of Previously Developed Software",
+            95
+        ],
+        [
+            3,
+            "12.1.1 Modifications to Previously Developed Software",
+            95
+        ],
+        [
+            3,
+            "12.1.2 Reuse of Previously Approved Software in a CNS/ATM System",
+            96
+        ],
+        [
+            3,
+            "12.1.3 Change of Application or Development Environment",
+            96
+        ],
+        [
+            3,
+            "12.1.4 Upgrading a Development Baseline",
+            97
+        ],
+        [
+            3,
+            "12.1.5 Software Configuration Management Considerations",
+            98
+        ],
+        [
+            3,
+            "12.1.6 Software Quality Assurance Considerations",
+            98
+        ],
+        [
+            2,
+            "12.2 Tool Qualification",
+            98
+        ],
+        [
+            3,
+            "12.2.1 Determining if Tool Qualification is Needed",
+            98
+        ],
+        [
+            3,
+            "12.2.2 Determining the Tool Qualification Level",
+            99
+        ],
+        [
+            3,
+            "12.2.3 Tool Qualification Process",
+            99
+        ],
+        [
+            2,
+            "12.3 Alternative Methods",
+            100
+        ],
+        [
+            3,
+            "12.3.1 Exhaustive Input Testing",
+            100
+        ],
+        [
+            3,
+            "12.3.2 Considerations for Multiple-Version Dissimilar Software Verification",
+            100
+        ],
+        [
+            4,
+            "12.3.2.1 Independence of Multiple-Version Dissimilar Software",
+            102
+        ],
+        [
+            4,
+            "12.3.2.2 Multiple Processor-Related Verification",
+            102
+        ],
+        [
+            4,
+            "12.3.2.3 Multiple-Version Source Code Verification",
+            102
+        ],
+        [
+            4,
+            "12.3.2.4 Tool Qualification for Multiple-Version Dissimilar Software",
+            102
+        ],
+        [
+            4,
+            "12.3.2.5 Multiple Simulators and Verification",
+            103
+        ],
+        [
+            3,
+            "12.3.3 Software Reliability Models",
+            103
+        ],
+        [
+            3,
+            "12.3.4 Service Experience",
+            103
+        ],
+        [
+            4,
+            "12.3.4.1 Relevance of Service Experience",
+            104
+        ],
+        [
+            4,
+            "12.3.4.2 Sufficiency of Accumulated Service Experience",
+            105
+        ],
+        [
+            4,
+            "12.3.4.3 Collection, Reporting, and Analysis of Problems Found During Service Experience",
+            105
+        ],
+        [
+            4,
+            "12.3.4.4 Service Experience Information to be Included in the Plan for Software Aspects of Approval",
+            107
+        ],
+        [
+            2,
+            "12.4 Commercial Off-The-Shelf Software",
+            108
+        ],
+        [
+            3,
+            "12.4.1 Introduction",
+            108
+        ],
+        [
+            4,
+            "12.4.1.1 Purpose",
+            108
+        ],
+        [
+            4,
+            "12.4.1.2 Scope",
+            108
+        ],
+        [
+            4,
+            "12.4.1.3 Overview of Approach",
+            109
+        ],
+        [
+            3,
+            "12.4.2 System Aspects of COTS Software",
+            110
+        ],
+        [
+            4,
+            "12.4.2.1 The COTS Software Integrity Assurance Case",
+            110
+        ],
+        [
+            3,
+            "12.4.3 COTS Software Planning Process",
+            111
+        ],
+        [
+            4,
+            "12.4.3.1 COTS Software Planning Process Objectives",
+            111
+        ],
+        [
+            4,
+            "12.4.3.2 COTS Software Planning Process Activities",
+            111
+        ],
+        [
+            3,
+            "12.4.4 COTS Software Acquisition Process",
+            112
+        ],
+        [
+            4,
+            "12.4.4.1 COTS Software Acquisition Process Objectives",
+            114
+        ],
+        [
+            4,
+            "12.4.4.2 COTS Software Acquisition Process Activities",
+            114
+        ],
+        [
+            3,
+            "12.4.5 COTS Software Verification Process",
+            115
+        ],
+        [
+            4,
+            "12.4.5.1 COTS Software Verification Process Objectives",
+            115
+        ],
+        [
+            4,
+            "12.4.5.2 COTS Software Verification Process Activities",
+            116
+        ],
+        [
+            3,
+            "12.4.6 COTS Software Configuration Management Process",
+            116
+        ],
+        [
+            4,
+            "12.4.6.1 COTS Software Configuration Management Process Objectives",
+            116
+        ],
+        [
+            4,
+            "12.4.6.2 COTS Software Configuration Management Process Activities",
+            117
+        ],
+        [
+            3,
+            "12.4.7 COTS Software Quality Assurance Process",
+            117
+        ],
+        [
+            3,
+            "12.4.8 Software Life Cycle Data",
+            117
+        ],
+        [
+            4,
+            "12.4.8.1 COTS Software Integrity Assurance Case",
+            118
+        ],
+        [
+            3,
+            "12.4.9 Changes to COTS from an Earlier Baseline",
+            118
+        ],
+        [
+            3,
+            "12.4.10 Additional Process Objectives and Outputs by Assurance Level for COTS Software",
+            119
+        ],
+        [
+            3,
+            "12.4.11 Alternative Methods for Providing Assurance of COTS Software",
+            123
+        ],
+        [
+            4,
+            "12.4.11.1 Definitions for Alternative Methods of COTS Software Assurance Strategies",
+            123
+        ],
+        [
+            5,
+            "12.4.11.1.1 Service Experience",
+            123
+        ],
+        [
+            5,
+            "12.4.11.1.2 Additional Testing",
+            123
+        ],
+        [
+            5,
+            "12.4.11.1.3 Restriction of Functionality",
+            124
+        ],
+        [
+            5,
+            "12.4.11.1.4 Monitoring and Recovery",
+            124
+        ],
+        [
+            5,
+            "12.4.11.1.5 Design Knowledge",
+            125
+        ],
+        [
+            5,
+            "12.4.11.1.6 Audits and Inspections",
+            125
+        ],
+        [
+            5,
+            "12.4.11.1.7 Prior Product Approval",
+            126
+        ],
+        [
+            4,
+            "12.4.11.2 Applicability of Alternative Methods to Objectives",
+            126
+        ],
+        [
+            5,
+            "12.4.11.2.1 Software Planning Process Objectives",
+            126
+        ],
+        [
+            5,
+            "12.4.11.2.2 Software Development Processes",
+            127
+        ],
+        [
+            5,
+            "12.4.11.2.3 Verification of Outputs of Software Requirements Process",
+            128
+        ],
+        [
+            5,
+            "12.4.11.2.4 Verification of Outputs of Software Design Process",
+            128
+        ],
+        [
+            5,
+            "12.4.11.2.5 Verification of Outputs of Software Coding & Integration Processes",
+            130
+        ],
+        [
+            5,
+            "12.4.11.2.6 Verification of Outputs of Integration Process",
+            130
+        ],
+        [
+            5,
+            "12.4.11.2.7 Verification of Verification Process Results Objectives",
+            131
+        ],
+        [
+            5,
+            "12.4.11.2.8 Software Configuration Management Process",
+            132
+        ],
+        [
+            5,
+            "12.4.11.2.9 Software Quality Assurance Process",
+            133
+        ],
+        [
+            5,
+            "12.4.11.2.10 Approval Liaison Process",
+            133
+        ],
+        [
+            1,
+            "ANNEX A PROCESS OBJECTIVES AND OUTPUTS BY ASSURANCE LEVEL",
+            135
+        ],
+        [
+            1,
+            "ANNEX B  ACRONYMS AND GLOSSARY OF TERMS",
+            147
+        ],
+        [
+            1,
+            "APPENDIX A  BACKGROUND OF DO-278/ED-109 DOCUMENT",
+            161
+        ],
+        [
+            1,
+            "APPENDIX B  COMMITTEE MEMBERSHIP",
+            169
+        ]
+    ],
+    "pages": 178,
+    "ocr_stats": {
+        "ocr_pages": 15,
+        "ocr_failed": 15,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 160,
+        "code": 0,
+        "table": 22,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

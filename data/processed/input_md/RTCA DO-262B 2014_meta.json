@@ -1,0 +1,4930 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            "3.     INSTALLED EQUIPMENT PERFORMANCE\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..E-132",
+            7
+        ],
+        [
+            1,
+            "1 PURPOSE AND SCOPE",
+            13
+        ],
+        [
+            2,
+            "1.1 Introduction",
+            13
+        ],
+        [
+            2,
+            "1.2 Document Overview",
+            13
+        ],
+        [
+            2,
+            "1.3 System Overview",
+            15
+        ],
+        [
+            3,
+            "1.3.1 System Elements and Functions",
+            16
+        ],
+        [
+            4,
+            "1.3.1.1 Aircraft Earth Station (AES )",
+            16
+        ],
+        [
+            4,
+            "1.3.1.2 Ground Earth Station (GES)",
+            16
+        ],
+        [
+            4,
+            "1.3.1.3 Network Control and Coordination Function",
+            17
+        ],
+        [
+            4,
+            "1.3.1.4 Satellites",
+            18
+        ],
+        [
+            4,
+            "1.3.1.5 Satellite System Coverage",
+            19
+        ],
+        [
+            3,
+            "1.3.2 Communications Protocols",
+            19
+        ],
+        [
+            2,
+            "1.4 Operational Applications",
+            20
+        ],
+        [
+            3,
+            "1.4.1 Compatibility and Interoperability",
+            21
+        ],
+        [
+            4,
+            "1.4.1.1 Protection of Radio Astronomy",
+            21
+        ],
+        [
+            3,
+            "1.4.2 End-to-End Service Criteria",
+            22
+        ],
+        [
+            2,
+            "1.5 Assumptions and Postulated Environment",
+            22
+        ],
+        [
+            3,
+            "1.5.1 Coverage",
+            22
+        ],
+        [
+            3,
+            "1.5.2 Data versus Voice Communications",
+            22
+        ],
+        [
+            3,
+            "1.5.3 Safety",
+            22
+        ],
+        [
+            3,
+            "1.5.4 Priority, Precedence and Preemption",
+            22
+        ],
+        [
+            3,
+            "1.5.5 Assumptions on Higher Layer Packet Data Interfaces",
+            23
+        ],
+        [
+            3,
+            "1.5.6 Assumptions on Voice Communications Using Digitized Voice",
+            23
+        ],
+        [
+            3,
+            "1.5.7 Assumptions on Aircraft Motion",
+            23
+        ],
+        [
+            3,
+            "1.5.8 Assumptions on Same-Aircraft Interference",
+            23
+        ],
+        [
+            2,
+            "1.6 Overview of Test and Performance Verification Procedures",
+            24
+        ],
+        [
+            3,
+            "1.6.1 Environmental Tests and Performance Verification",
+            24
+        ],
+        [
+            3,
+            "1.6.2 Bench Tests and Performance Verification",
+            24
+        ],
+        [
+            3,
+            "1.6.3 Installed Equipment Tests and Performance Verification",
+            25
+        ],
+        [
+            3,
+            "1.6.4 Operational Tests and Performance Verification",
+            25
+        ],
+        [
+            2,
+            "1.7 Definitions of Standard Terms Used in this Document",
+            25
+        ],
+        [
+            1,
+            "2 EQUIPMENT PERFORMANCE REQUIREMENTS AND TEST PROCEDURES",
+            29
+        ],
+        [
+            2,
+            "2.1 General Requirements",
+            29
+        ],
+        [
+            3,
+            "2.1.1 Airworthiness",
+            29
+        ],
+        [
+            3,
+            "2.1.2 Intended Function",
+            29
+        ],
+        [
+            3,
+            "2.1.3 Federal Communications Commissions Rules",
+            29
+        ],
+        [
+            3,
+            "2.1.4 Fire Protection",
+            29
+        ],
+        [
+            3,
+            "2.1.5 Operation of Controls",
+            29
+        ],
+        [
+            3,
+            "2.1.6 Accessibility of Controls",
+            29
+        ],
+        [
+            3,
+            "2.1.7 Effects of Tests",
+            29
+        ],
+        [
+            3,
+            "2.1.8 Performance in a Shared Environment",
+            30
+        ],
+        [
+            2,
+            "2.2 Equipment Performance Requirements, Standard Conditions",
+            30
+        ],
+        [
+            3,
+            "2.2.1 Avionics Subsystem Definitions and Overall Requirements",
+            30
+        ],
+        [
+            3,
+            "2.2.2 Definition of System Specific Parameters",
+            31
+        ],
+        [
+            3,
+            "2.2.3 Detailed Requirements",
+            33
+        ],
+        [
+            4,
+            "2.2.3.1 AES Application Requirements",
+            33
+        ],
+        [
+            5,
+            "2.2.3.1.1 Antenna",
+            34
+        ],
+        [
+            6,
+            "2.2.3.1.1.1 Coverage Volume, Polarization and Antenna Gain",
+            34
+        ],
+        [
+            7,
+            "2.2.3.1.1.1.1 Coverage Volume",
+            34
+        ],
+        [
+            7,
+            "2.2.3.1.1.1.2 Polarization",
+            34
+        ],
+        [
+            7,
+            "2.2.3.1.1.1.3 Antenna Gain",
+            34
+        ],
+        [
+            6,
+            "2.2.3.1.1.2 Axial Ratio",
+            34
+        ],
+        [
+            6,
+            "2.2.3.1.1.3 Power Handling Capabilities",
+            35
+        ],
+        [
+            7,
+            "2.2.3.1.1.3.1 Single Carrier Units",
+            35
+        ],
+        [
+            7,
+            "2.2.3.1.1.3.2 Multi-Carrier Units",
+            35
+        ],
+        [
+            6,
+            "2.2.3.1.1.4 Passband",
+            35
+        ],
+        [
+            6,
+            "2.2.3.1.1.5 Antenna Voltage Standing Wave Ratio",
+            35
+        ],
+        [
+            6,
+            "2.2.3.1.1.6 Radiated Antenna Intermodulation Products",
+            35
+        ],
+        [
+            7,
+            "2.2.3.1.1.6.1 Radiated Antenna Intermodulation Products in the GNSS Band",
+            35
+        ],
+        [
+            7,
+            "2.2.3.1.1.6.2 Radiated Antenna Intermodulation in AMS(R)S Bands",
+            36
+        ],
+        [
+            6,
+            "2.2.3.1.1.7 Carrier-to-Multipath Discrimination",
+            37
+        ],
+        [
+            6,
+            "2.2.3.1.1.8 Pattern Discrimination",
+            37
+        ],
+        [
+            6,
+            "2.2.3.1.1.9 Steered Antenna Requirements",
+            37
+        ],
+        [
+            7,
+            "2.2.3.1.1.9.1 Phase Discontinuity",
+            37
+        ],
+        [
+            7,
+            "2.2.3.1.1.9.2 Beam Switching Time",
+            37
+        ],
+        [
+            7,
+            "2.2.3.1.1.9.3 Steering Rate",
+            37
+        ],
+        [
+            7,
+            "2.2.3.1.1.9.4 Pattern Discrimination",
+            38
+        ],
+        [
+            5,
+            "2.2.3.1.2 Transceiver Subsystem",
+            38
+        ],
+        [
+            6,
+            "2.2.3.1.2.1 Transmitter Function",
+            38
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.1 Minimum Power Output",
+            38
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.2 Maximum Individual Carrier Output",
+            38
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.3 Maximum Total Transceiver Output",
+            39
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.4 Transmitter Function Intermodulation Performance.",
+            40
+        ],
+        [
+            8,
+            "2.2.3.1.2.1.4.1 Narrow-band (CW) Intermodulation Performance",
+            40
+        ],
+        [
+            8,
+            "2.2.3.1.2.1.4.2 Modulated Intermodulation Performance",
+            42
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.5 Transmitter Function Harmonics, Discrete Spurious and Noise Density",
+            42
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.6 Protection of Radio Astronomy",
+            46
+        ],
+        [
+            8,
+            "2.2.3.1.2.1.6.1 AES Transmitting on Frequencies Outside of the 1610-1626.5 MHz Band",
+            46
+        ],
+        [
+            8,
+            "2.2.3.1.2.1.6.2 AES Transmitting on Frequencies Within the 1610-1626.5 MHz Band",
+            47
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.7 Carrier Off Level",
+            48
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.8 Power Control",
+            48
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.9 On-Channel Output Spectrum",
+            48
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.10 Transmitter Operation in Moving Aircraft",
+            48
+        ],
+        [
+            6,
+            "2.2.3.1.2.2 Receiver Function",
+            48
+        ],
+        [
+            7,
+            "2.2.3.1.2.2.1 Receiver Sensitivity",
+            48
+        ],
+        [
+            8,
+            "2.2.3.1.2.2.1.1 Data",
+            48
+        ],
+        [
+            8,
+            "2.2.3.1.2.2.1.2 Voice",
+            49
+        ],
+        [
+            7,
+            "2.2.3.1.2.2.2 Receiver Bandwidth",
+            49
+        ],
+        [
+            7,
+            "2.2.3.1.2.2.3 Rejection of Signals Outside the NGSS Receive Band",
+            49
+        ],
+        [
+            7,
+            "2.2.3.1.2.2.4 Rejection of Carrier Signals Generated by Other AMS(R)S Equipment",
+            49
+        ],
+        [
+            7,
+            "2.2.3.1.2.2.5 Receiver Operation in Moving Aircraft",
+            50
+        ],
+        [
+            7,
+            "2.2.3.1.2.2.6 Receiver Susceptibility",
+            50
+        ],
+        [
+            5,
+            "2.2.3.1.3 Required Aircraft Interfaces",
+            50
+        ],
+        [
+            6,
+            "2.2.3.1.3.1 External Position",
+            50
+        ],
+        [
+            6,
+            "2.2.3.1.3.2 External Time Reference",
+            50
+        ],
+        [
+            4,
+            "2.2.3.2 User Link Modulation and Signal in Space",
+            50
+        ],
+        [
+            4,
+            "2.2.3.3 Priority, Precedence and Preemption",
+            51
+        ],
+        [
+            5,
+            "2.2.3.3.1 Packet Data",
+            52
+        ],
+        [
+            5,
+            "2.2.3.3.2 Circuit Mode Communications",
+            52
+        ],
+        [
+            4,
+            "2.2.3.4 Satellite Subnetwork Data Protocol (Satellite Layer 2)",
+            52
+        ],
+        [
+            4,
+            "2.2.3.5 Voice Protocol",
+            53
+        ],
+        [
+            5,
+            "2.2.3.5.1 Vocoder Interoperability With Satellite Subnetwork",
+            53
+        ],
+        [
+            5,
+            "2.2.3.5.2 Vocoder Performance in an Aeronautical Environment",
+            53
+        ],
+        [
+            4,
+            "2.2.3.6 User Data Interfaces",
+            54
+        ],
+        [
+            5,
+            "2.2.3.6.1 ATN-Compliant Protocol",
+            54
+        ],
+        [
+            6,
+            "2.2.3.6.1.1 Join and Leave Requirements",
+            56
+        ],
+        [
+            6,
+            "2.2.3.6.1.2 ATN-Compliant Mapping for Priority, Precedence and Preemption",
+            56
+        ],
+        [
+            5,
+            "2.2.3.6.2 Data-2",
+            56
+        ],
+        [
+            5,
+            "2.2.3.6.3 Satellite Subnetwork Requirements",
+            57
+        ],
+        [
+            6,
+            "2.2.3.6.3.1 Satellite Subnetwork Dependent Protocol Requirements",
+            57
+        ],
+        [
+            6,
+            "2.2.3.6.3.2 ATN-compliant Requirements",
+            58
+        ],
+        [
+            6,
+            "2.2.3.6.3.3 Data 2 Requirements",
+            58
+        ],
+        [
+            5,
+            "2.2.3.6.4 External Physical and Data Link Layer Requirements",
+            58
+        ],
+        [
+            5,
+            "2.2.3.6.5 Avionics Subnetwork Interface Requirements  for ISO-8208 Service",
+            59
+        ],
+        [
+            5,
+            "2.2.3.6.6 Alternative ATN-compliant Subnetwork Access Protocols",
+            59
+        ],
+        [
+            4,
+            "2.2.3.7 Circuit Mode Service Requirements",
+            59
+        ],
+        [
+            4,
+            "2.2.3.8 Recovery from Primary Power Interruption",
+            60
+        ],
+        [
+            4,
+            "2.2.3.9 Failure/Status Indication",
+            60
+        ],
+        [
+            2,
+            "2.3 Equipment Performance \u2013 Environmental Conditions",
+            60
+        ],
+        [
+            3,
+            "2.3.1 General Requirements",
+            60
+        ],
+        [
+            3,
+            "2.3.2 Equipment Configurations",
+            61
+        ],
+        [
+            3,
+            "2.3.3 Configuration Control",
+            61
+        ],
+        [
+            3,
+            "2.3.4 Specific Environmental Test Conditions",
+            61
+        ],
+        [
+            3,
+            "2.3.5 Performance vs. Test Requirements Matrix",
+            61
+        ],
+        [
+            2,
+            "2.4 Equipment Performance Verification Procedures",
+            66
+        ],
+        [
+            3,
+            "2.4.1 Definitions of Terms and Conditions of Test",
+            66
+        ],
+        [
+            4,
+            "2.4.1.1 AES Application Test Conditions",
+            68
+        ],
+        [
+            5,
+            "2.4.1.1.1 Antenna Subsystem Test Conditions",
+            68
+        ],
+        [
+            6,
+            "2.4.1.1.1.1 Antenna Under Test",
+            68
+        ],
+        [
+            5,
+            "2.4.1.1.2 Transceiver Subsystem Test Conditions",
+            68
+        ],
+        [
+            5,
+            "2.4.1.1.3 Required Aircraft Interfaces Test Conditions",
+            68
+        ],
+        [
+            4,
+            "2.4.1.2 Satellite Subnetwork Test Conditions",
+            68
+        ],
+        [
+            4,
+            "2.4.1.3 Priority, Precedence, and Preemption Test Conditions",
+            68
+        ],
+        [
+            4,
+            "2.4.1.4 Satellite Subnetwork Data Protocol Test Conditions",
+            69
+        ],
+        [
+            4,
+            "2.4.1.5 Voice Protocol Test Conditions",
+            69
+        ],
+        [
+            4,
+            "2.4.1.6 User Data Interfaces Test Conditions",
+            69
+        ],
+        [
+            4,
+            "2.4.1.7 Circuit Mode Service Test Conditions",
+            69
+        ],
+        [
+            4,
+            "2.4.1.8 Recovery from Primary Power Failure Test Conditions",
+            69
+        ],
+        [
+            4,
+            "2.4.1.9 Failure/Status Indication Test Conditions",
+            69
+        ],
+        [
+            3,
+            "2.4.2 Required Test Equipment",
+            69
+        ],
+        [
+            4,
+            "2.4.2.1 AES Application",
+            69
+        ],
+        [
+            5,
+            "2.4.2.1.1 Antenna Subsystem Required Test Equipment",
+            69
+        ],
+        [
+            6,
+            "2.4.2.1.1.1 Standard Test Equipment",
+            69
+        ],
+        [
+            6,
+            "2.4.2.1.1.2 Special Test Equipment",
+            70
+        ],
+        [
+            5,
+            "2.4.2.1.2 Transciever Subsystem Required Test Equipment",
+            70
+        ],
+        [
+            6,
+            "2.4.2.1.2.1 Standard Test Equipment",
+            70
+        ],
+        [
+            6,
+            "2.4.2.1.2.2 Special Test Equipment",
+            70
+        ],
+        [
+            5,
+            "2.4.2.1.3 Required Aircraft Interfaces Required Test Equipment",
+            71
+        ],
+        [
+            4,
+            "2.4.2.2 Modulation and Signal in Space Required Test Equipment",
+            72
+        ],
+        [
+            4,
+            "2.4.2.3 Priority, Precedence, and Preemption Test Equipment",
+            72
+        ],
+        [
+            5,
+            "2.4.2.3.1 Packet Data",
+            72
+        ],
+        [
+            5,
+            "2.4.2.3.2 Circuit Mode Communications",
+            72
+        ],
+        [
+            4,
+            "2.4.2.4 Satellite Subnetwork Data Protocol Test Equipment",
+            72
+        ],
+        [
+            4,
+            "2.4.2.5 Voice Protocol Required Test Equipment",
+            72
+        ],
+        [
+            4,
+            "2.4.2.6 User Data Interface Required Test Equipment",
+            73
+        ],
+        [
+            4,
+            "2.4.2.7 Circuit Mode Service Test Equipment",
+            73
+        ],
+        [
+            4,
+            "2.4.2.8 Recovery from Primary Power Interruption Test Equipment",
+            73
+        ],
+        [
+            4,
+            "2.4.2.9 Failure/Status Indication Test Equipment",
+            73
+        ],
+        [
+            3,
+            "2.4.3 Detailed Test Procedures",
+            73
+        ],
+        [
+            4,
+            "2.4.3.1 AES Application Requirements",
+            74
+        ],
+        [
+            5,
+            "2.4.3.1.1 Antenna Test Requirements",
+            74
+        ],
+        [
+            6,
+            "2.4.3.1.1.1 Polarization, Gain and Coverage Volume",
+            74
+        ],
+        [
+            6,
+            "2.4.3.1.1.2 Antenna Axial Ratio",
+            75
+        ],
+        [
+            6,
+            "2.4.3.1.1.3 Maximum Power Handling",
+            76
+        ],
+        [
+            6,
+            "2.4.3.1.1.4 Antenna Passband",
+            77
+        ],
+        [
+            6,
+            "2.4.3.1.1.5 Antenna VSWR",
+            77
+        ],
+        [
+            6,
+            "2.4.3.1.1.6 Radiated Antenna Intermodulation Products",
+            78
+        ],
+        [
+            7,
+            "2.4.3.1.1.6.1 Antenna Intermodulation in the GNSS Band",
+            78
+        ],
+        [
+            7,
+            "2.4.3.1.1.6.2 Antenna Intermodulation in AMS(R)S Band(s)",
+            80
+        ],
+        [
+            6,
+            "2.4.3.1.1.7 Carrier-to-Multipath Discrimination",
+            82
+        ],
+        [
+            6,
+            "2.4.3.1.1.8 Pattern Discrimination",
+            83
+        ],
+        [
+            6,
+            "2.4.3.1.1.9 Steered Antenna Requirements",
+            83
+        ],
+        [
+            7,
+            "2.4.3.1.1.9.1 Phase Discontinuity",
+            83
+        ],
+        [
+            7,
+            "2.4.3.1.1.9.2 Beam Switching Time",
+            83
+        ],
+        [
+            7,
+            "2.4.3.1.1.9.3 Steering Rate",
+            84
+        ],
+        [
+            7,
+            "2.4.3.1.1.9.4 Pattern Discrimination",
+            84
+        ],
+        [
+            5,
+            "2.4.3.1.2 Transceiver Subsystem Test Requirements",
+            85
+        ],
+        [
+            6,
+            "2.4.3.1.2.1 Transmitter Performance",
+            85
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.1 Transmitter Minimum Power Output",
+            85
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.2 Maximum Individual Carrier Output",
+            86
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.3 Maximum Total Transceiver Output Carrier Power",
+            86
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.4 Transceiver Intermodulation Products",
+            87
+        ],
+        [
+            8,
+            "2.4.3.1.2.1.4.1 Narrow Band Intermodulation Performance",
+            87
+        ],
+        [
+            8,
+            "2.4.3.1.2.1.4.2 Modulated Intermodulation Performance",
+            89
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.5 Composite Harmonics, Spurious and Noise",
+            89
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.6 Composite Emissions in the Radio Astronomy Band",
+            92
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.7 Carrier Off Level",
+            93
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.8 Power Control",
+            94
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.9 On-Channel Output Spectrum",
+            94
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.10 Transmitter Operation in Moving Aircraft",
+            95
+        ],
+        [
+            6,
+            "2.4.3.1.2.2 Receiver",
+            96
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.1 Receiver Sensitivity",
+            96
+        ],
+        [
+            8,
+            "2.4.3.1.2.2.1.1 Receiver Sensitivity (Data)",
+            96
+        ],
+        [
+            8,
+            "2.4.3.1.2.2.1.2 Receiver Sensitivity (Voice)",
+            98
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.2 Receiver Bandwidth",
+            98
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.3 Rejection of Signals Outside NGSS Receive Band",
+            98
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.4 Rejection of Carrier Signals Generated by Other AMS(R)S Equipment",
+            100
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.5 Receiver Operation in Moving Aircraft",
+            100
+        ],
+        [
+            5,
+            "2.4.3.1.3 Required Aircraft Interfaces",
+            100
+        ],
+        [
+            4,
+            "2.4.3.2 Satellite Subnetwork Specific Test Requirements",
+            100
+        ],
+        [
+            4,
+            "2.4.3.3 Priority, Precedence and Preemption",
+            101
+        ],
+        [
+            5,
+            "2.4.3.3.1 Packet Data",
+            101
+        ],
+        [
+            5,
+            "2.4.3.3.2 Circuit Mode Communications",
+            102
+        ],
+        [
+            4,
+            "2.4.3.4 Satellite Subnetwork data Protocol (Satellite Layer 2)",
+            103
+        ],
+        [
+            4,
+            "2.4.3.5 Voice Protocol",
+            103
+        ],
+        [
+            5,
+            "2.4.3.5.1 Vocoder Interoperatiblity With Satellite Subnetwork",
+            103
+        ],
+        [
+            5,
+            "2.4.3.5.2 Vocoder Performance in an Aeronautical Environment",
+            104
+        ],
+        [
+            4,
+            "2.4.3.6 User Data Interfaces",
+            104
+        ],
+        [
+            5,
+            "2.4.3.6.1 ATN Interfaces",
+            104
+        ],
+        [
+            6,
+            "2.4.3.6.1.1 Join and Leave Requirements",
+            104
+        ],
+        [
+            6,
+            "2.4.3.6.1.2 ATN-compliant Mapping for Priority, Precedence, and Preemption",
+            105
+        ],
+        [
+            5,
+            "2.4.3.6.2 Data 2",
+            105
+        ],
+        [
+            5,
+            "2.4.3.6.3 Satellite Subnetwork",
+            105
+        ],
+        [
+            6,
+            "2.4.3.6.3.1 Satellite Subnetwork Dependent Protocol",
+            105
+        ],
+        [
+            5,
+            "2.4.3.6.4 Avionics Subnetwork Interface",
+            106
+        ],
+        [
+            6,
+            "2.4.3.6.4.1 ATN Compliant Physical and Data Link Requirements",
+            106
+        ],
+        [
+            4,
+            "2.4.3.7 Circuit Mode Test Procedures",
+            106
+        ],
+        [
+            4,
+            "2.4.3.8 Recovery from Primary Power Interrupt Test Procedure",
+            106
+        ],
+        [
+            4,
+            "2.4.3.9 Failure/Status Indication Test Procedure",
+            107
+        ],
+        [
+            1,
+            "3 INSTALLED EQUIPMENT PERFORMANCE",
+            109
+        ],
+        [
+            2,
+            "3.1 Equipment Installation",
+            109
+        ],
+        [
+            3,
+            "3.1.1 Accessibility",
+            109
+        ],
+        [
+            3,
+            "3.1.2 Aircraft Environment",
+            109
+        ],
+        [
+            3,
+            "3.1.3 Display Visibility",
+            109
+        ],
+        [
+            3,
+            "3.1.4 Inadvertent Turn-Off",
+            109
+        ],
+        [
+            3,
+            "3.1.5 Failure Protection",
+            109
+        ],
+        [
+            3,
+            "3.1.6 Interface Interference Effects",
+            109
+        ],
+        [
+            3,
+            "3.1.7 Aircraft Power Source",
+            109
+        ],
+        [
+            2,
+            "3.2 Installed Equipment Performance Requirements",
+            109
+        ],
+        [
+            3,
+            "3.2.1 Radiated Antenna Intermodulation Products in AMS(R)S Bands",
+            110
+        ],
+        [
+            3,
+            "3.2.2 Declaration of Additional Isolation",
+            110
+        ],
+        [
+            2,
+            "3.3 Conditions of Test",
+            110
+        ],
+        [
+            3,
+            "3.3.1 Power Input",
+            110
+        ],
+        [
+            3,
+            "3.3.2 Environment",
+            110
+        ],
+        [
+            3,
+            "3.3.3 Adjustment of Equipment",
+            111
+        ],
+        [
+            3,
+            "3.3.4 Warm-up Period",
+            111
+        ],
+        [
+            2,
+            "3.4 Test Procedures for Installed Equipment Performance",
+            111
+        ],
+        [
+            3,
+            "3.4.1 Conformity Inspection",
+            111
+        ],
+        [
+            3,
+            "3.4.2 Interference Tests",
+            111
+        ],
+        [
+            4,
+            "3.4.2.1 Antenna Isolation",
+            112
+        ],
+        [
+            4,
+            "3.4.2.2 SATCOM B Interference to SATCOM A",
+            112
+        ],
+        [
+            4,
+            "3.4.2.3 SATCOM A Interference to SATCOM B",
+            113
+        ],
+        [
+            3,
+            "3.4.3 Power Fluctuation Tests",
+            113
+        ],
+        [
+            3,
+            "3.4.4 Ground Test Procedures",
+            114
+        ],
+        [
+            3,
+            "3.4.5 Flight Test Procedures",
+            114
+        ],
+        [
+            3,
+            "3.4.6 Installed System Performance Verification",
+            114
+        ],
+        [
+            4,
+            "3.4.6.1 Installed Functionality",
+            114
+        ],
+        [
+            4,
+            "3.4.6.2 Installed Antenna Coverage",
+            114
+        ],
+        [
+            1,
+            "4 EQUIPMENT OPERATIONAL PERFORMANCE CHARACTERISTICS",
+            115
+        ],
+        [
+            2,
+            "4.1 Operational Performance Requirements",
+            115
+        ],
+        [
+            3,
+            "4.1.1 Power Input",
+            115
+        ],
+        [
+            3,
+            "4.1.2 Communications Displays",
+            115
+        ],
+        [
+            3,
+            "4.1.3 Communications Controls",
+            115
+        ],
+        [
+            3,
+            "4.1.4 System  Operational Indication",
+            115
+        ],
+        [
+            3,
+            "4.1.5 Equipment Operating Limitations",
+            115
+        ],
+        [
+            2,
+            "4.2 Test Procedures for Operational Performance Requirements",
+            115
+        ],
+        [
+            3,
+            "4.2.1 Power Input",
+            115
+        ],
+        [
+            3,
+            "4.2.2 Communications Displays",
+            115
+        ],
+        [
+            3,
+            "4.2.3 Communications Controls",
+            116
+        ],
+        [
+            3,
+            "4.2.4 System Operational Indication",
+            116
+        ],
+        [
+            1,
+            "5 MEMBERSHIP",
+            117
+        ],
+        [
+            1,
+            "APPENDIX A  GLOSSARY, ACRONYMS AND DEFINITIONS",
+            121
+        ],
+        [
+            1,
+            "AC",
+            121
+        ],
+        [
+            1,
+            "APPENDIX B  Interference Model for Emissions Associated with Ancilliary Terrestrial Component (ATCt) Ground Stations",
+            123
+        ],
+        [
+            1,
+            "1 Introduction",
+            123
+        ],
+        [
+            2,
+            "1.1 Assumptions on Higher Layer Packet Data Interfaces",
+            124
+        ],
+        [
+            1,
+            "2 ISO-8208 Protocol Requirements",
+            124
+        ],
+        [
+            2,
+            "2.1 ISO-8208 Priority Mapping",
+            124
+        ],
+        [
+            2,
+            "2.2 ISO-8208 Protocol Implementation Conformance",
+            124
+        ],
+        [
+            2,
+            "2.3 AES Operation as DCE in ISO-8208 Environment",
+            126
+        ],
+        [
+            2,
+            "2.4 State Transitions",
+            126
+        ],
+        [
+            2,
+            "2.5 DCE Timer",
+            138
+        ],
+        [
+            1,
+            "3 ISO-8208 Protocol Verification Procedures",
+            139
+        ],
+        [
+            2,
+            "3.1 Packet Data Priority, Precedence and Preemption",
+            141
+        ],
+        [
+            3,
+            "3.1.1 ISO-8208 Priority Mapping",
+            141
+        ],
+        [
+            3,
+            "3.1.2 ISO-8208 Priority Implementation",
+            141
+        ],
+        [
+            2,
+            "3.2 ISO-8208 Protocol Implementation Conformance",
+            143
+        ],
+        [
+            2,
+            "3.3 AES Operation as a DCE in  ISO-8208 Environment",
+            143
+        ],
+        [
+            2,
+            "3.4 State Transition Test Procedures",
+            143
+        ],
+        [
+            3,
+            "3.4.1 Normal State Test Procedures",
+            143
+        ],
+        [
+            4,
+            "3.4.1.1 Call Setup and Clearing States",
+            143
+        ],
+        [
+            4,
+            "3.4.1.2 Restart Request States",
+            146
+        ],
+        [
+            4,
+            "3.4.1.3 Reset States",
+            146
+        ],
+        [
+            4,
+            "3.4.1.4  Interrupt Transfer States",
+            147
+        ],
+        [
+            3,
+            "3.4.2 Error Recovery Procedures",
+            148
+        ],
+        [
+            4,
+            "3.4.2.1 DCE Call Setup and Clearing States",
+            148
+        ],
+        [
+            4,
+            "3.4.2.2 DCE Restart States",
+            152
+        ],
+        [
+            4,
+            "3.4.2.3 DCE Reset States",
+            153
+        ],
+        [
+            4,
+            "3.4.2.4 DCE Flow Control Transfer States",
+            154
+        ],
+        [
+            4,
+            "3.4.2.5 DCE Interrupt Transfer States",
+            156
+        ],
+        [
+            2,
+            "3.5 Packet Assembly",
+            157
+        ],
+        [
+            3,
+            "3.5.1 Call Setup and Maintenance",
+            159
+        ],
+        [
+            4,
+            "3.5.1.1 Fast Select Facilities",
+            159
+        ],
+        [
+            4,
+            "3.5.1.2 Called and Calling Address Extension (NSAP) Test",
+            160
+        ],
+        [
+            4,
+            "3.5.1.3 Throughput Class Negotiation Facility",
+            162
+        ],
+        [
+            4,
+            "3.5.1.4 Transit Delay Selection and Indication Facility",
+            162
+        ],
+        [
+            4,
+            "3.5.1.5 Priority Facility",
+            163
+        ],
+        [
+            3,
+            "3.5.2 Multiple Channel Transactions",
+            164
+        ],
+        [
+            3,
+            "3.5.3 Call Request Procedures",
+            164
+        ],
+        [
+            3,
+            "3.5.4 Data Transmission Procedures",
+            164
+        ],
+        [
+            3,
+            "3.5.5 Clear Request Procedures",
+            164
+        ],
+        [
+            3,
+            "3.5.6 Reset Request Procedures",
+            165
+        ],
+        [
+            3,
+            "3.5.7 Receive Not Ready Status",
+            165
+        ],
+        [
+            3,
+            "3.5.8 Error Recovery Procedures",
+            165
+        ],
+        [
+            2,
+            "3.6 ISO-8208 DCE Timer Test Procedures",
+            166
+        ],
+        [
+            3,
+            "3.6.1 tN10 Timer Procedure",
+            166
+        ],
+        [
+            3,
+            "3.6.2 tN11 Timer Procedure",
+            166
+        ],
+        [
+            3,
+            "3.6.3 tN12 Timer Procedure",
+            167
+        ],
+        [
+            3,
+            "3.6.4 tN13 Timer Procedure",
+            167
+        ],
+        [
+            1,
+            "4 Test Equipment",
+            167
+        ],
+        [
+            2,
+            "4.1 Standard Test Equipment",
+            167
+        ],
+        [
+            2,
+            "4.2 Special Test Equipment",
+            167
+        ],
+        [
+            2,
+            "4.3 Test Configuration",
+            168
+        ],
+        [
+            1,
+            "APPENDIX C \u2013 RECOMMENDED STANDARDS FO AMSS EQUIPMENT NOT   PROVIDING AMS(R)S",
+            169
+        ],
+        [
+            1,
+            "APPENDIX D NORMATIVE REQUIREMENTS FOR Iridium AMS(R)S EQUIPMENT",
+            175
+        ],
+        [
+            1,
+            "1 INTRODUCTION",
+            175
+        ],
+        [
+            2,
+            "1.1 Scope and Objectives",
+            175
+        ],
+        [
+            3,
+            "1.1.1 Document Overview",
+            175
+        ],
+        [
+            3,
+            "1.1.2 Iridium as a Commercial Service",
+            175
+        ],
+        [
+            3,
+            "1.1.3 Applicable Documents",
+            176
+        ],
+        [
+            2,
+            "1.2 Iridium Satellite Network",
+            177
+        ],
+        [
+            3,
+            "1.2.1 Overview",
+            177
+        ],
+        [
+            3,
+            "1.2.2 International Telecommunication Union (ITU) Frequency Assignment",
+            177
+        ],
+        [
+            3,
+            "1.2.3 System Architecture",
+            177
+        ],
+        [
+            3,
+            "1.2.4 Space Segment",
+            178
+        ],
+        [
+            3,
+            "1.2.5 Terrestrial Segment",
+            180
+        ],
+        [
+            3,
+            "1.2.6 Channel Classifications",
+            180
+        ],
+        [
+            4,
+            "1.2.6.1 Overhead Channels",
+            181
+        ],
+        [
+            4,
+            "1.2.6.2 Bearer Service Channels",
+            182
+        ],
+        [
+            3,
+            "1.2.7 Channel Multiplexing",
+            182
+        ],
+        [
+            4,
+            "1.2.7.1 TDMA Frame Structure",
+            182
+        ],
+        [
+            4,
+            "1.2.7.2 FDMA Frequency Plan",
+            183
+        ],
+        [
+            4,
+            "1.2.7.3 Duplex Channel Band",
+            183
+        ],
+        [
+            4,
+            "1.2.7.4 Simplex Channel Band",
+            185
+        ],
+        [
+            3,
+            "1.2.8 L-Band (1616-1626.5 MHz) Transmission Characteristics",
+            186
+        ],
+        [
+            4,
+            "1.2.8.1 Signal Format",
+            186
+        ],
+        [
+            4,
+            "1.2.8.2 Power Control",
+            187
+        ],
+        [
+            3,
+            "1.2.9 Call Processing",
+            188
+        ],
+        [
+            4,
+            "1.2.9.1 Acquisition",
+            188
+        ],
+        [
+            5,
+            "1.2.9.1.1 Acquisition Control",
+            189
+        ],
+        [
+            4,
+            "1.2.9.2 Access",
+            189
+        ],
+        [
+            4,
+            "1.2.9.3 Registration and Auto-Registration",
+            189
+        ],
+        [
+            4,
+            "1.2.9.4 Telephony",
+            190
+        ],
+        [
+            4,
+            "1.2.9.5 Handoff",
+            191
+        ],
+        [
+            3,
+            "1.2.10 Voice and Data Traffic Channel",
+            192
+        ],
+        [
+            3,
+            "1.2.11 Iridium Data Services \u2013 RUDICS and SBD",
+            193
+        ],
+        [
+            4,
+            "1.2.11.1  Iridium RUDICS Service",
+            193
+        ],
+        [
+            4,
+            "1.2.11.2  Iridium SBD Service",
+            194
+        ],
+        [
+            2,
+            "1.3  Iridium AMS(R)S System",
+            197
+        ],
+        [
+            3,
+            "1.3.1 Iridium Network for AMS(R)S",
+            198
+        ],
+        [
+            3,
+            "1.3.2 Iridium-Based AES for AMS(R)S",
+            199
+        ],
+        [
+            3,
+            "1.3.3 Iridium Space Segment",
+            201
+        ],
+        [
+            3,
+            "1.3.4 Iridium Ground-Based Server for AMS(R)S",
+            201
+        ],
+        [
+            3,
+            "1.3.5 Installation Environment",
+            201
+        ],
+        [
+            4,
+            "1.3.5.1 Simultaneous Operation of Iridium and Inmarsat Aeronautical Services",
+            201
+        ],
+        [
+            4,
+            "1.3.5.2 Co-location of Iridium AES with GPS/GNSS Systems",
+            202
+        ],
+        [
+            4,
+            "1.3.5.3  Co-location of Iridium AES with other Iridium SATCOM Systems",
+            202
+        ],
+        [
+            1,
+            "2 EQUIPMENT PERFORMANCE REQUIREMENTS AND TEST PROCEDURES",
+            203
+        ],
+        [
+            2,
+            "2.1 General Requirements",
+            203
+        ],
+        [
+            3,
+            "2.1.1 Airworthiness",
+            203
+        ],
+        [
+            3,
+            "2.1.2 Intended Function",
+            203
+        ],
+        [
+            3,
+            "2.1.3 Federal Communications Commission\u2019s Rules",
+            203
+        ],
+        [
+            3,
+            "2.1.4 Fire Protection",
+            203
+        ],
+        [
+            3,
+            "2.1.5 Operation of Controls",
+            203
+        ],
+        [
+            3,
+            "2.1.6 Accessibility of Controls",
+            203
+        ],
+        [
+            3,
+            "2.1.7 Effects of Tests",
+            203
+        ],
+        [
+            3,
+            "2.1.8 Performance in a Shared Environment",
+            203
+        ],
+        [
+            3,
+            "2.1.9 AES Availability",
+            204
+        ],
+        [
+            2,
+            "2.2 Equipment Performance Requirements, Standard Conditions",
+            205
+        ],
+        [
+            3,
+            "2.2.1 Avionics Subsystem Definitions and Overall Requirements",
+            205
+        ],
+        [
+            4,
+            "2.2.1.1 AES1 Subsystem Definition",
+            206
+        ],
+        [
+            4,
+            "2.2.1.2 AES2 Subsystem Definition",
+            207
+        ],
+        [
+            4,
+            "2.2.1.3 AES3 Subsystem Definition",
+            207
+        ],
+        [
+            4,
+            "2.2.1.4 Valid Combination of AES System Components",
+            207
+        ],
+        [
+            3,
+            "2.2.2 Definition of System Specific Parameters",
+            208
+        ],
+        [
+            3,
+            "2.2.3 Detailed Requirements",
+            212
+        ],
+        [
+            4,
+            "2.2.3.1 AES Application Requirements",
+            212
+        ],
+        [
+            5,
+            "2.2.3.1.1  Antenna",
+            212
+        ],
+        [
+            6,
+            "2.2.3.1.1.1 Coverage Volume, Polarization and Antenna Gain",
+            212
+        ],
+        [
+            7,
+            "2.2.3.1.1.1.1 Coverage Volume",
+            212
+        ],
+        [
+            7,
+            "2.2.3.1.1.1.2 Polarization",
+            212
+        ],
+        [
+            7,
+            "2.2.3.1.1.1.3 Antenna Gain",
+            212
+        ],
+        [
+            7,
+            "2.2.3.1.1.1.4 Weighted Average Gain Coefficients",
+            212
+        ],
+        [
+            6,
+            "2.2.3.1.1.2 Axial Ratio",
+            213
+        ],
+        [
+            6,
+            "2.2.3.1.1.3 Power Handling Capabilities",
+            213
+        ],
+        [
+            7,
+            "2.2.3.1.1.3.1 Single Carrier Units",
+            213
+        ],
+        [
+            7,
+            "2.2.3.1.1.3.2 Multi-Carrier Units",
+            214
+        ],
+        [
+            6,
+            "2.2.3.1.1.4  Passband",
+            214
+        ],
+        [
+            6,
+            "2.2.3.1.1.5 Antenna Voltage Standing Wave Ratio",
+            214
+        ],
+        [
+            6,
+            "2.2.3.1.1.6  Radiated Antenna Intermodulation Products",
+            214
+        ],
+        [
+            7,
+            "2.2.3.1.1.6.1 Radiated Antenna Intermodulation Products in the GNSS Band",
+            214
+        ],
+        [
+            7,
+            "2.2.3.1.1.6.2 Radiated Antenna Intermodulation in AMS(R)S Bands",
+            215
+        ],
+        [
+            6,
+            "2.2.3.1.1.7 Carrier-to-Multipath Discrimination",
+            215
+        ],
+        [
+            6,
+            "2.2.3.1.1.8 Pattern Discrimination",
+            215
+        ],
+        [
+            6,
+            "2.2.3.1.1.9 Steered Antenna Requirements",
+            215
+        ],
+        [
+            7,
+            "2.2.3.1.1.9.1 Phase Discontinuity",
+            215
+        ],
+        [
+            7,
+            "2.2.3.1.1.9.2 Beam Switching Time",
+            216
+        ],
+        [
+            7,
+            "2.2.3.1.1.9.3 Steering Rate",
+            216
+        ],
+        [
+            7,
+            "2.2.3.1.1.9.4 Pattern Discrimination",
+            216
+        ],
+        [
+            5,
+            "2.2.3.1.2 Transceiver Subsystem",
+            216
+        ],
+        [
+            6,
+            "2.2.3.1.2.1 Transmitter Function",
+            216
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.1 Minimum Power Output",
+            216
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.2 Maximum Individual Carrier Output",
+            216
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.3 Maximum Total Transmitter Output",
+            216
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.4 Transmitter Intermodulation Performance",
+            217
+        ],
+        [
+            7,
+            "1",
+            217
+        ],
+        [
+            7,
+            "2",
+            217
+        ],
+        [
+            7,
+            "2.1",
+            217
+        ],
+        [
+            7,
+            "2.2",
+            217
+        ],
+        [
+            7,
+            "2.2.1",
+            217
+        ],
+        [
+            7,
+            "2.2.2",
+            217
+        ],
+        [
+            7,
+            "2.2.3",
+            217
+        ],
+        [
+            7,
+            "2.2.3.1",
+            217
+        ],
+        [
+            7,
+            "2.2.3.1.1",
+            217
+        ],
+        [
+            7,
+            "2.2.3.1.2",
+            217
+        ],
+        [
+            7,
+            "2.2.3.1.2.1",
+            217
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.1",
+            217
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.2",
+            217
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.3",
+            217
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.4",
+            217
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.4.1 Narrow-band (CW) Intermodulation Performance",
+            217
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.4.2 Modulated Intermodulation Multi-Carrier Performance",
+            217
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.5 Transmitter Harmonics, Discrete Spurious and Noise Density Limits",
+            218
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.6 Protection of Radio Astronomy",
+            221
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.7 Carrier Off Level",
+            221
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.8 Power Control",
+            222
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.9 On-Channel Output Spectrum",
+            222
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.10 Transmitter Operation in Moving Aircraft",
+            223
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.11 Manufacturer Defined Transmitter Tests",
+            223
+        ],
+        [
+            6,
+            "2.2.3.1.2.2 Receiver Function",
+            223
+        ],
+        [
+            7,
+            "2.2.3.1.2.2.1 Receiver Sensitivity",
+            223
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.4.3 Data Sensitivity",
+            223
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.4.4 Voice Sensitivity",
+            224
+        ],
+        [
+            7,
+            "2.2.3.1.2.2.2 Receiver Bandwidth",
+            224
+        ],
+        [
+            7,
+            "2.2.3.1.2.2.3 Rejection of Signals Outside the NGSS Receive Band",
+            224
+        ],
+        [
+            7,
+            "2.2.3.1.2.2.4 Rejection of Carrier Signals Generated by Other AMS(R)S Equipment",
+            225
+        ],
+        [
+            7,
+            "2.2.3.1.2.2.5 Receiver Operation in Moving Aircraft",
+            225
+        ],
+        [
+            7,
+            "2.2.3.1.2.2.6 Receiver Susceptibility",
+            225
+        ],
+        [
+            7,
+            "2.2.3.1.2.2.7 Receiver Damage",
+            225
+        ],
+        [
+            4,
+            "2.2.3.2 User Link Modulation and Signal in Space (Physical Layer)",
+            226
+        ],
+        [
+            4,
+            "2.2.3.3 Priority, Precedence and Preemption",
+            226
+        ],
+        [
+            5,
+            "2.2.3.3.1 Packet Data",
+            227
+        ],
+        [
+            5,
+            "2.2.3.3.2 Circuit Mode Communications (Voice)",
+            227
+        ],
+        [
+            4,
+            "2.2.3.4 Satellite Subnetwork Data Protocol (Satellite Layer 2)",
+            228
+        ],
+        [
+            4,
+            "2.2.3.5 Voice Protocol",
+            228
+        ],
+        [
+            5,
+            "2.2.3.5.1 Vocoder Interoperability with Satellite Subnetwork",
+            229
+        ],
+        [
+            5,
+            "2.2.3.5.2 Vocoder Performance in an Aeronautical Environment",
+            229
+        ],
+        [
+            4,
+            "2.2.3.6 User Data Interfaces",
+            229
+        ],
+        [
+            5,
+            "2.2.3.6.1 ATN-Compliant Service Interface",
+            229
+        ],
+        [
+            6,
+            "2.2.3.6.1.1 Join and Leave Requirements",
+            231
+        ],
+        [
+            6,
+            "2.2.3.6.1.2 ATN-Compliant Mapping for Priority, Precedence and Preemption",
+            231
+        ],
+        [
+            5,
+            "2.2.3.6.2 ACARS",
+            231
+        ],
+        [
+            5,
+            "2.2.3.6.3 Satellite Subnetwork Requirements",
+            232
+        ],
+        [
+            6,
+            "2.2.3.6.3.1 Satellite Subnetwork Dependent Protocol Requirements",
+            232
+        ],
+        [
+            6,
+            "2.2.3.6.3.2 ATN-compliant Requirements",
+            232
+        ],
+        [
+            6,
+            "2.2.3.6.3.3 ACARS Requirements",
+            232
+        ],
+        [
+            5,
+            "2.2.3.6.4 External Physical and Data Link Layer Requirements",
+            232
+        ],
+        [
+            5,
+            "2.2.3.6.5 Avionics Sub-network Interface Requirements for ISO-8208 Service",
+            233
+        ],
+        [
+            5,
+            "2.2.3.6.6 Alternative ATN-compliant Subnetwork Access Protocols",
+            233
+        ],
+        [
+            4,
+            "2.2.3.7 Circuit Mode Service Requirements",
+            233
+        ],
+        [
+            4,
+            "2.2.3.8 Recovery from Primary Power Interruption",
+            234
+        ],
+        [
+            4,
+            "2.2.3.9 Failure/Status Indication",
+            234
+        ],
+        [
+            4,
+            "2.2.3.10   Information Security",
+            234
+        ],
+        [
+            2,
+            "2.3 Equipment Performance - Environmental Conditions",
+            235
+        ],
+        [
+            3,
+            "2.3.1 General Requirements",
+            235
+        ],
+        [
+            3,
+            "2.3.2 Equipment Configurations",
+            236
+        ],
+        [
+            3,
+            "2.3.3 Configuration Control",
+            236
+        ],
+        [
+            3,
+            "2.3.4 Specific Environmental Test Conditions",
+            236
+        ],
+        [
+            3,
+            "2.3.5 Performance vs. Test Requirements Matrix",
+            236
+        ],
+        [
+            2,
+            "2.4 Equipment Performance Verification Procedures",
+            244
+        ],
+        [
+            3,
+            "2.4.1 Definitions of Terms and Conditions of Test",
+            245
+        ],
+        [
+            4,
+            "2.4.1.1 AES Application Test Conditions",
+            246
+        ],
+        [
+            5,
+            "2.4.1.1.1 Antenna Subsystem Test Conditions",
+            246
+        ],
+        [
+            6,
+            "2.4.1.1.1.1 Antenna Under Test",
+            246
+        ],
+        [
+            5,
+            "2.4.1.1.2 Transceiver Subsystem Test Conditions",
+            246
+        ],
+        [
+            5,
+            "2.4.1.1.3 Required Aircraft Interfaces Test Conditions",
+            247
+        ],
+        [
+            4,
+            "2.4.1.2 Satellite Sub-network Test Conditions",
+            247
+        ],
+        [
+            4,
+            "2.4.1.3 Priority, Precedence and Preemption Test Conditions",
+            247
+        ],
+        [
+            4,
+            "2.4.1.4 Satellite Sub-network Data Protocol Test Conditions",
+            247
+        ],
+        [
+            4,
+            "2.4.1.5 Voice Protocol Test Conditions",
+            247
+        ],
+        [
+            4,
+            "2.4.1.6 User Data Interfaces Test Conditions",
+            247
+        ],
+        [
+            4,
+            "2.4.1.7 Circuit Mode Service Test Conditions",
+            248
+        ],
+        [
+            4,
+            "2.4.1.8 Recovery from Primary Power Failure Test Conditions",
+            248
+        ],
+        [
+            4,
+            "2.4.1.9 Failure/Status Indication Test Conditions",
+            248
+        ],
+        [
+            4,
+            "2.4.1.10  Information Security",
+            248
+        ],
+        [
+            3,
+            "2.4.2 Required Test Equipment",
+            248
+        ],
+        [
+            4,
+            "2.4.2.1 AES Application",
+            248
+        ],
+        [
+            5,
+            "2.4.2.1.1 Antenna Subsystem Required Test Equipment",
+            248
+        ],
+        [
+            6,
+            "2.4.2.1.1.1 Standard Test Equipment",
+            248
+        ],
+        [
+            6,
+            "2.4.2.1.1.2 Special Test Equipment",
+            249
+        ],
+        [
+            5,
+            "2.4.2.1.2 Transceiver Subsystem Required Test Equipment",
+            249
+        ],
+        [
+            6,
+            "2.4.2.1.2.1 Standard Test Equipment",
+            249
+        ],
+        [
+            6,
+            "2.4.2.1.2.2 Special Test Equipment",
+            249
+        ],
+        [
+            5,
+            "2.4.2.1.3 Required Aircraft Interfaces Required Test Equipment",
+            249
+        ],
+        [
+            4,
+            "2.4.2.2 Modulation and Signal in Space Required Test Equipment",
+            249
+        ],
+        [
+            4,
+            "2.4.2.3 Priority, Precedence and Preemption Test Equipment",
+            249
+        ],
+        [
+            5,
+            "2.4.2.3.1 Packet Data",
+            249
+        ],
+        [
+            5,
+            "2.4.2.3.2 Circuit Mode Communications",
+            249
+        ],
+        [
+            4,
+            "2.4.2.4 Satellite Sub-network Data Protocol Test Equipment",
+            250
+        ],
+        [
+            4,
+            "2.4.2.5 Voice Protocol Required Test Equipment",
+            250
+        ],
+        [
+            4,
+            "2.4.2.6 User Data Interface Required Test Equipment",
+            250
+        ],
+        [
+            4,
+            "2.4.2.7 Circuit Mode Service Test Equipment",
+            250
+        ],
+        [
+            4,
+            "2.4.2.8 Recovery from Primary Power Interruption Test Equipment",
+            250
+        ],
+        [
+            4,
+            "2.4.2.9 Failure/Status Indication Test Equipment",
+            250
+        ],
+        [
+            4,
+            "2.4.2.10   Information Security Test Equipment",
+            250
+        ],
+        [
+            3,
+            "2.4.3 Detailed Test Procedures",
+            250
+        ],
+        [
+            4,
+            "2.4.3.1 AES Application Requirements",
+            251
+        ],
+        [
+            5,
+            "2.4.3.1.1 Antenna Test Requirements",
+            251
+        ],
+        [
+            6,
+            "2.4.3.1.1.1 Polarization, Gain and Coverage Volume",
+            251
+        ],
+        [
+            6,
+            "2.4.3.1.1.2 Antenna Axial Ratio",
+            252
+        ],
+        [
+            6,
+            "2.4.3.1.1.3 Power Handling",
+            252
+        ],
+        [
+            6,
+            "2.4.3.1.1.4 Antenna Passband",
+            254
+        ],
+        [
+            6,
+            "2.4.3.1.1.5 Antenna VSWR",
+            254
+        ],
+        [
+            6,
+            "2.4.3.1.1.6 Radiated Antenna Intermodulation Products",
+            255
+        ],
+        [
+            7,
+            "2.4.3.1.1.6.1 Antenna Intermodulation in the GNSS Band",
+            255
+        ],
+        [
+            7,
+            "2.4.3.1.1.6.2 Antenna Intermodulation in AMS(R)S Band(s)",
+            257
+        ],
+        [
+            6,
+            "2.4.3.1.1.7 Carrier-to-Multipath Discrimination",
+            259
+        ],
+        [
+            6,
+            "2.4.3.1.1.8 Pattern Discrimination",
+            259
+        ],
+        [
+            6,
+            "2.4.3.1.1.9 Steered Antenna Requirements",
+            259
+        ],
+        [
+            7,
+            "2.4.3.1.1.9.1 Phase Discontinuity",
+            259
+        ],
+        [
+            7,
+            "2.4.3.1.1.9.2 Beam Switching Time",
+            259
+        ],
+        [
+            7,
+            "2.4.3.1.1.9.3 Steering Rate",
+            259
+        ],
+        [
+            7,
+            "2.4.3.1.1.9.4 Pattern Discrimination",
+            260
+        ],
+        [
+            5,
+            "2.4.3.1.2 Transceiver Subsystem Test Requirements",
+            260
+        ],
+        [
+            6,
+            "2.4.3.1.2.1 Transmitter Performance",
+            260
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.1 Transmitter Minimum Power Output",
+            260
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.2 Maximum Individual Carrier Output",
+            261
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.3 Maximum Total Transceiver Output Carrier Power",
+            261
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.4 Transmitter Intermodulation Products",
+            261
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.4.5 Narrow Band Intermodulation Performance",
+            261
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.4.6 Modulated Intermodulation Performance",
+            261
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.5 Transmitter Harmonics, Discrete Spurious and Noise Density",
+            263
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.6 Protection of  Radio Astronomy",
+            265
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.7 Carrier Off Level",
+            265
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.8 Power Control",
+            266
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.9 On-Channel Output Spectrum",
+            266
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.10 Transmitter Operation in Moving Aircraft",
+            267
+        ],
+        [
+            6,
+            "2.4.3.1.2.2 Receiver Performance",
+            267
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.1 Receiver Sensitivity",
+            267
+        ],
+        [
+            8,
+            "Burst Timing",
+            268
+        ],
+        [
+            8,
+            "DQPSK Symbol Mapping",
+            269
+        ],
+        [
+            8,
+            "Frame and Data Pattern",
+            269
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.2 Receiver Sensitivity (Voice)",
+            270
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.3 Test Method for Environmental Conditions",
+            271
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.4 Receiver Bandwidth",
+            271
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.5 Rejection of Signals Outside NGSS Receive Band",
+            271
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.6 Rejection of Carrier Signals Generated by Other AMS(R)S Equipment",
+            273
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.7 Receiver Operation in Moving Aircraft",
+            273
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.8 Receiver Susceptibility",
+            274
+        ],
+        [
+            4,
+            "2.4.3.2 Satellite Subnetwork Specific Test Requirements",
+            275
+        ],
+        [
+            4,
+            "2.4.3.3 Priority, Precedence and Preemption",
+            276
+        ],
+        [
+            5,
+            "2.4.3.3.1 Packet Data",
+            276
+        ],
+        [
+            5,
+            "2.4.3.3.2 Circuit Mode Communications (Voice)",
+            277
+        ],
+        [
+            4,
+            "2.4.3.4 Satellite Subnetwork Data Protocol (Satellite Layer 2)",
+            279
+        ],
+        [
+            4,
+            "2.4.3.5 Voice Protocol",
+            279
+        ],
+        [
+            5,
+            "2.4.3.5.1 Vocoder Interoperability With Satellite Subnetwork",
+            279
+        ],
+        [
+            5,
+            "2.4.3.5.2 Vocoder Performance in an Aeronautical Environment",
+            279
+        ],
+        [
+            4,
+            "2.4.3.6 User Data Interfaces",
+            279
+        ],
+        [
+            5,
+            "2.4.3.6.1 ATN Interfaces",
+            279
+        ],
+        [
+            6,
+            "2.4.3.6.1.1 Join and Leave Requirements",
+            280
+        ],
+        [
+            6,
+            "2.4.3.6.1.2 ATN-Compliant Mapping for Priority, Precedence and Preemption",
+            280
+        ],
+        [
+            5,
+            "2.4.3.6.2 ACARS",
+            281
+        ],
+        [
+            5,
+            "2.4.3.6.3 Satellite Subnetwork",
+            281
+        ],
+        [
+            6,
+            "2.4.3.6.3.1 Satellite Subnetwork Dependent Protocol",
+            281
+        ],
+        [
+            5,
+            "2.4.3.6.4 Avionics Subnetwork Interface",
+            281
+        ],
+        [
+            6,
+            "2.4.3.6.4.1 ATN Compliant Physical and Data Link Requirements",
+            281
+        ],
+        [
+            4,
+            "2.4.3.7 Circuit Mode Test Procedures",
+            281
+        ],
+        [
+            4,
+            "2.4.3.8 Recovery from Primary Power Interrupt Test Procedure",
+            282
+        ],
+        [
+            4,
+            "2.4.3.9 Failure/Status Indication Test Procedure",
+            282
+        ],
+        [
+            4,
+            "2.4.3.10   Information Security Test Procedure",
+            283
+        ],
+        [
+            1,
+            "3 INSTALLED EQUIPMENT PERFORMANCE",
+            284
+        ],
+        [
+            2,
+            "3.1 Equipment Installation",
+            284
+        ],
+        [
+            3,
+            "3.1.1 Accessibility",
+            284
+        ],
+        [
+            3,
+            "3.1.2 Aircraft Environment",
+            284
+        ],
+        [
+            3,
+            "3.1.3 Display Visibility",
+            284
+        ],
+        [
+            3,
+            "3.1.4 Inadvertent Turn-Off",
+            284
+        ],
+        [
+            3,
+            "3.1.5 Failure Protection",
+            284
+        ],
+        [
+            3,
+            "3.1.6 Interface Interference Effects",
+            284
+        ],
+        [
+            3,
+            "3.1.7 Aircraft Power Source",
+            284
+        ],
+        [
+            3,
+            "3.1.8 Antenna Location/Installation",
+            284
+        ],
+        [
+            3,
+            "3.1.9 Co-Location with other Iridium SATCOM Systems",
+            285
+        ],
+        [
+            2,
+            "3.2 Installed Equipment Performance Requirements",
+            285
+        ],
+        [
+            3,
+            "3.2.1 Radiated Antenna Intermodulation Products in AMS(R)S Bands",
+            285
+        ],
+        [
+            3,
+            "3.2.2 Declaration of Additional Isolation",
+            285
+        ],
+        [
+            2,
+            "3.3 Conditions of Test",
+            285
+        ],
+        [
+            3,
+            "3.3.1 Power Input",
+            285
+        ],
+        [
+            3,
+            "3.3.2 Environment",
+            286
+        ],
+        [
+            3,
+            "3.3.3 Adjustment of Equipment",
+            286
+        ],
+        [
+            3,
+            "3.3.4 Warm-up Period",
+            286
+        ],
+        [
+            2,
+            "3.4 Test Procedures for Installed Equipment Performance",
+            286
+        ],
+        [
+            3,
+            "3.4.1 Conformity Inspection",
+            286
+        ],
+        [
+            3,
+            "3.4.2 Interference Tests",
+            286
+        ],
+        [
+            4,
+            "3.4.2.1 Antenna Isolation",
+            287
+        ],
+        [
+            4,
+            "3.4.2.2 SATCOM B Interference to SATCOM A",
+            288
+        ],
+        [
+            4,
+            "3.4.2.3 SATCOM A Interference to SATCOM B",
+            288
+        ],
+        [
+            3,
+            "3.4.3 Power Fluctuation Tests",
+            289
+        ],
+        [
+            3,
+            "3.4.4 Ground Test Procedures",
+            289
+        ],
+        [
+            3,
+            "3.4.5 Flight Test Procedures",
+            289
+        ],
+        [
+            3,
+            "3.4.6 Installed System Performance Verification",
+            289
+        ],
+        [
+            4,
+            "3.4.6.1 Installed Functionality",
+            289
+        ],
+        [
+            4,
+            "3.4.6.2 Installed Antenna Coverage",
+            289
+        ],
+        [
+            1,
+            "4 EQUIPMENT OPERATIONAL PERFORMANCE CHARACTERISTICS",
+            290
+        ],
+        [
+            2,
+            "4.1 Operational Performance Requirements",
+            290
+        ],
+        [
+            3,
+            "4.1.1 Power Input",
+            290
+        ],
+        [
+            3,
+            "4.1.2 Communications Displays",
+            290
+        ],
+        [
+            3,
+            "4.1.3 Communications Controls",
+            290
+        ],
+        [
+            3,
+            "4.1.4 System Operational Indication",
+            290
+        ],
+        [
+            3,
+            "4.1.5 Equipment Operating Limitations",
+            290
+        ],
+        [
+            2,
+            "4.2 Test Procedures for Operational Performance Requirements",
+            290
+        ],
+        [
+            3,
+            "4.2.1 Power Input",
+            290
+        ],
+        [
+            3,
+            "4.2.2 Communications Displays",
+            290
+        ],
+        [
+            3,
+            "4.2.3 Communications Controls",
+            290
+        ],
+        [
+            3,
+            "4.2.4 System Operational Indication",
+            291
+        ],
+        [
+            1,
+            "5 AES CLASSIFICATION CONFIGURATION AND TEST REFERENCE",
+            291
+        ],
+        [
+            2,
+            "5.1 AES Configurations",
+            291
+        ],
+        [
+            2,
+            "5.2 AES Test Reference",
+            292
+        ],
+        [
+            1,
+            "6 Abbreviations",
+            299
+        ],
+        [
+            1,
+            "1 Introduction",
+            303
+        ],
+        [
+            2,
+            "1.1 Scope and Objectives",
+            303
+        ],
+        [
+            2,
+            "1.2 Document Overview",
+            305
+        ],
+        [
+            3,
+            "1.2.1 Applicable Documents",
+            305
+        ],
+        [
+            2,
+            "1.3 System Design and Description",
+            308
+        ],
+        [
+            3,
+            "1.3.1 SwiftBroadband System Overview",
+            308
+        ],
+        [
+            3,
+            "1.3.2 Services Provided by SwiftBroadband",
+            310
+        ],
+        [
+            4,
+            "1.3.2.1 Priority Services",
+            310
+        ],
+        [
+            5,
+            "1.3.2.1.1 ACARS Data Service",
+            310
+        ],
+        [
+            5,
+            "1.3.2.1.2 Voice Service",
+            310
+        ],
+        [
+            5,
+            "1.3.2.1.3 Priority IP Service",
+            311
+        ],
+        [
+            4,
+            "1.3.2.2 Non-Priority Services",
+            311
+        ],
+        [
+            3,
+            "1.3.3 Space Segment",
+            312
+        ],
+        [
+            3,
+            "1.3.4 Airborne Segment",
+            313
+        ],
+        [
+            3,
+            "1.3.5 Air Interface",
+            316
+        ],
+        [
+            4,
+            "1.3.5.1 Frequency Range",
+            316
+        ],
+        [
+            4,
+            "1.3.5.2 Bearers",
+            317
+        ],
+        [
+            3,
+            "1.3.6 Registration",
+            317
+        ],
+        [
+            3,
+            "1.3.7 Mobility and Handoff",
+            318
+        ],
+        [
+            3,
+            "1.3.8 Priority, Precedence and Preemption",
+            318
+        ],
+        [
+            3,
+            "1.3.9 Redundancy Including Fallback to Classic Aero",
+            319
+        ],
+        [
+            3,
+            "1.3.10 Installation Environment",
+            319
+        ],
+        [
+            4,
+            "1.3.10.1 Iridium AMS(R)S On The Same Aircraft",
+            319
+        ],
+        [
+            4,
+            "1.3.10.2 Iridium AMS(R)S In The Same Procedural Airspace",
+            320
+        ],
+        [
+            4,
+            "1.3.10.3 Co-location with GPS / GNSS Systems",
+            320
+        ],
+        [
+            4,
+            "1.3.10.4 Co-location with Other Inmarsat Satcom Systems",
+            321
+        ],
+        [
+            1,
+            "2 Equipment performance requirements and test procedures",
+            321
+        ],
+        [
+            2,
+            "2.1 General Requirements",
+            321
+        ],
+        [
+            3,
+            "2.1.1 Airworthiness",
+            321
+        ],
+        [
+            3,
+            "2.1.2 Intended Function",
+            321
+        ],
+        [
+            3,
+            "2.1.3 Federal Communications Commission\u2019s Rules",
+            321
+        ],
+        [
+            3,
+            "2.1.4 Fire Protection",
+            321
+        ],
+        [
+            3,
+            "2.1.5 Operation of Controls",
+            322
+        ],
+        [
+            3,
+            "2.1.6 Accessibility of Controls",
+            322
+        ],
+        [
+            3,
+            "2.1.7 Effects of Tests",
+            322
+        ],
+        [
+            3,
+            "2.1.8 Performance in a Shared Environment",
+            322
+        ],
+        [
+            3,
+            "2.1.9 AES Availability",
+            322
+        ],
+        [
+            2,
+            "2.2 Equipment Performance Requirements \u2013 Standard Conditions",
+            323
+        ],
+        [
+            3,
+            "2.2.1 SwiftBroadband AES Classes, Subsystem Definitions and Overall Requirements",
+            323
+        ],
+        [
+            4,
+            "2.2.1.1 Definition of SwiftBroadband AES Classes",
+            323
+        ],
+        [
+            5,
+            "AES4 Definition and Requirements",
+            324
+        ],
+        [
+            5,
+            "AES6 Definition and Requirements",
+            324
+        ],
+        [
+            5,
+            "AES7 Definition and Requirements",
+            325
+        ],
+        [
+            5,
+            "6MA Definition and Requirements",
+            325
+        ],
+        [
+            5,
+            "6F Definition and Requirements",
+            325
+        ],
+        [
+            5,
+            "7MA Definition and Requirements",
+            326
+        ],
+        [
+            5,
+            "7F Definition and Requirements",
+            326
+        ],
+        [
+            5,
+            "6D Definition and Requirements",
+            326
+        ],
+        [
+            5,
+            "7D Definition and Requirements",
+            326
+        ],
+        [
+            5,
+            "DMA Definition and Requirements",
+            326
+        ],
+        [
+            5,
+            "DF Definition and Requirements",
+            327
+        ],
+        [
+            4,
+            "2.2.1.2 Valid Combinations of System Components",
+            327
+        ],
+        [
+            4,
+            "2.2.1.3 Services Provided by an AMS(R)S AES",
+            327
+        ],
+        [
+            4,
+            "2.2.1.4 RF Interconnecting Cables",
+            328
+        ],
+        [
+            3,
+            "2.2.2 Definition of System-specific Parameters",
+            328
+        ],
+        [
+            3,
+            "2.2.3 Detailed Requirements",
+            332
+        ],
+        [
+            4,
+            "2.2.3.1 AES Application Requirements",
+            332
+        ],
+        [
+            5,
+            "2.2.3.1.1 Inmarsat and Service Provider Type Approval",
+            332
+        ],
+        [
+            6,
+            "2.2.3.1.1.1 Complete AES Systems",
+            334
+        ],
+        [
+            6,
+            "2.2.3.1.1.2 Separately Approved Antenna Subsystems",
+            334
+        ],
+        [
+            6,
+            "2.2.3.1.1.3 Separately Approved Transceiver Systems",
+            334
+        ],
+        [
+            5,
+            "2.2.3.1.2 Antenna",
+            334
+        ],
+        [
+            6,
+            "2.2.3.1.2.1 Coverage Volume, Polarization and Antenna",
+            335
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.1 Coverage Volume",
+            335
+        ],
+        [
+            8,
+            "2.2.3.1.2.1.1.1 HGA Coverage Volume",
+            335
+        ],
+        [
+            8,
+            "2.2.3.1.2.1.1.2 IGA Coverage Volume",
+            336
+        ],
+        [
+            8,
+            "2.2.3.1.2.1.1.3 AES4 Coverage Volume",
+            337
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.2 Polarization",
+            338
+        ],
+        [
+            7,
+            "2.2.3.1.2.1.3 Antenna Gain",
+            338
+        ],
+        [
+            6,
+            "2.2.3.1.2.2 Axial Ratio",
+            338
+        ],
+        [
+            6,
+            "2.2.3.1.2.3 Power Handling Capabilities",
+            338
+        ],
+        [
+            7,
+            "2.2.3.1.2.3.1 Single Carrier Antennas",
+            338
+        ],
+        [
+            7,
+            "2.2.3.1.2.3.2 Multi-carrier Antennas",
+            339
+        ],
+        [
+            6,
+            "2.2.3.1.2.4 Passband",
+            339
+        ],
+        [
+            6,
+            "2.2.3.1.2.5 Antenna Voltage Standing Wave Ratio",
+            339
+        ],
+        [
+            6,
+            "2.2.3.1.2.6 Antenna Intermodulation Products",
+            339
+        ],
+        [
+            7,
+            "2.2.3.1.2.6.1 Radiated Antenna Intermodulation Products in the GNSS Band",
+            339
+        ],
+        [
+            7,
+            "2.2.3.1.2.6.2 Antenna Intermodulation Products in the AMS(R)S Bands",
+            339
+        ],
+        [
+            6,
+            "2.2.3.1.2.7 Carrier-to-Multipath Discrimination",
+            340
+        ],
+        [
+            6,
+            "2.2.3.1.2.8 Pattern Discrimination",
+            340
+        ],
+        [
+            6,
+            "2.2.3.1.2.9 Steered Antenna Requirements",
+            340
+        ],
+        [
+            7,
+            "2.2.3.1.2.9.1 Phase Discontinuity",
+            340
+        ],
+        [
+            7,
+            "2.2.3.1.2.9.2 Beam Switching Time",
+            340
+        ],
+        [
+            7,
+            "2.2.3.1.2.9.3 Steering Rate",
+            340
+        ],
+        [
+            7,
+            "2.2.3.1.2.9.4 Pattern Discrimination",
+            340
+        ],
+        [
+            6,
+            "2.2.3.1.2.10 Manufacturer-defined Antenna Tests",
+            341
+        ],
+        [
+            5,
+            "2.2.3.1.3 Transceiver Subsystem",
+            341
+        ],
+        [
+            6,
+            "2.2.3.1.3.1 Transmitter Function",
+            341
+        ],
+        [
+            7,
+            "2.2.3.1.3.1.1 Minimum Power Output",
+            341
+        ],
+        [
+            8,
+            "2.2.3.1.3.1.1.1 AES4",
+            341
+        ],
+        [
+            8,
+            "2.2.3.1.3.1.1.2 Categories 6D and 7D",
+            342
+        ],
+        [
+            8,
+            "2.2.3.1.3.1.1.3 Categories 7MA, 7F, 6MA, 6F",
+            342
+        ],
+        [
+            7,
+            "2.2.3.1.3.1.2 Maximum Individual Carrier Output",
+            343
+        ],
+        [
+            8,
+            "2.2.3.1.3.1.2.1 AES4",
+            343
+        ],
+        [
+            8,
+            "2.2.3.1.3.1.2.2 Categories 6D and 7D",
+            343
+        ],
+        [
+            8,
+            "2.2.3.1.3.1.2.3 Categories 7MA, 7F, 6MA, 6F",
+            344
+        ],
+        [
+            7,
+            "2.2.3.1.3.1.3 Maximum Total Transmitter Output Power",
+            344
+        ],
+        [
+            7,
+            "2.2.3.1.3.1.4 Transmitter Intermodulation Performance.",
+            345
+        ],
+        [
+            7,
+            "2.2.3.1.3.1.5 Transmitter Harmonics, Discrete Spurious and Noise Density",
+            345
+        ],
+        [
+            7,
+            "2.2.3.1.3.1.6 Protection of Radio Astronomy",
+            347
+        ],
+        [
+            7,
+            "2.2.3.1.3.1.7 Carrier-Off Level",
+            348
+        ],
+        [
+            7,
+            "2.2.3.1.3.1.8 Power Control",
+            349
+        ],
+        [
+            7,
+            "2.2.3.1.3.1.9 On-Channel Output Spectrum",
+            349
+        ],
+        [
+            8,
+            "2.2.3.1.3.1.9.1 AES4",
+            349
+        ],
+        [
+            8,
+            "2.2.3.1.3.1.9.2 AES6 / AES7.",
+            350
+        ],
+        [
+            7,
+            "2.2.3.1.3.1.10 Transmitter Operation in Moving Aircraft",
+            351
+        ],
+        [
+            7,
+            "2.2.3.1.3.1.11 Transmitter Phase Noise",
+            351
+        ],
+        [
+            7,
+            "2.2.3.1.3.1.12 Frequency Accuracy",
+            351
+        ],
+        [
+            7,
+            "2.2.3.1.3.1.13 Transmitter Tuning",
+            351
+        ],
+        [
+            7,
+            "2.2.3.1.3.1.14 Manufacturer-defined Transmitter Test",
+            351
+        ],
+        [
+            6,
+            "2.2.3.1.3.2 Receiver Function",
+            352
+        ],
+        [
+            7,
+            "2.2.3.1.3.2.1 Receiver Sensitivity",
+            352
+        ],
+        [
+            8,
+            "2.2.3.1.3.2.1.1 Data",
+            352
+        ],
+        [
+            8,
+            "2.2.3.1.3.2.1.2 Voice",
+            352
+        ],
+        [
+            7,
+            "2.2.3.1.3.2.2 Receiver Bandwidth",
+            352
+        ],
+        [
+            7,
+            "2.2.3.1.3.2.3 Rejection of Signals Outside the NGSS Receive Band",
+            352
+        ],
+        [
+            7,
+            "2.2.3.1.3.2.4 Rejection of Carrier Signals Generated by Other AMS(R)S Equipment",
+            354
+        ],
+        [
+            7,
+            "2.2.3.1.3.2.5 Receiver Operation in Moving Aircraft",
+            354
+        ],
+        [
+            7,
+            "2.2.3.1.3.2.6 Receiver Susceptibility",
+            354
+        ],
+        [
+            7,
+            "2.2.3.1.3.2.7 Acquisition",
+            354
+        ],
+        [
+            7,
+            "2.2.3.1.3.2.8 Carrier-to-Noise Level Accuracy",
+            354
+        ],
+        [
+            5,
+            "2.2.3.1.4 DLNA (Diplexer / Low Noise Amplifier)",
+            354
+        ],
+        [
+            6,
+            "2.2.3.1.4.1 DLNA VSWR",
+            355
+        ],
+        [
+            6,
+            "2.2.3.1.4.2 DLNA Noise Figure",
+            355
+        ],
+        [
+            6,
+            "2.2.3.1.4.3 DLNA Gain / Filter Response",
+            355
+        ],
+        [
+            7,
+            "2.2.3.1.4.3.1 DLNA Gain",
+            355
+        ],
+        [
+            7,
+            "2.2.3.1.4.3.2 Filter Response for \u2018DMA\u2019 DLNA",
+            355
+        ],
+        [
+            7,
+            "2.2.3.1.4.3.3 Filter Response for \u2018DF\u2019 DLNA",
+            357
+        ],
+        [
+            6,
+            "2.2.3.1.4.4 DLNA Passive Intermodulation",
+            358
+        ],
+        [
+            7,
+            "2.2.3.1.4.4.1 DLNA Intermodulation Products in Satcom Receive Band",
+            358
+        ],
+        [
+            7,
+            "2.2.3.1.4.4.2 Type F - DLNA Intermodulation Products in the GNSS Band",
+            358
+        ],
+        [
+            6,
+            "2.2.3.1.4.5 DLNA Maximum Transmit Power",
+            358
+        ],
+        [
+            6,
+            "2.2.3.1.4.6 DLNA Receive Port Output Power",
+            358
+        ],
+        [
+            6,
+            "2.2.3.1.4.7 Manufacturer Defined DLNA Test",
+            358
+        ],
+        [
+            5,
+            "2.2.3.1.5 Required Aircraft Interfaces",
+            358
+        ],
+        [
+            4,
+            "2.2.3.2 User Link Modulation and Signal in Space (Physical Layer)",
+            359
+        ],
+        [
+            4,
+            "2.2.3.3 Priority, Precedence and Preemption",
+            359
+        ],
+        [
+            5,
+            "2.2.3.3.1 Packet Data",
+            360
+        ],
+        [
+            5,
+            "2.2.3.3.2 Circuit Mode Communications (Voice)",
+            361
+        ],
+        [
+            5,
+            "2.2.3.3.3 ACARS Communications",
+            362
+        ],
+        [
+            4,
+            "2.2.3.4 Satellite Subnetwork Data Protocol",
+            363
+        ],
+        [
+            5,
+            "2.2.3.4.1 ATN-compliant Protocol Requirements",
+            363
+        ],
+        [
+            5,
+            "2.2.3.4.2 ACARS Protocol Requirements",
+            363
+        ],
+        [
+            4,
+            "2.2.3.5 Voice Protocol",
+            364
+        ],
+        [
+            5,
+            "2.2.3.5.1 Vocoder Interoperability with Satellite Subnetwork",
+            364
+        ],
+        [
+            5,
+            "2.2.3.5.2 Vocoder Performance in an Aeronautical Environment",
+            364
+        ],
+        [
+            4,
+            "2.2.3.6 User Data Interfaces",
+            364
+        ],
+        [
+            5,
+            "2.2.3.6.1 ATN-Compliant Service Interface",
+            364
+        ],
+        [
+            5,
+            "2.2.3.6.2 ACARS Interface",
+            364
+        ],
+        [
+            5,
+            "2.2.3.6.3 External Physical and Data Link Layer Requirements",
+            365
+        ],
+        [
+            5,
+            "2.2.3.6.4 Avionics Subnetwork Interface Requirements for ISO-8208 Service",
+            365
+        ],
+        [
+            5,
+            "2.2.3.6.5 Alternative ATN-compliant Subnetwork Access Protocols",
+            365
+        ],
+        [
+            5,
+            "2.2.3.6.6 IP Data Interface",
+            365
+        ],
+        [
+            4,
+            "2.2.3.7 Circuit Mode Service Requirements",
+            365
+        ],
+        [
+            5,
+            "2.2.3.7.1 Required Services",
+            365
+        ],
+        [
+            5,
+            "2.2.3.7.2 Voice Quality",
+            365
+        ],
+        [
+            6,
+            "2.2.3.7.2.1 Audio Frequency Response",
+            366
+        ],
+        [
+            6,
+            "2.2.3.7.2.2 Total Audio Noise Including Quantization Noise",
+            366
+        ],
+        [
+            6,
+            "2.2.3.7.2.3 Spurious In-band Audio Signals",
+            367
+        ],
+        [
+            6,
+            "2.2.3.7.2.4 Spurious and Image Audio Signals",
+            367
+        ],
+        [
+            6,
+            "2.2.3.7.2.5 Audio Amplitude Jitter",
+            367
+        ],
+        [
+            6,
+            "2.2.3.7.2.6 Audio Phase Jitter",
+            367
+        ],
+        [
+            6,
+            "2.2.3.7.2.7 Voice Latency",
+            367
+        ],
+        [
+            6,
+            "2.2.3.7.2.8 Call Setup Time",
+            368
+        ],
+        [
+            4,
+            "2.2.3.8 Recovery from Primary Power Interruption",
+            368
+        ],
+        [
+            4,
+            "2.2.3.9 Failure/Status Indication",
+            368
+        ],
+        [
+            4,
+            "2.2.3.10 Information Security",
+            369
+        ],
+        [
+            2,
+            "2.3 Equipment Performance - Environmental Conditions",
+            370
+        ],
+        [
+            3,
+            "2.3.1 General Requirements",
+            370
+        ],
+        [
+            3,
+            "2.3.2 Equipment Configurations",
+            370
+        ],
+        [
+            3,
+            "2.3.3 Configuration Control",
+            371
+        ],
+        [
+            3,
+            "2.3.4 Specific Environmental Test Conditions",
+            371
+        ],
+        [
+            3,
+            "2.3.5 Performance vs. Environmental Requirements Matrix",
+            372
+        ],
+        [
+            2,
+            "2.4 Equipment Performance Verification Procedures",
+            380
+        ],
+        [
+            3,
+            "2.4.1 Definitions of Terms and Conditions of Test",
+            380
+        ],
+        [
+            4,
+            "2.4.1.1 AES Application Test Conditions",
+            381
+        ],
+        [
+            5,
+            "2.4.1.1.1 Antenna Subsystem Test Conditions",
+            381
+        ],
+        [
+            6,
+            "2.4.1.1.1.1 Antenna Under Test",
+            381
+        ],
+        [
+            5,
+            "2.4.1.1.2 Transceiver Subsystem Test Conditions",
+            381
+        ],
+        [
+            6,
+            "2.4.1.1.2.1 Transceiver Under Test",
+            382
+        ],
+        [
+            5,
+            "2.4.1.1.3 DLNA Test Conditions",
+            382
+        ],
+        [
+            5,
+            "2.4.1.1.4 Required Aircraft Interfaces Test Conditions",
+            382
+        ],
+        [
+            4,
+            "2.4.1.2 User Link Modulation and Signal in Space Test Conditions",
+            382
+        ],
+        [
+            4,
+            "2.4.1.3 Priority, Precedence and Preemption Test Conditions",
+            383
+        ],
+        [
+            4,
+            "2.4.1.4 Satellite Sub-network Data Protocol Test Conditions",
+            383
+        ],
+        [
+            4,
+            "2.4.1.5 Voice Protocol Test Conditions",
+            383
+        ],
+        [
+            4,
+            "2.4.1.6 User Data Interfaces Test Conditions",
+            383
+        ],
+        [
+            4,
+            "2.4.1.7 Circuit Mode Service Test Conditions",
+            383
+        ],
+        [
+            4,
+            "2.4.1.8 Recovery from Primary Power Failure Test Conditions",
+            383
+        ],
+        [
+            4,
+            "2.4.1.9 Failure/Status Indication Test Conditions",
+            383
+        ],
+        [
+            4,
+            "2.4.1.10 Information Security",
+            383
+        ],
+        [
+            3,
+            "2.4.2 Required Test Equipment",
+            384
+        ],
+        [
+            4,
+            "2.4.2.1 AES Application",
+            384
+        ],
+        [
+            5,
+            "2.4.2.1.1 Antenna Subsystem Required Test Equipment",
+            384
+        ],
+        [
+            6,
+            "2.4.2.1.1.1 Standard Test Equipment",
+            384
+        ],
+        [
+            6,
+            "2.4.2.1.1.2 Special Test Equipment",
+            384
+        ],
+        [
+            5,
+            "2.4.2.1.2 Transceiver Subsystem Required Test Equipment",
+            384
+        ],
+        [
+            6,
+            "2.4.2.1.2.1 Standard Test Equipment",
+            384
+        ],
+        [
+            6,
+            "2.4.2.1.2.2 Special Test Equipment",
+            385
+        ],
+        [
+            5,
+            "2.4.2.1.3 DLNA Subsystem Required Test Equipment",
+            385
+        ],
+        [
+            6,
+            "2.4.2.1.3.1 Standard Test Equipment",
+            385
+        ],
+        [
+            5,
+            "2.4.2.1.4 Required Aircraft Interfaces Required Test Equipment",
+            385
+        ],
+        [
+            6,
+            "2.4.2.1.4.1 Standard Test Equipment",
+            385
+        ],
+        [
+            4,
+            "2.4.2.2 Modulation and Signal in Space Required Test Equipment",
+            385
+        ],
+        [
+            4,
+            "2.4.2.3 Priority, Precedence and Preemption Test Equipment",
+            385
+        ],
+        [
+            5,
+            "2.4.2.3.1 Packet Data",
+            385
+        ],
+        [
+            5,
+            "2.4.2.3.2 Circuit Mode Communications",
+            386
+        ],
+        [
+            5,
+            "2.4.2.3.3 ACARS Communications",
+            386
+        ],
+        [
+            4,
+            "2.4.2.4 Satellite Sub-network Data Protocol Test Equipment",
+            386
+        ],
+        [
+            4,
+            "2.4.2.5 Voice Protocol Required Test Equipment",
+            386
+        ],
+        [
+            4,
+            "2.4.2.6 User Data Interface Required Test Equipment",
+            386
+        ],
+        [
+            4,
+            "2.4.2.7 Circuit Mode Service Test Equipment",
+            387
+        ],
+        [
+            4,
+            "2.4.2.8 Recovery from Primary Power Interruption Test Equipment",
+            387
+        ],
+        [
+            4,
+            "2.4.2.9 Failure/Status Indication Test Equipment",
+            387
+        ],
+        [
+            4,
+            "2.4.2.10 Information Security",
+            387
+        ],
+        [
+            3,
+            "2.4.3 Detailed Test Procedures",
+            387
+        ],
+        [
+            4,
+            "2.4.3.1 AES Application Requirements",
+            387
+        ],
+        [
+            5,
+            "2.4.3.1.1 Antenna Test Requirements",
+            387
+        ],
+        [
+            6,
+            "2.4.3.1.1.1 AES6 and AES7 Antenna Test Requirements",
+            388
+        ],
+        [
+            7,
+            "2.4.3.1.1.1.1 Coverage Volume",
+            388
+        ],
+        [
+            7,
+            "2.4.3.1.1.1.2 Polarization",
+            388
+        ],
+        [
+            7,
+            "2.4.3.1.1.1.3 Antenna Gain",
+            388
+        ],
+        [
+            7,
+            "2.4.3.1.1.1.4 Antenna Axial Ratio",
+            388
+        ],
+        [
+            7,
+            "2.4.3.1.1.1.5 Power Handling",
+            388
+        ],
+        [
+            7,
+            "2.4.3.1.1.1.6 Antenna Passband",
+            390
+        ],
+        [
+            7,
+            "2.4.3.1.1.1.7 Antenna VSWR",
+            390
+        ],
+        [
+            7,
+            "2.4.3.1.1.1.8 Radiated Antenna Intermodulation Products",
+            390
+        ],
+        [
+            7,
+            "2.4.3.1.1.1.9 Antenna Intermodulation in the GNSS Band",
+            390
+        ],
+        [
+            7,
+            "2.4.3.1.1.1.10 Antenna Intermodulation in AMS(R)S Band(s)",
+            393
+        ],
+        [
+            7,
+            "2.4.3.1.1.1.11 Carrier-to-Multipath Discrimination",
+            393
+        ],
+        [
+            7,
+            "2.4.3.1.1.1.12 Pattern Discrimination",
+            393
+        ],
+        [
+            7,
+            "2.4.3.1.1.1.13 Steered Antenna Requirements",
+            393
+        ],
+        [
+            7,
+            "2.4.3.1.1.1.14 Phase Discontinuity",
+            393
+        ],
+        [
+            7,
+            "2.4.3.1.1.1.15 Beam Switching Time",
+            393
+        ],
+        [
+            7,
+            "2.4.3.1.1.1.16 Steering Rate",
+            393
+        ],
+        [
+            7,
+            "2.4.3.1.1.1.17 Pattern Discrimination",
+            395
+        ],
+        [
+            7,
+            "2.4.3.1.1.1.18 Antenna G/T",
+            395
+        ],
+        [
+            6,
+            "2.4.3.1.1.2 AES4 Antenna Test Requirements",
+            395
+        ],
+        [
+            7,
+            "2.4.3.1.1.2.1 Radiation Pattern Measurements (Gain, Axial Ratio)",
+            395
+        ],
+        [
+            7,
+            "2.4.3.1.1.2.2 Carrier to Multipath (C/M) Ratio",
+            397
+        ],
+        [
+            7,
+            "2.4.3.1.1.2.3 Constituent Component Characterization for EIRP and G/T",
+            400
+        ],
+        [
+            7,
+            "2.4.3.1.1.2.4 Measurement and Computation of System Noise Temperature Tsys",
+            404
+        ],
+        [
+            6,
+            "2.4.3.1.1.3 Manufacturer-defined Antenna Tests",
+            409
+        ],
+        [
+            5,
+            "2.4.3.1.2 Transceiver Subsystem Test Requirements",
+            409
+        ],
+        [
+            6,
+            "2.4.3.1.2.1 Transmitter Performance",
+            410
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.1 Minimum Power Output",
+            410
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.2 Maximum Individual Carrier Output",
+            410
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.3 Maximum Total Transceiver Output Carrier Power",
+            410
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.4 Transmitter Intermodulation Products",
+            410
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.5 Transmitter Harmonics, Discrete Spurious and Noise Density",
+            412
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.6 Protection of Radio Astronomy",
+            412
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.7 Carrier-off Level",
+            413
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.8 Power Control",
+            414
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.9 On-Channel Output Spectrum",
+            414
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.10 Transmitter Operation in Moving Aircraft",
+            414
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.11 Transmitter Phase Noise",
+            414
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.12 Frequency Accuracy",
+            414
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.13 Transmitter Tuning",
+            414
+        ],
+        [
+            7,
+            "2.4.3.1.2.1.14 Manufacturer Specific Transmitter Test",
+            414
+        ],
+        [
+            6,
+            "2.4.3.1.2.2 Receiver",
+            415
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.1 Receiver Sensitivity",
+            415
+        ],
+        [
+            8,
+            "2.4.3.1.2.2.1.1 Test Methodology for Environmental Conditions",
+            415
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.2 Receiver Bandwidth",
+            415
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.3 Rejection of Signals outside NGSS Receive Band",
+            416
+        ],
+        [
+            8,
+            "2.4.3.1.2.2.3.1 Identification of Test Frequencies",
+            416
+        ],
+        [
+            8,
+            "2.4.3.1.2.2.3.2 Derivation of Test Levels",
+            416
+        ],
+        [
+            8,
+            "2.4.3.1.2.2.3.3  Test Method",
+            417
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.4 Rejection of Carrier Signals Generated by Other AMS(R)S Equipment",
+            417
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.5 Receiver Operation in Moving Aircraft",
+            417
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.6 Receiver Susceptibility",
+            417
+        ],
+        [
+            8,
+            "2.4.3.1.2.2.6.1 Noise Setup",
+            418
+        ],
+        [
+            8,
+            "2.4.3.1.2.2.6.2 Test",
+            418
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.7 Acquisition",
+            419
+        ],
+        [
+            7,
+            "2.4.3.1.2.2.8 Carrier-to-Noise Level Accuracy",
+            419
+        ],
+        [
+            5,
+            "2.4.3.1.3 DLNA Test Procedures",
+            419
+        ],
+        [
+            6,
+            "2.4.3.1.3.1 DLNA VSWR",
+            420
+        ],
+        [
+            6,
+            "2.4.3.1.3.2 Noise Figure/Gain",
+            421
+        ],
+        [
+            6,
+            "2.4.3.1.3.3 Gain / Filter Response",
+            422
+        ],
+        [
+            6,
+            "2.4.3.1.3.4 DLNA Passive Inter-modulation",
+            422
+        ],
+        [
+            6,
+            "2.4.3.1.3.5 DLNA Maximum Transmit Power",
+            423
+        ],
+        [
+            6,
+            "2.4.3.1.3.6 DLNA Receiver Output Power",
+            424
+        ],
+        [
+            6,
+            "2.4.3.1.3.7 Manufacturer Defined DLNA Test",
+            424
+        ],
+        [
+            5,
+            "2.4.3.1.4 Required Aircraft Interfaces",
+            425
+        ],
+        [
+            4,
+            "2.4.3.2 User Link Modulation and Signal in Space (Physical Layer)",
+            425
+        ],
+        [
+            4,
+            "2.4.3.3 Priority, Precedence and Preemption",
+            425
+        ],
+        [
+            5,
+            "2.4.3.3.1 Packet Data",
+            425
+        ],
+        [
+            5,
+            "2.4.3.3.2 Circuit Mode (Voice)",
+            425
+        ],
+        [
+            5,
+            "2.4.3.3.3 ACARS Communications",
+            426
+        ],
+        [
+            4,
+            "2.4.3.4 Satellite Subnetwork Data Protocol",
+            426
+        ],
+        [
+            5,
+            "2.4.3.4.1 ATN-compliant Protocol",
+            426
+        ],
+        [
+            5,
+            "2.4.3.4.2 ACARS Protocol",
+            427
+        ],
+        [
+            4,
+            "2.4.3.5 Voice Protocol",
+            427
+        ],
+        [
+            5,
+            "2.4.3.5.1 Vocoder Interoperability with Satellite Subnetwork",
+            427
+        ],
+        [
+            5,
+            "2.4.3.5.2 Vocoder Performance in an Aeronautical Environment",
+            427
+        ],
+        [
+            4,
+            "2.4.3.6 User Data Interfaces",
+            427
+        ],
+        [
+            5,
+            "2.4.3.6.1 ATN Interfaces",
+            427
+        ],
+        [
+            5,
+            "2.4.3.6.2 ACARS Interface",
+            427
+        ],
+        [
+            5,
+            "2.4.3.6.3 IP Interfaces",
+            427
+        ],
+        [
+            4,
+            "2.4.3.7 Circuit Mode Service",
+            428
+        ],
+        [
+            5,
+            "2.4.3.7.1 Audio Frequency Response",
+            428
+        ],
+        [
+            5,
+            "2.4.3.7.2 Total Audio Noise Including Quantization Noise",
+            429
+        ],
+        [
+            5,
+            "2.4.3.7.3 Spurious In-band Audio Signals",
+            429
+        ],
+        [
+            5,
+            "2.4.3.7.4 Spurious and Image Audio Signals",
+            430
+        ],
+        [
+            5,
+            "2.4.3.7.5 Audio Amplitude Jitter",
+            430
+        ],
+        [
+            5,
+            "2.4.3.7.6 Audio Phase Jitter",
+            431
+        ],
+        [
+            5,
+            "2.4.3.7.7 Voice Latency",
+            432
+        ],
+        [
+            5,
+            "2.4.3.7.8 Call Setup Time",
+            432
+        ],
+        [
+            4,
+            "2.4.3.8 Recovery from Primary Power Interruption Test Procedure",
+            432
+        ],
+        [
+            4,
+            "2.4.3.9 Failure/Status Indication Test Procedure",
+            433
+        ],
+        [
+            4,
+            "2.4.3.10 Information Security Test Procedure",
+            433
+        ],
+        [
+            1,
+            "3 INSTALLED EQUIPMENT PERFORMANCE",
+            434
+        ],
+        [
+            2,
+            "3.1 Equipment Installation",
+            434
+        ],
+        [
+            3,
+            "3.1.1 Accessibility",
+            434
+        ],
+        [
+            3,
+            "3.1.2 Aircraft Environment",
+            434
+        ],
+        [
+            3,
+            "3.1.3 Display Visibility",
+            434
+        ],
+        [
+            3,
+            "3.1.4 Inadvertent Turn-Off",
+            434
+        ],
+        [
+            3,
+            "3.1.5 Failure Protection",
+            434
+        ],
+        [
+            3,
+            "3.1.6 Interface Interference Effects",
+            434
+        ],
+        [
+            3,
+            "3.1.7 Aircraft Power Source",
+            435
+        ],
+        [
+            3,
+            "3.1.8 Antenna Location/Installation",
+            435
+        ],
+        [
+            3,
+            "3.1.9 RF Cable Requirements",
+            435
+        ],
+        [
+            3,
+            "3.1.10 Co-location with Other Inmarsat Satcom Systems",
+            435
+        ],
+        [
+            3,
+            "3.1.11 Co-location of Dissimilar Satcom Systems",
+            436
+        ],
+        [
+            3,
+            "3.1.12 System Component Interoperability",
+            436
+        ],
+        [
+            3,
+            "3.1.13 Configuration of Priority for Data Services",
+            436
+        ],
+        [
+            3,
+            "3.1.14 Configuration of Priority for Voice Calls",
+            437
+        ],
+        [
+            2,
+            "3.2 Installed Equipment Performance Requirements",
+            437
+        ],
+        [
+            3,
+            "3.2.1 Radiated Antenna Intermodulation Products in AMS(R)S Bands",
+            437
+        ],
+        [
+            4,
+            "3.2.1.1 Self-interference by a Multi-channel SBB AES",
+            437
+        ],
+        [
+            4,
+            "3.2.1.2 Dissimilar AES Installations on the Same Aircraft",
+            437
+        ],
+        [
+            3,
+            "3.2.2 Declaration of Non-standard Antenna Isolation",
+            438
+        ],
+        [
+            2,
+            "3.3 Conditions of Test",
+            438
+        ],
+        [
+            3,
+            "3.3.1 Power Input",
+            439
+        ],
+        [
+            3,
+            "3.3.2 Environment",
+            439
+        ],
+        [
+            3,
+            "3.3.3 Adjustment of Equipment",
+            439
+        ],
+        [
+            3,
+            "3.3.4 Warm-up Period",
+            439
+        ],
+        [
+            2,
+            "3.4 Test Procedures for Installed Equipment Performance",
+            439
+        ],
+        [
+            3,
+            "3.4.1 Conformity Inspection",
+            439
+        ],
+        [
+            3,
+            "3.4.2 Interference Tests",
+            439
+        ],
+        [
+            4,
+            "3.4.2.1 Interference with General Aircraft Systems",
+            439
+        ],
+        [
+            4,
+            "3.4.2.2 Interference to GNSS",
+            440
+        ],
+        [
+            4,
+            "3.4.2.3 Interference between Dissimilar Satcom Systems",
+            441
+        ],
+        [
+            5,
+            "3.4.2.3.1 SATCOM B Interference to SATCOM A",
+            441
+        ],
+        [
+            5,
+            "3.4.2.3.2 SATCOM A Interference to SATCOM B",
+            441
+        ],
+        [
+            3,
+            "3.4.3 Power Fluctuation Tests",
+            442
+        ],
+        [
+            3,
+            "3.4.4 Ground Test Procedures",
+            442
+        ],
+        [
+            3,
+            "3.4.5 Flight Test Procedures",
+            443
+        ],
+        [
+            3,
+            "3.4.6 Installed System Performance Verification",
+            443
+        ],
+        [
+            4,
+            "3.4.6.1 Installed Functionality",
+            443
+        ],
+        [
+            4,
+            "3.4.6.2 Installed Antenna Coverage",
+            444
+        ],
+        [
+            4,
+            "3.4.6.3 Installed Audio System Functionality",
+            444
+        ],
+        [
+            1,
+            "4  EQUIPMENT OPERATIONAL PERFORMANCE CHARACTERISTICS",
+            445
+        ],
+        [
+            2,
+            "4.1 Operational Performance Requirements",
+            445
+        ],
+        [
+            3,
+            "4.1.1 Power Input",
+            445
+        ],
+        [
+            3,
+            "4.1.2 Communications Controls",
+            445
+        ],
+        [
+            3,
+            "4.1.3 System Operational Indication",
+            445
+        ],
+        [
+            3,
+            "4.1.4 Equipment Operating Limitations",
+            446
+        ],
+        [
+            2,
+            "4.2 Test Procedures for Operational Performance Requirements",
+            446
+        ],
+        [
+            3,
+            "4.2.1 Power Input",
+            446
+        ],
+        [
+            3,
+            "4.2.2 Communications Displays",
+            446
+        ],
+        [
+            3,
+            "4.2.3 Communications Controls",
+            446
+        ],
+        [
+            3,
+            "4.2.4 System Operational Indication",
+            446
+        ],
+        [
+            1,
+            "5 Requirements cross-reference",
+            447
+        ],
+        [
+            1,
+            "6 ABBREVIATIONS",
+            454
+        ]
+    ],
+    "pages": 458,
+    "ocr_stats": {
+        "ocr_pages": 9,
+        "ocr_failed": 9,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 26,
+        "table": 106,
+        "equations": {
+            "successful_ocr": 16,
+            "unsuccessful_ocr": 0,
+            "equations": 16
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

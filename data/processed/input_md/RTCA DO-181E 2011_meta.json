@@ -1,0 +1,4950 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            "1 PURPOSE AND SCOPE",
+            31
+        ],
+        [
+            2,
+            "1.1 Introduction",
+            31
+        ],
+        [
+            2,
+            "1.2 System Overview",
+            31
+        ],
+        [
+            3,
+            "1.2.1 The Function of Mode S",
+            31
+        ],
+        [
+            3,
+            "1.2.2 Major Operating Characteristics",
+            32
+        ],
+        [
+            3,
+            "1.2.3 System Performance",
+            32
+        ],
+        [
+            4,
+            "1.2.3.1 Surveillance Performance",
+            32
+        ],
+        [
+            4,
+            "1.2.3.2 Data Link Performance",
+            33
+        ],
+        [
+            3,
+            "1.2.4 Basic System Protocol",
+            33
+        ],
+        [
+            3,
+            "1.2.5 Mode S Message Content",
+            34
+        ],
+        [
+            4,
+            "1.2.5.1 Address/Parity",
+            34
+        ],
+        [
+            4,
+            "1.2.5.2 Surveillance",
+            34
+        ],
+        [
+            4,
+            "1.2.5.3 Data Link Communications",
+            34
+        ],
+        [
+            2,
+            "1.3 Operational Goals",
+            35
+        ],
+        [
+            2,
+            "1.4 Operational Applications",
+            35
+        ],
+        [
+            3,
+            "1.4.1 The ATCRBS Environment",
+            35
+        ],
+        [
+            3,
+            "1.4.2 The Mode S Environment",
+            35
+        ],
+        [
+            3,
+            "1.4.3 Mode S Transponder Levels",
+            35
+        ],
+        [
+            4,
+            "1.4.3.1 Level 1 Transponders",
+            36
+        ],
+        [
+            4,
+            "1.4.3.2 Level 2 Transponders",
+            36
+        ],
+        [
+            4,
+            "1.4.3.3 Level 3 Transponders (Uplink ELM Capability)",
+            36
+        ],
+        [
+            4,
+            "1.4.3.4 Level 4 Transponders (Full ELM Capability)",
+            37
+        ],
+        [
+            4,
+            "1.4.3.5 Level 5 Transponders (Enhanced Data Link Protocol Capability)",
+            37
+        ],
+        [
+            3,
+            "1.4.4 Optional Additional Features",
+            37
+        ],
+        [
+            3,
+            "1.4.5 Minimum Output Power Level Designation",
+            38
+        ],
+        [
+            3,
+            "1.4.6 Transponder Labeling",
+            39
+        ],
+        [
+            3,
+            "1.4.7 Use of the Mode S Data Link",
+            39
+        ],
+        [
+            3,
+            "1.4.8 Airborne Equipment",
+            39
+        ],
+        [
+            2,
+            "1.5 Assumptions",
+            40
+        ],
+        [
+            2,
+            "1.6 Test Procedures",
+            40
+        ],
+        [
+            3,
+            "1.6.1 Environmental Tests",
+            40
+        ],
+        [
+            3,
+            "1.6.2 Detailed Test Procedures",
+            40
+        ],
+        [
+            3,
+            "1.6.3 Installed System Tests",
+            41
+        ],
+        [
+            2,
+            "1.7 Definitions of Key Acronyms and Terms",
+            41
+        ],
+        [
+            2,
+            "1.8 Mode S Specific Services",
+            42
+        ],
+        [
+            2,
+            "1.9 Dataflash",
+            42
+        ],
+        [
+            1,
+            "2 MODE S TRANSPONDER EQUIPMENT PERFORMANCE REQUIREMENTS AND TEST PROCEDURES",
+            43
+        ],
+        [
+            2,
+            "2.1 General Requirements for All Equipment",
+            43
+        ],
+        [
+            3,
+            "2.1.1 Airworthiness",
+            43
+        ],
+        [
+            3,
+            "2.1.2 General Performance",
+            43
+        ],
+        [
+            3,
+            "2.1.3 Federal Communications Commission Rules",
+            43
+        ],
+        [
+            3,
+            "2.1.4 Fire Protection",
+            43
+        ],
+        [
+            3,
+            "2.1.5 Operation of Controls",
+            43
+        ],
+        [
+            3,
+            "2.1.6 Accessibility of Controls",
+            44
+        ],
+        [
+            3,
+            "2.1.7 Flight Crew Control Functions",
+            44
+        ],
+        [
+            3,
+            "2.1.8 Optional Crew Control Functions",
+            44
+        ],
+        [
+            3,
+            "2.1.9 Effects of Tests",
+            44
+        ],
+        [
+            3,
+            "2.1.10 Equipment Configuration",
+            45
+        ],
+        [
+            3,
+            "2.1.11 Interrogation Signals",
+            45
+        ],
+        [
+            4,
+            "2.1.11.1 Interrogation Carrier Frequency",
+            45
+        ],
+        [
+            4,
+            "2.1.11.2 Measurement Convention",
+            45
+        ],
+        [
+            4,
+            "2.1.11.3 Received PAM Signals",
+            46
+        ],
+        [
+            5,
+            "2.1.11.3.1 Pulse Shapes",
+            46
+        ],
+        [
+            5,
+            "2.1.11.3.2 Pulse Patterns",
+            46
+        ],
+        [
+            5,
+            "2.1.11.3.3 Relative Pulse Amplitudes",
+            47
+        ],
+        [
+            4,
+            "2.1.11.4 Received DPSK Signals",
+            48
+        ],
+        [
+            5,
+            "2.1.11.4.1 Pulse Shapes",
+            48
+        ],
+        [
+            5,
+            "2.1.11.4.2 Relative Pulse Amplitudes",
+            48
+        ],
+        [
+            5,
+            "2.1.11.4.3 Phase Reversals",
+            49
+        ],
+        [
+            5,
+            "2.1.11.4.4 Spacings",
+            49
+        ],
+        [
+            5,
+            "2.1.11.4.5 Information Content",
+            49
+        ],
+        [
+            2,
+            "2.2 Minimum Performance Standards \u2014 Standard Conditions and Signals",
+            49
+        ],
+        [
+            3,
+            "2.2.1 Definition of Standard Conditions",
+            49
+        ],
+        [
+            3,
+            "2.2.2 Receiver Characteristics",
+            50
+        ],
+        [
+            4,
+            "2.2.2.1 Interrogation Tolerances",
+            50
+        ],
+        [
+            4,
+            "2.2.2.2 Sensitivity Variation With Frequency",
+            50
+        ],
+        [
+            4,
+            "2.2.2.3 Bandwidth",
+            50
+        ],
+        [
+            4,
+            "2.2.2.4 Sensitivity and Dynamic Range",
+            50
+        ],
+        [
+            3,
+            "2.2.3 Transmitter Characteristics",
+            51
+        ],
+        [
+            4,
+            "2.2.3.1 Reply Transmission Frequency",
+            51
+        ],
+        [
+            4,
+            "2.2.3.2 RF Peak Output Power",
+            51
+        ],
+        [
+            4,
+            "2.2.3.3 Unwanted Output Power",
+            52
+        ],
+        [
+            4,
+            "2.2.3.4 Reply Rate Capability",
+            52
+        ],
+        [
+            5,
+            "2.2.3.4.1 ATCRBS Reply Rate Capability",
+            52
+        ],
+        [
+            5,
+            "2.2.3.4.2 Mode S Reply Rate Capability",
+            53
+        ],
+        [
+            4,
+            "2.2.3.5 Mode S ELM Peak Reply Rate",
+            53
+        ],
+        [
+            3,
+            "2.2.4 Reply Pulse Characteristics",
+            53
+        ],
+        [
+            4,
+            "2.2.4.1 ATCRBS Replies",
+            54
+        ],
+        [
+            5,
+            "2.2.4.1.1 Framing Pulses",
+            54
+        ],
+        [
+            5,
+            "2.2.4.1.2 Information Pulses",
+            54
+        ],
+        [
+            5,
+            "2.2.4.1.3 ATCRBS-SPI",
+            54
+        ],
+        [
+            5,
+            "2.2.4.1.4 ATCRBS Reply Pulse Shape",
+            54
+        ],
+        [
+            5,
+            "2.2.4.1.5 ATCRBS Reply Pulse Spacing Tolerance",
+            55
+        ],
+        [
+            5,
+            "2.2.4.1.6 ATCRBS Reply Delay and Jitter",
+            55
+        ],
+        [
+            4,
+            "2.2.4.2 Mode S Replies",
+            55
+        ],
+        [
+            5,
+            "2.2.4.2.1 Mode S Preamble",
+            55
+        ],
+        [
+            5,
+            "2.2.4.2.2 Mode S Data Pulses",
+            56
+        ],
+        [
+            5,
+            "2.2.4.2.3 Mode S Reply Pulse Shape",
+            56
+        ],
+        [
+            5,
+            "2.2.4.2.4 Mode S Reply Pulse Spacing Tolerance",
+            57
+        ],
+        [
+            5,
+            "2.2.4.2.5 Mode S Reply Delay and Jitter",
+            57
+        ],
+        [
+            3,
+            "2.2.5 Side Lobe Suppression Characteristics",
+            58
+        ],
+        [
+            4,
+            "2.2.5.1 Side Lobe Suppression, ATCRBS, ATCRBS-Only All-Call, and ATCRBS/Mode S All-Call",
+            58
+        ],
+        [
+            4,
+            "2.2.5.2 Side Lobe Suppression, Mode S Formats",
+            59
+        ],
+        [
+            3,
+            "2.2.6 Pulse Decoder Characteristics",
+            59
+        ],
+        [
+            4,
+            "2.2.6.1 Pulse Level Tolerances",
+            59
+        ],
+        [
+            5,
+            "2.2.6.1.1 ATCRBS/Mode S All-Call",
+            59
+        ],
+        [
+            5,
+            "2.2.6.1.2 ATCRBS-Only All-Call",
+            60
+        ],
+        [
+            4,
+            "2.2.6.2 Pulse Position Tolerances",
+            60
+        ],
+        [
+            4,
+            "2.2.6.3 Pulse Duration Tolerances",
+            60
+        ],
+        [
+            4,
+            "2.2.6.4 Sync Phase Reversal Position Tolerance",
+            61
+        ],
+        [
+            3,
+            "2.2.7 Desensitization and Recovery Characteristics",
+            61
+        ],
+        [
+            4,
+            "2.2.7.1 Echo Suppression",
+            61
+        ],
+        [
+            5,
+            "2.2.7.1.1 Echo Suppression Desensitization",
+            61
+        ],
+        [
+            5,
+            "2.2.7.1.2 Narrow Pulse Performance",
+            61
+        ],
+        [
+            4,
+            "2.2.7.2 Recovery",
+            61
+        ],
+        [
+            5,
+            "2.2.7.2.1 Recovery From a Mode S Interrogation If No Reply Is Required",
+            61
+        ],
+        [
+            5,
+            "2.2.7.2.2 Recovery From a Suppression Pair",
+            62
+        ],
+        [
+            5,
+            "2.2.7.2.3 Recovery From a Mode S Interrogation Which Has Not Been Accepted",
+            62
+        ],
+        [
+            5,
+            "2.2.7.2.4 Recovery From Unaccepted ATCRBS/Mode S and ATCRBS-Only All-Calls",
+            62
+        ],
+        [
+            5,
+            "2.2.7.2.5 Dead Time",
+            62
+        ],
+        [
+            4,
+            "2.2.7.3 Reply Rate Limiting",
+            62
+        ],
+        [
+            5,
+            "2.2.7.3.1 ATCRBS Reply Rate Limiting",
+            62
+        ],
+        [
+            5,
+            "2.2.7.3.2 Mode S Reply Rate Limiting",
+            62
+        ],
+        [
+            3,
+            "2.2.8 Response in the Presence of Interference",
+            63
+        ],
+        [
+            4,
+            "2.2.8.1 Response in the Presence of Low Level Asynchronous Interference",
+            63
+        ],
+        [
+            4,
+            "2.2.8.2 Response in the Presence of a Standard Interfering Pulse",
+            63
+        ],
+        [
+            4,
+            "2.2.8.3 Response in the Presence of Pulse Pair Interference",
+            63
+        ],
+        [
+            4,
+            "2.2.8.4 Response in the Presence of TACAN/DME and JTIDS Interference",
+            64
+        ],
+        [
+            4,
+            "2.2.8.5 Simultaneous Interrogation of Mode A and Mode C",
+            64
+        ],
+        [
+            4,
+            "2.2.8.6 Response in the Presence of CW Interference",
+            64
+        ],
+        [
+            4,
+            "2.2.8.7 Compatibility with TCAS ATCRBS Surveillance",
+            64
+        ],
+        [
+            3,
+            "2.2.9 Undesired Replies",
+            65
+        ],
+        [
+            4,
+            "2.2.9.1 ATCRBS",
+            65
+        ],
+        [
+            4,
+            "2.2.9.2 Mode S",
+            65
+        ],
+        [
+            3,
+            "2.2.10 Self Test and Monitor(s)",
+            65
+        ],
+        [
+            4,
+            "2.2.10.1 Self Test",
+            65
+        ],
+        [
+            4,
+            "2.2.10.2 Squitter Monitor",
+            66
+        ],
+        [
+            4,
+            "2.2.10.3 Mode S Address Verification",
+            66
+        ],
+        [
+            4,
+            "2.2.10.4 Failure Annunciation",
+            66
+        ],
+        [
+            3,
+            "2.2.11 Response to Mutual Suppression Pulses",
+            66
+        ],
+        [
+            3,
+            "2.2.12 Diversity Operations",
+            66
+        ],
+        [
+            4,
+            "2.2.12.1 Diversity Antenna Selection and Selection Threshold",
+            67
+        ],
+        [
+            4,
+            "2.2.12.2 Received Signal Delay Tolerance",
+            67
+        ],
+        [
+            4,
+            "2.2.12.3 Diversity Transmission Channel Isolation",
+            67
+        ],
+        [
+            4,
+            "2.2.12.4 Reply Delay of Diversity Transponders",
+            68
+        ],
+        [
+            4,
+            "2.2.12.5 Squitter Antenna Selection",
+            68
+        ],
+        [
+            5,
+            "2.2.12.5.1 Acquisition Squitter",
+            68
+        ],
+        [
+            5,
+            "2.2.12.5.2 Extended Squitter ",
+            68
+        ],
+        [
+            3,
+            "2.2.13 Data Handling and Interfaces",
+            69
+        ],
+        [
+            4,
+            "2.2.13.1 Direct Data",
+            69
+        ],
+        [
+            5,
+            "2.2.13.1.1 Fixed Direct Data",
+            69
+        ],
+        [
+            5,
+            "2.2.13.1.2 Variable Direct Data",
+            70
+        ],
+        [
+            4,
+            "2.2.13.2 Indirect Data",
+            72
+        ],
+        [
+            5,
+            "2.2.13.2.1 Interfaces for Indirect Data",
+            73
+        ],
+        [
+            5,
+            "2.2.13.2.2 Integrity of Interface Data Transfer",
+            73
+        ],
+        [
+            4,
+            "2.2.13.3 Standard Transaction Interfaces",
+            73
+        ],
+        [
+            5,
+            "2.2.13.3.1 Uplink Interface",
+            73
+        ],
+        [
+            5,
+            "2.2.13.3.2 Downlink Interface",
+            74
+        ],
+        [
+            4,
+            "2.2.13.4 ELM Service Interfaces",
+            75
+        ],
+        [
+            3,
+            "2.2.14 Description of the Mode S Signal Format",
+            75
+        ],
+        [
+            4,
+            "2.2.14.1 Format Structure, Interrogation and Reply",
+            75
+        ],
+        [
+            4,
+            "2.2.14.2 Bit Numbering and Sequence",
+            78
+        ],
+        [
+            4,
+            "2.2.14.3 Fields",
+            78
+        ],
+        [
+            5,
+            "2.2.14.3.1 Essential Fields",
+            78
+        ],
+        [
+            5,
+            "2.2.14.3.2 Mission Fields",
+            78
+        ],
+        [
+            5,
+            "2.2.14.3.3 Subfields",
+            78
+        ],
+        [
+            4,
+            "2.2.14.4 Field Descriptions",
+            78
+        ],
+        [
+            5,
+            "2.2.14.4.1 AA Address, Announced",
+            80
+        ],
+        [
+            5,
+            "2.2.14.4.2 AC Altitude Code",
+            81
+        ],
+        [
+            5,
+            "2.2.14.4.3 AF Application Field",
+            81
+        ],
+        [
+            5,
+            "2.2.14.4.4 AP Address/Parity",
+            81
+        ],
+        [
+            5,
+            "2.2.14.4.5 AQ Acquisition Special",
+            81
+        ],
+        [
+            5,
+            "2.2.14.4.6 CA Transponder Capability",
+            81
+        ],
+        [
+            5,
+            "2.2.14.4.7 CC: Crosslink Capability ",
+            82
+        ],
+        [
+            5,
+            "2.2.14.4.8 CF Control Field",
+            82
+        ],
+        [
+            5,
+            "2.2.14.4.9 CL Code Label ",
+            82
+        ],
+        [
+            5,
+            "2.2.14.4.10 DF Downlink Format",
+            82
+        ],
+        [
+            5,
+            "2.2.14.4.11 DI Designator Identification",
+            83
+        ],
+        [
+            5,
+            "2.2.14.4.12 DP Data Parity",
+            83
+        ],
+        [
+            5,
+            "2.2.14.4.13 DR Downlink Request",
+            84
+        ],
+        [
+            5,
+            "2.2.14.4.14 DS: Comm-B Data Selector",
+            84
+        ],
+        [
+            5,
+            "2.2.14.4.15 FS Flight Status",
+            84
+        ],
+        [
+            5,
+            "2.2.14.4.16 IC Interrogator Code",
+            85
+        ],
+        [
+            5,
+            "2.2.14.4.17 ID Identification (4096 code)",
+            85
+        ],
+        [
+            5,
+            "2.2.14.4.18 II Interrogator Identification",
+            85
+        ],
+        [
+            5,
+            "2.2.14.4.19 KE Control, ELM",
+            85
+        ],
+        [
+            5,
+            "2.2.14.4.20 MA Message, Comm-A",
+            85
+        ],
+        [
+            5,
+            "2.2.14.4.21 MB Message, Comm-B and BDS B-Definition Subfield",
+            85
+        ],
+        [
+            5,
+            "2.2.14.4.22 MC Message, Comm-C",
+            86
+        ],
+        [
+            5,
+            "2.2.14.4.23 MD Message, Comm-D",
+            86
+        ],
+        [
+            5,
+            "2.2.14.4.24 ME Message, Extended Squitter",
+            86
+        ],
+        [
+            5,
+            "2.2.14.4.25 MU Message, Comm-U",
+            86
+        ],
+        [
+            5,
+            "2.2.14.4.26 MV Message, Comm-V",
+            86
+        ],
+        [
+            5,
+            "2.2.14.4.27 NC Number of C-Segment",
+            86
+        ],
+        [
+            5,
+            "2.2.14.4.28 ND Number of D-Segment",
+            86
+        ],
+        [
+            5,
+            "2.2.14.4.29 PC Protocol",
+            87
+        ],
+        [
+            5,
+            "2.2.14.4.30 PI Parity/Interrogator Identity",
+            87
+        ],
+        [
+            5,
+            "2.2.14.4.31 PR Probability of Reply",
+            88
+        ],
+        [
+            5,
+            "2.2.14.4.32 RC Reply Control",
+            88
+        ],
+        [
+            5,
+            "2.2.14.4.33 RI Reply Information, Air-To-Air",
+            89
+        ],
+        [
+            5,
+            "2.2.14.4.34 RL Reply Length",
+            89
+        ],
+        [
+            5,
+            "2.2.14.4.35 RR Reply Request",
+            90
+        ],
+        [
+            5,
+            "2.2.14.4.36 Special Designator (SD), and IIS Subfield in SD",
+            90
+        ],
+        [
+            5,
+            "2.2.14.4.37 SI Surveillance Identifier ",
+            90
+        ],
+        [
+            5,
+            "2.2.14.4.38 SL TCAS Sensitivity Level Report",
+            91
+        ],
+        [
+            5,
+            "2.2.14.4.39 TMS Subfield",
+            91
+        ],
+        [
+            5,
+            "2.2.14.4.40 UF Uplink Format",
+            91
+        ],
+        [
+            5,
+            "2.2.14.4.41 UM Utility Message in DF=4, 5, 20, 21",
+            91
+        ],
+        [
+            5,
+            "2.2.14.4.42 VS Vertical Status",
+            91
+        ],
+        [
+            5,
+            "2.2.14.4.43 Free and Unassigned Coding Space",
+            92
+        ],
+        [
+            5,
+            "2.2.14.4.44 Future Coding",
+            92
+        ],
+        [
+            3,
+            "2.2.15 Antenna",
+            92
+        ],
+        [
+            4,
+            "2.2.15.1 Frequency Requirements",
+            92
+        ],
+        [
+            4,
+            "2.2.15.2 Impedance and VSWR",
+            92
+        ],
+        [
+            4,
+            "2.2.15.3 Polarization",
+            92
+        ],
+        [
+            4,
+            "2.2.15.4 Radiation Pattern",
+            92
+        ],
+        [
+            3,
+            "2.2.16 Power Interruption",
+            92
+        ],
+        [
+            3,
+            "2.2.17 Mode S Transponders",
+            93
+        ],
+        [
+            3,
+            "2.2.18 Level 1 Mode S Transponder",
+            93
+        ],
+        [
+            4,
+            "2.2.18.1 Mode S Formats",
+            93
+        ],
+        [
+            4,
+            "2.2.18.2 Mode S Protocols",
+            93
+        ],
+        [
+            5,
+            "2.2.18.2.1 Error Protection (Figure 2-10 and Figure 2-11)",
+            93
+        ],
+        [
+            5,
+            "2.2.18.2.2 Interrogation Acceptance Protocol (Figure 2-12)",
+            98
+        ],
+        [
+            5,
+            "2.2.18.2.3 Interrogation Reply Coordination",
+            100
+        ],
+        [
+            5,
+            "2.2.18.2.4 Lockout Protocol (Figure 2-13)",
+            100
+        ],
+        [
+            5,
+            "2.2.18.2.5 Multisite Lockout Protocol (Figure 2-13)",
+            101
+        ],
+        [
+            5,
+            "2.2.18.2.6 Acquisition Squitter Protocols",
+            102
+        ],
+        [
+            5,
+            "2.2.18.2.7 Flight Status and Vertical Status Protocols (Figure 2-17)",
+            104
+        ],
+        [
+            5,
+            "2.2.18.2.8 Capability Reporting",
+            105
+        ],
+        [
+            5,
+            "2.2.18.2.9 All-Call Reply Protocol",
+            105
+        ],
+        [
+            5,
+            "2.2.18.2.10 Reply Content (Figure 2-18) ",
+            105
+        ],
+        [
+            5,
+            "2.2.18.2.11 Data Handling and Interfaces",
+            106
+        ],
+        [
+            3,
+            "2.2.19 Minimum Level 2 Transponder Description",
+            106
+        ],
+        [
+            4,
+            "2.2.19.1 Minimum Level 2 Transponder Requirements",
+            107
+        ],
+        [
+            5,
+            "2.2.19.1.1 Interrogation Acceptance Protocol (Figure 2-15)",
+            109
+        ],
+        [
+            5,
+            "2.2.19.1.2 Error Protection",
+            109
+        ],
+        [
+            5,
+            "2.2.19.1.3 Information Transfer",
+            110
+        ],
+        [
+            5,
+            "2.2.19.1.4 Interrogation-Reply Coordination (Figure 2-16)",
+            110
+        ],
+        [
+            5,
+            "2.2.19.1.5 Lockout Protocols (Figure 2-13)",
+            111
+        ],
+        [
+            5,
+            "2.2.19.1.6 Flight and Vertical Status Protocols (Figure 2-17)",
+            111
+        ],
+        [
+            5,
+            "2.2.19.1.7 Capability Report",
+            112
+        ],
+        [
+            5,
+            "2.2.19.1.8 Reply Content (Figure 2-18)",
+            112
+        ],
+        [
+            5,
+            "2.2.19.1.9 UM Protocol (Figure 2-19)",
+            113
+        ],
+        [
+            5,
+            "2.2.19.1.10 Comm-A Protocol",
+            114
+        ],
+        [
+            5,
+            "2.2.19.1.11 Broadcast Protocol",
+            114
+        ],
+        [
+            5,
+            "2.2.19.1.12 Comm-B Protocol (Figure 2-20)",
+            114
+        ],
+        [
+            6,
+            "2.2.19.1.12.1 Data Source Designators",
+            115
+        ],
+        [
+            6,
+            "2.2.19.1.12.2 Extended Data Source Designators",
+            116
+        ],
+        [
+            6,
+            "2.2.19.1.12.3 Ground-Initiated Comm-B",
+            116
+        ],
+        [
+            6,
+            "2.2.19.1.12.4 Air-Initiated Comm-B",
+            116
+        ],
+        [
+            6,
+            "2.2.19.1.12.5 Comm-B Broadcast",
+            117
+        ],
+        [
+            6,
+            "2.2.19.1.12.6 Data Link Capability Report",
+            117
+        ],
+        [
+            7,
+            "2.2.19.1.12.6.1 Subfields in MB for Data Link Capability Report",
+            117
+        ],
+        [
+            7,
+            "2.2.19.1.12.6.2 Coding of the Data Link Capability Report",
+            117
+        ],
+        [
+            7,
+            "2.2.19.1.12.6.3 Updating of the Data Link Capability Report",
+            118
+        ],
+        [
+            5,
+            "2.2.19.1.13 Aircraft Identification Reporting and AIS Aircraft Identification Subfield in MB",
+            118
+        ],
+        [
+            5,
+            "2.2.19.1.14 Linked Comm-A Coding",
+            120
+        ],
+        [
+            5,
+            "2.2.19.1.15 Multisite Message Protocol",
+            120
+        ],
+        [
+            5,
+            "2.2.19.1.16 Comm-U/V Protocol",
+            120
+        ],
+        [
+            5,
+            "2.2.19.1.17 Data Handling and Interfaces",
+            121
+        ],
+        [
+            5,
+            "2.2.19.1.18 TCAS Crosslink Protocol",
+            121
+        ],
+        [
+            4,
+            "2.2.19.2 The Multisite Message Protocol",
+            121
+        ],
+        [
+            5,
+            "2.2.19.2.1 Multisite Data Formats",
+            121
+        ],
+        [
+            6,
+            "2.2.19.2.1.1 Subfields in SD",
+            121
+        ],
+        [
+            6,
+            "2.2.19.2.1.2 Subfields in UM for Multisite Protocols",
+            124
+        ],
+        [
+            5,
+            "2.2.19.2.2 Multisite Common Protocols",
+            124
+        ],
+        [
+            6,
+            "2.2.19.2.2.1 Multisite Timers",
+            124
+        ],
+        [
+            6,
+            "2.2.19.2.2.2 Interrogator Identity Report",
+            124
+        ],
+        [
+            5,
+            "2.2.19.2.3 Multisite Comm-B Protocol (Figure 2-20)",
+            124
+        ],
+        [
+            6,
+            "2.2.19.2.3.1 Multisite Comm-B Reservation",
+            125
+        ],
+        [
+            6,
+            "2.2.19.2.3.2 Multisite Directed Comm-B Transmissions",
+            125
+        ],
+        [
+            6,
+            "2.2.19.2.3.3 Multisite Comm-B Closeout",
+            126
+        ],
+        [
+            6,
+            "2.2.19.2.3.4 Automatic Comm-B Closeout",
+            126
+        ],
+        [
+            6,
+            "2.2.19.2.3.5 Significance of PC Command",
+            126
+        ],
+        [
+            4,
+            "2.2.19.3 Additional Features",
+            126
+        ],
+        [
+            5,
+            "2.2.19.3.1 Diversity",
+            126
+        ],
+        [
+            5,
+            "2.2.19.3.2 Mutual Suppression System",
+            127
+        ],
+        [
+            3,
+            "2.2.20 Level 3 & Level 4 Transponder \u2013 Extended Length Message (ELM) Protocols",
+            127
+        ],
+        [
+            4,
+            "2.2.20.1 Level 3 Uplink ELM",
+            127
+        ],
+        [
+            5,
+            "2.2.20.1.1 Uplink ELM Capability",
+            127
+        ],
+        [
+            6,
+            "2.2.20.1.1.1 Comm-C/ELM Protocol (Figure 2-21 and Figure 2-22)",
+            127
+        ],
+        [
+            7,
+            "2.2.20.1.1.1.1 Initializing Segment Transfer",
+            127
+        ],
+        [
+            7,
+            "2.2.20.1.1.1.2 Intermediate Segment Transfer",
+            128
+        ],
+        [
+            7,
+            "2.2.20.1.1.1.3 Final Segment Transfer",
+            128
+        ],
+        [
+            7,
+            "2.2.20.1.1.1.4 Completed Message",
+            128
+        ],
+        [
+            7,
+            "2.2.20.1.1.1.5 Acknowledgment Reply",
+            128
+        ],
+        [
+            7,
+            "2.2.20.1.1.1.6 TAS Transmission Acknowledgment, Subfield in MD",
+            128
+        ],
+        [
+            7,
+            "2.2.20.1.1.1.7 Closeout",
+            129
+        ],
+        [
+            7,
+            "2.2.20.1.1.1.8 Information Transfer",
+            129
+        ],
+        [
+            5,
+            "2.2.20.1.2 Uplink Interface \u2013 Interrogator Identity",
+            129
+        ],
+        [
+            5,
+            "2.2.20.1.3 Multisite Uplink ELM Protocol (Figure 2-21 and Figure 2-22)",
+            129
+        ],
+        [
+            6,
+            "2.2.20.1.3.1 Multisite Comm-C Reservations",
+            131
+        ],
+        [
+            6,
+            "2.2.20.1.3.2 Multisite Comm-C Delivery",
+            132
+        ],
+        [
+            6,
+            "2.2.20.1.3.3 Multisite Comm-C Closeout",
+            132
+        ],
+        [
+            6,
+            "2.2.20.1.3.4 Automatic Comm-C Closeout",
+            132
+        ],
+        [
+            6,
+            "2.2.20.1.3.5 Significance of PC Command",
+            132
+        ],
+        [
+            5,
+            "2.2.20.1.4 Uplink Interface \u2013 Data Rate",
+            133
+        ],
+        [
+            4,
+            "2.2.20.2 Level 4 Downlink ELM",
+            133
+        ],
+        [
+            5,
+            "2.2.20.2.1 Full ELM Capability (Figure 2-23 and Figure 2-24)",
+            133
+        ],
+        [
+            6,
+            "2.2.20.2.1.1 The Comm-D/ELM Protocol (Figure 2-24)",
+            134
+        ],
+        [
+            7,
+            "2.2.20.2.1.1.1 Initialization",
+            135
+        ],
+        [
+            7,
+            "2.2.20.2.1.1.2 Authorization and Transmission",
+            135
+        ],
+        [
+            7,
+            "2.2.20.2.1.1.3 SRS Segment Request Subfield in MC",
+            135
+        ],
+        [
+            7,
+            "2.2.20.2.1.1.4 Closeout",
+            136
+        ],
+        [
+            7,
+            "2.2.20.2.1.1.5 Information Transfer",
+            136
+        ],
+        [
+            5,
+            "2.2.20.2.2 Downlink Message Cancellation",
+            136
+        ],
+        [
+            5,
+            "2.2.20.2.3 Multisite Downlink ELM Protocol",
+            136
+        ],
+        [
+            6,
+            "2.2.20.2.3.1 Multisite Comm-D Reservation",
+            136
+        ],
+        [
+            6,
+            "2.2.20.2.3.2 Multisite Directed Comm-D Transmissions",
+            137
+        ],
+        [
+            6,
+            "2.2.20.2.3.3 Multisite Comm-D Delivery",
+            137
+        ],
+        [
+            6,
+            "2.2.20.2.3.4 Multisite Comm-D Closeout",
+            138
+        ],
+        [
+            6,
+            "2.2.20.2.3.5 Automatic Comm-D Closeout",
+            138
+        ],
+        [
+            6,
+            "2.2.20.2.3.6 Significance of PC Command",
+            138
+        ],
+        [
+            5,
+            "2.2.20.2.4 Downlink Interface \u2013 Data Rate",
+            138
+        ],
+        [
+            3,
+            "2.2.21 Level 5 Transponder \u2013 Enhanced Protocols",
+            138
+        ],
+        [
+            4,
+            "2.2.21.1 Enhanced Air-Initiated Comm-B Protocol",
+            138
+        ],
+        [
+            5,
+            "2.2.21.1.1 General",
+            139
+        ],
+        [
+            5,
+            "2.2.21.1.2 Enhanced Multisite Air-Initiated Comm-B Protocol",
+            139
+        ],
+        [
+            6,
+            "2.2.21.1.2.1 Initiation",
+            139
+        ],
+        [
+            6,
+            "2.2.21.1.2.2 Announcement and Extraction",
+            139
+        ],
+        [
+            6,
+            "2.2.21.1.2.3 Closeout ",
+            139
+        ],
+        [
+            6,
+            "2.2.21.1.2.4 Announcement of the Next Message Waiting",
+            140
+        ],
+        [
+            5,
+            "2.2.21.1.3 Enhanced Multisite Directed Comm-B Protocol",
+            140
+        ],
+        [
+            6,
+            "2.2.21.1.3.1 Initiation",
+            140
+        ],
+        [
+            6,
+            "2.2.21.1.3.2 Announcement",
+            140
+        ],
+        [
+            6,
+            "2.2.21.1.3.3 Closeout",
+            140
+        ],
+        [
+            6,
+            "2.2.21.1.3.4 Announcement of the Next Message Waiting",
+            141
+        ],
+        [
+            5,
+            "2.2.21.1.4 Enhanced Broadcast Comm-B Protocol",
+            141
+        ],
+        [
+            4,
+            "2.2.21.2 Enhanced Uplink ELM Protocol",
+            143
+        ],
+        [
+            5,
+            "2.2.21.2.1 General",
+            143
+        ],
+        [
+            5,
+            "2.2.21.2.2 Reservation Processing",
+            144
+        ],
+        [
+            5,
+            "2.2.21.2.3 Enhanced Uplink ELM Delivery and Closeout ",
+            144
+        ],
+        [
+            4,
+            "2.2.21.3 Enhanced Downlink ELM Protocol",
+            145
+        ],
+        [
+            5,
+            "2.2.21.3.1 General",
+            146
+        ],
+        [
+            5,
+            "2.2.21.3.2 Enhanced Multisite Downlink ELM Protocol",
+            146
+        ],
+        [
+            6,
+            "2.2.21.3.2.1 Initiation",
+            146
+        ],
+        [
+            6,
+            "2.2.21.3.2.2 Announcement and Extraction",
+            146
+        ],
+        [
+            6,
+            "2.2.21.3.2.3 Closeout",
+            148
+        ],
+        [
+            6,
+            "2.2.21.3.2.4 Announcement of the Next Message Waiting",
+            148
+        ],
+        [
+            5,
+            "2.2.21.3.3 Enhanced Multisite Directed Downlink ELM Protocol",
+            148
+        ],
+        [
+            6,
+            "2.2.21.3.3.1 Initiation",
+            148
+        ],
+        [
+            6,
+            "2.2.21.3.3.2 Announcement",
+            149
+        ],
+        [
+            6,
+            "2.2.21.3.3.3 Delivery",
+            149
+        ],
+        [
+            6,
+            "2.2.21.3.3.4 Closeout",
+            149
+        ],
+        [
+            6,
+            "2.2.21.3.3.5 Announcement of the Next Message Waiting",
+            149
+        ],
+        [
+            5,
+            "2.2.21.3.4 Enhanced Non-selective Downlink ELM Protocol",
+            149
+        ],
+        [
+            3,
+            "2.2.22 TCASCompatible Mode S Transponder ",
+            149
+        ],
+        [
+            4,
+            "2.2.22.1 Message Fields and Protocols",
+            151
+        ],
+        [
+            5,
+            "2.2.22.1.1 MA Message, CommA Used by TCAS",
+            151
+        ],
+        [
+            5,
+            "2.2.22.1.2 MB Message, CommB Used by TCAS",
+            151
+        ],
+        [
+            6,
+            "2.2.22.1.2.1 Air-Initiated Downlink of RA Report",
+            151
+        ],
+        [
+            7,
+            "2.2.22.1.2.1.1 Air-Initiated Downlink of RA Report for All Transponder/TCAS Systems",
+            151
+        ],
+        [
+            7,
+            "2.2.22.1.2.1.2 Air-Initiated Downlink of RA Report for FAA TSO-C119a Compatible Systems",
+            152
+        ],
+        [
+            7,
+            "2.2.22.1.2.1.3 Air-Initiated Downlink of RA Report for RTCA/DO-185A Compatible Systems",
+            152
+        ],
+        [
+            6,
+            "2.2.22.1.2.2 Data Link Capability Codes in MB",
+            153
+        ],
+        [
+            7,
+            "2.2.22.1.2.2.1 Data Link Capability Codes in MB for All Transponder/TCAS Systems",
+            153
+        ],
+        [
+            7,
+            "2.2.22.1.2.2.2 Data Link Capability Codes in MB for FAA TSO-C119a Compatible Systems",
+            154
+        ],
+        [
+            7,
+            "2.2.22.1.2.2.3 Data Link Capability Codes in MB for RTCA/DO-185A Compatible Systems",
+            154
+        ],
+        [
+            7,
+            "2.2.22.1.2.2.4 Data Link Capability Codes in MB for RTCA/DO-185B Compatible Systems",
+            155
+        ],
+        [
+            6,
+            "2.2.22.1.2.3 Additional MB Message Reserved for RTCA/DO-185A/B Compatible Systems",
+            155
+        ],
+        [
+            5,
+            "2.2.22.1.3 MU Message, CommU Used by TCAS",
+            156
+        ],
+        [
+            5,
+            "2.2.22.1.4 MV Message, CommV Used by TCAS",
+            156
+        ],
+        [
+            6,
+            "2.2.22.1.4.1 MV Message, Comm-V Used by FAA TSO-C119a Compatible Systems",
+            156
+        ],
+        [
+            6,
+            "2.2.22.1.4.2 MV Message, Comm-V Used by RTCA/DO-185A/B Compatible Systems",
+            157
+        ],
+        [
+            5,
+            "2.2.22.1.5 RI Air-to-Air Reply Information ",
+            157
+        ],
+        [
+            4,
+            "2.2.22.2 General Requirements of the Mode S Interface to the TCAS Equipment",
+            158
+        ],
+        [
+            5,
+            "2.2.22.2.1 Delivery of Messages",
+            158
+        ],
+        [
+            5,
+            "2.2.22.2.2 Data Integrity",
+            158
+        ],
+        [
+            5,
+            "2.2.22.2.3 TCAS Failure Data Handling",
+            159
+        ],
+        [
+            5,
+            "2.2.22.2.4 Communication Timing",
+            159
+        ],
+        [
+            4,
+            "2.2.22.3 Data Provided by TCAS Equipment to the Mode S Transponder",
+            159
+        ],
+        [
+            5,
+            "2.2.22.3.1 Data Contained in the Special Surveillance Replies (DF=0, 16)",
+            159
+        ],
+        [
+            5,
+            "2.2.22.3.2 Data Contained in the Long Special Surveillance Reply (DF=16)",
+            159
+        ],
+        [
+            5,
+            "2.2.22.3.3 Data Contained in Altitude and Identity Surveillance and Comm-B Replies (DF=4, 5, 20, 21)",
+            160
+        ],
+        [
+            5,
+            "2.2.22.3.4 Data Contained in the Altitude and Identity Comm-B Reply (DF=20, 21)",
+            160
+        ],
+        [
+            4,
+            "2.2.22.4 Data Provided by the Mode S Transponder to the TCAS Equipment",
+            160
+        ],
+        [
+            4,
+            "2.2.22.5 TCASCompatible Transponder Automatic Performance Monitoring",
+            160
+        ],
+        [
+            3,
+            "2.2.23 Extended Squitter (ES)",
+            161
+        ],
+        [
+            4,
+            "2.2.23.1 ADS-B Extended Squitter",
+            161
+        ],
+        [
+            5,
+            "2.2.23.1.1 Extended Squitter Format ",
+            161
+        ],
+        [
+            5,
+            "2.2.23.1.2 Extended Squitter Types",
+            161
+        ],
+        [
+            5,
+            "2.2.23.1.3 Extended Squitter Rate",
+            162
+        ],
+        [
+            5,
+            "2.2.23.1.4 Transponder Support for Extended Squitter Registers ",
+            164
+        ],
+        [
+            6,
+            "2.2.23.1.4.1 Data Insertion",
+            164
+        ],
+        [
+            6,
+            "2.2.23.1.4.2 Register Timeout and Termination",
+            165
+        ],
+        [
+            7,
+            "2.2.23.1.4.2.1 Timeout of Extended Squitter Messages",
+            165
+        ],
+        [
+            7,
+            "2.2.23.1.4.2.2 Termination of Extended Squitter Messages",
+            165
+        ],
+        [
+            5,
+            "2.2.23.1.5 Airborne/Surface Format Selection",
+            165
+        ],
+        [
+            6,
+            "2.2.23.1.5.1 Automatic Format Selection ",
+            165
+        ],
+        [
+            6,
+            "2.2.23.1.5.2 Ground Controlled Format Selection ",
+            165
+        ],
+        [
+            5,
+            "2.2.23.1.6 Surface Squitter Rate Control",
+            166
+        ],
+        [
+            5,
+            "2.2.23.1.7 Subfields in SD for Extended Squitter",
+            166
+        ],
+        [
+            6,
+            "2.2.23.1.7.1 Type Control Subfield (TCS) in SD for Extended Squitter",
+            166
+        ],
+        [
+            7,
+            "2.2.23.1.7.1.1 TCS Equal to ONE (1)",
+            166
+        ],
+        [
+            7,
+            "2.2.23.1.7.1.2 TCS Equal to 2",
+            167
+        ],
+        [
+            6,
+            "2.2.23.1.7.2 Rate Control Subfield (RCS) in SD for Extended Squitter",
+            167
+        ],
+        [
+            6,
+            "2.2.23.1.7.3 Surface Antenna Subfield (SAS) in SD for Extended Squitter",
+            168
+        ],
+        [
+            5,
+            "2.2.23.1.8 Subfields in ME for Extended Squitter",
+            168
+        ],
+        [
+            5,
+            "2.2.23.1.9 Subfields in MB for Extended Squitter",
+            169
+        ],
+        [
+            4,
+            "2.2.23.2 Event-Driven Squitter",
+            169
+        ],
+        [
+            4,
+            "2.2.23.3 Extended Squitter Military Application",
+            170
+        ],
+        [
+            5,
+            "2.2.23.3.1 Military Format ",
+            170
+        ],
+        [
+            4,
+            "2.2.23.4 Extended Squitter Maximum Transmission Rate",
+            170
+        ],
+        [
+            3,
+            "2.2.24 Elementary Surveillance (ELS) Compliant Transponder",
+            170
+        ],
+        [
+            4,
+            "2.2.24.1 Ground Initiated Comm-B",
+            171
+        ],
+        [
+            4,
+            "2.2.24.2 Surveillance Identifier (\u201cSI\u201d) Code Requirements",
+            171
+        ],
+        [
+            5,
+            "2.2.24.2.1 MOPS Requirements Relevant to \u201cSI\u201d",
+            171
+        ],
+        [
+            4,
+            "2.2.24.3 Declaration of Capability in Register 1016 \u2013 Data Link Capability Report",
+            172
+        ],
+        [
+            5,
+            "2.2.24.3.1 Purpose and Definition",
+            172
+        ],
+        [
+            5,
+            "2.2.24.3.2 Data Requirements",
+            172
+        ],
+        [
+            6,
+            "2.2.24.3.2.1 Bits 1 through 8, BDS Code",
+            172
+        ],
+        [
+            6,
+            "2.2.24.3.2.2 Bits 17 through 23, Declaration of Mode S Subnetwork Number",
+            172
+        ],
+        [
+            6,
+            "2.2.24.3.2.3 Bit 25, Declaration of No Mode S Specific Services Capability",
+            173
+        ],
+        [
+            6,
+            "2.2.24.3.2.4 Bit 33, Aircraft Identification Reporting Capability",
+            173
+        ],
+        [
+            6,
+            "2.2.24.3.2.5 Bit 35, Surveillance Identifier Code (SI)",
+            173
+        ],
+        [
+            6,
+            "2.2.24.3.2.6 Bit 36, Common Usage GICB Capability Report",
+            174
+        ],
+        [
+            5,
+            "2.2.24.3.3 Maximum Update Interval",
+            174
+        ],
+        [
+            5,
+            "2.2.24.3.4 Change Reporting",
+            174
+        ],
+        [
+            4,
+            "2.2.24.4 Register 1716, Common Usage GICB Capability Report",
+            174
+        ],
+        [
+            5,
+            "2.2.24.4.1 Purpose and Definition",
+            174
+        ],
+        [
+            5,
+            "2.2.24.4.2 Data Requirements",
+            175
+        ],
+        [
+            6,
+            "2.2.24.4.2.1 Required Servicing of Register 1716 Associated with Register 2016",
+            175
+        ],
+        [
+            6,
+            "2.2.24.4.2.2 Requiring Servicing of Register 1716 Associated with Optional Register 2116",
+            175
+        ],
+        [
+            5,
+            "2.2.24.4.3 Register 1716 Change Reporting",
+            175
+        ],
+        [
+            4,
+            "2.2.24.5 Register 1816 to 1C16, Mode S Specific Services Capability Report",
+            175
+        ],
+        [
+            5,
+            "2.2.24.5.1 Purpose and Definition",
+            175
+        ],
+        [
+            5,
+            "2.2.24.5.2 Data Requirements",
+            176
+        ],
+        [
+            6,
+            "2.2.24.5.2.1 Required Servicing of Register 1816 Associated with Register 1016",
+            176
+        ],
+        [
+            6,
+            "2.2.24.5.2.2 Required Servicing of Register 1816 Associated with Register 1716",
+            176
+        ],
+        [
+            6,
+            "2.2.24.5.2.3 Required Servicing of Register 1816 Associated with Register 1816",
+            177
+        ],
+        [
+            6,
+            "2.2.24.5.2.4 Required Servicing of Register 1816 Associated with Register 2016",
+            177
+        ],
+        [
+            6,
+            "2.2.24.5.2.5 Required Servicing of Register 1816 Associated with Optional Register 2116",
+            177
+        ],
+        [
+            5,
+            "2.2.24.5.3 Maximum Update Interval of Register 1816 to 1C16",
+            178
+        ],
+        [
+            4,
+            "2.2.24.6 Register 2016 -- Aircraft Identification and Data Sources",
+            178
+        ],
+        [
+            5,
+            "2.2.24.6.1 Purpose and Definition",
+            178
+        ],
+        [
+            5,
+            "2.2.24.6.2 Register 2016 -- Data Requirements",
+            179
+        ],
+        [
+            6,
+            "2.2.24.6.2.1 Data Selection Priority",
+            179
+        ],
+        [
+            5,
+            "2.2.24.6.3 Register 2016 \u2013 Flight Identification Update Rates",
+            179
+        ],
+        [
+            5,
+            "2.2.24.6.4 Aircraft Identification Declaration of Capability",
+            180
+        ],
+        [
+            6,
+            "2.2.24.6.4.1 In Register 1016 \u2013 Data Link Capability Report",
+            180
+        ],
+        [
+            6,
+            "2.2.24.6.4.2 In Register 1716 \u2013 Common Usage GICB Capability Report",
+            180
+        ],
+        [
+            6,
+            "2.2.24.6.4.3 In Register 1816 \u2013 Mode S Specific Services Capability Report",
+            180
+        ],
+        [
+            5,
+            "2.2.24.6.5 Flight Identification Change Reporting ",
+            180
+        ],
+        [
+            4,
+            "2.2.24.7 Register 2116 \u2013 Aircraft Registration (Optional)",
+            180
+        ],
+        [
+            5,
+            "2.2.24.7.1 Purpose and Definition",
+            180
+        ],
+        [
+            5,
+            "2.2.24.7.2 Register 2116 \u2013 Data Requirements",
+            181
+        ],
+        [
+            5,
+            "2.2.24.7.3 Register 2116 \u2013 Update Rates",
+            181
+        ],
+        [
+            5,
+            "2.2.24.7.4 Register 2116 \u2013 Declaration of Capability",
+            181
+        ],
+        [
+            6,
+            "2.2.24.7.4.1 In Register 1716 \u2013 Common Usage GICB Capability Report",
+            181
+        ],
+        [
+            6,
+            "2.2.24.7.4.2 In Register 1816 \u2013Mode S Specific Services Capability Report",
+            181
+        ],
+        [
+            3,
+            "2.2.25 Enhanced Surveillance (EHS) Compliant Transponders",
+            182
+        ],
+        [
+            4,
+            "2.2.25.1 Register 1016 \u2013 Data Link Capability Report",
+            183
+        ],
+        [
+            5,
+            "2.2.25.1.1 Purpose and Definition",
+            183
+        ],
+        [
+            5,
+            "2.2.25.1.2 Data Requirements",
+            183
+        ],
+        [
+            6,
+            "2.2.25.1.2.1 Bits 1 to 8, BDS Code",
+            183
+        ],
+        [
+            6,
+            "2.2.25.1.2.2 Bits 17 to 23, Mode S Subnetwork Version Number",
+            183
+        ],
+        [
+            6,
+            "2.2.25.1.2.3 Bit 25, Mode S Specific Services Capability",
+            183
+        ],
+        [
+            6,
+            "2.2.25.1.2.4 Bit 35, Surveillance Identifier Code (SI)",
+            184
+        ],
+        [
+            6,
+            "2.2.25.1.2.5 Bit 36, Common Usage GICB Capability Report",
+            184
+        ],
+        [
+            5,
+            "2.2.25.1.3 Maximum Update Interval of Register 1016",
+            184
+        ],
+        [
+            5,
+            "2.2.25.1.4 Change Reporting",
+            184
+        ],
+        [
+            4,
+            "2.2.25.2 Register 1716\u2014Common Usage GICB Capability Report",
+            184
+        ],
+        [
+            5,
+            "2.2.25.2.1 Register 1716 \u2013 Purpose and Definition",
+            184
+        ],
+        [
+            5,
+            "2.2.25.2.2 Enhanced Surveillance (EHS) Servicing Requirements",
+            185
+        ],
+        [
+            6,
+            "2.2.25.2.2.1 Required Servicing of Register 1716 Associated with Register 2016",
+            185
+        ],
+        [
+            6,
+            "2.2.25.2.2.2 Required Servicing of Register 1716 Associated with Optional Register 2116",
+            185
+        ],
+        [
+            6,
+            "2.2.25.2.2.3 Required Servicing of Register 1716 Associated with Register 4016",
+            185
+        ],
+        [
+            6,
+            "2.2.25.2.2.4 Required Servicing of Register 1716 Associated with Register 5016",
+            185
+        ],
+        [
+            6,
+            "2.2.25.2.2.5 Required Servicing of Register 1716 Associated with Optional Register 5F16",
+            186
+        ],
+        [
+            6,
+            "2.2.25.2.2.6 Required Servicing of Register 1716 Associated with Register 6016",
+            186
+        ],
+        [
+            6,
+            "2.2.25.2.2.7 Maximum Update Interval of Register 1716",
+            186
+        ],
+        [
+            5,
+            "2.2.25.2.3 Change Reporting",
+            186
+        ],
+        [
+            4,
+            "2.2.25.3 Register 18 through 1C16 Mode S Specific Services GICB Capability",
+            187
+        ],
+        [
+            5,
+            "2.2.25.3.1 Purpose and Definition",
+            187
+        ],
+        [
+            5,
+            "2.2.25.3.2 Enhanced Surveillance Capability Requirements",
+            188
+        ],
+        [
+            6,
+            "2.2.25.3.2.1 Required Servicing of Register 1816 Associated with Register 1016",
+            188
+        ],
+        [
+            6,
+            "2.2.25.3.2.2 Required Servicing of Register 1816 Associated with Register 1716",
+            188
+        ],
+        [
+            6,
+            "2.2.25.3.2.3 Required Servicing of Register 1816 Associated with Register 1816",
+            188
+        ],
+        [
+            6,
+            "2.2.25.3.2.4 Required Servicing of Register 1816 Associated with Register 1916",
+            188
+        ],
+        [
+            6,
+            "2.2.25.3.2.5 Required Servicing of Register 1816 Associated with Register 2016",
+            188
+        ],
+        [
+            6,
+            "2.2.25.3.2.6 Required Servicing of Register 1816 Associated with Register 2116 (Optional)",
+            188
+        ],
+        [
+            6,
+            "2.2.25.3.2.7 Required Servicing of Register 1916 Associated with Register 4016",
+            189
+        ],
+        [
+            6,
+            "2.2.25.3.2.8 Required Servicing of Register 1916 Associated with Register 5016",
+            189
+        ],
+        [
+            6,
+            "2.2.25.3.2.9 Required Servicing of Register 1916 Associated with Optional Register 5F16",
+            189
+        ],
+        [
+            6,
+            "2.2.25.3.2.10 Required Servicing of Register 1916 Associated with Register 6016",
+            190
+        ],
+        [
+            5,
+            "2.2.25.3.3 Maximum Update Interval of Registers 1816 to 1C16",
+            190
+        ],
+        [
+            4,
+            "2.2.25.4 Register 1D16 to 1F16 Mode S Specific Services MSP Capability",
+            190
+        ],
+        [
+            4,
+            "2.2.25.5 Register 4016 \u2013 Selected Vertical Intention",
+            191
+        ],
+        [
+            5,
+            "2.2.25.5.1 Purpose and Definition",
+            191
+        ],
+        [
+            5,
+            "2.2.25.5.2 Data Requirements",
+            191
+        ],
+        [
+            6,
+            "2.2.25.5.2.1 Selected Altitude from Altitude Control Panel",
+            191
+        ],
+        [
+            6,
+            "2.2.25.5.2.2 FMS Selected Altitude",
+            191
+        ],
+        [
+            6,
+            "2.2.25.5.2.3 Barometric Pressure Setting",
+            192
+        ],
+        [
+            6,
+            "2.2.25.5.2.4 FMS Vertical Mode Bits",
+            194
+        ],
+        [
+            7,
+            "2.2.25.5.2.4.1 Status of MCP / FCU Mode Bits (Bit 48)",
+            194
+        ],
+        [
+            7,
+            "2.2.25.5.2.4.2 Vertical Navigation Mode (Bit 49)",
+            194
+        ],
+        [
+            7,
+            "2.2.25.5.2.4.3 Altitude Hold Bit",
+            195
+        ],
+        [
+            7,
+            "2.2.25.5.2.4.4 Approach Mode Bit (Bit 51)",
+            195
+        ],
+        [
+            6,
+            "2.2.25.5.2.5 Reserved Bits (Bits 40 to 47, 52 and 53)",
+            195
+        ],
+        [
+            6,
+            "2.2.25.5.2.6 Target Altitude Bits",
+            195
+        ],
+        [
+            7,
+            "2.2.25.5.2.6.1 Status of Target Altitude Source Bits (Bit 54)",
+            195
+        ],
+        [
+            7,
+            "2.2.25.5.2.6.2 Target Altitude Source Bits (Bits 55 & 56)",
+            196
+        ],
+        [
+            5,
+            "2.2.25.5.3 Maximum Update Interval of Register 4016",
+            196
+        ],
+        [
+            4,
+            "2.2.25.6 Register 5016 \u2013 Track and Turn Report",
+            197
+        ],
+        [
+            5,
+            "2.2.25.6.1 Purpose and Introduction",
+            197
+        ],
+        [
+            5,
+            "2.2.25.6.2 Register 5016 \u2013 Data Requirements",
+            197
+        ],
+        [
+            6,
+            "2.2.25.6.2.1 Roll Angle",
+            197
+        ],
+        [
+            6,
+            "2.2.25.6.2.2 True Track Angle",
+            197
+        ],
+        [
+            6,
+            "2.2.25.6.2.3 Ground Speed",
+            198
+        ],
+        [
+            6,
+            "2.2.25.6.2.4 Track Angle Rate",
+            198
+        ],
+        [
+            6,
+            "2.2.25.6.2.5 True Airspeed (TAS)",
+            198
+        ],
+        [
+            5,
+            "2.2.25.6.3 Maximum Update Interval of Register 5016",
+            199
+        ],
+        [
+            4,
+            "2.2.25.7 Register 5F16 \u2013 Quasi-Static Parameter Monitoring",
+            199
+        ],
+        [
+            5,
+            "2.2.25.7.1 Purpose and Definition",
+            200
+        ],
+        [
+            5,
+            "2.2.25.7.2 Enhanced Surveillance Servicing Requirements Associated with Register 5F16",
+            200
+        ],
+        [
+            6,
+            "2.2.25.7.2.1 Because of MCP / FCU Selected Altitude",
+            200
+        ],
+        [
+            6,
+            "2.2.25.7.2.2 Because of FMS Selected Altitude",
+            200
+        ],
+        [
+            6,
+            "2.2.25.7.2.3 Because of Barometric Pressure Setting",
+            200
+        ],
+        [
+            6,
+            "2.2.25.7.2.4 Because of FMS Vertical Mode",
+            201
+        ],
+        [
+            6,
+            "2.2.25.7.2.5 Other Register 5F16 Bits",
+            201
+        ],
+        [
+            5,
+            "2.2.25.7.3 Maximum Update Interval of Register 5F16",
+            201
+        ],
+        [
+            4,
+            "2.2.25.8 Register 6016 \u2013 Heading and Speed Report",
+            201
+        ],
+        [
+            5,
+            "2.2.25.8.1 Purpose and Definition",
+            201
+        ],
+        [
+            5,
+            "2.2.25.8.2 Register 6016 \u2013 Data Requirements",
+            202
+        ],
+        [
+            6,
+            "2.2.25.8.2.1 Magnetic Heading",
+            202
+        ],
+        [
+            6,
+            "2.2.25.8.2.2 Indicated Airspeed",
+            202
+        ],
+        [
+            6,
+            "2.2.25.8.2.3 Mach",
+            202
+        ],
+        [
+            6,
+            "2.2.25.8.2.4 Barometric Altitude Rate",
+            203
+        ],
+        [
+            6,
+            "2.2.25.8.2.5 Inertial Vertical Rate",
+            203
+        ],
+        [
+            5,
+            "2.2.25.8.3 Maximum Update Interval of Register 6016",
+            203
+        ],
+        [
+            3,
+            "2.2.26 Generic Register XX16 Requirements",
+            204
+        ],
+        [
+            4,
+            "2.2.26.1 Purpose and Definition",
+            204
+        ],
+        [
+            4,
+            "2.2.26.2 Data Requirement",
+            204
+        ],
+        [
+            5,
+            "2.2.26.2.1 Data Field \u201cy\u201d",
+            204
+        ],
+        [
+            4,
+            "2.2.26.3 Update Rate",
+            205
+        ],
+        [
+            4,
+            "2.2.26.4 Service Reporting",
+            205
+        ],
+        [
+            2,
+            "2.3 Equipment Performance \u2013 Environmental Conditions",
+            206
+        ],
+        [
+            3,
+            "2.3.1 Environmental Test Conditions",
+            206
+        ],
+        [
+            3,
+            "2.3.2 Detailed Environmental Test Procedures",
+            208
+        ],
+        [
+            4,
+            "2.3.2.1 Receiver Characteristics (\u00a72.2.2)",
+            208
+        ],
+        [
+            4,
+            "2.3.2.2 Transmitter Characteristics (\u00a72.2.3) ",
+            209
+        ],
+        [
+            5,
+            "2.3.2.2.1 Reply Transmission Frequency (\u00a72.2.3.1) ",
+            209
+        ],
+        [
+            5,
+            "2.3.2.2.2 RF Peak Power Output (\u00a72.2.3.2)",
+            209
+        ],
+        [
+            5,
+            "2.3.2.2.3 Reply Rate Capability",
+            210
+        ],
+        [
+            4,
+            "2.3.2.3 Reply Pulse Characteristics (\u00a72.2.4)",
+            211
+        ],
+        [
+            5,
+            "2.3.2.3.1 ATCRBS Reply Pulse Characteristics (\u00a72.2.4.1)",
+            211
+        ],
+        [
+            5,
+            "2.3.2.3.2 Mode S Replies (\u00a72.2.4.2) ",
+            212
+        ],
+        [
+            4,
+            "2.3.2.4 Side Lobe Suppression (\u00a72.2.5)",
+            213
+        ],
+        [
+            4,
+            "2.3.2.5 Pulse Decoder Characteristics (\u00a72.2.6)",
+            214
+        ],
+        [
+            4,
+            "2.3.2.6 Transponder Recovery and Desensitization (\u00a72.2.7)",
+            216
+        ],
+        [
+            4,
+            "2.3.2.7 Standard Interference Pulse (\u00a72.2.8.2) and Mode S SLS (\u00a72.2.5.2)",
+            216
+        ],
+        [
+            4,
+            "2.3.2.8 Undesired Replies (\u00a72.2.9)",
+            217
+        ],
+        [
+            4,
+            "2.3.2.9 SelfTest and Monitors (\u00a72.2.10)",
+            217
+        ],
+        [
+            4,
+            "2.3.2.10 Diversity Operation (\u00a72.2.12) ",
+            217
+        ],
+        [
+            4,
+            "2.3.2.11 Data Handling and Interfaces (\u00a72.2.13)",
+            219
+        ],
+        [
+            5,
+            "2.3.2.11.1 Fixed Direct Data (\u00a72.2.13.1.1)",
+            219
+        ],
+        [
+            5,
+            "2.3.2.11.2 Variable Direct Data (\u00a72.2.13.1.2)",
+            219
+        ],
+        [
+            5,
+            "2.3.2.11.3 Standard Transaction Interfaces (\u00a72.2.13.3)",
+            221
+        ],
+        [
+            5,
+            "2.3.2.11.4 ELM Service Interfaces (\u00a72.2.13.4) ",
+            221
+        ],
+        [
+            5,
+            "2.3.2.11.5 Interface Integrity Tests (\u00a72.2.13.2.2)",
+            222
+        ],
+        [
+            4,
+            "2.3.2.12 Restoration of Power (\u00a72.2.16)",
+            222
+        ],
+        [
+            4,
+            "2.3.2.13 Acquisition Squitter (\u00a72.2.12.5.1 and \u00a72.2.18.2.6 )",
+            222
+        ],
+        [
+            4,
+            "2.3.2.14 Extended Squitter (\u00a72.2.12.5.2 and \u00a72.2.23)",
+            222
+        ],
+        [
+            2,
+            "2.4 Equipment Test Procedures",
+            224
+        ],
+        [
+            3,
+            "2.4.1 Definitions of Terms and Conditions of Test",
+            224
+        ],
+        [
+            3,
+            "2.4.2 Detailed Test Procedures",
+            227
+        ],
+        [
+            4,
+            "2.4.2.1 Receiver Characteristics (\u00a72.2.2)",
+            227
+        ],
+        [
+            4,
+            "2.4.2.2 Transmitter Characteristics (\u00a72.2.3)",
+            229
+        ],
+        [
+            5,
+            "2.4.2.2.1 Reply Transmission Frequency (\u00a72.2.3.1) ",
+            229
+        ],
+        [
+            5,
+            "2.4.2.2.2 RF Peak Power Output (\u00a72.2.3.2)",
+            230
+        ],
+        [
+            5,
+            "2.4.2.2.3 Unwanted Power Output (\u00a72.2.3.3 and \u00a72.2.22.f)",
+            231
+        ],
+        [
+            5,
+            "2.4.2.2.4 Reply Rate Capability",
+            231
+        ],
+        [
+            5,
+            "2.4.2.2.5 ATCRBS Reply Rate Limiting (\u00a72.2.7.3.1) ",
+            232
+        ],
+        [
+            4,
+            "2.4.2.3 Reply Pulse Characteristics",
+            234
+        ],
+        [
+            5,
+            "2.4.2.3.1 ATCRBS Reply Pulse Characteristics (\u00a72.2.4.1) ",
+            234
+        ],
+        [
+            5,
+            "2.4.2.3.2 ATCRBS Reply Delay and Jitter (\u00a72.2.4.1.6)",
+            234
+        ],
+        [
+            5,
+            "2.4.2.3.3 Mode S Replies (\u00a72.2.4.2)",
+            235
+        ],
+        [
+            5,
+            "2.4.2.3.4 Frequency Spectrum of Mode S Replies (\u00a72.2.4.2.3.d)",
+            236
+        ],
+        [
+            4,
+            "2.4.2.4 Side Lobe Suppression (\u00a72.2.5 and \u00a72.2.8.5)",
+            236
+        ],
+        [
+            4,
+            "2.4.2.5 Pulse Decoder Characteristics (\u00a72.2.6) ",
+            238
+        ],
+        [
+            4,
+            "2.4.2.6 Transponder Desensitization and Recovery (\u00a72.2.7) ",
+            240
+        ],
+        [
+            4,
+            "2.4.2.7 Response to Interference (\u00a72.2.8) ",
+            247
+        ],
+        [
+            4,
+            "2.4.2.8 Undesired Replies (\u00a72.2.9)",
+            250
+        ],
+        [
+            4,
+            "2.4.2.9 Self-Test and Monitors (\u00a72.2.10)",
+            250
+        ],
+        [
+            5,
+            "2.4.2.9.1 Squitter Monitor (\u00a72.2.10.2)",
+            251
+        ],
+        [
+            5,
+            "2.4.2.9.2 Failure Annunciation (\u00a72.2.10.4)",
+            251
+        ],
+        [
+            4,
+            "2.4.2.10 Interference Suppression Pulse Response (\u00a72.2.11)",
+            251
+        ],
+        [
+            4,
+            "2.4.2.11 Diversity Operation (\u00a72.2.12 and \u00a72.2.22.d)",
+            252
+        ],
+        [
+            4,
+            "2.4.2.12 Data Handling and Interfaces (\u00a72.2.13)",
+            254
+        ],
+        [
+            5,
+            "2.4.2.12.1 Fixed Direct Data (\u00a72.2.13.1.1) ",
+            254
+        ],
+        [
+            5,
+            "2.4.2.12.2 Variable Direct Data (\u00a72.2.13.1.2)",
+            255
+        ],
+        [
+            5,
+            "2.4.2.12.3 Standard Transaction Interfaces (\u00a72.2.13.3)",
+            256
+        ],
+        [
+            5,
+            "2.4.2.12.4 ELM Service Interfaces (\u00a72.2.20.1.4 and \u00a72.2.20.1.2) ",
+            258
+        ],
+        [
+            5,
+            "2.4.2.12.5 Interface Integrity Testing (\u00a72.2.13.2.2) ",
+            259
+        ],
+        [
+            5,
+            "2.4.2.12.6 CommB Downlink Interface, Message Cancellation (\u00a72.2.20.2.2) ",
+            259
+        ],
+        [
+            5,
+            "2.4.2.12.7 Downlink ELM Interface, Message Cancellation (\u00a72.2.20.2.2)",
+            260
+        ],
+        [
+            4,
+            "2.4.2.13 Acquisition Squitter (\u00a72.2.12.5.1 and \u00a72.2.18.2.6 )",
+            260
+        ],
+        [
+            4,
+            "2.4.2.14 Extended Squitters (\u00a72.2.12.5.2 and \u00a72.2.23 )",
+            260
+        ],
+        [
+            2,
+            "2.5 Test Procedures for the Surveillance and Communications Protocols",
+            261
+        ],
+        [
+            3,
+            "2.5.1 Introduction",
+            261
+        ],
+        [
+            3,
+            "2.5.2 Required Test Equipment",
+            263
+        ],
+        [
+            4,
+            "2.5.2.1 Automatic Test Controller",
+            263
+        ],
+        [
+            4,
+            "2.5.2.2 Signal Generator",
+            263
+        ],
+        [
+            4,
+            "2.5.2.3 Reply Receiver",
+            264
+        ],
+        [
+            4,
+            "2.5.2.4 Interface Adapter",
+            264
+        ],
+        [
+            3,
+            "2.5.3 Selection and Use of the Test Procedures",
+            264
+        ],
+        [
+            3,
+            "2.5.4 Test Procedures",
+            265
+        ],
+        [
+            4,
+            "2.5.4.1 Procedure #1: Error Protection ",
+            265
+        ],
+        [
+            5,
+            "2.5.4.1.1 Procedure #1: Error Protection, AP and PI Fields (\u00a72.2.18.2.1.c)",
+            265
+        ],
+        [
+            5,
+            "2.5.4.1.2 Procedure #1: Error Protection, DP Field (\u00a72.2.14.4.12, \u00a72.2.18.2.1 and \u00a72.2.19.1.12.6.2)",
+            266
+        ],
+        [
+            4,
+            "2.5.4.2 Procedure #2: Interrogation Acceptance Test",
+            268
+        ],
+        [
+            4,
+            "2.5.4.3 Procedure #3 CA Verification",
+            269
+        ],
+        [
+            4,
+            "2.5.4.4 Procedure #4 Non-Selective Lockout Tests",
+            270
+        ],
+        [
+            5,
+            "2.5.4.4.1 Positive Tests",
+            271
+        ],
+        [
+            5,
+            "2.5.4.4.2 Required Negative Tests",
+            272
+        ],
+        [
+            4,
+            "2.5.4.5 Procedure #5: Selective Lockout and Independence of Non-Selective Lockout Tests",
+            273
+        ],
+        [
+            4,
+            "2.5.4.6 Procedure #6 Squitter Verification",
+            276
+        ],
+        [
+            5,
+            "2.5.4.6.1 Acquisition Squitter Verification",
+            277
+        ],
+        [
+            5,
+            "2.5.4.6.2 Extended Squitter Verification",
+            277
+        ],
+        [
+            6,
+            "2.5.4.6.2.1 Extended Squitter Rate Verification",
+            277
+        ],
+        [
+            6,
+            "2.5.4.6.2.2 Extended Squitter Protocol Verification",
+            278
+        ],
+        [
+            5,
+            "2.5.4.6.3 Squitter Control Verification",
+            283
+        ],
+        [
+            4,
+            "2.5.4.7 Procedure #7: FS and VS Protocol/Code Tests",
+            291
+        ],
+        [
+            4,
+            "2.5.4.8 Procedure #8: PI (Parity/Identity) Verification",
+            293
+        ],
+        [
+            4,
+            "2.5.4.9 Procedure #9: Address Tests",
+            294
+        ],
+        [
+            4,
+            "2.5.4.10 Procedure #10: Altitude Report Tests",
+            295
+        ],
+        [
+            4,
+            "2.5.4.11 Procedure #11: 4096 Code Tests",
+            296
+        ],
+        [
+            4,
+            "2.5.4.12 Procedure #12: RI, Acquisition and Maximum Airspeed",
+            298
+        ],
+        [
+            4,
+            "2.5.4.13 Procedure #13: PR, Probability of Reply, Stochastic Acquisition",
+            299
+        ],
+        [
+            4,
+            "2.5.4.14 Procedure #14: Not Used",
+            301
+        ],
+        [
+            4,
+            "2.5.4.15 Procedure #15: Comm-A, Interface and Information Content",
+            301
+        ],
+        [
+            4,
+            "2.5.4.16 Procedure #16: Broadcast Formats",
+            303
+        ],
+        [
+            4,
+            "2.5.4.17 Procedure #17: Downlink Interface, DFs 0, 16",
+            303
+        ],
+        [
+            4,
+            "2.5.4.18 Procedure #18: Comm-B Protocol",
+            305
+        ],
+        [
+            4,
+            "2.5.4.19 Procedure #19: AIS Flight Identification, Protocol and Interface",
+            311
+        ],
+        [
+            4,
+            "2.5.4.20 Procedure #20: Extended Capability Report",
+            312
+        ],
+        [
+            4,
+            "2.5.4.21 Procedure #21: Directed Comm-B",
+            313
+        ],
+        [
+            4,
+            "2.5.4.22 Procedure #22: Downlink Interface, Storage Design, Buffer Rate",
+            315
+        ],
+        [
+            4,
+            "2.5.4.23 Procedure #23: Downlink Interface, No-Storage Design",
+            316
+        ],
+        [
+            4,
+            "2.5.4.24 Procedure #24: Comm-C Protocol",
+            317
+        ],
+        [
+            4,
+            "2.5.4.25 Procedure #25: Uplink Interface, ELM-C",
+            320
+        ],
+        [
+            4,
+            "2.5.4.26 Procedure #26: Comm-D Protocol",
+            320
+        ],
+        [
+            4,
+            "2.5.4.27 Procedure #27: Directed Comm-D",
+            323
+        ],
+        [
+            4,
+            "2.5.4.28 Procedure #28: Comm-D Interface, Rate and Content",
+            323
+        ],
+        [
+            4,
+            "2.5.4.29 Not Used",
+            324
+        ],
+        [
+            4,
+            "2.5.4.30 Procedure #30: Sensitivity Level Operation (\u00a72.2.22.1.1 and \u00a72.2.22.1.5)",
+            324
+        ],
+        [
+            4,
+            "2.5.4.31 Procedure #31: Transmission of RA Report to Mode S Sensor (\u00a72.2.22.h and \u00a72.2.22.1.2.1)",
+            324
+        ],
+        [
+            5,
+            "2.5.4.31.1 Procedure #31: Transmission of RA Report for a Transponder Operating with an FAA TSO-C119a Compatible TCAS (\u00a72.2.22.h, \u00a72.2.22.1.2.1, \u00a72.2.22.1.2.1.1, and \u00a72.2.22.1.2.1.2)",
+            325
+        ],
+        [
+            5,
+            "2.5.4.31.2 Procedure #31: Transmission of RA Report for a Transponder Operating with an RTCA/DO-185A/B Compatible TCAS (\u00a72.2.22.h, \u00a72.2.22.1.2.1, \u00a72.2.22.1.2.1.1, and \u00a72.2.22.1.2.1.3)",
+            327
+        ],
+        [
+            4,
+            "2.5.4.32 Procedure #32: Transmission of TCAS Capability Information to a Mode S Sensor (\u00a72.2.22.h and \u00a72.2.22.1.2.2) and to other TCAS Aircraft (\u00a72.2.22.1.5)",
+            329
+        ],
+        [
+            5,
+            "2.5.4.32.1 Procedure #32: Transmission of TCAS Capability Information to a Mode S Sensor (\u00a72.2.22.h, \u00a72.2.22.1.2.2, \u00a72.2.22.1.2.2.1, and \u00a72.2.22.1.2.2.2) and to other TCAS Aircraft (\u00a72.2.22.1.5) for a Transponder Operating with an FAA TSO-C119a Compatible TCAS",
+            329
+        ],
+        [
+            5,
+            "2.5.4.32.2 Procedure #32: Transmission of TCAS Capability Information to a Mode S Sensor (\u00a72.2.22.h, \u00a72.2.22.1.2.2, \u00a72.2.22.1.2.2.1, and \u00a72.2.22.1.2.2.3) and to other TCAS Aircraft (\u00a72.2.22.1.5) for a Transponder Operating with an RTCA/DO-185A Compatible TCAS",
+            330
+        ],
+        [
+            5,
+            "2.5.4.32.3 Procedure #32: Transmission of TCAS Capability Information to a Mode S Sensor (\u00a72.2.22.h, \u00a72.2.22.1.2.2, \u00a72.2.22.1.2.2.1, and \u00a72.2.22.1.2.2.3) and to other TCAS Aircraft (\u00a72.2.22.1.5) for a Transponder Operating with an RTCA/DO-185B Compatible TCAS",
+            330
+        ],
+        [
+            4,
+            "2.5.4.33 Procedure #33: TCAS or transponder/TCAS Interface Failure During Transmission of RA Report and Data Link Capability Report to a Mode S Sensor (\u00a72.2.22.1.2.1.3 and \u00a72.2.22.1.2.2.3) ",
+            331
+        ],
+        [
+            4,
+            "2.5.4.34 Procedure #34: Coordination (\u00a72.2.22.1.3 and \u00a72.2.22.1.4) ",
+            332
+        ],
+        [
+            5,
+            "2.5.4.34.1 Procedure #34: Coordination (\u00a72.2.22.1.3 and \u00a72.2.22.1.4.1) for a Transponder Operating with an FAA TSO-C119a Compatible TCAS",
+            332
+        ],
+        [
+            5,
+            "2.5.4.34.2 Procedure #34: Coordination (\u00a72.2.22.1.3 and \u00a72.2.22.1.4.2) for a Transponder Operating with an RTCA/DO-185A/B Compatible TCAS",
+            333
+        ],
+        [
+            4,
+            "2.5.4.35 Procedure #35: MU Messages To TCAS (\u00a72.2.22.1.3)",
+            334
+        ],
+        [
+            4,
+            "2.5.4.36 Procedure #36: Transponder Replies to Incoming TCAS Resolution Messages (\u00a72.2.22.2.1)",
+            335
+        ],
+        [
+            4,
+            "2.5.4.37 Procedure #37: Transponder/TCAS Throughput (\u00a72.2.22 b and g)",
+            336
+        ],
+        [
+            4,
+            "2.5.4.38 Procedure #38: Transponder Communication Timing (\u00a72.2.22.2.4)",
+            337
+        ],
+        [
+            4,
+            "2.5.4.39 Procedure #39: TCAS Crosslink (\u00a72.2.14.4.14, \u00a72.2.14.4.7, and \u00a72.2.18.2.10)",
+            337
+        ],
+        [
+            2,
+            "2.6 Test Procedures for Elementary Surveillance (ELS) Compliant Transponder (\u00a72.2.24)",
+            337
+        ],
+        [
+            3,
+            "2.6.1 Ground Initiated Comm-B (\u00a72.2.24.1)",
+            337
+        ],
+        [
+            3,
+            "2.6.2 Surveillance Identifier (\u201cSI\u201d) Code Requirements (\u00a72.2.24.2 and \u00a72.2.24.2.1) ",
+            338
+        ],
+        [
+            4,
+            "2.6.2.1 MOPS Requirements Relevant to \u201cSI\u201d (\u00a72.2.24.2.1) ",
+            338
+        ],
+        [
+            3,
+            "2.6.3 Declaration of Capability in Register 1016 \u2013 Data Link Capability Report (\u00a72.2.24.3)",
+            338
+        ],
+        [
+            4,
+            "2.6.3.1 Purpose and Definition (\u00a72.2.24.3.1) ",
+            338
+        ],
+        [
+            4,
+            "2.6.3.2 Data Requirements (\u00a72.2.24.3.2)",
+            338
+        ],
+        [
+            5,
+            "2.6.3.2.1 Bits 1 through 8, BDS Code (\u00a72.2.24.3.2.1)",
+            339
+        ],
+        [
+            5,
+            "2.6.3.2.2 Bits 17 through 23, Declaration of Mode S Subnetwork Number (\u00a72.2.24.3.2.2)",
+            339
+        ],
+        [
+            5,
+            "2.6.3.2.3 Bit 25, Declaration of No Mode S Specific Services Capability (\u00a72.2.24.3.2.3)",
+            339
+        ],
+        [
+            5,
+            "2.6.3.2.4 Bit 33, Aircraft Identification Reporting Capability (\u00a72.2.24.3.2.4)",
+            339
+        ],
+        [
+            5,
+            "2.6.3.2.5 Bit 35, Surveillance Identifier Code (\u201cSI\u201d) (\u00a72.2.24.3.2.5)",
+            340
+        ],
+        [
+            5,
+            "2.6.3.2.6 Bit 36, Common Usage GICB Capability Report (\u00a72.2.24.3.2.6, \u00a72.2.24.4)",
+            340
+        ],
+        [
+            3,
+            "2.6.4 Register 1716 Common Usage GICB Capability Report (\u00a72.2.24.4)",
+            340
+        ],
+        [
+            4,
+            "2.6.4.1 Purpose and Definition (\u00a72.2.24.4.1)",
+            340
+        ],
+        [
+            4,
+            "2.6.4.2 Data Requirements (\u00a72.2.24.4.2)",
+            340
+        ],
+        [
+            5,
+            "2.6.4.2.1 Required Servicing of Register 1716 Associated with Register 2016 and 2116 as an Option (\u00a72.2.24.4.2.1 and \u00a72.2.24.4.2.2)",
+            340
+        ],
+        [
+            5,
+            "2.6.4.2.2 Required Servicing of Register 1716 Associated with Optional Register 2116 (\u00a72.2.24.4.2.2)",
+            341
+        ],
+        [
+            3,
+            "2.6.5 Register 1816 to 1C16, Mode S Specific Services Capability Reports (\u00a72.2.24.5)",
+            341
+        ],
+        [
+            4,
+            "2.6.5.1 Purpose and Definition (\u00a72.2.24.5.1)",
+            341
+        ],
+        [
+            4,
+            "2.6.5.2 Data Requirements (\u00a72.2.24.5.2)",
+            341
+        ],
+        [
+            5,
+            "2.6.5.2.1 Required Servicing of Register 1816 Associated with Register 1016 (\u00a72.2.24.1 and \u00a72.2.24.5.2.1)",
+            341
+        ],
+        [
+            5,
+            "2.6.5.2.2 Required Servicing of Register 1816 Associated with Register 1716 (\u00a72.2.24.5.2.2)",
+            342
+        ],
+        [
+            5,
+            "2.6.5.2.3 Required Servicing of Register 1816 Associated with Register 1816 (\u00a72.2.24.5.2.3)",
+            342
+        ],
+        [
+            5,
+            "2.6.5.2.4 Required Servicing of Register 1816 Associated with Register 2016 (\u00a72.2.24.5.2.4)",
+            342
+        ],
+        [
+            5,
+            "2.6.5.2.5 Required Servicing of Register 1816 Associated with Register 2116 (\u00a72.2.24.5.2.5)",
+            342
+        ],
+        [
+            4,
+            "2.6.5.3 Mode S Specific Services Capability Report, Register 1916 (\u00a72.2.24.1 and \u00a72.2.24.5)",
+            342
+        ],
+        [
+            4,
+            "2.6.5.4 Mode S Specific Services Capability Report, Register 1A16 (\u00a72.2.24.1 and \u00a72.2.24.5)",
+            343
+        ],
+        [
+            4,
+            "2.6.5.5 Mode S Specific Services Capability Report, Register 1B16 (\u00a72.2.24.1 and \u00a72.2.24.5)",
+            343
+        ],
+        [
+            4,
+            "2.6.5.6 Mode S Specific Services Capability Report, Register 1C16 (\u00a72.2.24.1 and \u00a72.2.24.5)",
+            344
+        ],
+        [
+            3,
+            "2.6.6 Baseline Aircraft Identification and Aircraft Registration Testing (\u00a72.2.24.6 and \u00a72.2.24.7)",
+            344
+        ],
+        [
+            4,
+            "2.6.6.1 Part 1: Aircraft Identification and Aircraft Registration Startup (\u00a72.2.24.6 and \u00a72.2.24.7)",
+            344
+        ],
+        [
+            4,
+            "2.6.6.2 Part 2: Aircraft Identification Data Termination",
+            352
+        ],
+        [
+            4,
+            "2.6.6.3 Part 3: Power-On Restart (NO Aircraft Ident.)",
+            355
+        ],
+        [
+            4,
+            "2.6.6.4 Part 4: Re-Apply Aircraft Identification",
+            358
+        ],
+        [
+            4,
+            "2.6.6.5 Part 5: Data Mix #1",
+            361
+        ],
+        [
+            4,
+            "2.6.6.6 Part 6: Data Mix #2",
+            363
+        ],
+        [
+            4,
+            "2.6.6.7 Part 7: Data Mix 3 \u2013 No Data",
+            366
+        ],
+        [
+            4,
+            "2.6.6.8 Part 8: Data Link Capability Report Update Interval (\u00a72.2.24.3.3)",
+            367
+        ],
+        [
+            4,
+            "2.6.6.9 Part 9: Multiple Data Sources (\u00a72.2.24)",
+            370
+        ],
+        [
+            2,
+            "2.7 Test Procedures for Enhanced Surveillance (EHS) Compliant Transponder (\u00a72.2.25)",
+            370
+        ],
+        [
+            3,
+            "2.7.1 Register 1016 \u2013 Data Link Capability Report (\u00a72.2.25.1)",
+            370
+        ],
+        [
+            4,
+            "2.7.1.1 Purpose and Definition (\u00a72.2.25.1.1)",
+            370
+        ],
+        [
+            4,
+            "2.7.1.2 Data Requirements (\u00a72.2.25.1.2)",
+            370
+        ],
+        [
+            5,
+            "2.7.1.2.1 Bits 1 through 8, BDS Code (\u00a72.2.25.1.2.1)",
+            371
+        ],
+        [
+            5,
+            "2.7.1.2.2 Bits 17 through 23, Declaration of Mode S Subnetwork Number (\u00a72.2.25.1.2.2)",
+            371
+        ],
+        [
+            5,
+            "2.7.1.2.3 Bit 25, Declaration of No Mode S Specific Services Capability (\u00a72.2.25.1.2.3)",
+            371
+        ],
+        [
+            5,
+            "2.7.1.2.4 Bit 35, Surveillance Identifier Code (\u201cSI\u201d) (\u00a72.2.25.1.2.4)",
+            371
+        ],
+        [
+            5,
+            "2.7.1.2.5 Bit 36, Common Usage GICB Capability Report (\u00a72.2.25.1.2.5)",
+            372
+        ],
+        [
+            4,
+            "2.7.1.3 Maximum Update Interval of Register 1016 (\u00a72.2.25.1.3)",
+            372
+        ],
+        [
+            4,
+            "2.7.1.4 Change Reporting (\u00a72.2.25.1.4)",
+            372
+        ],
+        [
+            3,
+            "2.7.2 Register 1716---Common Usage GICB Capability Report (\u00a72.2.25.2)",
+            372
+        ],
+        [
+            4,
+            "2.7.2.1 Register 1716 \u2013 Purpose and Definition (\u00a72.2.25.2.1)",
+            372
+        ],
+        [
+            4,
+            "2.7.2.2 Enhanced Surveillance (EHS) Servicing Requirements (\u00a72.2.25.2.2)",
+            372
+        ],
+        [
+            5,
+            "2.7.2.2.1 Required Servicing of Register 1716 Associated with Register 2016 (\u00a72.2.25.2.2.1)",
+            373
+        ],
+        [
+            5,
+            "2.7.2.2.2 Required Servicing of Register 1716 Associated with Optional Register 2116 (\u00a72.2.25.2.2.2)",
+            373
+        ],
+        [
+            5,
+            "2.7.2.2.3 Required Servicing of Register 1716 Associated with Register 4016 (\u00a72.2.25.2.2.3)",
+            373
+        ],
+        [
+            5,
+            "2.7.2.2.4 Required Servicing of Register 1716 Associated with Register 5016 (\u00a72.2.25.2.2.4)",
+            373
+        ],
+        [
+            5,
+            "2.7.2.2.5 Required Servicing of Register 1716 Associated with Optional Register 5F16 (\u00a72.2.25.2.2.5)",
+            374
+        ],
+        [
+            5,
+            "2.7.2.2.6 Required Servicing of Register 1716 Associated with Register 6016 (\u00a72.2.25.2.2.6)",
+            374
+        ],
+        [
+            5,
+            "2.7.2.2.7 Maximum Update Interval of Register 1716 (\u00a72.2.25.2.2.7)",
+            374
+        ],
+        [
+            4,
+            "2.7.2.3 Change Reporting (\u00a72.2.25.2.3)",
+            374
+        ],
+        [
+            3,
+            "2.7.3 Register 1816 to 1C16, Mode S Specific Services Capability Reports (\u00a72.2.25.3)",
+            374
+        ],
+        [
+            4,
+            "2.7.3.1 Purpose and Definition (\u00a72.2.25.3.1)",
+            374
+        ],
+        [
+            4,
+            "2.7.3.2 Enhanced Surveillance Capability Requirements (\u00a72.2.25.3.2)",
+            374
+        ],
+        [
+            5,
+            "2.7.3.2.1 Required Servicing of Register 1816 Associated with Register 1016 (\u00a72.2.25.3.2.1 through \u00a72.2.25.3.2.6)",
+            375
+        ],
+        [
+            5,
+            "2.7.3.2.2 Required Servicing of Register 1816 Associated with Register 1716 (\u00a72.2.25.3.2.2)",
+            375
+        ],
+        [
+            5,
+            "2.7.3.2.3 Required Servicing of Register 1816 Associated with Register 1816 (\u00a72.2.25.3.2.3)",
+            375
+        ],
+        [
+            5,
+            "2.7.3.2.4 Required Servicing of Register 1816 Associated with Register 1916 (\u00a72.2.25.3.2.4)",
+            375
+        ],
+        [
+            5,
+            "2.7.3.2.5 Required Servicing of Register 1816 Associated with Register 2016 (\u00a72.2.25.3.2.5)",
+            375
+        ],
+        [
+            5,
+            "2.7.3.2.6 Required Servicing of Register 1816 Associated with Optional Register 2116 (\u00a72.2.25.3.2.6)",
+            376
+        ],
+        [
+            5,
+            "2.7.3.2.7 Required Servicing of Register 1916 Associated with Register 4016 (\u00a72.2.25.3.2.7)",
+            376
+        ],
+        [
+            5,
+            "2.7.3.2.8 Required Servicing of Register 1916 Associated with Register 5016 (\u00a72.2.25.3.2.8)",
+            376
+        ],
+        [
+            5,
+            "2.7.3.2.9 Required Servicing of Register 1916 Associated with Optional Register 5F16 (\u00a72.2.25.3.2.9)",
+            376
+        ],
+        [
+            5,
+            "2.7.3.2.10 Required Servicing of Register 1916 Associated with Register 6016 (\u00a72.2.25.3.2.10)",
+            377
+        ],
+        [
+            4,
+            "2.7.3.3 Maximum Update Interval of Registers 1816 to 1C16 (\u00a72.2.25.3.3)",
+            377
+        ],
+        [
+            3,
+            "2.7.4 Register 1D16 to 1F16 Mode S Specific Services MSP Capability (\u00a72.2.25.4)",
+            377
+        ],
+        [
+            4,
+            "2.7.4.1 Register 1D16 Mode S Specific Services MSP Capability (\u00a72.2.25.4)",
+            377
+        ],
+        [
+            4,
+            "2.7.4.2 Register 1E16 Mode S Specific Services MSP Capability (\u00a72.2.25.4)",
+            377
+        ],
+        [
+            4,
+            "2.7.4.3 Register 1F16 Mode S Specific Services MSP Capability (\u00a72.2.25.4)",
+            378
+        ],
+        [
+            3,
+            "2.7.5 Register 4016 \u2013 Selected Vertical Intention (\u00a72.2.25.5)",
+            378
+        ],
+        [
+            4,
+            "2.7.5.1 Part 1 \u2013 Register 4016 and Register 5F16 Initial Conditions (\u00a72.2.25.5 and \u00a72.2.25.7)",
+            378
+        ],
+        [
+            4,
+            "2.7.5.2 Part 2 \u2013 Register 4016 - Selected Vertical Intention Validation (\u00a72.2.25 through \u00a72.2.25.5)",
+            380
+        ],
+        [
+            4,
+            "2.7.5.3 Part 3 \u2013 Register 4016 - Selected Vertical Intention - Data Change Validation - Set 2 (\u00a72.2.25 through \u00a72.2.25.5) ",
+            386
+        ],
+        [
+            4,
+            "2.7.5.4 Part 4 \u2013 Register 4016 - Selected Vertical Intention - Data Change Validation - Set 3 (\u00a72.2.25 through \u00a72.2.25.5)",
+            391
+        ],
+        [
+            4,
+            "2.7.5.5 Part 5 \u2013 Register 4016 - Selected Vertical Intention - Data Change Validation - Set 4 (\u00a72.2.25 through \u00a72.2.25.5)",
+            396
+        ],
+        [
+            4,
+            "2.7.5.6 Part 6 \u2013 Register 4016 - Selected Vertical Intention - Data Change Validation - Set 5 (\u00a72.2.25 through \u00a72.2.25.5)",
+            400
+        ],
+        [
+            4,
+            "2.7.5.7 Part 7 \u2013 Register 4016 - Selected Vertical Intention - Data Change Validation - Set 6 (\u00a72.2.25 through \u00a72.2.25.5)",
+            405
+        ],
+        [
+            4,
+            "2.7.5.8 Part 8 \u2013 Register 4016 - Selected Vertical Intention - Data Change Validation - Set 7 (\u00a72.2.25 through \u00a72.2.25.5)",
+            409
+        ],
+        [
+            4,
+            "2.7.5.9 Part 9 \u2013 Register 4016 - Selected Vertical Intention - Data Change Validation - Set 8 (\u00a72.2.25 through \u00a72.2.25.5) ",
+            409
+        ],
+        [
+            4,
+            "2.7.5.10 Part 10 \u2013 Register 4016 - Selected Vertical Intention - Data Change Validation - Set 9 (\u00a72.2.25 through \u00a72.2.25.5)",
+            414
+        ],
+        [
+            4,
+            "2.7.5.11 Part 11 \u2013 Register 4016 - Selected Vertical Intention - Data Change Validation - Set 10 (\u00a72.2.25 through \u00a72.2.25.5)",
+            414
+        ],
+        [
+            4,
+            "2.7.5.12 Part 12 \u2013 Register 4016 - Selected Vertical Intention - Data Change Validation - Set 11 (\u00a72.2.25 through \u00a72.2.25.5)",
+            418
+        ],
+        [
+            4,
+            "2.7.5.13 Part 13 \u2013 Register 4016 - Selected Vertical Intention - Data Change Validation - Set 12 (\u00a72.2.25 through \u00a72.2.25.5)",
+            419
+        ],
+        [
+            4,
+            "2.7.5.14 Part 14 \u2013 Register 4016 - Selected Vertical Intention - Data Change Validation - Set 13 (\u00a72.2.25 through \u00a72.2.25.5)",
+            422
+        ],
+        [
+            4,
+            "2.7.5.15 Part 15 \u2013 Reduced Data Rate (\u00a72.2.25.5.3)",
+            425
+        ],
+        [
+            4,
+            "2.7.5.16 Part 16 \u2013 Multiple Data Sources  (\u00a72.2.25 through \u00a72.2.25.5)",
+            429
+        ],
+        [
+            3,
+            "2.7.6 Register 5016 Enhanced Surveillance \u2013 Protocol and Interface (\u00a72.2.25.6)",
+            430
+        ],
+        [
+            4,
+            "2.7.6.1 Part 1 \u2013 Capability Verification (\u00a72.2.25.6)",
+            430
+        ],
+        [
+            4,
+            "2.7.6.2 Part 2 \u2013 Register 5016 - Track and Turn Report Validation (\u00a72.2.25.6 and \u00a72.2.25.6.1)",
+            434
+        ],
+        [
+            4,
+            "2.7.6.3 Part 3 \u2013 Register 5016 - Track and Turn Report - Data Change Validation (\u00a72.2.25.6 and \u00a72.2.25.6.1)",
+            440
+        ],
+        [
+            4,
+            "2.7.6.4 Part 4 \u2013 Register 5016 - Track and Turn Report - Data Change Validation - Set 2  (\u00a72.2.25.6 and \u00a72.2.25.6.1)",
+            444
+        ],
+        [
+            4,
+            "2.7.6.5 Part 5 \u2013 Register 5016 - Track and Turn Report - Data Change Validation - Set 3 (\u00a72.2.25.6 and \u00a72.2.25.6.1)",
+            449
+        ],
+        [
+            4,
+            "2.7.6.6 Part 6 \u2013 Register 5016 - Track and Turn Report - Data Change Validation - Set 4 (\u00a72.2.25.6 and \u00a72.2.25.6.1)",
+            449
+        ],
+        [
+            4,
+            "2.7.6.7 Part 7 \u2013 Register 5016 - Track and Turn Report - Data Change Validation - Set 5 (\u00a72.2.25.6 and 2.2.25.6.1)",
+            454
+        ],
+        [
+            4,
+            "2.7.6.8 Part 8 \u2013 Register 5016 - Track and Turn Report - Data Change Validation - Set 6 (\u00a72.2.25.6 and 2.2.25.6.1)",
+            454
+        ],
+        [
+            4,
+            "2.7.6.9 Part 9 \u2013 Register 5016 - Track and Turn Report - Data Change Validation - Set 7 (\u00a72.2.25.6 and \u00a72.2.25.6.1)",
+            458
+        ],
+        [
+            4,
+            "2.7.6.10 Part 10 \u2013 Register 5016 - Track and Turn Report - Data Change Validation - Set 8 (\u00a72.2.25.6 and \u00a72.2.25.6.1)",
+            458
+        ],
+        [
+            4,
+            "2.7.6.11 Part 11 \u2013 Register 5016 - Track and Turn Report - Data Change Validation - Set 9 (\u00a72.2.25.6 and \u00a72.2.25.6.1)",
+            462
+        ],
+        [
+            4,
+            "2.7.6.12 Part 12 \u2013 Register 5016 - Track and Turn Report - Data Change Validation - Set 10 (\u00a72.2.25.6 and \u00a72.2.25.6.1)",
+            463
+        ],
+        [
+            4,
+            "2.7.6.13 Part 13 \u2013 Register 5016 - Track and Turn Report - Data Change Validation - Set 11 (\u00a72.2.25.6 and \u00a72.2.25.6.1)",
+            467
+        ],
+        [
+            4,
+            "2.7.6.14 Part 14 \u2013 Reduced Data Rate (\u00a72.2.25.6.3)",
+            472
+        ],
+        [
+            4,
+            "2.7.6.15 Part 15 \u2013 Multiple Data Sources   (\u00a72.2.25 through \u00a72.2.25.4, and \u00a72.2.25.6)",
+            476
+        ],
+        [
+            3,
+            "2.7.7 Register 6016 \u2013 Enhanced Surveillance \u2013 Protocol and Interface (\u00a72.2.25.8)",
+            476
+        ],
+        [
+            4,
+            "2.7.7.1 Part 1 \u2013 Capability Verification (\u00a72.2.25.8)",
+            476
+        ],
+        [
+            4,
+            "2.7.7.2 Part 2 \u2013 Register 6016 - Heading and Speed Report Validation (\u00a72.2.25.8 and \u00a72.2.25.8.1)",
+            480
+        ],
+        [
+            4,
+            "2.7.7.3 Part 3 \u2013 Register 6016 - Heading and Speed Report - Data Change Validation (\u00a72.2.25.8 and \u00a72.2.25.8.1)",
+            486
+        ],
+        [
+            4,
+            "2.7.7.4 Part 4 \u2013 Register 6016 - Heading and Speed Report - Data Change Validation - Set 2 (\u00a72.2.25.8 and \u00a72.2.25.8.1)",
+            490
+        ],
+        [
+            4,
+            "2.7.7.5 Part 5 \u2013 Register 6016 - Heading and Speed Report - Data Change Validation - Set 3 (\u00a72.2.25.8 and \u00a72.2.25.8.1)",
+            495
+        ],
+        [
+            4,
+            "2.7.7.6 Part 6 \u2013 Register 6016 - Heading and Speed Report - Data Change Validation - Set 4 (\u00a72.2.25.8 and \u00a72.2.25.8.1)",
+            495
+        ],
+        [
+            4,
+            "2.7.7.7 Part 7 \u2013 Register 6016 - Heading and Speed Report - Data Change Validation - Set 5 (\u00a72.2.25.8 and \u00a72.2.25.8.1)",
+            499
+        ],
+        [
+            4,
+            "2.7.7.8 Part 8 \u2013 Register 6016 - Heading and Speed Report - Data Change Validation - Set 6 (\u00a72.2.25.8 and \u00a72.2.25.8.1)",
+            499
+        ],
+        [
+            4,
+            "2.7.7.9 Part 9 \u2013 Register 6016 - Heading and Speed Report - Data Change Validation - Set 7 (\u00a72.2.25.8 and \u00a72.2.25.8.1)",
+            504
+        ],
+        [
+            4,
+            "2.7.7.10 Part 10 \u2013 Register 6016 - Heading and Speed Report - Data Change Validation - Set 8 (\u00a72.2.25.8 and \u00a72.2.25.8.1)",
+            504
+        ],
+        [
+            4,
+            "2.7.7.11 Part 11 \u2013 Register 6016 - Heading and Speed Report - Data Change Validation - Set 9 (\u00a72.2.25.8 and \u00a72.2.25.8.1)",
+            509
+        ],
+        [
+            4,
+            "2.7.7.12 Part 12 \u2013 Register 6016 - Heading and Speed Report - Data Change Validation - Set 10 (\u00a72.2.25.8 and \u00a72.2.25.8.1)",
+            509
+        ],
+        [
+            4,
+            "2.7.7.13 Part 13 \u2013 Register 6016 - Heading and Speed Report - Data Change Validation - Set 11 (\u00a72.2.25.8 and \u00a72.2.25.8.1)",
+            513
+        ],
+        [
+            4,
+            "2.7.7.14 Part 14 \u2013 Reduced Update Rate (\u00a72.2.25.8.3)",
+            517
+        ],
+        [
+            4,
+            "2.7.7.15 Part 15 \u2013 Multiple Data Sources (\u00a72.2.25 through \u00a72.2.25.4, and \u00a72.2.25.8)",
+            521
+        ],
+        [
+            2,
+            "2.8 Generic Register XX Test Procedures (\u00a72.2.26)",
+            521
+        ],
+        [
+            3,
+            "2.8.1 Purpose and Definition (\u00a72.2.26.1)",
+            521
+        ],
+        [
+            3,
+            "2.8.2 Data Requirement (\u00a72.2.26.2)",
+            522
+        ],
+        [
+            4,
+            "2.8.2.1 Data Field \u201cy\u201d (\u00a72.2.26.2.1)",
+            522
+        ],
+        [
+            3,
+            "2.8.3 Update Rate (\u00a72.2.26.3)",
+            522
+        ],
+        [
+            3,
+            "2.8.4 Service Reporting (\u00a72.2.26.4)",
+            523
+        ],
+        [
+            1,
+            "3 INSTALLED EQUIPMENT PERFORMANCE",
+            525
+        ],
+        [
+            2,
+            "3.1 Equipment Installation",
+            525
+        ],
+        [
+            3,
+            "3.1.1 Equipment Accessibility",
+            525
+        ],
+        [
+            3,
+            "3.1.2 Inadvertent Turn Off",
+            525
+        ],
+        [
+            3,
+            "3.1.3 Displays",
+            525
+        ],
+        [
+            3,
+            "3.1.4 Aircraft Power Source",
+            525
+        ],
+        [
+            3,
+            "3.1.5 Transmission Line(s)",
+            525
+        ],
+        [
+            3,
+            "3.1.6 Antenna Location",
+            525
+        ],
+        [
+            3,
+            "3.1.7 Mutual Suppression",
+            526
+        ],
+        [
+            2,
+            "3.2 Conditions of Test",
+            526
+        ],
+        [
+            3,
+            "3.2.1 Power Input",
+            526
+        ],
+        [
+            3,
+            "3.2.2 Interference Effects",
+            527
+        ],
+        [
+            3,
+            "3.2.3 Environment",
+            527
+        ],
+        [
+            3,
+            "3.2.4 Adjustment of Equipment",
+            527
+        ],
+        [
+            3,
+            "3.2.5 Warm-up Period",
+            527
+        ],
+        [
+            3,
+            "3.2.6 Radiation Pattern",
+            527
+        ],
+        [
+            2,
+            "3.3 Test Procedures for Installed Equipment Performance",
+            527
+        ],
+        [
+            3,
+            "3.3.1 Conformity Inspection",
+            528
+        ],
+        [
+            3,
+            "3.3.2 Bench Tests",
+            528
+        ],
+        [
+            3,
+            "3.3.3 Reply Frequency",
+            528
+        ],
+        [
+            3,
+            "3.3.4 Framing Pulse Spacing",
+            528
+        ],
+        [
+            3,
+            "3.3.5 Reply Codes",
+            529
+        ],
+        [
+            3,
+            "3.3.6 Pressure Altitude Transmissions",
+            529
+        ],
+        [
+            3,
+            "3.3.7 Altitude Reporting Test",
+            530
+        ],
+        [
+            3,
+            "3.3.8 Reply Pulse Width",
+            530
+        ],
+        [
+            3,
+            "3.3.9 Receiver Sensitivity",
+            530
+        ],
+        [
+            3,
+            "3.3.10 Transmitter Power Output",
+            530
+        ],
+        [
+            3,
+            "3.3.11 Mode S Address",
+            530
+        ],
+        [
+            3,
+            "3.3.12 Received Reply",
+            530
+        ],
+        [
+            3,
+            "3.3.13 Airspeed Fixed Field",
+            531
+        ],
+        [
+            3,
+            "3.3.14 On-the-Ground Condition",
+            531
+        ],
+        [
+            3,
+            "3.3.15 Diversity Antenna Installations",
+            531
+        ],
+        [
+            2,
+            "3.4 Flight Test Procedures",
+            531
+        ],
+        [
+            1,
+            "Membership",
+            533
+        ],
+        [
+            1,
+            "DO-181E-Appendix-A.pdf",
+            -1
+        ],
+        [
+            2,
+            "A. Acronyms  &  Definition of Terms",
+            539
+        ],
+        [
+            3,
+            "A.1 Acronyms",
+            539
+        ],
+        [
+            3,
+            "A.2 Definition of Terms",
+            546
+        ],
+        [
+            1,
+            "DO-181E-Appendix-B.pdf",
+            -1
+        ],
+        [
+            2,
+            "B. Aircraft Register Formats",
+            563
+        ],
+        [
+            3,
+            "B.1 Introduction",
+            563
+        ],
+        [
+            3,
+            "B.2 Data Formats for Transponder Registers",
+            563
+        ],
+        [
+            4,
+            "B.2.1 Register Allocation",
+            563
+        ],
+        [
+            4,
+            "B.2.2 General Conventions on Data Formats",
+            566
+        ],
+        [
+            5,
+            "B.2.2.1 Validity of Data",
+            566
+        ],
+        [
+            5,
+            "B.2.2.2 Representation of Numeric Data",
+            566
+        ],
+        [
+            5,
+            "B.2.2.3 Representation of Alphanumeric Character Encoding",
+            568
+        ],
+        [
+            3,
+            "B.3 BDS Register Formats",
+            568
+        ],
+        [
+            3,
+            "B.4 Implementation Guidelines",
+            609
+        ],
+        [
+            4,
+            "B.4.1 Transponder Register 1016 (ICAO Doc 9871, Edition 2, \u00a7D.2.4.1)",
+            609
+        ],
+        [
+            5,
+            "B.4.1.1 Bit 9 (Continuation Flag)",
+            609
+        ],
+        [
+            5,
+            "B.4.1.2 Bit 16 and Bits 37 \u2013 40 (TCAS Bits)",
+            609
+        ],
+        [
+            5,
+            "B.4.1.3 Bits 17 \u2013 23 (Mode S Subnetwork Version Number)",
+            610
+        ],
+        [
+            5,
+            "B.4.1.4 Bit 24 (Transponder Enhanced Protocol Indicator)",
+            611
+        ],
+        [
+            5,
+            "B.4.1.5 Bit 25 (Mode S Specific Services Capability)",
+            611
+        ],
+        [
+            5,
+            "B.4.1.6 Bits 26 \u2013 32 (Uplink and Downlink ELM Throughput Capability)",
+            611
+        ],
+        [
+            5,
+            "B.4.1.7 Bit 33 (Aircraft Identification Capability)",
+            611
+        ],
+        [
+            5,
+            "B.4.1.8 Bit 34 (Squitter Capability Subfield)",
+            612
+        ],
+        [
+            5,
+            "B.4.1.9 Bit 35 (SI Code capability)",
+            612
+        ],
+        [
+            5,
+            "B.4.1.10 Bit 36 (Common Usage GICB Capability Report)",
+            613
+        ],
+        [
+            4,
+            "B.4.2 Transponder Registers 1816 to 1C16 (ICAO Doc 9871, Edition 2, \u00a7D.2.4.2)",
+            613
+        ],
+        [
+            4,
+            "B.4.3 Transponder Register 2016 (ICAO Doc 9871, Edition 2, \u00a7D.2.4.3) ",
+            613
+        ],
+        [
+            5,
+            "B.4.3.1 Airborne Function",
+            613
+        ],
+        [
+            5,
+            "B.4.3.2 Ground Considerations ",
+            614
+        ],
+        [
+            5,
+            "B.4.3.3 Register 2016 and 0816 Implementation Considerations",
+            615
+        ],
+        [
+            4,
+            "B.4.4 Transponder Register 4016 (ICAO Doc 9871, Edition 2, \u00a7D.2.4.4)",
+            616
+        ],
+        [
+            5,
+            "B.4.4.1 General Example for the Loading of Data in Register 4016 ",
+            616
+        ],
+        [
+            6,
+            "B.4.4.1.1 Target Altitude Summary",
+            621
+        ],
+        [
+            6,
+            "B.4.4.1.2 Possible Uses of Selected Altitude and Target Altitude",
+            621
+        ],
+        [
+            6,
+            "B.4.4.1.3 Target Altitude Implementation Difficulties",
+            621
+        ],
+        [
+            5,
+            "B.4.4.2 Transponder Register 4016 on Boeing 747-400, 757 and 767 Aircraft",
+            621
+        ],
+        [
+            5,
+            "B.4.4.3 Setting of the Target Altitude Source Bits (Bits 54 \u2013 56) ",
+            622
+        ],
+        [
+            5,
+            "B.4.4.4 Setting of the Reserved Bits (Bits 40 to 47, 52 & 53)",
+            622
+        ],
+        [
+            4,
+            "B.4.5 Transponder Register 5016 (ICAO Doc 9871, Edition 2, \u00a7D.2.4.5)",
+            623
+        ],
+        [
+            4,
+            "B.4.6 Transponder Register 6016 (ICAO Doc 9871, Edition 2, \u00a7D.2.4.6)",
+            625
+        ],
+        [
+            1,
+            "DO-181E-Appendix-C.pdf",
+            -1
+        ],
+        [
+            2,
+            "C. Mode-S Specific Services (MSSS)",
+            635
+        ],
+        [
+            3,
+            "C.1 Introduction",
+            635
+        ],
+        [
+            4,
+            "C.1.1 Purpose",
+            635
+        ],
+        [
+            4,
+            "C.1.2 Scope",
+            635
+        ],
+        [
+            4,
+            "C.1.3 Mode-S Application Entity (AE) / Transponder Interface Management",
+            635
+        ],
+        [
+            3,
+            "C.2 Design Requirements",
+            636
+        ],
+        [
+            4,
+            "C.2.1 Basic Operations",
+            636
+        ],
+        [
+            4,
+            "C.2.2 Mode-S Specific Services Entity (SSE) Interface Requirements",
+            636
+        ],
+        [
+            5,
+            "C.2.2.1 General",
+            636
+        ],
+        [
+            5,
+            "C.2.2.2 Functional Capability",
+            636
+        ],
+        [
+            5,
+            "C.2.2.3 Mode-S Specific Services Architecture",
+            637
+        ],
+        [
+            5,
+            "C.2.2.4 Transponder to Application Entity (AE) Interface",
+            637
+        ],
+        [
+            5,
+            "C.2.2.5 Application Entity (AE) to Transponder Interface",
+            638
+        ],
+        [
+            5,
+            "C.2.2.6 Mode-S Specific Services Processing",
+            638
+        ],
+        [
+            6,
+            "C.2.2.6.1 Processing",
+            639
+        ],
+        [
+            7,
+            "C.2.2.6.1.1 Downlink Processing",
+            639
+        ],
+        [
+            8,
+            "C.2.2.6.1.1.1 General",
+            639
+        ],
+        [
+            8,
+            "C.2.2.6.1.1.2 Broadcast Processing",
+            639
+        ],
+        [
+            8,
+            "C.2.2.6.1.1.3 Ground-Initiated Comm-B (GICB) Processing",
+            639
+        ],
+        [
+            8,
+            "C.2.2.6.1.1.4 MSP Processing",
+            640
+        ],
+        [
+            7,
+            "C.2.2.6.1.2 Uplink Processing",
+            641
+        ],
+        [
+            8,
+            "C.2.2.6.1.2.1 General",
+            642
+        ],
+        [
+            8,
+            "C.2.2.6.1.2.2 Broadcast Processing",
+            642
+        ],
+        [
+            8,
+            "C.2.2.6.1.2.3 MSP Processing",
+            642
+        ],
+        [
+            6,
+            "C.2.2.6.2 MSP Packet Formats",
+            642
+        ],
+        [
+            7,
+            "C.2.2.6.2.1 Short Form MSP Packet",
+            642
+        ],
+        [
+            7,
+            "C.2.2.6.2.2 Long Form MSP Packet",
+            643
+        ],
+        [
+            6,
+            "C.2.2.6.3 L-Bit Processing",
+            643
+        ],
+        [
+            6,
+            "C.2.2.6.4 Broadcast Format",
+            644
+        ],
+        [
+            5,
+            "C.2.2.7 Frame Processing",
+            644
+        ],
+        [
+            6,
+            "C.2.2.7.1 Uplink Frames",
+            644
+        ],
+        [
+            7,
+            "C.2.2.7.1.1 Uplink SLM Frames",
+            644
+        ],
+        [
+            8,
+            "C.2.2.7.1.1.1 SD Field",
+            644
+        ],
+        [
+            8,
+            "C.2.2.7.1.1.2 LAS Coding",
+            645
+        ],
+        [
+            8,
+            "C.2.2.7.1.1.3 Single Segment SLM Frame",
+            645
+        ],
+        [
+            8,
+            "C.2.2.7.1.1.4 Multiple Segment SLM Frame",
+            646
+        ],
+        [
+            7,
+            "C.2.2.7.1.2 Uplink ELM Frame",
+            647
+        ],
+        [
+            6,
+            "C.2.2.7.2 Downlink Frames",
+            647
+        ],
+        [
+            7,
+            "C.2.2.7.2.1 Downlink SLM Frame",
+            647
+        ],
+        [
+            8,
+            "C.2.2.7.2.1.1 LBS Coding",
+            648
+        ],
+        [
+            8,
+            "C.2.2.7.2.1.2 Linking Protocol",
+            648
+        ],
+        [
+            8,
+            "C.2.2.7.2.1.3 Directing SLM Frames",
+            649
+        ],
+        [
+            7,
+            "C.2.2.7.2.2 Downlink ELM Frame",
+            649
+        ],
+        [
+            8,
+            "C.2.2.7.2.2.1 Directing ELM Frames",
+            649
+        ],
+        [
+            7,
+            "C.2.2.7.2.3 Delivery Status",
+            649
+        ],
+        [
+            7,
+            "C.2.2.7.2.4 Interrogator Identifier",
+            649
+        ],
+        [
+            7,
+            "C.2.2.7.2.5 Frame Cancellation",
+            649
+        ],
+        [
+            5,
+            "C.2.2.8 System Timers",
+            649
+        ],
+        [
+            3,
+            "C.3 Mode-S Specific Services Test Procedures",
+            650
+        ],
+        [
+            4,
+            "C.3.1 General Characteristics",
+            650
+        ],
+        [
+            4,
+            "C.3.2 Detailed Test Procedures",
+            651
+        ],
+        [
+            5,
+            "C.3.2.1 Downlink Processing",
+            651
+        ],
+        [
+            6,
+            "C.3.2.1.1 Broadcast Processing",
+            651
+        ],
+        [
+            6,
+            "C.3.2.1.2 MSP Processing",
+            652
+        ],
+        [
+            5,
+            "C.3.2.2 Uplink Processing",
+            653
+        ],
+        [
+            6,
+            "C.3.2.2.1 Broadcast Processing",
+            653
+        ],
+        [
+            6,
+            "C.3.2.2.2 MSP Processing",
+            653
+        ],
+        [
+            5,
+            "C.3.2.3 Frame Tests",
+            654
+        ],
+        [
+            6,
+            "C.3.2.3.1 Uplink SLM Frames",
+            654
+        ],
+        [
+            6,
+            "C.3.2.3.2 Uplink ELM Frames",
+            657
+        ],
+        [
+            6,
+            "C.3.2.3.3 Downlink SLM Frames",
+            658
+        ],
+        [
+            6,
+            "C.3.2.3.4 Downlink ELM Frame",
+            659
+        ],
+        [
+            5,
+            "C.3.2.4 MSP Operations",
+            660
+        ],
+        [
+            5,
+            "C.3.2.5 L-Bit Linking",
+            660
+        ],
+        [
+            5,
+            "C.3.2.6 Link Frame Cancellation Timer (Tc)",
+            661
+        ],
+        [
+            5,
+            "C.3.2.7 Interrogator Link Timer (Tz)",
+            662
+        ],
+        [
+            3,
+            "C.4 Dataflash Application",
+            662
+        ],
+        [
+            4,
+            "C.4.1 Introduction",
+            662
+        ],
+        [
+            4,
+            "C.4.2 The Choice of Protocol",
+            662
+        ],
+        [
+            4,
+            "C.4.3 EUROCAE Documentation",
+            663
+        ],
+        [
+            4,
+            "C.4.4 Dataflash Requirements",
+            663
+        ],
+        [
+            4,
+            "C.4.5 Document Precedence",
+            663
+        ],
+        [
+            4,
+            "C.4.6 Uplink MSP Channel 6 (Ground-to-Air Request)",
+            664
+        ],
+        [
+            5,
+            "C.4.6.1 Purpose",
+            664
+        ],
+        [
+            5,
+            "C.4.6.2 Format",
+            664
+        ],
+        [
+            5,
+            "C.4.6.3 SR Header Assignments",
+            664
+        ],
+        [
+            5,
+            "C.4.6.4 Dataflash Request Format",
+            664
+        ],
+        [
+            5,
+            "C.4.6.5 Dataflash Header (DH) 16 Bits",
+            665
+        ],
+        [
+            6,
+            "C.4.6.5.1 Contract Number Subfield (CNS) 4-Bits. ",
+            665
+        ],
+        [
+            6,
+            "C.4.6.5.2 Request Data Subfield (RDS) 1-Bit.  ",
+            665
+        ],
+        [
+            6,
+            "C.4.6.5.3 BDS1 and BDS2 Codes of the Register for Which the Contract is Required.  8 Bits.",
+            665
+        ],
+        [
+            5,
+            "C.4.6.6 Minimum Time (MT) 8 Bits",
+            666
+        ],
+        [
+            5,
+            "C.4.6.7 Event Initiation",
+            666
+        ],
+        [
+            6,
+            "C.4.6.7.1 Event Criterion Field (EC) 4 Bits",
+            666
+        ],
+        [
+            6,
+            "C.4.6.7.2 Stable Time Field (ST) 4 Bits",
+            667
+        ],
+        [
+            5,
+            "C.4.6.8 Change Fields \u2013 Change Quanta (CQ) and Change Threshold (CT)",
+            667
+        ],
+        [
+            4,
+            "C.4.7 Downlink MSL Channel 3.  Dataflash Service",
+            669
+        ],
+        [
+            5,
+            "C.4.7.1 Purpose",
+            669
+        ],
+        [
+            5,
+            "C.4.7.2 Service Initiation and Termination",
+            669
+        ],
+        [
+            5,
+            "C.4.7.3 Service Provision",
+            670
+        ],
+        [
+            5,
+            "C.4.7.4 Downlink Message Structure",
+            670
+        ],
+        [
+            5,
+            "C.4.7.5 Data Extraction by Mode-S Ground Stations",
+            671
+        ],
+        [
+            5,
+            "C.4.7.6 Data flash Requirement/Test Cross Reference Table",
+            673
+        ],
+        [
+            4,
+            "C.4.8 Test Procedures for Dataflash Application",
+            674
+        ],
+        [
+            5,
+            "C.4.8.1 Test Equipment",
+            674
+        ],
+        [
+            5,
+            "C.4.8.2 Test Procedures",
+            676
+        ],
+        [
+            6,
+            "C.4.8.2.1 Procedure #1: Initialization and Checking for Dataflash Support ",
+            676
+        ],
+        [
+            6,
+            "C.4.8.2.2 Procedure #2: Requesting the setup of Dataflash Contracts ",
+            677
+        ],
+        [
+            6,
+            "C.4.8.2.3 Procedure #3: Termination of Dataflash Contracts",
+            681
+        ],
+        [
+            6,
+            "C.4.8.2.4 Procedure #4: Dataflash Header (DH) Field Tests",
+            684
+        ],
+        [
+            6,
+            "C.4.8.2.5 Procedure #5: Minimum Time (MT) Field Tests",
+            685
+        ],
+        [
+            6,
+            "C.4.8.2.6 Procedure #6: Event Criterion (EC) Field Tests",
+            687
+        ],
+        [
+            6,
+            "C.4.8.2.7 Procedure #7: Stable Time (ST) Field tests",
+            699
+        ],
+        [
+            6,
+            "C.4.8.2.8 Procedure #8: Maximum Message Rate",
+            701
+        ],
+        [
+            6,
+            "C.4.8.2.9 Procedure #9: Test of Mode S Subnetwork Version Number and Global Capability Reporting",
+            703
+        ],
+        [
+            4,
+            "C.4.9 Dataflash Installed System Performance",
+            704
+        ],
+        [
+            5,
+            "C.4.9.1 Ground Test Procedures",
+            704
+        ],
+        [
+            4,
+            "C.4.10 Implementation Guidelines for Dataflash",
+            705
+        ],
+        [
+            5,
+            "C.4.10.1 Overview",
+            705
+        ],
+        [
+            5,
+            "C.4.10.2 Minimum number of contracts",
+            706
+        ],
+        [
+            5,
+            "C.4.10.3 Contract request for a transponder register not serviced by the airborne installation",
+            706
+        ],
+        [
+            5,
+            "C.4.10.4 Service continuity in overlapping coverage with radars using the same II code",
+            707
+        ],
+        [
+            6,
+            "C.4.10.4.1 Radar with the dataflash application embedded in the radar software",
+            707
+        ],
+        [
+            6,
+            "C.4.10.4.2 Use of an ATC centre-based dataflash application",
+            707
+        ],
+        [
+            5,
+            "C.4.10.5 Ground management of multiple contracts for the same transponder register",
+            707
+        ],
+        [
+            5,
+            "C.4.10.6 Service termination",
+            708
+        ],
+        [
+            5,
+            "C.4.10.7 Dataflash request containing multiple contracts",
+            708
+        ],
+        [
+            5,
+            "C.4.10.8 Transponder register data contained in the downlink message",
+            708
+        ],
+        [
+            1,
+            "DO-181E-Appendix-D.pdf",
+            -1
+        ],
+        [
+            2,
+            "D. For the Potential Addition of Hijack Mode Operations",
+            713
+        ],
+        [
+            1,
+            "DO-181E-Appendix-E.pdf",
+            -1
+        ],
+        [
+            2,
+            "E. Details of the Changes from RTCA DO-181D to DO-181E",
+            755
+        ]
+    ],
+    "pages": 804,
+    "ocr_stats": {
+        "ocr_pages": 31,
+        "ocr_failed": 31,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 542,
+        "code": 52,
+        "table": 199,
+        "equations": {
+            "successful_ocr": 7,
+            "unsuccessful_ocr": 0,
+            "equations": 7
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

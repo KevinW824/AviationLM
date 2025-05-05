@@ -1,0 +1,1720 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            "TABLE OF CONTENTS",
+            5
+        ],
+        [
+            1,
+            "TABLE OF TABLES",
+            13
+        ],
+        [
+            1,
+            "1 INTRODUCTION",
+            17
+        ],
+        [
+            2,
+            "1.1 Purpose",
+            17
+        ],
+        [
+            2,
+            "1.2 Scope",
+            17
+        ],
+        [
+            2,
+            "1.3 How to use this document",
+            18
+        ],
+        [
+            2,
+            "1.4 Conventions of This Document",
+            19
+        ],
+        [
+            2,
+            "1.5 Relationship to Other Documents",
+            20
+        ],
+        [
+            2,
+            "1.6 Definition of Terms and Acronyms",
+            20
+        ],
+        [
+            3,
+            "1.6.1       Acronyms",
+            32
+        ],
+        [
+            1,
+            "2 REGULATORY CONSIDERATIONS",
+            39
+        ],
+        [
+            2,
+            "2.1 Intentional Unauthorized Electronic Interaction",
+            39
+        ],
+        [
+            3,
+            "2.1.1     Intentional Unauthorized Electronic Interaction - Definition and Meaning",
+            39
+        ],
+        [
+            3,
+            "2.1.2     Intentional Unauthorized Electronic Interaction \u2013 Some Principles",
+            40
+        ],
+        [
+            3,
+            "2.1.3     Intentional Unauthorized Electronic Interaction \u2013 Some Examples",
+            40
+        ],
+        [
+            2,
+            "2.2 Asset Protection Scope",
+            41
+        ],
+        [
+            3,
+            "2.2.1 Determination of Hazard Classification considering safety effect caused by intentional unauthorized electronic interaction",
+            42
+        ],
+        [
+            3,
+            "2.2.2     Analyzing Potential Impact on Surrounding Systems",
+            43
+        ],
+        [
+            3,
+            "2.2.3     Summary of Asset Protection",
+            44
+        ],
+        [
+            2,
+            "2.3 Type Design Changes and STC Considerations",
+            44
+        ],
+        [
+            2,
+            "2.4 Acceptable Compliance Demonstration Evidence Considerations",
+            45
+        ],
+        [
+            3,
+            "2.4.1     Certification",
+            46
+        ],
+        [
+            2,
+            "2.5  Considerations for Continued Airworthiness Security",
+            47
+        ],
+        [
+            3,
+            "2.5.1     Vulnerability and Threat Management",
+            48
+        ],
+        [
+            2,
+            "2.6 Trust Considerations in the Security Environment",
+            49
+        ],
+        [
+            2,
+            "2.7 Risk Acceptability",
+            50
+        ],
+        [
+            3,
+            "2.7.1    Introduction",
+            50
+        ],
+        [
+            3,
+            "2.7.2     Criteria for Communicating and Accepting Risk",
+            50
+        ],
+        [
+            4,
+            "2.7.2.1          Impact Criteria",
+            51
+        ],
+        [
+            4,
+            "2.7.2.2          Level of Threat Criteria",
+            51
+        ],
+        [
+            4,
+            "2.7.2.3          Risk Acceptance Criteria",
+            51
+        ],
+        [
+            3,
+            "2.7.3     Risk Acceptability Statement",
+            51
+        ],
+        [
+            3,
+            "2.7.4     Regulatory View of Continued Level of Threat Protection",
+            52
+        ],
+        [
+            2,
+            "2.8 Considerations in the use of Commercial Off The Shelf (COTS) and Previously Certified Products",
+            52
+        ],
+        [
+            3,
+            "2.8.1     Use of Previously Certified Systems",
+            53
+        ],
+        [
+            3,
+            "2.8.2     Use of Commercial Hardware Parts",
+            53
+        ],
+        [
+            3,
+            "2.8.3     Use of Parts without Security Data",
+            54
+        ],
+        [
+            1,
+            "3  RISK ASSESSMENT",
+            57
+        ],
+        [
+            2,
+            "3.1  Security Scope",
+            57
+        ],
+        [
+            3,
+            "3.1.1     Asset Identification",
+            58
+        ],
+        [
+            4,
+            "3.1.1.1         Asset Identification Considerations",
+            59
+        ],
+        [
+            3,
+            "3.1.2     Security Perimeter",
+            59
+        ],
+        [
+            3,
+            "3.1.3     Security Environment and Trust",
+            60
+        ],
+        [
+            4,
+            "3.1.3.1          Validation of Trustworthiness",
+            62
+        ],
+        [
+            3,
+            "3.1.4     Changes in the Security Environment",
+            62
+        ],
+        [
+            3,
+            "3.1.5     Considerations on Decomposition of Assets, Security Perimeter and Environment",
+            62
+        ],
+        [
+            2,
+            "3.2  Risk Assessment Method Framework",
+            63
+        ],
+        [
+            3,
+            "3.2.1      Core Principles for Risk Assessment Methodology",
+            63
+        ],
+        [
+            2,
+            "3.3  Threat Condition Identification and Effect Evaluation",
+            65
+        ],
+        [
+            3,
+            "3.3.1     Characterization of Threat Conditions and Their Effects",
+            65
+        ],
+        [
+            3,
+            "3.3.2     Relationship of Threat Conditions to Failure Conditions",
+            67
+        ],
+        [
+            3,
+            "3.3.3     Threat Condition and Severity Effects Evaluation Method",
+            68
+        ],
+        [
+            2,
+            "3.4 Threat Scenario Identification",
+            71
+        ],
+        [
+            3,
+            "3.4.1    Threat Scenario Structure",
+            71
+        ],
+        [
+            4,
+            "3.4.1.1          Threat Sources and Threat Catalog Considerations",
+            73
+        ],
+        [
+            4,
+            "3.4.1.2          Attack Path Considerations",
+            73
+        ],
+        [
+            4,
+            "3.4.1.3          Considerations of Inherent Vulnerabilities",
+            74
+        ],
+        [
+            4,
+            "3.4.1.4          Threat Scenario Structure and Detail",
+            74
+        ],
+        [
+            3,
+            "3.4.2     Threat Scenario Consistency and Completeness",
+            75
+        ],
+        [
+            2,
+            "3.5 Security Measure Characterization",
+            76
+        ],
+        [
+            3,
+            "3.5.1     Security Measure Common Mode Analysis",
+            79
+        ],
+        [
+            2,
+            "3.6  Level of Threat Evaluation",
+            80
+        ],
+        [
+            3,
+            "3.6.1     Relation of Effectiveness and Likelihood",
+            80
+        ],
+        [
+            3,
+            "3.6.2      Evaluation Criteria Considerations",
+            80
+        ],
+        [
+            4,
+            "3.6.2.1          Protection Criteria",
+            81
+        ],
+        [
+            4,
+            "3.6.2.2          Exposure Reduction Criteria",
+            82
+        ],
+        [
+            4,
+            "3.6.2.3          Attack Attempt Criteria",
+            83
+        ],
+        [
+            3,
+            "3.6.3     Combined Protection Assessment",
+            83
+        ],
+        [
+            3,
+            "3.6.4     Risk Evaluation",
+            86
+        ],
+        [
+            2,
+            "3.7  Risk consistency check",
+            87
+        ],
+        [
+            2,
+            "3.8  Risk Assessment for Change Management",
+            88
+        ],
+        [
+            3,
+            "3.8.1     New Vulnerability in Design",
+            88
+        ],
+        [
+            3,
+            "3.8.2      New Vulnerability in a Security Measure",
+            89
+        ],
+        [
+            3,
+            "3.8.3     Architecture / Implementation Change",
+            89
+        ],
+        [
+            3,
+            "3.8.4 Functional Change",
+            90
+        ],
+        [
+            2,
+            "3.9 Considerations on Comparability of Risk Assessments",
+            90
+        ],
+        [
+            1,
+            "4 SECURITY ASSURANCE",
+            93
+        ],
+        [
+            2,
+            "4.1 Security Specific Assurance",
+            94
+        ],
+        [
+            3,
+            "4.1.1     Security Risk Assessment Objectives",
+            94
+        ],
+        [
+            3,
+            "4.1.2     Vulnerability Identification Objectives",
+            95
+        ],
+        [
+            3,
+            "4.1.3     Security Refutation Objectives",
+            95
+        ],
+        [
+            3,
+            "4.1.4     Security Deployment Objectives",
+            96
+        ],
+        [
+            3,
+            "4.1.5     Continued Security Effectiveness Objectives",
+            96
+        ],
+        [
+            2,
+            "4.2 Security Development Assurance",
+            96
+        ],
+        [
+            3,
+            "4.2.1     Requirements Objectives",
+            97
+        ],
+        [
+            3,
+            "4.2.2     Design Objectives",
+            98
+        ],
+        [
+            3,
+            "4.2.3     Implementation Objectives",
+            98
+        ],
+        [
+            3,
+            "4.2.4     Security Verification Objectives",
+            98
+        ],
+        [
+            3,
+            "4.2.5     Security Planning Objectives",
+            99
+        ],
+        [
+            3,
+            "4.2.6     Security Configuration Management Objectives",
+            99
+        ],
+        [
+            3,
+            "4.2.7     Security Certification Liaison Objectives",
+            101
+        ],
+        [
+            3,
+            "4.2.8 Tool Security Objectives",
+            102
+        ],
+        [
+            2,
+            "4.3 Configuration Management Control Categories",
+            103
+        ],
+        [
+            2,
+            "4.4 Security Assurance Levels",
+            104
+        ],
+        [
+            3,
+            "4.4.1     Security Assurance Level Assignment",
+            105
+        ],
+        [
+            3,
+            "4.4.2 Security Assurance Level Assignment for Products Already Certified without Security Requirements",
+            107
+        ],
+        [
+            1,
+            "5 DEVELOPMENT OF SECURITY ARCHITECTURE AND MEASURES",
+            109
+        ],
+        [
+            2,
+            "5.1 Purposes of Architecture",
+            109
+        ],
+        [
+            2,
+            "5.2 Concepts and Characteristics of Security Architectures",
+            109
+        ],
+        [
+            2,
+            "5.3  Decomposition of Assets in a Security Architecture",
+            111
+        ],
+        [
+            3,
+            "5.3.1     Considerations on Security Assurance Allocation Within the Aircraft",
+            114
+        ],
+        [
+            2,
+            "5.4 Security Architecture considerations",
+            115
+        ],
+        [
+            2,
+            "5.5 Threat Scenarios and Defense-in-Depth",
+            116
+        ],
+        [
+            2,
+            "5.6 Security Architecture Principles at Aircraft Level",
+            116
+        ],
+        [
+            3,
+            "5.6.1      Principle 1 \u2013 Defense-in-Depth",
+            117
+        ],
+        [
+            3,
+            "5.6.2     Principle 2 \u2013 Integrity of Connected Equipment",
+            118
+        ],
+        [
+            3,
+            "5.6.3     Principle 3 \u2013 Continued Airworthiness",
+            118
+        ],
+        [
+            3,
+            "5.6.4     Principle 4 \u2013 Prevent Bypass of Security Barriers",
+            118
+        ],
+        [
+            3,
+            "5.6.5     Principle 5 \u2013 Keep Security Architectures as Simple as Possible",
+            119
+        ],
+        [
+            3,
+            "5.6.6     Principle 6 - Detection and Restoration",
+            119
+        ],
+        [
+            2,
+            "5.7 Security Architecture Principles at (Multi-)System Level",
+            119
+        ],
+        [
+            3,
+            "5.7.1     Principle 7 \u2013 Attack Path Refinement at System Level",
+            119
+        ],
+        [
+            3,
+            "5.7.2     Principle 8 \u2013 Consider Security Process Specifics",
+            120
+        ],
+        [
+            3,
+            "5.7.3     Principle 9 \u2013 Minimize External Interfaces",
+            120
+        ],
+        [
+            3,
+            "5.7.4     Principle 10 \u2013 Disable All Unused Interfaces",
+            120
+        ],
+        [
+            3,
+            "5.7.5     Principle 11 \u2013 Independence and isolation",
+            121
+        ],
+        [
+            2,
+            "5.8 Security Architecture at Item Level",
+            121
+        ],
+        [
+            3,
+            "5.8.1     Principle 12 \u2013 Ensure Proper Error Handling",
+            121
+        ],
+        [
+            3,
+            "5.8.2      Principle 13 \u2013 Least Privilege",
+            122
+        ],
+        [
+            3,
+            "5.8.3     Principle 14 \u2013 Control Access to Connections",
+            122
+        ],
+        [
+            2,
+            "5.9 Security Considerations in Aircraft Development",
+            122
+        ],
+        [
+            3,
+            "5.9.1     Reaction Time",
+            122
+        ],
+        [
+            3,
+            "5.9.2    Security in Service",
+            123
+        ],
+        [
+            3,
+            "5.9.3     Verification, Validation and Refutation of Security Requirements",
+            123
+        ],
+        [
+            3,
+            "5.9.4     Fail Secure Considerations",
+            123
+        ],
+        [
+            1,
+            "6  SECURITY EVENT LOGGING",
+            125
+        ],
+        [
+            2,
+            "6.1  Security Logging and Notifications",
+            125
+        ],
+        [
+            3,
+            "6.1.1     Security Notifications",
+            125
+        ],
+        [
+            3,
+            "6.1.2     Security Logging",
+            125
+        ],
+        [
+            2,
+            "6.2 Concept of Operations for Logging and Audit",
+            126
+        ],
+        [
+            3,
+            "6.2.1     Goals and Objectives of Security Event Logging",
+            126
+        ],
+        [
+            4,
+            "6.2.1.1          Primary Objective",
+            126
+        ],
+        [
+            4,
+            "6.2.1.2          Additional Objectives",
+            126
+        ],
+        [
+            5,
+            "6.2.1.2.1        Maintaining Continuing Airworthiness",
+            126
+        ],
+        [
+            5,
+            "6.2.1.2.2        Supporting Security Operational Approval",
+            127
+        ],
+        [
+            3,
+            "6.2.2     Strategies, Tactics, Policies, and Constraints Affecting the Security Events Logging",
+            127
+        ],
+        [
+            3,
+            "6.2.3     Allocation of Responsibility Among Stakeholders",
+            128
+        ],
+        [
+            4,
+            "6.2.3.1          DAH Responsibilities",
+            128
+        ],
+        [
+            4,
+            "6.2.3.2          Operator Responsibilities",
+            129
+        ],
+        [
+            3,
+            "6.2.4     Operational Process",
+            129
+        ],
+        [
+            1,
+            "7.             MEMBERSHIP",
+            131
+        ],
+        [
+            1,
+            "APPENDIX A   SECURITY ASSURANCE OBJECTIVES",
+            137
+        ],
+        [
+            2,
+            "A.1 Security Assurance Objectives",
+            137
+        ],
+        [
+            3,
+            "A.1.1 Security Specific Assurance",
+            138
+        ],
+        [
+            3,
+            "A.1.2 Security Development Assurance",
+            140
+        ],
+        [
+            1,
+            "APPENDIX B   SECURITY ASSURANCE GUIDANCE",
+            143
+        ],
+        [
+            2,
+            "B.1 Security Assurance Relation to Other Development Assurance Standards",
+            143
+        ],
+        [
+            3,
+            "B.1.1 Security Specific Assurance",
+            143
+        ],
+        [
+            3,
+            "B.1.2 Security Development Assurance",
+            145
+        ],
+        [
+            2,
+            "B.2 Security Assurance Activities",
+            148
+        ],
+        [
+            3,
+            "B.2.1 Security Risk Assessment Activities",
+            148
+        ],
+        [
+            3,
+            "B.2.2 Vulnerability Identification introduction",
+            150
+        ],
+        [
+            4,
+            "B.2.2.1 Assessment of Test Results",
+            150
+        ],
+        [
+            4,
+            "B.2.2.2 Assessment of Well-Known Vulnerabilities",
+            150
+        ],
+        [
+            4,
+            "B.2.2.3 Vulnerability Reporting and Management",
+            151
+        ],
+        [
+            4,
+            "B.2.2.4 Vulnerability Dossier",
+            151
+        ],
+        [
+            3,
+            "B.2.3 Vulnerability Identification Activities",
+            152
+        ],
+        [
+            3,
+            "B.2.4 Security Refutation Introduction",
+            153
+        ],
+        [
+            3,
+            "B.2.5 Security Refutation Activities",
+            155
+        ],
+        [
+            3,
+            "B.2.6 Security Deployment Activities",
+            156
+        ],
+        [
+            3,
+            "B.2.7 Continued Security Effectiveness Activities",
+            158
+        ],
+        [
+            3,
+            "B.2.8 Requirements Activities",
+            158
+        ],
+        [
+            3,
+            "B.2.9 Design Activities",
+            159
+        ],
+        [
+            3,
+            "B.2.10 Implementation Activities",
+            160
+        ],
+        [
+            3,
+            "B.2.11 Security Verification Activities",
+            161
+        ],
+        [
+            3,
+            "B.2.12 Security Planning Activities",
+            162
+        ],
+        [
+            3,
+            "B.2.13 Security Configuration Management Activities",
+            163
+        ],
+        [
+            3,
+            "B.2.14 Security Certification Liaison Activities",
+            164
+        ],
+        [
+            3,
+            "B.2.15 Tool Security Activities",
+            165
+        ],
+        [
+            1,
+            "APPENDIX C  PROCESS LOOKUP TABLE",
+            167
+        ],
+        [
+            1,
+            "APPENDIX D  COMMON METHOD EXAMPLES",
+            171
+        ],
+        [
+            2,
+            "D.1 Security Perimeter Example",
+            171
+        ],
+        [
+            2,
+            "D.2 Risk Management Example",
+            173
+        ],
+        [
+            3,
+            "D.2.1 Example Context",
+            173
+        ],
+        [
+            3,
+            "D.2.2 Security Scope",
+            173
+        ],
+        [
+            4,
+            "D.2.2.1 Assets",
+            175
+        ],
+        [
+            5,
+            "D.2.2.1.1 Aircraft Functions",
+            175
+        ],
+        [
+            5,
+            "D.2.2.1.2 Change Impact Analysis",
+            176
+        ],
+        [
+            5,
+            "D.2.2.1.3 Survey Data",
+            176
+        ],
+        [
+            4,
+            "D.2.2.2 Security Perimeter",
+            177
+        ],
+        [
+            4,
+            "D.2.2.3 Security Environment",
+            180
+        ],
+        [
+            4,
+            "D.2.2.4 Defining Nested Assets",
+            183
+        ],
+        [
+            3,
+            "D.2.3 Risk Assessment Method Framework",
+            183
+        ],
+        [
+            4,
+            "D.2.3.1 Threat Condition Identification and Evaluation",
+            183
+        ],
+        [
+            4,
+            "D.2.3.2 Threat Scenario Identification",
+            185
+        ],
+        [
+            5,
+            "D.2.3.2.1 Identifying Threat Scenarios",
+            185
+        ],
+        [
+            4,
+            "D.2.3.3 Security Measure Characterization",
+            188
+        ],
+        [
+            2,
+            "D.3 Aircraft Airworthiness Security Process Example",
+            189
+        ],
+        [
+            3,
+            "D.3.1 Scope",
+            189
+        ],
+        [
+            3,
+            "D.3.2 Document Description",
+            189
+        ],
+        [
+            3,
+            "D.3.3 Aircraft Development Process",
+            189
+        ],
+        [
+            3,
+            "D.3.4 Aircraft Introduction",
+            190
+        ],
+        [
+            3,
+            "D.3.5 Aircraft Concept",
+            190
+        ],
+        [
+            3,
+            "D.3.6 Aircraft Planning",
+            192
+        ],
+        [
+            3,
+            "D.3.7 Aircraft Functions",
+            192
+        ],
+        [
+            4,
+            "D.3.7.1 Aircraft Functions (derived from ARP4761A Appendix A)",
+            193
+        ],
+        [
+            4,
+            "D.3.7.2 Aircraft Functions Interfaces",
+            195
+        ],
+        [
+            4,
+            "D.3.7.3 Aircraft Requirements",
+            199
+        ],
+        [
+            3,
+            "D.3.8 Aircraft Level Safety Assessment Process",
+            199
+        ],
+        [
+            3,
+            "D.3.9 Aircraft Security Scope Definition Based on Functions",
+            205
+        ],
+        [
+            4,
+            "D.3.9.1 Identification of Aircraft Assets",
+            207
+        ],
+        [
+            4,
+            "D.3.9.2 Aircraft Security Perimeter",
+            208
+        ],
+        [
+            5,
+            "D.3.9.2.1 Aircraft Threat Identification",
+            209
+        ],
+        [
+            5,
+            "D.3.9.2.2 Aircraft Vulnerability Identification",
+            213
+        ],
+        [
+            5,
+            "D.3.9.2.3 Threat Modeling",
+            214
+        ],
+        [
+            4,
+            "D.3.9.3 Aircraft Security Environment",
+            215
+        ],
+        [
+            5,
+            "D.3.9.3.1 Aircraft Security Environment",
+            215
+        ],
+        [
+            5,
+            "D.3.9.3.2 Trustworthiness Assumptions",
+            219
+        ],
+        [
+            5,
+            "D.3.9.3.3 General Assumptions",
+            221
+        ],
+        [
+            4,
+            "D.3.9.4 Expected Security Scope Data",
+            221
+        ],
+        [
+            2,
+            "D.4 Aircraft Architecture",
+            222
+        ],
+        [
+            3,
+            "D.4.1 Avionic System Architecture",
+            223
+        ],
+        [
+            1,
+            "APPENDIX E   SECURITY EFFECTIVENESS METHOD AND EXAMPLES",
+            229
+        ],
+        [
+            2,
+            "E.1 Effectiveness Risk Assessment Method",
+            229
+        ],
+        [
+            3,
+            "E.1.1 Effectiveness of Protection Scale",
+            230
+        ],
+        [
+            3,
+            "E.1.2 Effectiveness Evaluation Order",
+            231
+        ],
+        [
+            3,
+            "E.1.3 Effectiveness Evaluation Criteria",
+            231
+        ],
+        [
+            4,
+            "E.1.3.1 Preparation Means",
+            233
+        ],
+        [
+            4,
+            "E.1.3.2 Window of Opportunity",
+            234
+        ],
+        [
+            4,
+            "E.1.3.3 Execution Means",
+            235
+        ],
+        [
+            4,
+            "E.1.3.4 Security Measure Types",
+            236
+        ],
+        [
+            4,
+            "E.1.3.5 Security Assurance vs. Effectiveness",
+            236
+        ],
+        [
+            3,
+            "E.1.4 Combined Effectiveness Assessment",
+            237
+        ],
+        [
+            3,
+            "E.1.5 Effectiveness Evaluation",
+            238
+        ],
+        [
+            4,
+            "E.1.5.1 Effectiveness of Protection Evaluation Table",
+            238
+        ],
+        [
+            4,
+            "E.1.5.2 Effectiveness Capping",
+            240
+        ],
+        [
+            4,
+            "E.1.5.3 Maximum Effectiveness",
+            241
+        ],
+        [
+            4,
+            "E.1.5.4 Effectiveness of Protection Level",
+            241
+        ],
+        [
+            2,
+            "E.2 Risk Assessment Examples",
+            242
+        ],
+        [
+            3,
+            "E.2.1 Effectiveness of Protection Evaluation Example 1",
+            242
+        ],
+        [
+            3,
+            "E.2.2 Effectiveness of Protection Evaluation Example 2",
+            243
+        ],
+        [
+            4,
+            "E.2.2.1 Asset Identification",
+            243
+        ],
+        [
+            4,
+            "E.2.2.2 Impact Analysis",
+            244
+        ],
+        [
+            4,
+            "E.2.2.3 Threat Scenario Identification",
+            244
+        ],
+        [
+            4,
+            "E.2.2.4 Level of Threat Evaluation",
+            244
+        ],
+        [
+            5,
+            "E.2.2.4.1 Effectiveness of Protection Level",
+            246
+        ],
+        [
+            5,
+            "E.2.2.4.2 Statement of Adequate Level of Protection",
+            246
+        ],
+        [
+            5,
+            "E.2.2.4.3 Identification and Assessment of New Security Measures",
+            246
+        ],
+        [
+            3,
+            "E.2.3 Effectiveness of Protection Evaluation Example 3",
+            247
+        ],
+        [
+            4,
+            "E.2.3.1.1 Security Measure Characterization",
+            247
+        ],
+        [
+            4,
+            "E.2.3.1.2 Level of Threat Evaluation for each Threat Scenario",
+            248
+        ],
+        [
+            5,
+            "E.2.3.1.2.1 Effectiveness of Protection Level",
+            249
+        ],
+        [
+            5,
+            "E.2.3.1.2.2 Statement of Adequate Level of Protection",
+            249
+        ],
+        [
+            4,
+            "E.2.3.2 Additional Risk Assessment",
+            250
+        ],
+        [
+            5,
+            "E.2.3.2.1 Identification of Additional Security Measures",
+            250
+        ],
+        [
+            5,
+            "E.2.3.2.2 Updated Level of Threat Evaluation for each Threat Scenario",
+            252
+        ],
+        [
+            6,
+            "E.2.3.2.2.1 Effectiveness of Protection Level",
+            253
+        ],
+        [
+            6,
+            "E.2.3.2.2.2 Statement of Adequate Level of Protection",
+            254
+        ],
+        [
+            3,
+            "E.2.4 Effectiveness of Protection Example 4",
+            254
+        ],
+        [
+            4,
+            "E.2.4.1 Aircraft Definition",
+            254
+        ],
+        [
+            4,
+            "E.2.4.2 Preliminary Aircraft Security Risk Assessment (Extract)",
+            254
+        ],
+        [
+            4,
+            "E.2.4.3 Preliminary System Security Risk Assessment for Communication DC (Extract)",
+            255
+        ],
+        [
+            5,
+            "E.2.4.3.1 Risk Treatment for TS1:",
+            256
+        ],
+        [
+            6,
+            "E.2.4.3.1.1 Option 1 Evaluation: Traffic monitoring as additional security measure",
+            257
+        ],
+        [
+            6,
+            "E.2.4.3.1.2 Option 2 Evaluation: Cut the link between Communication DC and Passenger Entertainment Area",
+            257
+        ],
+        [
+            6,
+            "E.2.4.3.1.3 Option 3 Evaluation: \u201cRe-architect Avionics Network to Route Data Through Flight Control DC\u201d",
+            257
+        ],
+        [
+            6,
+            "E.2.4.3.1.4 Option 4 Evaluation: Security partitioning (separation and isolation) in the Communication DC",
+            258
+        ],
+        [
+            6,
+            "E.2.4.3.1.5 Option 5a Evaluation: Rate-limit the Passenger Entertainment Area Connection in Additional LRU",
+            259
+        ],
+        [
+            6,
+            "E.2.4.3.1.6 Option 5b Evaluation: Rate-limit the Passenger Entertainment Area Connection in Communication DC",
+            260
+        ],
+        [
+            6,
+            "E.2.4.3.1.7 Option 6 Evaluation: Limit Availability of PAX Area Communication",
+            262
+        ],
+        [
+            6,
+            "E.2.4.3.1.8 Option 7: Combination of Previous Options",
+            262
+        ],
+        [
+            6,
+            "E.2.4.3.1.9 Option 8: Combination of Previous Options",
+            264
+        ],
+        [
+            5,
+            "E.2.4.3.2 Risk Re-evaluation",
+            265
+        ],
+        [
+            4,
+            "E.2.4.4 Security Objectives / Security Requirements",
+            265
+        ],
+        [
+            2,
+            "E.3 Threat Condition Evaluation Example Template",
+            266
+        ],
+        [
+            2,
+            "E.4 Order of Evaluation",
+            267
+        ],
+        [
+            1,
+            "APPENDIX F   LEVEL OF THREAT LIKELIHOOD METHOD AND EXAMPLES",
+            269
+        ],
+        [
+            2,
+            "F.1 Risk Scoring",
+            269
+        ],
+        [
+            3,
+            "F.1.1 Severity, Threat, and Protection Scoring",
+            269
+        ],
+        [
+            3,
+            "F.1.2 Risk Scoring",
+            272
+        ],
+        [
+            3,
+            "F.1.3 Scoring Guidance",
+            273
+        ],
+        [
+            3,
+            "F.1.4 Scoring A Linear Threat Scenario",
+            276
+        ],
+        [
+            3,
+            "F.1.5 Illustration of Risk Scoring a Threat Scenario",
+            276
+        ],
+        [
+            4,
+            "F.1.5.1 Risk Score for Threat Scenario on Cabin Assets",
+            277
+        ],
+        [
+            4,
+            "F.1.5.2 Risk Score for Threat Scenario on Maintenance Assets",
+            277
+        ],
+        [
+            4,
+            "F.1.5.3 Risk Score for Threat Scenario on Aircraft Network Assets",
+            278
+        ],
+        [
+            4,
+            "F.1.5.4 Risk Score for Threat Scenario on Aircraft Avionics Assets",
+            278
+        ],
+        [
+            2,
+            "F.2 Threat Trees for Risk Assessment",
+            279
+        ],
+        [
+            3,
+            "F.2.1 Basic Threat Tree",
+            279
+        ],
+        [
+            2,
+            "F.3 Example Security Risk Assessment",
+            282
+        ],
+        [
+            3,
+            "F.3.1 Security Scope",
+            282
+        ],
+        [
+            4,
+            "F.3.1.1 Simple Network Description Summary",
+            282
+        ],
+        [
+            4,
+            "F.3.1.2 Security Environment",
+            285
+        ],
+        [
+            4,
+            "F.3.1.3 Security Perimeter",
+            285
+        ],
+        [
+            4,
+            "F.3.1.4 Security Assets",
+            285
+        ],
+        [
+            4,
+            "F.3.1.5 High-Level Security Requirements",
+            285
+        ],
+        [
+            4,
+            "F.3.1.6 Risk Summary and Security Assurance Objectives",
+            285
+        ],
+        [
+            3,
+            "F.3.2 Modeling the Security Architecture",
+            286
+        ],
+        [
+            4,
+            "F.3.2.1 Connectivity",
+            286
+        ],
+        [
+            4,
+            "F.3.2.2 Security Control Descriptions",
+            286
+        ],
+        [
+            4,
+            "F.3.2.3 Attacker Model",
+            286
+        ],
+        [
+            4,
+            "F.3.2.4 Asset Model",
+            287
+        ],
+        [
+            4,
+            "F.3.2.5 Access Path Model",
+            287
+        ],
+        [
+            4,
+            "F.3.2.6 Access Path Model for Threat Conditions",
+            288
+        ],
+        [
+            4,
+            "F.3.2.7 Defeat Model for Security Measures and Independence of Measures",
+            289
+        ],
+        [
+            4,
+            "F.3.2.8 Graphical Illustration of Security Architecture",
+            291
+        ],
+        [
+            4,
+            "F.3.2.9 Threat Tree for Security Architecture",
+            292
+        ],
+        [
+            4,
+            "F.3.2.10 Raw Threat Scenarios",
+            303
+        ],
+        [
+            4,
+            "F.3.2.11 Validation of Assigned Level of Protection for Security Measures",
+            324
+        ],
+        [
+            3,
+            "F.3.3 Summary of Conclusion",
+            325
+        ],
+        [
+            1,
+            "APPENDIX G   ALTERNATE METHOD USING STPA-SEC",
+            329
+        ],
+        [
+            2,
+            "G.1 Aircraft Airworthiness Security Process Example using STPA-Sec",
+            329
+        ],
+        [
+            3,
+            "G.1.1 Scope",
+            329
+        ],
+        [
+            3,
+            "G.1.2 Document description",
+            329
+        ],
+        [
+            2,
+            "G.2 Background",
+            329
+        ],
+        [
+            2,
+            "G.3 Use Systems Engineering and Control Theory Foundations",
+            332
+        ],
+        [
+            3,
+            "G.3.1 System Purpose and Goal",
+            332
+        ],
+        [
+            3,
+            "G.3.2 STPA-Sec Losses and Accidents",
+            332
+        ],
+        [
+            3,
+            "G.3.3 STPA-SEC Hazard",
+            332
+        ],
+        [
+            3,
+            "G.3.4 Asset",
+            333
+        ],
+        [
+            2,
+            "G.4 Aircraft Security Scope Definition",
+            333
+        ],
+        [
+            3,
+            "G.4.1 Security Environment",
+            333
+        ],
+        [
+            3,
+            "G.4.2 Security Perimeter",
+            334
+        ],
+        [
+            2,
+            "G.5 Aircraft Security Risk Assessment",
+            335
+        ],
+        [
+            3,
+            "G.5.1 Threat Condition and Threat Scenario Identification",
+            335
+        ],
+        [
+            1,
+            "APPENDIX H   CYBERSECURITY RISK ASSESSMENT METHODOLOGY",
+            339
+        ],
+        [
+            2,
+            "H.1 Process Overview",
+            339
+        ],
+        [
+            2,
+            "H.2 Methodology in Detail",
+            340
+        ],
+        [
+            3,
+            "H.2.1 Ease-of-Execution",
+            340
+        ],
+        [
+            3,
+            "H.2.2 Threat Condition Assessment",
+            341
+        ],
+        [
+            3,
+            "H.2.3 Required Security Assurance Level (SAL)",
+            342
+        ],
+        [
+            3,
+            "H.2.4 Initial Risk Determination",
+            342
+        ],
+        [
+            3,
+            "H.2.5 Operator Guidance",
+            342
+        ],
+        [
+            3,
+            "H.2.6 Residual Risk Determination",
+            342
+        ],
+        [
+            2,
+            "H.3 Example put through Methodology - GPWS",
+            343
+        ],
+        [
+            3,
+            "H.3.1 Ease-of-Execution Example",
+            343
+        ],
+        [
+            3,
+            "H.3.2 Threat Condition Assessment Example",
+            345
+        ],
+        [
+            3,
+            "H.3.3 Required Security Assurance Level (SAL) Example",
+            345
+        ],
+        [
+            3,
+            "H.3.4 Initial Risk Determination Example",
+            346
+        ],
+        [
+            1,
+            "APPENDIX I    SECURITY ARCHITECTURE AND MEASURES",
+            349
+        ],
+        [
+            2,
+            "I.1 Using Domains to Describe Security Architecture",
+            349
+        ],
+        [
+            3,
+            "I.1.1 Domains under ARINC 811 and 664 Part 5",
+            350
+        ],
+        [
+            3,
+            "I.1.2 Network Security Domain Considerations",
+            351
+        ],
+        [
+            3,
+            "I.1.3 Technical Basis for Network Security Domain Control",
+            353
+        ],
+        [
+            2,
+            "I.2 Common Modes for Security Measures",
+            357
+        ],
+        [
+            3,
+            "I.2.1 Example of an exhaustive table",
+            358
+        ],
+        [
+            1,
+            "APPENDIX J   REFERENCES",
+            361
+        ],
+        [
+            1,
+            "APPENDIX K   HISTORY OF THE ED-203A / DO-356A DOCUMENT",
+            367
+        ],
+        [
+            1,
+            "IMPROVEMENT SUGGESTION FORM",
+            369
+        ]
+    ],
+    "pages": 370,
+    "ocr_stats": {
+        "ocr_pages": 11,
+        "ocr_failed": 11,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 2,
+        "table": 186,
+        "equations": {
+            "successful_ocr": 2,
+            "unsuccessful_ocr": 2,
+            "equations": 4
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

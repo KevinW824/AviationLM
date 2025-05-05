@@ -1,0 +1,50 @@
+{
+    "language": "Chinese",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            " CTSO-C151b\u9644\u5f551  ",
+            7
+        ],
+        [
+            1,
+            "CTSO-C151b\u9644\u5f552  ",
+            25
+        ],
+        [
+            1,
+            "CTSO-C151b\u9644\u5f553  ",
+            26
+        ],
+        [
+            1,
+            "CTSO-C151b\u9644\u5f554  ",
+            39
+        ],
+        [
+            1,
+            "CTSO-C151b\u9644\u5f555  ",
+            48
+        ]
+    ],
+    "pages": 48,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 18,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

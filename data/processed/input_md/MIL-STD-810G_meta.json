@@ -1,0 +1,8255 @@
+{
+    "language": "English",
+    "filetype": "pdf",
+    "toc": [
+        [
+            1,
+            "810GPartOne",
+            1
+        ],
+        [
+            2,
+            "ENVIRONMENTAL ENGINEERING CONSIDERATIONS",
+            1
+        ],
+        [
+            2,
+            "AND LABORATORY TESTS",
+            1
+        ],
+        [
+            2,
+            "PART ONE ANNEX C FIGURES",
+            7
+        ],
+        [
+            2,
+            "PART ONE ANNEX C TABLE",
+            7
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            9
+        ],
+        [
+            3,
+            "1.1 Purpose.",
+            9
+        ],
+        [
+            3,
+            "1.2 Application.",
+            10
+        ],
+        [
+            3,
+            "1.3 Limitations.  ",
+            11
+        ],
+        [
+            2,
+            "2. APPLICABLE DOCUMENTS.",
+            12
+        ],
+        [
+            3,
+            "2.1 General.  ",
+            12
+        ],
+        [
+            3,
+            "2.2 Government documents.",
+            12
+        ],
+        [
+            4,
+            "2.2.1   Specifications, standards, and handbooks.",
+            12
+        ],
+        [
+            4,
+            "Other government documents, drawings, and publications.",
+            13
+        ],
+        [
+            3,
+            "2.3 Non-Government publications.  ",
+            13
+        ],
+        [
+            3,
+            "Order of precedence.",
+            13
+        ],
+        [
+            2,
+            "3. DEFINITIONS. ",
+            14
+        ],
+        [
+            2,
+            "4. GENERAL PROGRAM GUIDELINES.",
+            17
+        ],
+        [
+            3,
+            "4.1 Program managers. ",
+            17
+        ],
+        [
+            4,
+            "4.1.1   Roles of the program manager.",
+            17
+        ],
+        [
+            4,
+            "4.1.2   Guidance for program managers.",
+            17
+        ],
+        [
+            5,
+            "4.1.2.1   Mission Need Statement (MNS).",
+            18
+        ],
+        [
+            5,
+            "4.1.2.2   Operational Requirements Document (ORD).",
+            19
+        ],
+        [
+            5,
+            "4.1.2.4   Test and Evaluation Master Plan (TEMP).",
+            19
+        ],
+        [
+            3,
+            "4.2 Environmental Engineering Specialists (EES).",
+            19
+        ],
+        [
+            4,
+            "4.2.1   Roles of environmental engineering specialists.",
+            19
+        ],
+        [
+            4,
+            "4.2.2   Environmental engineering tailoring tasks.",
+            20
+        ],
+        [
+            5,
+            "4.2.2.1   General.",
+            20
+        ],
+        [
+            5,
+            "4.2.2.2   Preparing an Environmental Engineering Management Plan (EEMP), Task 401.  ",
+            20
+        ],
+        [
+            5,
+            "4.2.2.3   Developing an Environmental Test and Evaluation Master Plan (ETEMP).",
+            20
+        ],
+        [
+            6,
+            "4.2.2.3.1 Defining a Life Cycle Environmental Profile (LCEP), Task 402.  ",
+            20
+        ],
+        [
+            6,
+            "4.2.2.3.2  Developing Operational Environment Documentation (OED), Task 403.  ",
+            20
+        ],
+        [
+            6,
+            "4.2.2.3.3 Developing an Environmental Issues/Criteria List (EICL), Task 404.  ",
+            21
+        ],
+        [
+            5,
+            "4.2.2.4   Preparing a Detailed Environmental Test Plan (DETP), Task 405.  ",
+            21
+        ],
+        [
+            5,
+            "4.2.2.5   Preparing an Environmental Test Report (ETR), Task 406.  ",
+            21
+        ],
+        [
+            3,
+            "4.3 Design and Test Engineers and Facility Operators.",
+            21
+        ],
+        [
+            4,
+            "4.3.1   Roles of design engineers.  ",
+            21
+        ],
+        [
+            4,
+            "4.3.2   Roles of test engineers/facility operators. ",
+            21
+        ],
+        [
+            4,
+            "4.3.3   Guidance for design and test engineers and test facility operators.",
+            21
+        ],
+        [
+            5,
+            "4.3.3.1   Natural environment (field/fleet) testing.  ",
+            21
+        ],
+        [
+            5,
+            "4.3.3.2   Laboratory testing.  ",
+            21
+        ],
+        [
+            2,
+            "5. GENERAL LABORATORY TEST METHOD GUIDELINES.",
+            24
+        ],
+        [
+            3,
+            "5.1 Test Conditions.",
+            24
+        ],
+        [
+            3,
+            "a. Standard Ambient ",
+            24
+        ],
+        [
+            3,
+            "5.2 Tolerances for Test Conditions.  ",
+            24
+        ],
+        [
+            3,
+            "5.3 Test Instrumentation.  ",
+            25
+        ],
+        [
+            4,
+            "5.3.1   Suitability for environment.  ",
+            25
+        ],
+        [
+            4,
+            "5.3.2   Calibration.  ",
+            25
+        ],
+        [
+            3,
+            "5.4 Stabilizing Test Temperature.  ",
+            25
+        ],
+        [
+            4,
+            "5.4.1   Test item operating.  ",
+            25
+        ],
+        [
+            4,
+            "5.4.2   Test item non-operating.  ",
+            25
+        ],
+        [
+            3,
+            "5.5 Test Sequence.  ",
+            25
+        ],
+        [
+            3,
+            "5.6 Test Level Derivation.  ",
+            26
+        ],
+        [
+            3,
+            "5.7 Pretest Information for Facility Operators.  ",
+            26
+        ],
+        [
+            3,
+            "5.8 Test Setup.",
+            26
+        ],
+        [
+            4,
+            "5.8.1   Installing the test item in test facility.",
+            26
+        ],
+        [
+            4,
+            "5.8.2   Test item operation.  ",
+            26
+        ],
+        [
+            3,
+            "5.9 Pretest Baseline Data.  ",
+            26
+        ],
+        [
+            3,
+            "5.10  Information During Test (for inclusion in the Test Report).  ",
+            27
+        ],
+        [
+            3,
+            "5.11  Interrupted Tests.  ",
+            27
+        ],
+        [
+            4,
+            "5.11.1   In-tolerance interruptions.  ",
+            27
+        ],
+        [
+            4,
+            "5.11.2   Out-of-tolerance interruptions.  ",
+            27
+        ],
+        [
+            4,
+            "Interruption due to test item operation failure.  ",
+            27
+        ],
+        [
+            3,
+            "5.12  Combined Tests.  ",
+            28
+        ],
+        [
+            3,
+            "5.13  Post-test Data.  ",
+            28
+        ],
+        [
+            3,
+            "5.14     Environmental Effects and Failure Criteria.  (See also 5.17, below.)",
+            30
+        ],
+        [
+            3,
+            "5.15    Environmental Test Reports  ",
+            30
+        ],
+        [
+            3,
+            "5.16    Water Purity. ",
+            30
+        ],
+        [
+            3,
+            "5.17   Analysis of Results.",
+            30
+        ],
+        [
+            3,
+            "5.18    Monitoring.",
+            31
+        ],
+        [
+            4,
+            "5.18.1   Monitoring test chamber parameters.  ",
+            31
+        ],
+        [
+            4,
+            "5.18.2   Monitoring the item under test.  ",
+            31
+        ],
+        [
+            4,
+            "5.19 Total High Temperature Exposure Duration.  ",
+            31
+        ],
+        [
+            2,
+            "6. NOTES.",
+            32
+        ],
+        [
+            3,
+            "6.1 Intended use.  ",
+            32
+        ],
+        [
+            3,
+            "6.2  Acquisition requirements.",
+            32
+        ],
+        [
+            3,
+            "6.3 Subject term (key word) listing.",
+            32
+        ],
+        [
+            3,
+            "6.4 International standardization agreement implementation.  ",
+            33
+        ],
+        [
+            3,
+            "6.5 Changes from previous issue.  ",
+            33
+        ],
+        [
+            1,
+            "Method500",
+            64
+        ],
+        [
+            2,
+            "METHOD 500.5",
+            64
+        ],
+        [
+            2,
+            "1. SCOPE. ",
+            64
+        ],
+        [
+            3,
+            "1.1 Purpose.  ",
+            64
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            64
+        ],
+        [
+            3,
+            "Limitations.  ",
+            64
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE.",
+            64
+        ],
+        [
+            3,
+            "2.1 Selecting the Low Pressure (Altitude) Method.  ",
+            64
+        ],
+        [
+            4,
+            "2.1.1   Effects of low pressure environments.  ",
+            64
+        ],
+        [
+            5,
+            "2.1.1.1   Physical/chemical.",
+            64
+        ],
+        [
+            5,
+            "2.1.1.2   Electrical.  ",
+            65
+        ],
+        [
+            4,
+            "2.1.2   Sequence among other methods.",
+            65
+        ],
+        [
+            3,
+            "2.2 Selecting Procedures.  ",
+            65
+        ],
+        [
+            4,
+            "2.2.1   Procedure selection considerations.  ",
+            65
+        ],
+        [
+            4,
+            "2.2.2   Difference among procedures. ",
+            65
+        ],
+        [
+            3,
+            "2.3 Determine Test Levels and Conditions.  ",
+            66
+        ],
+        [
+            4,
+            "2.3.1   Test pressure and temperature.  ",
+            66
+        ],
+        [
+            4,
+            "2.3.2   Altitude change rate.  ",
+            66
+        ],
+        [
+            4,
+            "2.3.3   Decompression rate.  ",
+            67
+        ],
+        [
+            4,
+            "2.3.4   Test duration.  ",
+            67
+        ],
+        [
+            4,
+            "2.3.5   Test item configuration.  ",
+            67
+        ],
+        [
+            4,
+            "2.3.6   Humidity.  ",
+            67
+        ],
+        [
+            2,
+            "3. INFORMATION REQUIRED.",
+            67
+        ],
+        [
+            3,
+            "3.1 Pretest.",
+            67
+        ],
+        [
+            3,
+            "3.2 During test.  ",
+            67
+        ],
+        [
+            3,
+            "3.3 Post Test.",
+            67
+        ],
+        [
+            2,
+            "4. TEST PROCESS.",
+            68
+        ],
+        [
+            3,
+            "4.1 Test Facility.",
+            68
+        ],
+        [
+            3,
+            "4.2 Controls.",
+            68
+        ],
+        [
+            3,
+            "4.3 Test Interruption.",
+            68
+        ],
+        [
+            3,
+            "4.4 Test Setup.  ",
+            68
+        ],
+        [
+            3,
+            "4.5 Test Execution.",
+            68
+        ],
+        [
+            4,
+            "4.5.1   Preparation for test.",
+            68
+        ],
+        [
+            5,
+            "4.5.1.1   Preliminary steps.  ",
+            68
+        ],
+        [
+            5,
+            "4.5.1.2   Pretest standard ambient checkout.  ",
+            68
+        ],
+        [
+            4,
+            "4.5.3   Procedure II - Operation/Air Carriage.",
+            69
+        ],
+        [
+            4,
+            "4.5.4   Procedure III - Rapid Decompression. ",
+            69
+        ],
+        [
+            4,
+            "4.5.5   Procedure IV - Explosive Decompression. ",
+            69
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS.  ",
+            70
+        ],
+        [
+            2,
+            "6.  REFERENCE/RELATED DOCUMENTS.",
+            70
+        ],
+        [
+            3,
+            "6.1 Referenced Documents.",
+            70
+        ],
+        [
+            3,
+            "a. MIL-HDBK-310, Global Climatic Data for Developing Military Products.",
+            70
+        ],
+        [
+            1,
+            "Method501",
+            71
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            71
+        ],
+        [
+            3,
+            "1.1 Purpose.  ",
+            71
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            71
+        ],
+        [
+            3,
+            "1.3 Limitations.  ",
+            71
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE.",
+            71
+        ],
+        [
+            3,
+            "2.1 Selecting this Method.  ",
+            71
+        ],
+        [
+            4,
+            "2.1.1   Sequence among other methods.",
+            72
+        ],
+        [
+            3,
+            "Selecting Procedures.  ",
+            72
+        ],
+        [
+            4,
+            "2.2.1   Procedure selection considerations.  ",
+            72
+        ],
+        [
+            4,
+            "2.2.2   Difference among procedures.  ",
+            72
+        ],
+        [
+            3,
+            "2.3 Determine Test Levels and Conditions.  ",
+            73
+        ],
+        [
+            4,
+            "2.3.1   Climatic conditions.  ",
+            73
+        ],
+        [
+            4,
+            "2.3.2   Exposure conditions.  ",
+            76
+        ],
+        [
+            5,
+            "2.3.3.1 Constant temperature exposure.",
+            77
+        ],
+        [
+            5,
+            "2.3.3.2 Cyclic temperature exposure.",
+            77
+        ],
+        [
+            4,
+            "2.3.4 Test item configuration.  ",
+            78
+        ],
+        [
+            4,
+            "2.3.5   Humidity.  ",
+            78
+        ],
+        [
+            3,
+            "2.4 Test Item Operation.  ",
+            78
+        ],
+        [
+            3,
+            "2.5 Additional guidelines. ",
+            78
+        ],
+        [
+            2,
+            "3. INFORMATION REQUIRED.",
+            78
+        ],
+        [
+            3,
+            "3.1   Pretest.  ",
+            78
+        ],
+        [
+            3,
+            "3.2 During Test.  ",
+            79
+        ],
+        [
+            3,
+            "3.3 Post-test.  ",
+            79
+        ],
+        [
+            2,
+            "4. TEST PROCESS.",
+            79
+        ],
+        [
+            3,
+            "4.1 Test Facility.",
+            79
+        ],
+        [
+            3,
+            "4.2 Controls.",
+            79
+        ],
+        [
+            3,
+            "Test Interruption.",
+            79
+        ],
+        [
+            3,
+            "4.4 Test Setup.  ",
+            80
+        ],
+        [
+            3,
+            "4.5 Test Execution.",
+            80
+        ],
+        [
+            4,
+            "4.5.1   Preparation for test.",
+            80
+        ],
+        [
+            5,
+            "4.5.1.1   Preliminary steps.  ",
+            80
+        ],
+        [
+            5,
+            "4.5.1.2   Pretest standard ambient checkout.  ",
+            80
+        ],
+        [
+            4,
+            "4.5.2   Procedure I - Storage.",
+            81
+        ],
+        [
+            4,
+            "4.5.3   Procedure II - Operation.",
+            81
+        ],
+        [
+            4,
+            "4.5.4   Procedure III \u2013 Tactical-Standby to Operational ",
+            82
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS.  ",
+            82
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS.",
+            83
+        ],
+        [
+            3,
+            "Referenced Documents.",
+            83
+        ],
+        [
+            2,
+            "a. MIL-HDBK-310, Global Climatic Data for Developing Military Products. ",
+            83
+        ],
+        [
+            3,
+            "6.2 Related Documents.",
+            83
+        ],
+        [
+            1,
+            "Method502",
+            84
+        ],
+        [
+            2,
+            "1.  SCOPE.",
+            84
+        ],
+        [
+            3,
+            "Purpose.  ",
+            84
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            84
+        ],
+        [
+            3,
+            "1.3 Limitations.  ",
+            84
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE.",
+            84
+        ],
+        [
+            3,
+            "2.1 Selecting the Low Temperature Method.  ",
+            84
+        ],
+        [
+            4,
+            "2.1.1   Effects of low temperature environments.  ",
+            84
+        ],
+        [
+            4,
+            "2.1.2   Sequence among other methods.",
+            85
+        ],
+        [
+            3,
+            "2.2 Selecting Procedures.  ",
+            85
+        ],
+        [
+            4,
+            "2.2.1   Procedure selection considerations. ",
+            85
+        ],
+        [
+            4,
+            "2.2.2   Difference among procedures. ",
+            85
+        ],
+        [
+            3,
+            "2.3 Determine Test Levels and Conditions.  ",
+            86
+        ],
+        [
+            4,
+            "2.3.1   Climatic conditions.  ",
+            86
+        ],
+        [
+            4,
+            "2.3.2   Exposure Duration.  ",
+            87
+        ],
+        [
+            4,
+            "2.3.3   Test item configuration.  ",
+            88
+        ],
+        [
+            4,
+            "2.3.4   Additional guidelines.  ",
+            88
+        ],
+        [
+            2,
+            "3. INFORMATION REQUIRED.",
+            88
+        ],
+        [
+            3,
+            "3.1 Pretest.  ",
+            88
+        ],
+        [
+            3,
+            "3.2 During Test.  ",
+            88
+        ],
+        [
+            3,
+            "3.3 Post Test.  ",
+            88
+        ],
+        [
+            2,
+            "4. TEST PROCESS.",
+            89
+        ],
+        [
+            3,
+            "4.1 Test Facility.",
+            89
+        ],
+        [
+            3,
+            "4.2 Controls.",
+            89
+        ],
+        [
+            3,
+            "4.3 Test Interruption.",
+            89
+        ],
+        [
+            3,
+            "4.4 Test Setup.",
+            90
+        ],
+        [
+            3,
+            "4.5 Test Execution.  ",
+            90
+        ],
+        [
+            4,
+            "4.5.1   Preparation for test.",
+            90
+        ],
+        [
+            5,
+            "4.5.1.1   Preliminary steps.  ",
+            90
+        ],
+        [
+            5,
+            "4.5.1.2   Pretest standard ambient checkout.  ",
+            90
+        ],
+        [
+            4,
+            "4.5.2   Procedure I - Storage.",
+            90
+        ],
+        [
+            4,
+            "4.5.3   Procedure II - Operation.",
+            90
+        ],
+        [
+            4,
+            "4.5.4   Procedure III - Manipulation.",
+            91
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS.  ",
+            92
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS.",
+            92
+        ],
+        [
+            3,
+            "6.1 Referenced Documents.",
+            92
+        ],
+        [
+            3,
+            "a. MIL-HDBK-310, Global Climatic Data for Developing Military Products.",
+            92
+        ],
+        [
+            1,
+            "Method503",
+            93
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            93
+        ],
+        [
+            3,
+            "1.1 Purpose.  ",
+            93
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            93
+        ],
+        [
+            4,
+            "1.2.1  Normal environment.  ",
+            93
+        ],
+        [
+            4,
+            "1.2.2 Safety and screening.  ",
+            93
+        ],
+        [
+            3,
+            "1.3 Limitations.  ",
+            93
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE.",
+            94
+        ],
+        [
+            3,
+            "2.1 Selecting this Method.  ",
+            94
+        ],
+        [
+            4,
+            "2.1.1 Effects of thermal shock environments.  ",
+            94
+        ],
+        [
+            4,
+            "2.1.2 Sequence among other methods.",
+            94
+        ],
+        [
+            3,
+            "Selecting Procedure Variations.  ",
+            94
+        ],
+        [
+            4,
+            "2.2.1 Procedure selection considerations.  ",
+            94
+        ],
+        [
+            4,
+            "2.2.2 Procedure variations.  ",
+            95
+        ],
+        [
+            3,
+            "2.3 Determine Test Levels and Conditions.  ",
+            95
+        ],
+        [
+            4,
+            "2.3.1 Climatic conditions.  ",
+            95
+        ],
+        [
+            4,
+            "2.3.2 Exposure conditions.  ",
+            95
+        ],
+        [
+            4,
+            "2.3.3 Test duration (number of shocks). ",
+            96
+        ],
+        [
+            4,
+            "2.3.4 Test item configuration.  ",
+            96
+        ],
+        [
+            4,
+            "2.3.5 Temperature stabilization.  ",
+            97
+        ],
+        [
+            4,
+            "2.3.6 Relative humidity.  ",
+            97
+        ],
+        [
+            4,
+            "2.3.7 Transfer time.  ",
+            97
+        ],
+        [
+            3,
+            "2.4 Special Considerations.  ",
+            97
+        ],
+        [
+            2,
+            "3. INFORMATION REQUIRED.",
+            97
+        ],
+        [
+            3,
+            "3.1 Pretest.  ",
+            97
+        ],
+        [
+            3,
+            "3.2 During Test.",
+            97
+        ],
+        [
+            3,
+            "3.3 Post-test.",
+            98
+        ],
+        [
+            2,
+            "4. TEST PROCESS.",
+            98
+        ],
+        [
+            3,
+            "4.1 Test Facility.  ",
+            98
+        ],
+        [
+            4,
+            "4.1.1 Apparatus.  ",
+            98
+        ],
+        [
+            4,
+            "4.1.2 Instrumentation.  ",
+            98
+        ],
+        [
+            4,
+            "4.2.1 Temperature.  ",
+            98
+        ],
+        [
+            4,
+            "4.2.2 Air velocity.  ",
+            98
+        ],
+        [
+            4,
+            "4.2.3 Transfer time.  ",
+            98
+        ],
+        [
+            3,
+            "4.3 Test Interruption. ",
+            98
+        ],
+        [
+            3,
+            "4.4 Test Execution.",
+            99
+        ],
+        [
+            4,
+            "4.4.1 Preparation for test.  ",
+            99
+        ],
+        [
+            5,
+            "4.4.1.1 Preliminary steps.  ",
+            99
+        ],
+        [
+            5,
+            "4.4.1.2 Pretest standard ambient checkout.  ",
+            99
+        ],
+        [
+            4,
+            "4.4.2 Procedure.  ",
+            100
+        ],
+        [
+            5,
+            "4.4.2.1 Procedure I - Shock from constant extreme temperatures.  (Figures 503.5-1 to -3)",
+            100
+        ],
+        [
+            2,
+            "ANALYSIS OF RESULTS.  ",
+            104
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS.",
+            104
+        ],
+        [
+            3,
+            "6.1 Referenced Documents.",
+            104
+        ],
+        [
+            2,
+            "a.  MIL-HDBK-310, Global Climatic Data for Developing Military Products. ",
+            104
+        ],
+        [
+            3,
+            "6.2 Related Documents.",
+            104
+        ],
+        [
+            1,
+            "Method504",
+            106
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            106
+        ],
+        [
+            3,
+            "1.1  Purpose.  ",
+            106
+        ],
+        [
+            3,
+            "1.2  Application.  ",
+            106
+        ],
+        [
+            3,
+            "1.3  Limitations.  ",
+            106
+        ],
+        [
+            2,
+            "2.  TAILORING GUIDANCE.",
+            106
+        ],
+        [
+            3,
+            "2.1  Selecting the Contamination by Fluids Method.  ",
+            106
+        ],
+        [
+            4,
+            "2.1.1  Effects of the contaminating fluids environment.  ",
+            106
+        ],
+        [
+            4,
+            "2.1.2  Sequence among other methods.  ",
+            107
+        ],
+        [
+            3,
+            "2.2  Difference Between Procedures.  ",
+            107
+        ],
+        [
+            4,
+            "2.2.1  Length of exposure.  ",
+            108
+        ],
+        [
+            4,
+            "2.2.2  Contaminant fluid groups.  ",
+            108
+        ],
+        [
+            4,
+            "2.2.4  Combination of test fluids/.  ",
+            111
+        ],
+        [
+            4,
+            "2.2.5  Test temperature.  ",
+            111
+        ],
+        [
+            5,
+            "2.2.5.1  Test item temperature.  ",
+            111
+        ],
+        [
+            5,
+            "2.2.5.2  Test fluid temperature.  ",
+            111
+        ],
+        [
+            5,
+            "2.2.5.3  Soak temperature.  ",
+            111
+        ],
+        [
+            4,
+            "2.2.6  Fluid Exposure duration.  ",
+            111
+        ],
+        [
+            2,
+            "3.  INFORMATION REQUIRED.",
+            112
+        ],
+        [
+            3,
+            "3.1  Pretest. ",
+            112
+        ],
+        [
+            3,
+            "3.2  During Test.  ",
+            112
+        ],
+        [
+            3,
+            "3.3  Post Test.",
+            112
+        ],
+        [
+            3,
+            "4.1  Test Facility.",
+            112
+        ],
+        [
+            3,
+            "4.2  Controls.  ",
+            112
+        ],
+        [
+            3,
+            "4.3  Test Interruption.",
+            113
+        ],
+        [
+            3,
+            "4.4  Test Setup.",
+            113
+        ],
+        [
+            3,
+            "4.5  Test Execution.  ",
+            113
+        ],
+        [
+            4,
+            "4.5.1  Preliminary steps.  ",
+            113
+        ],
+        [
+            5,
+            "4.5.2  Pretest standard ambient checkout.  ",
+            113
+        ],
+        [
+            5,
+            "4.5.3  Cleaning.  ",
+            114
+        ],
+        [
+            5,
+            "4.5.4  Multiple fluids.  ",
+            114
+        ],
+        [
+            4,
+            "4.5.5   Procedure I Large Items.  ",
+            114
+        ],
+        [
+            4,
+            " Step 4.  After a total exposure time of eight hours, remove the test item(s) from the solutions or stop applying, blot excess chemicals from the item, and inspect again for any type of chemical reaction resulting from the additional exposure to that particular compound.  Record any weight, hardness, or other physical data for each piece where appropriate.  Let all items dry for a maximum of 24-hours.  After the drying period, record final measurements and weights, if any, and record final visual observations.  ",
+            116
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS.  ",
+            116
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS.",
+            116
+        ],
+        [
+            3,
+            "6.1 Referenced Documents.",
+            116
+        ],
+        [
+            3,
+            "6.2 Related Documents.",
+            117
+        ],
+        [
+            4,
+            "1.  Contaminant fluid groups.  (See paragraph 2.2.3 below.)  ",
+            119
+        ],
+        [
+            5,
+            "1.2  Hydraulic fluids.  ",
+            119
+        ],
+        [
+            5,
+            "1.3  Lubricating oils.  ",
+            119
+        ],
+        [
+            5,
+            "1.4  Solvents and cleaning fluids.  ",
+            119
+        ],
+        [
+            5,
+            "1.5  Deicing and anti-freeze fluids.  ",
+            119
+        ],
+        [
+            5,
+            "1.6  Runway deicers.  ",
+            119
+        ],
+        [
+            5,
+            "1.7  Insecticides.  ",
+            119
+        ],
+        [
+            5,
+            "1.8  Disinfectants.  ",
+            119
+        ],
+        [
+            5,
+            "1.9  Coolant dielectric fluids.  ",
+            119
+        ],
+        [
+            5,
+            "1.10  Fire extinguishants.  ",
+            119
+        ],
+        [
+            1,
+            "Method505",
+            121
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            124
+        ],
+        [
+            3,
+            "1.1 Purpose.  ",
+            124
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            124
+        ],
+        [
+            3,
+            "1.3 Limitations.  ",
+            124
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE.",
+            124
+        ],
+        [
+            3,
+            "2.1 Selecting this Method.  ",
+            124
+        ],
+        [
+            4,
+            "2.1.1   Effects of solar radiation environments.",
+            124
+        ],
+        [
+            5,
+            "2.1.1.1   Heating effects.  ",
+            124
+        ],
+        [
+            5,
+            "2.1.1.2   Actinic effects.  ",
+            125
+        ],
+        [
+            4,
+            "2.1.2   Sequence among other methods.",
+            125
+        ],
+        [
+            3,
+            "2.2 Selecting Procedures.  ",
+            125
+        ],
+        [
+            4,
+            "2.2.1   Procedure selection considerations.  ",
+            125
+        ],
+        [
+            4,
+            "2.2.2   Difference between procedures.  ",
+            126
+        ],
+        [
+            3,
+            "2.3 Determine Test Levels and Conditions.  ",
+            129
+        ],
+        [
+            4,
+            "2.3.1   Climatic conditions.  ",
+            129
+        ],
+        [
+            4,
+            "2.3.2   Test duration.  ",
+            129
+        ],
+        [
+            4,
+            "Humidity.",
+            130
+        ],
+        [
+            4,
+            "2.3.4   Configuration.  ",
+            130
+        ],
+        [
+            4,
+            "Spectral power distribution - Sea level versus high ground elevations.",
+            130
+        ],
+        [
+            4,
+            "2.3.6   Temperature.",
+            130
+        ],
+        [
+            4,
+            "2.3.7   Airflow.",
+            130
+        ],
+        [
+            3,
+            "2.4 Test Item Operation.  ",
+            131
+        ],
+        [
+            2,
+            "3. INFORMATION REQUIRED.",
+            131
+        ],
+        [
+            3,
+            "3.1 Pretest.",
+            131
+        ],
+        [
+            3,
+            "3.2 During Test.",
+            131
+        ],
+        [
+            3,
+            "Post-test.",
+            131
+        ],
+        [
+            2,
+            "4. TEST PROCESS.",
+            132
+        ],
+        [
+            3,
+            "4.1 Test Facility.",
+            132
+        ],
+        [
+            4,
+            "4.1.1   Substrate",
+            132
+        ],
+        [
+            4,
+            "4.1.2   Solar radiation source.",
+            132
+        ],
+        [
+            4,
+            "c. The diurnal variation in solar energy may be applied continuously (see Figure 505.5-I) or incrementally (see Figures 505.5C-5 and -6), with a minimum of eight levels, provided that the total energy of the cycle is maintained.   ",
+            132
+        ],
+        [
+            3,
+            "4.2 Controls.",
+            134
+        ],
+        [
+            3,
+            "4.3 Test Interruption.",
+            135
+        ],
+        [
+            3,
+            "4.4 Test Execution.",
+            135
+        ],
+        [
+            4,
+            "4.4.1   Preparation for test.",
+            135
+        ],
+        [
+            5,
+            "4.4.1.1   Preliminary steps.  ",
+            135
+        ],
+        [
+            5,
+            "4.4.1.2   Pretest standard ambient checkout.  ",
+            136
+        ],
+        [
+            4,
+            "4.4.2   Procedure I - Cycling.",
+            136
+        ],
+        [
+            4,
+            "4.4.3   Procedure II \u2013 Steady State.  ",
+            137
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS.  ",
+            137
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS.",
+            137
+        ],
+        [
+            3,
+            "6.1 Referenced Documents.",
+            137
+        ],
+        [
+            2,
+            "a. MIL-HDBK-310, Global Climatic Data for Developing Military Products. ",
+            137
+        ],
+        [
+            3,
+            "6.2 Related Documents.",
+            138
+        ],
+        [
+            3,
+            "1.4 Evaluation of Spectral Power Distribution (SPD).",
+            144
+        ],
+        [
+            1,
+            "Method506",
+            154
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            154
+        ],
+        [
+            3,
+            "1.1 Purpose.  ",
+            154
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            154
+        ],
+        [
+            3,
+            "1.3 Limitations.  ",
+            154
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE.",
+            154
+        ],
+        [
+            3,
+            "2.1 Selecting the Rain Method.  ",
+            154
+        ],
+        [
+            4,
+            "2.1.1   Effects of rain environments.",
+            154
+        ],
+        [
+            5,
+            "2.1.1.1   In the atmosphere.  ",
+            155
+        ],
+        [
+            5,
+            "2.1.1.2   On impact.  ",
+            155
+        ],
+        [
+            5,
+            "2.1.1.3   After deposition and/or penetration.  ",
+            155
+        ],
+        [
+            4,
+            "2.1.2   Sequence among other methods.",
+            155
+        ],
+        [
+            3,
+            "2.2 Selecting Procedures.  ",
+            155
+        ],
+        [
+            4,
+            "2.2.1   Procedure selection considerations.  ",
+            155
+        ],
+        [
+            4,
+            "2.2.2   Difference among procedures.",
+            155
+        ],
+        [
+            3,
+            "2.3 Determine Test Levels and Conditions.  ",
+            156
+        ],
+        [
+            4,
+            "2.3.1   Test item configuration.  ",
+            156
+        ],
+        [
+            4,
+            "Rainfall / Drip rate.  ",
+            156
+        ],
+        [
+            4,
+            "2.3.3    Droplet size.  ",
+            156
+        ],
+        [
+            4,
+            "2.3.4   Wind velocity.  ",
+            157
+        ],
+        [
+            4,
+            "2.3.5   Test item exposure surface (orientation).  ",
+            157
+        ],
+        [
+            4,
+            "2.3.6   Water pressure.  ",
+            157
+        ],
+        [
+            4,
+            "2.3.7   Preheat temperature.  ",
+            157
+        ],
+        [
+            4,
+            "2.3.8   Exposure duration.  ",
+            157
+        ],
+        [
+            2,
+            "3. INFORMATION REQUIRED.",
+            157
+        ],
+        [
+            3,
+            "3.1 Pretest.  ",
+            157
+        ],
+        [
+            3,
+            "3.2 During Test.  ",
+            158
+        ],
+        [
+            3,
+            "3.3 Post-test.",
+            158
+        ],
+        [
+            2,
+            "4. TEST PROCESS.",
+            158
+        ],
+        [
+            3,
+            "4.1 Test Facility.  ",
+            158
+        ],
+        [
+            4,
+            "Procedure I.  Rain & Blowing Rain.",
+            158
+        ],
+        [
+            4,
+            "Procedure II.  Exaggerated.",
+            159
+        ],
+        [
+            4,
+            "Procedure III.  Drip.  ",
+            160
+        ],
+        [
+            3,
+            "4.2 Controls.  ",
+            161
+        ],
+        [
+            3,
+            "4.3 Test Interruption. ",
+            162
+        ],
+        [
+            3,
+            "4.4 Execution.",
+            162
+        ],
+        [
+            4,
+            "4.4.1   Preparation for test.  ",
+            162
+        ],
+        [
+            5,
+            "4.4.1.1   Preliminary steps.  ",
+            162
+        ],
+        [
+            5,
+            "4.4.1.2   Pretest standard ambient checkout.  ",
+            162
+        ],
+        [
+            4,
+            "4.4.2   Procedure I - Rain and blowing rain.",
+            162
+        ],
+        [
+            4,
+            "4.4.3   Procedure II - Exaggerated.",
+            163
+        ],
+        [
+            4,
+            "4.4.4    Procedure III - Drip.",
+            163
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS.",
+            163
+        ],
+        [
+            3,
+            "5.1 Operational Failures.",
+            163
+        ],
+        [
+            3,
+            "5.2 Water Penetration.  ",
+            163
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS.",
+            164
+        ],
+        [
+            3,
+            "6.1 Referenced Documents.",
+            164
+        ],
+        [
+            2,
+            "a. MIL-HDBK-310, Global Climatic Data for Developing Military Products. ",
+            164
+        ],
+        [
+            3,
+            "6.2  Related Documents.",
+            164
+        ],
+        [
+            1,
+            "Method507",
+            165
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            165
+        ],
+        [
+            3,
+            "1.1 Purpose.  ",
+            165
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            165
+        ],
+        [
+            3,
+            "1.3 Limitations.  ",
+            165
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE.",
+            165
+        ],
+        [
+            3,
+            "2.1 Selecting the Humidity Method.  ",
+            165
+        ],
+        [
+            4,
+            "2.1.1   Effects of warm, humid environments.  ",
+            165
+        ],
+        [
+            4,
+            "2.1.2   Sequence among other methods.",
+            166
+        ],
+        [
+            4,
+            "2.4 Operational checkout.",
+            171
+        ],
+        [
+            4,
+            "2.4.1  Procedure I (Induced cycles B1, B2, or B3, followed by natural cycles B1, B2, or B3)",
+            171
+        ],
+        [
+            4,
+            " a. Induced (storage and transit) cycles B1, B2, and B3 represent storage and transit environments.  As such, perform operational checkouts before and after each test.  ",
+            171
+        ],
+        [
+            4,
+            " b. Natural cycles B1 \u2013 B3 represent the operational environment, and, theoretically, the materiel could be functioning non-stop in the natural environment.  In this case, operate the test item continuously throughout the test procedure.  If shorter operational periods are identified in the requirements document(s), operate the test item at least once every five cycles for a duration necessary to verify proper operation.  This operational checkout will help determine effects of the natural cycles on test item(s) as soon as possible.   ",
+            171
+        ],
+        [
+            4,
+            "2.4.2  Procedure II \u2013 Aggravated.",
+            171
+        ],
+        [
+            3,
+            "2.5 Test Variations.  ",
+            171
+        ],
+        [
+            3,
+            "2.6 Philosophy of Testing.  ",
+            171
+        ],
+        [
+            4,
+            "2.6.1 Procedure I \u2013 Induced (Storage and Transit) Cycles.",
+            171
+        ],
+        [
+            4,
+            "Procedure I - Natural Cycles. ",
+            175
+        ],
+        [
+            4,
+            "2.6.3 Procedure II \u2013 Aggravated Cycle (Figure 507.5-7). ",
+            178
+        ],
+        [
+            2,
+            "3. INFORMATION REQUIRED.   ",
+            179
+        ],
+        [
+            3,
+            "3.1 Pretest.  ",
+            179
+        ],
+        [
+            3,
+            "3.2 During Test.  ",
+            179
+        ],
+        [
+            3,
+            "Post Test.  ",
+            179
+        ],
+        [
+            2,
+            "4. TEST PROCESS.",
+            179
+        ],
+        [
+            3,
+            "4.1 Test Facility.  ",
+            179
+        ],
+        [
+            4,
+            "4.1.1 General description.  ",
+            179
+        ],
+        [
+            4,
+            "4.1.2 Facility design.  ",
+            179
+        ],
+        [
+            4,
+            "4.1.3 Test sensors and measurements.  ",
+            179
+        ],
+        [
+            4,
+            "Airvelocity.  ",
+            180
+        ],
+        [
+            4,
+            "4.1.5 Humidity generation.  ",
+            180
+        ],
+        [
+            4,
+            "4.1.6 Contamination prevention.  ",
+            180
+        ],
+        [
+            3,
+            "4.2 Controls.  ",
+            180
+        ],
+        [
+            3,
+            "4.3 Test Interruption.  ",
+            180
+        ],
+        [
+            3,
+            "4.4 Test Execution.  ",
+            181
+        ],
+        [
+            4,
+            "4.4.1 Preparation for test.",
+            181
+        ],
+        [
+            5,
+            "4.4.1.2 Preliminary steps.  ",
+            181
+        ],
+        [
+            5,
+            "4.4.1.3 Pretest checkout.   ",
+            181
+        ],
+        [
+            5,
+            "4.4.2.2 Procedure II \u2013 Aggravated.",
+            182
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS.  In addition to the guidance provided in Part One, paragraphs 5.14 and 5.17, the following information is provided to assist in the evaluation of the test results.",
+            183
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS.",
+            183
+        ],
+        [
+            3,
+            "6.1 Referenced Documents.",
+            183
+        ],
+        [
+            2,
+            "a. AR 7038, Research, Development, Test and Evaluation of Materiel for Extreme Climatic Conditions; ",
+            183
+        ],
+        [
+            2,
+            "1 August 1979.",
+            183
+        ],
+        [
+            3,
+            "6.2 Related Documents.",
+            183
+        ],
+        [
+            1,
+            "Method508",
+            186
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            186
+        ],
+        [
+            3,
+            "1.1 Purpose.  ",
+            186
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            186
+        ],
+        [
+            3,
+            "1.3 Limitations.  ",
+            186
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE.",
+            186
+        ],
+        [
+            3,
+            "2.1 Selecting the Fungus Method.  ",
+            186
+        ],
+        [
+            4,
+            "2.1.1   Effects of fungus growth.  ",
+            186
+        ],
+        [
+            5,
+            "2.1.1.1   Detrimental effects.  ",
+            187
+        ],
+        [
+            5,
+            "2.1.1.2   Physical interference.  ",
+            187
+        ],
+        [
+            5,
+            "2.1.1.3   Health and aesthetic factors.  ",
+            187
+        ],
+        [
+            4,
+            "2.1.2   Sequence among other methods.",
+            187
+        ],
+        [
+            3,
+            "2.2 Selecting Procedure Variations.  ",
+            187
+        ],
+        [
+            4,
+            "2.2.1   Test duration.  ",
+            188
+        ],
+        [
+            4,
+            "Choice of fungus.  ",
+            188
+        ],
+        [
+            2,
+            "3. INFORMATION REQUIRED.",
+            189
+        ],
+        [
+            3,
+            "3.1 Pretest.  ",
+            189
+        ],
+        [
+            3,
+            "3.2 During Test.  ",
+            189
+        ],
+        [
+            3,
+            "3.3 Post Test.  ",
+            189
+        ],
+        [
+            2,
+            "4. TEST PROCESS.",
+            189
+        ],
+        [
+            3,
+            "4.1 Test Facility.  ",
+            189
+        ],
+        [
+            4,
+            "4.1.1   Test chamber.  ",
+            189
+        ],
+        [
+            4,
+            "4.1.2   Sensors.  ",
+            190
+        ],
+        [
+            4,
+            "4.1.3   Air velocity.  ",
+            190
+        ],
+        [
+            4,
+            "4.1.4   Decontamination.",
+            190
+        ],
+        [
+            3,
+            "4.2 Controls.  ",
+            190
+        ],
+        [
+            4,
+            "4.2.1   Relative humidity.  ",
+            190
+        ],
+        [
+            4,
+            "4.2.2   Circulation.",
+            190
+        ],
+        [
+            4,
+            "4.2.3   Steam.",
+            190
+        ],
+        [
+            4,
+            "4.2.4   Unless otherwise specified: ",
+            190
+        ],
+        [
+            3,
+            "4.3 Test Interruption.  ",
+            190
+        ],
+        [
+            3,
+            "4.4 Execution.",
+            191
+        ],
+        [
+            4,
+            "4.4.1   Cleaning.  ",
+            191
+        ],
+        [
+            4,
+            "4.4.2   Miscellaneous. ",
+            191
+        ],
+        [
+            4,
+            "4.4.3   Preparation for test.",
+            192
+        ],
+        [
+            5,
+            "4.4.3.1   Preparation of mineral salts solution.  ",
+            192
+        ],
+        [
+            5,
+            "4.4.3.2   Preparation of mixed spore suspension. ",
+            192
+        ],
+        [
+            5,
+            "4.4.3.3   Control items.  ",
+            193
+        ],
+        [
+            3,
+            "4.5 Test Procedure.",
+            194
+        ],
+        [
+            4,
+            "4.5.1   Preparation for incubation. ",
+            194
+        ],
+        [
+            4,
+            "4.5.2   Incubation of the test item. ",
+            195
+        ],
+        [
+            4,
+            "4.5.3   Inspection.  ",
+            195
+        ],
+        [
+            4,
+            "4.5.4   Operation/use.  ",
+            195
+        ],
+        [
+            3,
+            "4.6   Decontamination.",
+            195
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS.  ",
+            195
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS.  ",
+            196
+        ],
+        [
+            2,
+            "6.1 Referenced Documents.",
+            196
+        ],
+        [
+            2,
+            "a. AR 7038, Research, Development, Test and Evaluation of Materiel for Extreme Climatic Conditions",
+            196
+        ],
+        [
+            3,
+            "6.2 Related Documents.",
+            196
+        ],
+        [
+            1,
+            "Method509",
+            199
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            199
+        ],
+        [
+            3,
+            "1.1 Purpose.  ",
+            199
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            199
+        ],
+        [
+            3,
+            "1.3 Limitations.   ",
+            199
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE.",
+            199
+        ],
+        [
+            3,
+            "2.1 Selecting the Salt Fog Method.  ",
+            199
+        ],
+        [
+            4,
+            "2.1.1   Effects of corrosive environments.  ",
+            199
+        ],
+        [
+            5,
+            "2.1.1.1   Corrosion effects.",
+            200
+        ],
+        [
+            5,
+            "2.1.1.2   Electrical effects.",
+            200
+        ],
+        [
+            5,
+            "2.1.1.3   Physical effects.",
+            200
+        ],
+        [
+            4,
+            "2.1.2   Sequence among other methods.",
+            200
+        ],
+        [
+            3,
+            "2.2 Selecting Procedure Variations.  ",
+            200
+        ],
+        [
+            4,
+            "2.2.1   Salt solution.  ",
+            200
+        ],
+        [
+            4,
+            "2.2.2   Test item configuration.  ",
+            200
+        ],
+        [
+            4,
+            "2.2.3   Duration.  ",
+            200
+        ],
+        [
+            4,
+            "2.2.4   Temperature.  ",
+            201
+        ],
+        [
+            4,
+            "2.2.5   Air circulation.  ",
+            201
+        ],
+        [
+            4,
+            "Fallout rate.  ",
+            201
+        ],
+        [
+            4,
+            "2.2.7   Dryout Rate.",
+            201
+        ],
+        [
+            2,
+            "3. INFORMATION REQUIRED.",
+            201
+        ],
+        [
+            3,
+            "3.1 Pretest.  ",
+            201
+        ],
+        [
+            3,
+            "3.2 During Test.  ",
+            201
+        ],
+        [
+            3,
+            "3.3 Post Test. ",
+            201
+        ],
+        [
+            2,
+            "4. TEST PROCESS.",
+            202
+        ],
+        [
+            3,
+            "4.1 Test Facility.  ",
+            202
+        ],
+        [
+            4,
+            "4.1.1   Test chamber.  ",
+            202
+        ],
+        [
+            4,
+            "4.1.2   Salt solution reservoir.  ",
+            202
+        ],
+        [
+            4,
+            "4.1.3   Salt solution injection system.  ",
+            202
+        ],
+        [
+            4,
+            "4.1.4   Salt fog collection receptacles.  ",
+            203
+        ],
+        [
+            3,
+            "4.2 Controls.  ",
+            203
+        ],
+        [
+            3,
+            "4.3 Test Interruption. ",
+            203
+        ],
+        [
+            3,
+            "4.4 Test Setup.",
+            204
+        ],
+        [
+            3,
+            "4.5 Test Execution.  ",
+            204
+        ],
+        [
+            4,
+            "4.5.1   Preparation for test.",
+            204
+        ],
+        [
+            5,
+            "4.5.1.1   Preliminary steps.  ",
+            204
+        ],
+        [
+            5,
+            "4.5.1.2   Pretest standard ambient checkout.  ",
+            206
+        ],
+        [
+            4,
+            "Procedure.",
+            207
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS.  ",
+            207
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS.",
+            208
+        ],
+        [
+            3,
+            "6.1 Referenced Documents.",
+            208
+        ],
+        [
+            2,
+            "a. ASTM G85, Standard Practice for Modified Salt Spray (Fog) Testing.",
+            208
+        ],
+        [
+            2,
+            "b. Final Letter Report of Methodology Investigation on Evaluation of Test Procedures Used for Salt Fog Tests, TECOM Project 7-CO-PB7-AP1-018, Aberdeen Proving Ground, MD  21005; July 1979.",
+            208
+        ],
+        [
+            3,
+            "6.2 Related Documents.",
+            208
+        ],
+        [
+            2,
+            "e. MIL-HDBK-310, Global Climatic Data for Developing Military Products. ",
+            208
+        ],
+        [
+            1,
+            "Method510",
+            209
+        ],
+        [
+            2,
+            "1.1  Purpose.",
+            209
+        ],
+        [
+            2,
+            "1.2  Application.    ",
+            209
+        ],
+        [
+            2,
+            "1.3  Limitations.  ",
+            209
+        ],
+        [
+            2,
+            "2.1 Selecting the Sand and Dust Method.  ",
+            209
+        ],
+        [
+            3,
+            "2.1.1 Effects of sand and dust environments.  ",
+            209
+        ],
+        [
+            3,
+            "2.1.2 Sequence among other methods.",
+            210
+        ],
+        [
+            2,
+            "2.2 Selecting Procedures.  ",
+            210
+        ],
+        [
+            3,
+            "2.2.1 Procedure selection considerations.  ",
+            210
+        ],
+        [
+            3,
+            "2.2.2 Difference among procedures.",
+            210
+        ],
+        [
+            2,
+            "2.3 Determine Test Levels and Conditions.",
+            210
+        ],
+        [
+            3,
+            "2.3.1 Identify climatic conditions.  ",
+            210
+        ],
+        [
+            3,
+            "2.3.2 Determine exposure conditions.  ",
+            210
+        ],
+        [
+            3,
+            "2.3.3  Test item configuration.  ",
+            211
+        ],
+        [
+            3,
+            "3.1  Pretest.  ",
+            211
+        ],
+        [
+            4,
+            "3.2  During Test.  ",
+            211
+        ],
+        [
+            4,
+            "3.3  Post Test. ",
+            211
+        ],
+        [
+            2,
+            "4.1  PROCEDURE I \u2013 Blowing Dust",
+            212
+        ],
+        [
+            2,
+            "4.1.1  Test levels and conditions",
+            212
+        ],
+        [
+            3,
+            "4.1.1.1  Temperature.  ",
+            212
+        ],
+        [
+            3,
+            "4.1.1.2  Relative humidity.  ",
+            212
+        ],
+        [
+            3,
+            "4.1.1.3  Air velocity.",
+            212
+        ],
+        [
+            3,
+            "  Dust composition.",
+            212
+        ],
+        [
+            3,
+            "4.1.1.5  Dust concentrations.",
+            213
+        ],
+        [
+            3,
+            "4.1.1.6  Orientation.",
+            213
+        ],
+        [
+            3,
+            "4.1.1.7  Duration.",
+            213
+        ],
+        [
+            3,
+            "4.1.1.8  Operation during test.",
+            213
+        ],
+        [
+            2,
+            "4.1.2  Information required \u2013 Refer to paragraphs 3.1 to 3.3.",
+            214
+        ],
+        [
+            2,
+            "4.1.3  Test Details.",
+            214
+        ],
+        [
+            3,
+            "4.1.3.1  Test facility.  ",
+            214
+        ],
+        [
+            3,
+            "4.1.3.2  Controls.",
+            214
+        ],
+        [
+            3,
+            "4.1.3.3  Test interruption.",
+            214
+        ],
+        [
+            3,
+            "4.1.4  Test Execution.",
+            215
+        ],
+        [
+            3,
+            "4.1.4.1  Preparation for test.",
+            215
+        ],
+        [
+            3,
+            "4.1.4.1.1  Preliminary steps.  ",
+            215
+        ],
+        [
+            3,
+            "4.1.4.1.2  Pretest standard ambient checkout.  ",
+            215
+        ],
+        [
+            3,
+            "4.1.4.2  Test Procedure I.  Blowing Dust.",
+            215
+        ],
+        [
+            2,
+            "4.1.5  Analysis of results.",
+            216
+        ],
+        [
+            2,
+            "4.2.1  Test levels and conditions.",
+            216
+        ],
+        [
+            3,
+            "4.2.1.1  Temperature.  ",
+            216
+        ],
+        [
+            3,
+            "4.2.1.2  Air Velocity.",
+            216
+        ],
+        [
+            3,
+            "4.2.1.3  Sand composition.",
+            217
+        ],
+        [
+            3,
+            "4.2.1.4  Sand Concentrations.  ",
+            217
+        ],
+        [
+            3,
+            "4.2.1.5  Orientation.",
+            217
+        ],
+        [
+            3,
+            "4.2.1.6  Duration.",
+            217
+        ],
+        [
+            3,
+            "4.2.1.7  Operation During Test.",
+            217
+        ],
+        [
+            2,
+            "4.2.2  Information Required.  (Refer to paragraphs 3.1 to 3.3.) ",
+            217
+        ],
+        [
+            2,
+            "4.2.3  Test details.",
+            217
+        ],
+        [
+            3,
+            "4.2.3.1  Test facility.  ",
+            217
+        ],
+        [
+            3,
+            "4.2.3.2  Controls.",
+            218
+        ],
+        [
+            3,
+            "4.2.3.3  Test interruption.",
+            218
+        ],
+        [
+            3,
+            "4.2.4  Execution.",
+            219
+        ],
+        [
+            3,
+            "4.2.4.1  Preparation for test.",
+            219
+        ],
+        [
+            3,
+            "4.2.4.1.1  Preliminary steps.  ",
+            219
+        ],
+        [
+            3,
+            "4.2.4.1.2  Pretest standard ambient checkout.  ",
+            219
+        ],
+        [
+            3,
+            "4.2.4.2  Test Procedure II.  Blowing Sand",
+            219
+        ],
+        [
+            2,
+            "4.2.5  Analysis of Results.",
+            220
+        ],
+        [
+            2,
+            "6.   REFERENCE/RELATED DOCUMENTS.",
+            220
+        ],
+        [
+            2,
+            "6.1 Referenced Documents. ",
+            220
+        ],
+        [
+            1,
+            "Method511",
+            222
+        ],
+        [
+            2,
+            "1. SCOPE. ",
+            222
+        ],
+        [
+            3,
+            "1.1 Purpose. ",
+            222
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            222
+        ],
+        [
+            3,
+            "1.3 Limitations.  ",
+            222
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE. ",
+            222
+        ],
+        [
+            3,
+            "2.1 Selecting the Explosive Atmosphere Method.  ",
+            222
+        ],
+        [
+            4,
+            "2.1.1 Procedure I \u2013 Explosive Atmosphere.  ",
+            222
+        ],
+        [
+            4,
+            "2.1.2 Procedure II \u2013 Explosion Containment.  ",
+            223
+        ],
+        [
+            4,
+            "2.1.3 Effects of explosive atmosphere environments.  ",
+            223
+        ],
+        [
+            4,
+            "2.1.4 Sequence among other methods.",
+            223
+        ],
+        [
+            3,
+            "2.2 Selecting Procedure Variations.  ",
+            223
+        ],
+        [
+            4,
+            "2.2.1 Fuel.  ",
+            223
+        ],
+        [
+            4,
+            "2.2.2 Fuel-vapor mixture.  ",
+            223
+        ],
+        [
+            4,
+            "2.2.3 Temperature.  ",
+            224
+        ],
+        [
+            4,
+            "2.2.4 Effect of humidity on flammable atmosphere.  ",
+            224
+        ],
+        [
+            4,
+            "2.2.5 Altitude simulation.  ",
+            225
+        ],
+        [
+            3,
+            "2.3 Definitions.  ",
+            225
+        ],
+        [
+            2,
+            "3. INFORMATION REQUIRED.",
+            225
+        ],
+        [
+            3,
+            "3.1 Pretest.  ",
+            225
+        ],
+        [
+            3,
+            "3.2 During Test.  ",
+            225
+        ],
+        [
+            3,
+            "3.3 Post Test.",
+            225
+        ],
+        [
+            2,
+            "4. TEST PROCESS.",
+            225
+        ],
+        [
+            3,
+            "4.1 Test Facility.  ",
+            225
+        ],
+        [
+            3,
+            "4.2 Controls.  ",
+            226
+        ],
+        [
+            3,
+            "4.3 Test Interruption.",
+            226
+        ],
+        [
+            4,
+            "Interruption due to test item operation failure.",
+            226
+        ],
+        [
+            3,
+            "4.4 Test Setup.  ",
+            226
+        ],
+        [
+            3,
+            "4.5 Test Execution.  ",
+            226
+        ],
+        [
+            4,
+            "4.5.1 Preparation for test.  ",
+            226
+        ],
+        [
+            4,
+            "4.5.2 Procedure I - Operation in an explosive atmosphere.  ",
+            227
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS.  ",
+            228
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS. ",
+            228
+        ],
+        [
+            3,
+            "6.1 Referenced Documents.",
+            228
+        ],
+        [
+            3,
+            "6.2 Related Documents.",
+            228
+        ],
+        [
+            1,
+            "Method512",
+            230
+        ],
+        [
+            2,
+            "1. SCOPE.  ",
+            230
+        ],
+        [
+            3,
+            "Purpose.  ",
+            230
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            230
+        ],
+        [
+            3,
+            "1.3 Limitations.  ",
+            230
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE. ",
+            230
+        ],
+        [
+            3,
+            "2.1 Selecting the Immersion Method.  ",
+            230
+        ],
+        [
+            4,
+            "2.1.1 Effects of leakage during immersion.  ",
+            230
+        ],
+        [
+            4,
+            "2.1.2 Sequence among other methods.",
+            230
+        ],
+        [
+            3,
+            "2.2 Selecting Procedures.  ",
+            231
+        ],
+        [
+            4,
+            "2.2.1 Procedure selection considerations.  ",
+            231
+        ],
+        [
+            4,
+            "2.2.2 Difference between procedures.  ",
+            231
+        ],
+        [
+            3,
+            "2.3 Determine Test Levels and Conditions.  ",
+            231
+        ],
+        [
+            4,
+            "2.3.1 Identify climatic conditions.  ",
+            231
+        ],
+        [
+            4,
+            "2.3.2 Determine exposure conditions.  ",
+            231
+        ],
+        [
+            5,
+            "2.3.2.1 Test item configuration.  ",
+            231
+        ],
+        [
+            5,
+            "2.3.2.2 Conditioning temperature.  ",
+            231
+        ],
+        [
+            5,
+            "2.3.2.3 Depth of immersion. ",
+            232
+        ],
+        [
+            5,
+            "2.3.2.4 Depth of fording.  ",
+            232
+        ],
+        [
+            5,
+            "2.3.2.5 Materiel fording.  ",
+            232
+        ],
+        [
+            5,
+            "2.3.2.6 Duration of immersion or exposure.  ",
+            233
+        ],
+        [
+            2,
+            "3. INFORMATION REQUIRED.",
+            233
+        ],
+        [
+            3,
+            "3.1 Pretest. ",
+            233
+        ],
+        [
+            3,
+            "3.2 During Test.  ",
+            233
+        ],
+        [
+            3,
+            "3.3 Post Test. ",
+            233
+        ],
+        [
+            2,
+            "4. TEST PROCESS.",
+            233
+        ],
+        [
+            3,
+            "4.1 Test Facility.  ",
+            233
+        ],
+        [
+            3,
+            "4.2 Controls.  ",
+            234
+        ],
+        [
+            3,
+            "4.3 Test Interruption.",
+            234
+        ],
+        [
+            3,
+            "4.4 Execution.",
+            234
+        ],
+        [
+            4,
+            "4.4.1 Preparation for test.  ",
+            234
+        ],
+        [
+            5,
+            "4.4.1.1 Preliminary steps.  ",
+            234
+        ],
+        [
+            5,
+            "4.4.1.2 Pretest standard ambient checkout.  ",
+            234
+        ],
+        [
+            4,
+            "4.4.2 Procedure I - Immersion.",
+            235
+        ],
+        [
+            4,
+            "4.4.3 Procedure II - Fording.  ",
+            235
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS.  ",
+            235
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS.  ",
+            236
+        ],
+        [
+            3,
+            "6.1 Referenced Documents.",
+            236
+        ],
+        [
+            3,
+            "NATO STANAG 2805, Fording and Floatation Requirements for Combat and Support Ground Vehicles; Information Handling Services Website.",
+            236
+        ],
+        [
+            3,
+            "6.2 Related Documents.",
+            236
+        ],
+        [
+            2,
+            "a. NATO STANAG 4370, Environmental Testing.",
+            236
+        ],
+        [
+            2,
+            "b. NATO Allied Environmental Conditions and Test Publication (AECTP) 300, Climatic Environmental Testing (under STANAG 4370), Method 307.",
+            236
+        ],
+        [
+            1,
+            "Method513",
+            237
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            237
+        ],
+        [
+            3,
+            "1.1 Purpose.  ",
+            237
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            237
+        ],
+        [
+            3,
+            "1.3 Limitations.  ",
+            237
+        ],
+        [
+            4,
+            "1.3.1 Acceleration.",
+            237
+        ],
+        [
+            4,
+            "1.3.2 Aerodynamic loads.",
+            237
+        ],
+        [
+            4,
+            "1.3.3 Acceleration versus shock.",
+            237
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE.",
+            237
+        ],
+        [
+            3,
+            "2.1 Selecting the Acceleration Method.  ",
+            237
+        ],
+        [
+            4,
+            "2.1.1 Effects of acceleration.  ",
+            237
+        ],
+        [
+            4,
+            "2.1.2 Sequence among other methods.  ",
+            238
+        ],
+        [
+            3,
+            "2.2 Selecting a Procedure.  ",
+            238
+        ],
+        [
+            4,
+            "2.2.1 Procedure selection considerations.",
+            238
+        ],
+        [
+            4,
+            "2.2.2 Difference among procedures.",
+            238
+        ],
+        [
+            5,
+            "2.2.2.1 Procedure I - Structural Test.  ",
+            238
+        ],
+        [
+            5,
+            "2.2.2.2 Procedure II - Operational Test. ",
+            238
+        ],
+        [
+            5,
+            "2.2.2.3 Procedure III \u2013 Crash Hazard Acceleration Test.  ",
+            238
+        ],
+        [
+            3,
+            "2.3 Determine Test Levels and Conditions.  ",
+            238
+        ],
+        [
+            4,
+            "2.3.1 Test axes.",
+            239
+        ],
+        [
+            4,
+            "2.3.2 Test levels and conditions - general.",
+            239
+        ],
+        [
+            4,
+            "2.3.3 Test levels and conditions - fighter and attack aircraft.",
+            239
+        ],
+        [
+            2,
+            "Cargo/transport",
+            243
+        ],
+        [
+            3,
+            "2.4 Special Considerations.",
+            243
+        ],
+        [
+            2,
+            "3. INFORMATION REQUIRED.",
+            244
+        ],
+        [
+            3,
+            "3.1 Pretest.  ",
+            244
+        ],
+        [
+            3,
+            "3.2 During Test.  ",
+            244
+        ],
+        [
+            3,
+            "3.3 Post-test.",
+            245
+        ],
+        [
+            2,
+            "4. TEST PROCESS.",
+            245
+        ],
+        [
+            3,
+            "4.1 Test Facility.  ",
+            245
+        ],
+        [
+            3,
+            "4.2 Controls.  ",
+            245
+        ],
+        [
+            4,
+            "4.2.1 Calibration.  ",
+            245
+        ],
+        [
+            4,
+            "Ensure any acceleration measurement for test verification has been made by instrumentation properly calibrated to the amplitude and frequency ranges of measurement.",
+            245
+        ],
+        [
+            4,
+            "4.2.2  Tolerances.  Maintain the acceleration level between 90 per cent and 110 percent of the specified level over the full dimensions of the test item. ",
+            245
+        ],
+        [
+            3,
+            "4.3 Test Interruption.",
+            245
+        ],
+        [
+            3,
+            "4.4 Test Setup.",
+            246
+        ],
+        [
+            3,
+            "4.5 Test Execution.",
+            246
+        ],
+        [
+            4,
+            "4.5.1 Preparation for test.  ",
+            246
+        ],
+        [
+            5,
+            "4.5.1.1 Pretest standard ambient checkout..",
+            246
+        ],
+        [
+            5,
+            "4.5.1.2 Mounting of the test item.",
+            246
+        ],
+        [
+            4,
+            "Procedure I - Structural Test.  ",
+            247
+        ],
+        [
+            4,
+            "4.5.3 Procedure II - Operational Test.  ",
+            247
+        ],
+        [
+            5,
+            "4.5.3.1 Centrifuge.  ",
+            247
+        ],
+        [
+            5,
+            "4.5.3.2 Track/rocketpoweredsled.  ",
+            248
+        ],
+        [
+            4,
+            "4.5.4 Procedure III - Crash Hazard Acceleration Test.  ",
+            248
+        ],
+        [
+            2,
+            "5 ANALYSIS OF RESULTS.",
+            248
+        ],
+        [
+            3,
+            "5.1 General. ",
+            248
+        ],
+        [
+            3,
+            "5.2 Specific to this Method.",
+            248
+        ],
+        [
+            4,
+            "5.2.1 Structural test.",
+            248
+        ],
+        [
+            4,
+            "5.2.2 Operational test.",
+            248
+        ],
+        [
+            4,
+            "5.2.3 Crash hazard acceleration test.",
+            248
+        ],
+        [
+            2,
+            "6 REFERENCE/RELATED DOCUMENTS.",
+            248
+        ],
+        [
+            3,
+            "6.1 Referenced Documents.",
+            248
+        ],
+        [
+            2,
+            "a. Handbook for Dynamic Data Acquisition and Analysis, IES-RP-DTE012.2, Institute of Environmental Sciences and Technology, Arlington Place One, 2340 S. Arlington Heights Road, Suite 100, Arlington Heights, IL  60005-4516; Institute of Environmental Sciences and Technology Website.",
+            248
+        ],
+        [
+            1,
+            "Method514",
+            256
+        ],
+        [
+            2,
+            "1.   SCOPE.",
+            262
+        ],
+        [
+            3,
+            "1.1   Purpose.",
+            262
+        ],
+        [
+            3,
+            "1.2   Application.",
+            262
+        ],
+        [
+            3,
+            "1.3   Limitations.",
+            265
+        ],
+        [
+            2,
+            "2.   TAILORING GUIDANCE",
+            265
+        ],
+        [
+            3,
+            "2.1   Selecting the Method.",
+            265
+        ],
+        [
+            4,
+            "2.1.1   Effects of environment.",
+            266
+        ],
+        [
+            4,
+            "2.1.2   Sequence.",
+            266
+        ],
+        [
+            3,
+            "2.2   Selecting Procedures.",
+            266
+        ],
+        [
+            4,
+            "2.2.1   Procedure selection considerations.",
+            266
+        ],
+        [
+            4,
+            "2.2.2   Difference among procedures.",
+            267
+        ],
+        [
+            3,
+            "2.3   Determine Test Levels and Conditions.",
+            267
+        ],
+        [
+            4,
+            "2.3.1   Climatic conditions.",
+            267
+        ],
+        [
+            4,
+            "2.3.2   Test item configuration.",
+            268
+        ],
+        [
+            3,
+            "2.3.3 Multiple Exciter Consideration",
+            268
+        ],
+        [
+            3,
+            "2.4   Test Item Operation. ",
+            268
+        ],
+        [
+            2,
+            "3.   INFORMATION REQUIRED.",
+            268
+        ],
+        [
+            3,
+            "3.1 Pretest.",
+            268
+        ],
+        [
+            3,
+            "3.2   During Test.",
+            269
+        ],
+        [
+            3,
+            "3.3   Post-Test.",
+            269
+        ],
+        [
+            2,
+            "4.   TEST PROCESS.",
+            270
+        ],
+        [
+            3,
+            "4.1 Test Facility.",
+            270
+        ],
+        [
+            4,
+            "4.1.1 Procedure I - General vibration.",
+            270
+        ],
+        [
+            4,
+            "4.1.2 Procedure II - Loose cargo transportation.",
+            270
+        ],
+        [
+            4,
+            "4.1.3 Procedure III - Large assembly transport.  ",
+            270
+        ],
+        [
+            4,
+            "4.1.4 Procedure IV - Assembled aircraft store captive carriage and free flight.",
+            270
+        ],
+        [
+            3,
+            "4.2 Controls.",
+            270
+        ],
+        [
+            4,
+            "4.2.1 Control strategy.",
+            270
+        ],
+        [
+            5,
+            "4.2.1.1 Acceleration input control strategy. ",
+            271
+        ],
+        [
+            5,
+            "4.2.1.2 Force control strategy. ",
+            271
+        ],
+        [
+            5,
+            "4.2.1.3 Acceleration limit strategy.",
+            271
+        ],
+        [
+            5,
+            "4.2.1.4 Acceleration response control strategy.",
+            271
+        ],
+        [
+            5,
+            "4.2.1.5 Waveform control strategy. ",
+            271
+        ],
+        [
+            4,
+            "4.2.2 Tolerances.",
+            271
+        ],
+        [
+            5,
+            "4.2.2.1 Acceleration spectral density. ",
+            271
+        ],
+        [
+            5,
+            "4.2.2.2 Peak sinusoidal acceleration.",
+            272
+        ],
+        [
+            5,
+            "4.2.2.3 Frequency measurement.",
+            272
+        ],
+        [
+            5,
+            "4.2.2.4 Cross axis accelerations.",
+            272
+        ],
+        [
+            3,
+            "In  a single axis vibration test, cross axis vibration acceleration  in two axes mutually orthogonal and orthogonal to the drive axis should be less than or equal to 0.45 times the acceleration  (0.2 times the spectral density) levels required for the cross axis of concern.  If measured cross axis vibration accelerations exceed these values, the source of the vibration should be identified and addressed.  The following common sources of cross axis vibration should be considered.",
+            272
+        ],
+        [
+            3,
+            "a. Test fixture resonance.  Prior to test, a test fixture survey should be conducted to ensure that the structural characteristics of the test fixture do not introduce uncontrollable resonances into the test setup.  The survey may be experimental or analytical.  If problematic resonances are identified, modifications should be made to the test fixture to shift the resonance beyond the frequency range of the test or to dampen the resonance in order to minimize the effect on the test. ",
+            272
+        ],
+        [
+            3,
+            "b. Test article resonance.  Cross axis resonances of the test article may be characteristic of the test article structure and not necessarily a product of test fixture or restraint.  As long as the test article is restrained in a manner consistent with the environment being tested and the test fixture is not introducing unrealistic resonance, the following options should be considered in limiting the cross axis vibration:",
+            272
+        ],
+        [
+            3,
+            "4.3 Test interruption.",
+            273
+        ],
+        [
+            3,
+            "4.3.2  Interruption due to test item operation failure.",
+            273
+        ],
+        [
+            3,
+            "4.4 Test Setup.",
+            274
+        ],
+        [
+            4,
+            "4.4.1 Procedure I - General vibration.",
+            274
+        ],
+        [
+            4,
+            "4.4.2 Procedure II - Loose cargo transportation. ",
+            274
+        ],
+        [
+            4,
+            "4.4.3 Procedure III - Large assembly transport.",
+            274
+        ],
+        [
+            4,
+            "4.4.4 Procedure IV - Assembled aircraft store captive carriage and free flight.",
+            275
+        ],
+        [
+            3,
+            "4.5 Test Execution.",
+            276
+        ],
+        [
+            4,
+            "4.5.1 Preparation for test.",
+            277
+        ],
+        [
+            5,
+            "4.5.1.1 Preliminary steps.",
+            277
+        ],
+        [
+            5,
+            "4.5.1.2 Pretest standard ambient checkout.",
+            277
+        ],
+        [
+            4,
+            "4.5.2 Procedure I - General vibration.",
+            277
+        ],
+        [
+            4,
+            "4.5.3 Procedure II - Loose cargo transportation",
+            278
+        ],
+        [
+            4,
+            "4.5.4 Procedure III - Large assembly transport.",
+            278
+        ],
+        [
+            4,
+            "4.5.5 Procedure IV - Assembled aircraft store captive carriage and free flight.",
+            278
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS.",
+            280
+        ],
+        [
+            3,
+            "5.1 Physics of Failure.",
+            280
+        ],
+        [
+            3,
+            "5.2 Qualification Tests.",
+            281
+        ],
+        [
+            3,
+            "5.3 Other Tests.",
+            281
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS",
+            281
+        ],
+        [
+            2,
+            "1.  SCOPE.",
+            285
+        ],
+        [
+            3,
+            "1.1 Purpose.",
+            285
+        ],
+        [
+            3,
+            "1.2  Application.",
+            285
+        ],
+        [
+            2,
+            "2.  ENGINEERING INFORMATION.",
+            285
+        ],
+        [
+            3,
+            "2.1  Vibration Test Types.",
+            285
+        ],
+        [
+            4,
+            "2.1.1  Development test.",
+            285
+        ],
+        [
+            4,
+            "2.1.2  Qualification test.",
+            285
+        ],
+        [
+            4,
+            "2.1.2.1  Functional test.",
+            285
+        ],
+        [
+            4,
+            "2.1.2.2  Endurance test.",
+            286
+        ],
+        [
+            4,
+            "2.1.3  Durability test.",
+            286
+        ],
+        [
+            4,
+            "2.1.4  Reliability test.",
+            286
+        ],
+        [
+            4,
+            "2.1.4.1  Statistical Reliability test.",
+            286
+        ],
+        [
+            4,
+            "2.1.4.2  Reliability Growth test.",
+            287
+        ],
+        [
+            4,
+            "2.1.5  Worthiness test.",
+            287
+        ],
+        [
+            4,
+            "2.1.6  Environmental Stress Screening (ESS).",
+            287
+        ],
+        [
+            3,
+            "2.2  Test Time Compression and the Fatigue Relationship.",
+            287
+        ],
+        [
+            3,
+            "2.3  Vibration Characterization. ",
+            289
+        ],
+        [
+            4,
+            "2.3.1  Random vibration.",
+            289
+        ],
+        [
+            4,
+            "2.3.2  Sinusoidal vibration.",
+            290
+        ],
+        [
+            4,
+            "2.3.3  Mixed broadband and narrowband vibration.",
+            290
+        ],
+        [
+            4,
+            "2.3.4  Transient vibration. ",
+            290
+        ],
+        [
+            4,
+            "2.3.5  Random versus sinusoidal vibration equivalence.",
+            291
+        ],
+        [
+            3,
+            "2.4  Platform/Materiel and Fixture/Test Item Interaction.",
+            291
+        ],
+        [
+            4,
+            "2.4.1  Mechanical impedance.",
+            291
+        ],
+        [
+            4,
+            "2.4.2  Vibration isolation.",
+            292
+        ],
+        [
+            4,
+            "2.4.3  Materiel resonant frequency variation.",
+            292
+        ],
+        [
+            3,
+            "2.5  Modal Test and Analysis.",
+            292
+        ],
+        [
+            4,
+            "2.5.1  Modal test techniques.",
+            292
+        ],
+        [
+            4,
+            "2.5.2  Material non-linear behavior.",
+            292
+        ],
+        [
+            3,
+            "2.6  Aerodynamic Effects.",
+            293
+        ],
+        [
+            4,
+            "2.6.1  Dynamic pressure.",
+            293
+        ],
+        [
+            4,
+            "2.6.2  Airspeed.",
+            293
+        ],
+        [
+            4,
+            "2.6.3  Altitude.",
+            293
+        ],
+        [
+            3,
+            "2.7  Similarity.",
+            294
+        ],
+        [
+            4,
+            "2.7.1  Unmodified materiel.",
+            294
+        ],
+        [
+            4,
+            "2.7.2  Modified materiel.",
+            294
+        ],
+        [
+            4,
+            "2.7.3  Equal vibration environment.",
+            294
+        ],
+        [
+            4,
+            "2.7.5  Critical resonant response.",
+            295
+        ],
+        [
+            4,
+            "2.7.6  Dynamic similarity.",
+            295
+        ],
+        [
+            4,
+            "2.7 Category 18  Aircraft stores  assembled/materiel, helicopter.",
+            337
+        ],
+        [
+            4,
+            "2.8 Category 19 - Missiles - Tactical missiles (free flight).",
+            337
+        ],
+        [
+            4,
+            "2.1.1 Category 24 :  All materiel - minimum integrity tests.",
+            342
+        ],
+        [
+            1,
+            "Method515",
+            350
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            350
+        ],
+        [
+            3,
+            "1.1 Purpose.  ",
+            350
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            350
+        ],
+        [
+            3,
+            "1.3 Limitations.  ",
+            350
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE.",
+            350
+        ],
+        [
+            3,
+            "2.1 Selecting the Acoustic Noise Method.  ",
+            350
+        ],
+        [
+            4,
+            "2.1.1 Effects of the acoustic noise environment.  ",
+            350
+        ],
+        [
+            4,
+            "2.1.2 Sequence among other methods.  ",
+            351
+        ],
+        [
+            3,
+            "2.2 Selecting Procedures.  ",
+            351
+        ],
+        [
+            4,
+            "2.2.1 Procedure selection considerations.  ",
+            351
+        ],
+        [
+            4,
+            "2.2.2 Difference among procedures.  ",
+            351
+        ],
+        [
+            3,
+            "2.3 Determine Test Levels and Conditions.  ",
+            351
+        ],
+        [
+            4,
+            "2.3.1 General.",
+            351
+        ],
+        [
+            4,
+            "Use of measured and related data.  ",
+            352
+        ],
+        [
+            4,
+            "2.3.3 Types of Acoustic Excitation.",
+            352
+        ],
+        [
+            5,
+            "2.3.3.1 Diffuse field acoustic noise.  ",
+            352
+        ],
+        [
+            5,
+            "2.3.3.2 Grazing incidence acoustic noise.  ",
+            352
+        ],
+        [
+            5,
+            "2.3.3.3 Cavity resonance.  ",
+            352
+        ],
+        [
+            5,
+            "2.3.3.4 Additional technical guidance.  ",
+            352
+        ],
+        [
+            3,
+            "2.4 Test Item Configuration.  ",
+            353
+        ],
+        [
+            2,
+            "3. INFORMATION REQUIRED.  ",
+            353
+        ],
+        [
+            3,
+            "3.1 Pretest.",
+            353
+        ],
+        [
+            3,
+            "3.2 During Test.",
+            353
+        ],
+        [
+            3,
+            "3.3 Post Test.",
+            353
+        ],
+        [
+            2,
+            "4. TEST PROCESS.",
+            354
+        ],
+        [
+            3,
+            "4.1 Test Facility.",
+            354
+        ],
+        [
+            3,
+            "4.2 Controls.",
+            354
+        ],
+        [
+            4,
+            "4.2.1 Control options.",
+            354
+        ],
+        [
+            5,
+            "4.2.1.1 Single point noise control.  ",
+            354
+        ],
+        [
+            5,
+            "4.2.1.2 Multiple point noise control.  ",
+            354
+        ],
+        [
+            5,
+            "4.2.1.3 Vibration response control.  ",
+            354
+        ],
+        [
+            4,
+            "4.2.2 Control methods.  ",
+            354
+        ],
+        [
+            4,
+            "4.2.3 Overall accuracy of control.  ",
+            354
+        ],
+        [
+            4,
+            "4.2.4 Calibration and tolerance.  ",
+            354
+        ],
+        [
+            3,
+            "4.3 Test interruption.",
+            355
+        ],
+        [
+            3,
+            "4.4 Test Setup.",
+            355
+        ],
+        [
+            3,
+            "4.5 Test Execution.",
+            355
+        ],
+        [
+            4,
+            "4.5.1 Preparation for test.",
+            355
+        ],
+        [
+            5,
+            "4.5.1.1 Preliminary steps.  ",
+            355
+        ],
+        [
+            5,
+            "4.5.2.1 Diffuse field acoustic noise.  ",
+            355
+        ],
+        [
+            5,
+            "4.5.2.2 Grazing incidence acoustic noise.  ",
+            356
+        ],
+        [
+            5,
+            "4.5.2.3 Cavity resonance acoustic noise.  ",
+            356
+        ],
+        [
+            4,
+            "4.5.3 Procedure 1 - Diffuse field acoustic noise testing.",
+            356
+        ],
+        [
+            4,
+            "4.5.4 Procedure 2 - Grazing incidence acoustic noise testing.  ",
+            356
+        ],
+        [
+            4,
+            "4.5.5 Procedure 3 - Cavity resonance acoustic noise testing.",
+            357
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS.  ",
+            357
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS.",
+            357
+        ],
+        [
+            3,
+            "6.1 Referenced Documents",
+            357
+        ],
+        [
+            2,
+            "1. BROAD BAND RANDOM AND INCIDENCE NOISE TESTING.",
+            358
+        ],
+        [
+            3,
+            "1.1 Overall Sound Pressure Level (OASPL).  ",
+            358
+        ],
+        [
+            3,
+            "1.2 Test Spectrum.  ",
+            358
+        ],
+        [
+            3,
+            "1.3 Simulation of Aerodynamic Turbulence.  ",
+            358
+        ],
+        [
+            2,
+            "2. CAVITY RESONANCE TESTING.",
+            358
+        ],
+        [
+            2,
+            "3. EXTERNAL STORES TESTING.",
+            358
+        ],
+        [
+            3,
+            "3.1 Test Spectrum.",
+            358
+        ],
+        [
+            3,
+            "3.2 Test Parameters.  ",
+            358
+        ],
+        [
+            2,
+            "1. REVERBERATION CHAMBERS.  ",
+            363
+        ],
+        [
+            2,
+            "2. PROGRESSIVE WAVE TUBES.  ",
+            363
+        ],
+        [
+            2,
+            "3. ACOUSTIC NOISE CHARACTERISTICS.  ",
+            363
+        ],
+        [
+            2,
+            "4. CONTROL STRATEGIES.  ",
+            364
+        ],
+        [
+            2,
+            "5. DEFINITIONS.",
+            364
+        ],
+        [
+            3,
+            "5.1   Sound Pressure Level.  ",
+            364
+        ],
+        [
+            3,
+            "5.2   Third Octave Filters.  ",
+            364
+        ],
+        [
+            1,
+            "Method516",
+            365
+        ],
+        [
+            2,
+            "CONTENTS",
+            365
+        ],
+        [
+            2,
+            "CONTENTS - Continued",
+            366
+        ],
+        [
+            2,
+            "CONTENTS - Continued",
+            367
+        ],
+        [
+            2,
+            "CONTENTS - Continued",
+            368
+        ],
+        [
+            2,
+            "CONTENTS - Continued",
+            369
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            370
+        ],
+        [
+            3,
+            "1.1 Purpose.  ",
+            370
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            370
+        ],
+        [
+            3,
+            "1.3 Limitations.",
+            371
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE.",
+            371
+        ],
+        [
+            3,
+            "2.1 Selecting the Shock Method.  ",
+            371
+        ],
+        [
+            4,
+            "2.1.1 Effects of shock.  ",
+            371
+        ],
+        [
+            4,
+            "2.1.2 Sequence among other methods.",
+            371
+        ],
+        [
+            3,
+            "2.2 Selecting a Procedure.  ",
+            372
+        ],
+        [
+            4,
+            "2.2.1 Procedure selection considerations.  ",
+            372
+        ],
+        [
+            4,
+            "2.2.2 Difference among procedures. ",
+            372
+        ],
+        [
+            3,
+            "Determine Test Levels and Conditions. ",
+            374
+        ],
+        [
+            4,
+            "2.3.1 General considerations \u2013 Terminology and illustration for complex transient.  ",
+            374
+        ],
+        [
+            5,
+            "2.3.1.1 Shock.  ",
+            374
+        ],
+        [
+            5,
+            "2.3.1.2 Shock/Random Vibration.  ",
+            381
+        ],
+        [
+            5,
+            ". For an amplification of unity this can be taken to approximate the maximax shock response spectrum amplitude in g\u2019s. Annex C of this method discusses the relationship between ASD levels and corresponding SRS levels for purposes of substituting a comparatively high level random vibration test for a relatively low level shock test.",
+            381
+        ],
+        [
+            5,
+            "2.3.1.3 Statistical Estimate Processing.  ",
+            382
+        ],
+        [
+            5,
+            "At times it may be convenient or even necessary to combine equivalently processed response estimates in some statistical manner.  Paragraph 6.1, reference b, discusses some options in statistically summarizing processed results from a series of tests.  The best option is dependent upon the size of sample in general.  Processed results from the SRS, ESD, or FS are typically logarithmically transformed to provide estimates that are more normally distributed.  This transformation is important since often very few estimates are available from a test series and the probability distribution of the untransformed estimates cannot be assumed to be normally distributed.  In virtually all cases, combination of processed results will fall under the category of small sample statistics and need to be considered with care with other parametric or less powerful nonparametric methods of statistical analysis.  Annex A addresses the appropriate techniques for the statistical combination of processed test results as a function of the size of the sample. ",
+            382
+        ],
+        [
+            5,
+            "2.3.1.4 Other Processing.  ",
+            382
+        ],
+        [
+            5,
+            "Other descriptive processes that tend to decompose the shock into component parts, e.g., product model, time domain moments, wavelets, etc., may be useful, but are beyond the scope of this document.",
+            382
+        ],
+        [
+            4,
+            "2.3.2 Test conditions.  ",
+            382
+        ],
+        [
+            4,
+            "2.3.3 Test axes and number of shock events \u2013 general considerations. ",
+            388
+        ],
+        [
+            4,
+            "2.3.4 Special considerations for complex transients.",
+            388
+        ],
+        [
+            3,
+            "2.4 Test Item Configuration. ",
+            389
+        ],
+        [
+            2,
+            "3. INFORMATION REQUIRED.",
+            389
+        ],
+        [
+            3,
+            "3.1 Pretest.  ",
+            389
+        ],
+        [
+            3,
+            "3.2 During Test.  ",
+            389
+        ],
+        [
+            3,
+            "3.3 Post-test.  ",
+            389
+        ],
+        [
+            2,
+            "TEST PROCESS.",
+            390
+        ],
+        [
+            3,
+            "4.1 Test Facility.  ",
+            390
+        ],
+        [
+            3,
+            "4.2 Controls.",
+            390
+        ],
+        [
+            4,
+            "4.2.1 Calibration.  ",
+            390
+        ],
+        [
+            4,
+            "4.2.2 Tolerances.",
+            390
+        ],
+        [
+            5,
+            "4.2.2.1 Classical pulses and complex transient pulses-time domain.",
+            390
+        ],
+        [
+            5,
+            "4.2.2.2 Complex transient pulses-SRS.",
+            390
+        ],
+        [
+            3,
+            "Test Interruption.",
+            391
+        ],
+        [
+            3,
+            "4.4 Instrumentation.  ",
+            391
+        ],
+        [
+            3,
+            "4.5 Data Analysis.",
+            392
+        ],
+        [
+            3,
+            "4.6 Test Execution.",
+            392
+        ],
+        [
+            4,
+            "4.6.1 Preparation for test.  ",
+            392
+        ],
+        [
+            5,
+            "4.6.1.1 Preliminary guidelines.  ",
+            392
+        ],
+        [
+            5,
+            "4.6.1.2 Pretest checkout.  ",
+            392
+        ],
+        [
+            5,
+            "4.6.1.3 Procedures\u2019 overview.  ",
+            392
+        ],
+        [
+            4,
+            "4.6.2 Procedure I - Functional Shock. ",
+            392
+        ],
+        [
+            5,
+            "4.6.2.1 Controls.",
+            393
+        ],
+        [
+            5,
+            "4.6.2.2 Test tolerances.",
+            393
+        ],
+        [
+            5,
+            "4.6.2.3 Procedure I \u2013 Functional Shock",
+            393
+        ],
+        [
+            4,
+            "4.6.3 Procedure II - Materiel to be Packaged.  ",
+            394
+        ],
+        [
+            5,
+            "Controls.  ",
+            394
+        ],
+        [
+            5,
+            "4.6.3.2 Test tolerances.",
+            394
+        ],
+        [
+            5,
+            "Procedure II \u2013 Materiel to be Packaged. ",
+            395
+        ],
+        [
+            4,
+            "4.6.4 Procedure III - Fragility.  ",
+            395
+        ],
+        [
+            5,
+            "4.6.4.1 Controls.",
+            396
+        ],
+        [
+            5,
+            "4.6.4.2 Test tolerances.",
+            397
+        ],
+        [
+            5,
+            "4.6.4.3 Procedure III - Fragility. ",
+            397
+        ],
+        [
+            4,
+            "4.6.5 Procedure IV - Transit Drop.  ",
+            398
+        ],
+        [
+            5,
+            "4.6.5.1 Controls.  ",
+            398
+        ],
+        [
+            5,
+            "4.6.5.2 Test tolerances.",
+            399
+        ],
+        [
+            5,
+            "4.6.5.3 Procedure IV \u2013 Transit Drop.",
+            399
+        ],
+        [
+            4,
+            "Procedure V - Crash Hazard Shock Test.  ",
+            400
+        ],
+        [
+            5,
+            "4.6.6.1 Controls.  ",
+            400
+        ],
+        [
+            5,
+            "4.6.6.2 Test tolerances.",
+            400
+        ],
+        [
+            5,
+            "Procedure V \u2013 Crash Hazard Shock Test.",
+            400
+        ],
+        [
+            4,
+            "4.6.7 Procedure VI - Bench handling.  ",
+            401
+        ],
+        [
+            5,
+            "4.6.7.1 Controls.  ",
+            401
+        ],
+        [
+            5,
+            "4.6.7.2 Test tolerances.",
+            401
+        ],
+        [
+            5,
+            "4.6.7.3 Procedure VI \u2013 Bench Handling.",
+            401
+        ],
+        [
+            4,
+            "4.6.8 Procedure VII - Pendulum Impact",
+            401
+        ],
+        [
+            5,
+            "4.6.8.1 Controls.  ",
+            401
+        ],
+        [
+            5,
+            "4.6.8.2 Test tolerances.",
+            402
+        ],
+        [
+            4,
+            "4.6.9 Procedure VIII - Catapult Launch/Arrested Landing.  ",
+            403
+        ],
+        [
+            5,
+            "4.6.9.2  Test tolerances.",
+            405
+        ],
+        [
+            5,
+            "4.6.9.3   Procedure VIII - Catapult Launch/Arrested Landing.",
+            405
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS.",
+            406
+        ],
+        [
+            2,
+            "In addition to the specific guidance provided in the test plan and the general guidance provided in Part One, paragraphs 5.14 and 5.17, and Part One, Annex A, Task 406, refer to the below paragraphs for supplemental test analysis information.  Analyze any failure of a test item to meet the requirements of the materiel specifications.",
+            406
+        ],
+        [
+            3,
+            "g. Procedure VII (Pendulum Impact) \u2013 In general, analysis of the results will consist of visual inspections and any operational comparisons before and after the test.  Check for operability and inspect for physical damage of the contents (except when using a dummy load).  Damage to the exterior shipping container that is the result of improper interior packaging, blocking, or bracing is cause for rejection.  Structural damage to the exterior shipping container that results in either spilling of the contents or failure of the container in subsequent handling is cause for rejection.  Assess whether a substantial amount of shifting of the contents within the shipping container created conditions likely to cause damage during shipment, storage, and reshipment of the container.  Minor container damage such as chipping of wood members, dents, paint chipping, is not cause for rejection.  If recorded, acceleration time histories or other sensor data can provide valuable information related to the response characteristics of the test item.",
+            406
+        ],
+        [
+            2,
+            "REFERENCE/RELATED DOCUMENTS.",
+            407
+        ],
+        [
+            3,
+            "6.1 Referenced Documents.",
+            407
+        ],
+        [
+            2,
+            "a. Handbook for Dynamic Data Acquisition and Analysis, IES-RP-DTE012.2, Institute of Environmental Sciences and Technology, Arlington Place One, 2340 S. Arlington Heights Road, Suite 100, Arlington Heights, IL  60005-4516; Institute of Environmental Sciences and Technology.",
+            407
+        ],
+        [
+            2,
+            "b. Piersol, Allan G., Determination of Maximum Structural Responses From Predictions or Measurements at Selected Points, Proceedings of the 65th Shock and Vibration Symposium, Volume I, SAVIAC, 1994.  Shock & Vibration Information Analysis Center (SAVIAC), Three Chopt Rd. (Suite 110), Richmond, VA  23229.",
+            407
+        ],
+        [
+            3,
+            "6.2 Related Documents.",
+            407
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            408
+        ],
+        [
+            3,
+            "1.1 Purpose.  ",
+            408
+        ],
+        [
+            3,
+            "1.2 Application. ",
+            408
+        ],
+        [
+            2,
+            "2. DEVELOPMENT.",
+            408
+        ],
+        [
+            3,
+            "2.1 Basic Estimate Assumptions.  ",
+            408
+        ],
+        [
+            3,
+            "2.2 Basic Estimate Summary Preprocessing.  ",
+            408
+        ],
+        [
+            3,
+            "2.3 Parametric Upper Limit Statistical Estimate Assumptions.  ",
+            409
+        ],
+        [
+            4,
+            "2.3.2 NPL - Upper normal prediction limit.  ",
+            410
+        ],
+        [
+            3,
+            "2.4 Nonparametric Upper Limit Statistical Estimate Assumptions.  ",
+            410
+        ],
+        [
+            4,
+            "2.4.1 ENV \u2013 Upper limit.  ",
+            410
+        ],
+        [
+            4,
+            "2.4.2 DFL \u2013 Upper distribution-free tolerance limit.  ",
+            411
+        ],
+        [
+            4,
+            "2.4.3 ETL \u2013 Upper empirical tolerance limit.  ",
+            411
+        ],
+        [
+            2,
+            "3. EXAMPLE.",
+            411
+        ],
+        [
+            3,
+            "3.1 Input Test Data Set.",
+            411
+        ],
+        [
+            3,
+            "3.2 Parametric Upper Limits.",
+            412
+        ],
+        [
+            3,
+            "3.3 Nonparametric Upper Limits.",
+            413
+        ],
+        [
+            3,
+            "3.4 Observations.",
+            413
+        ],
+        [
+            3,
+            "3.5 MATLAB m-function \u201cul.\u201d",
+            413
+        ],
+        [
+            2,
+            "4. RECOMMENDED PROCEDURES.",
+            415
+        ],
+        [
+            3,
+            "4.1 Recommended Statistical Procedures for Upper Limit Estimates.",
+            415
+        ],
+        [
+            3,
+            "4.2 Uncertainty Factors.  ",
+            415
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            416
+        ],
+        [
+            3,
+            "1.1 Purpose. ",
+            416
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            416
+        ],
+        [
+            2,
+            "2. DEVELOPMENT.",
+            416
+        ],
+        [
+            3,
+            "2.1 Assumptions on Shock Envelope Development.  ",
+            416
+        ],
+        [
+            3,
+            "2.2 Te versus TE.  ",
+            417
+        ],
+        [
+            2,
+            "3. RECOMMENDED PROCEDURES FOR SYNTHESIS AND ANALYSIS.",
+            418
+        ],
+        [
+            3,
+            "3.1 Synthesis Recommended for Te.  ",
+            418
+        ],
+        [
+            3,
+            "3.2 Synthesis Uncertainty Factors for Te.  ",
+            419
+        ],
+        [
+            3,
+            "3.3 Analysis Relationship to Te.  ",
+            419
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            420
+        ],
+        [
+            3,
+            "1.1 Purpose.  ",
+            420
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            420
+        ],
+        [
+            2,
+            "2. DEVELOPMENT.",
+            420
+        ],
+        [
+            3,
+            "2.1 Assumptions on Autospectral Density.  ",
+            420
+        ],
+        [
+            3,
+            "2.2 Assumptions on Shock Response Spectra.  ",
+            421
+        ],
+        [
+            2,
+            "3. RECOMMENDED PROCEDURES.",
+            423
+        ],
+        [
+            3,
+            "3.1 Recommended for ASD.  ",
+            423
+        ],
+        [
+            3,
+            "3.2 Recommended for SRS.  ",
+            423
+        ],
+        [
+            1,
+            "Method517",
+            424
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            426
+        ],
+        [
+            3,
+            "1.1 Purpose.  ",
+            426
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            426
+        ],
+        [
+            4,
+            "1.2.1 Pyroshock.",
+            426
+        ],
+        [
+            4,
+            "1.2.2 Pyroshock - momentum exchange.",
+            426
+        ],
+        [
+            4,
+            "1.2.3 Pyroshock - physical phenomenon.",
+            427
+        ],
+        [
+            3,
+            "1.3 Limitations.",
+            428
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE.",
+            428
+        ],
+        [
+            3,
+            "2.1 Selecting the Pyroshock Method.  ",
+            428
+        ],
+        [
+            4,
+            "2.1.1 Effects of pyroshock.  ",
+            428
+        ],
+        [
+            4,
+            "2.1.2 Sequence among other methods.",
+            428
+        ],
+        [
+            3,
+            "2.2 Selecting a Procedure.  ",
+            429
+        ],
+        [
+            4,
+            "2.2.1  Procedure selection considerations.  ",
+            429
+        ],
+        [
+            4,
+            "2.2.2 Difference among procedures.",
+            429
+        ],
+        [
+            3,
+            "2.3 Determine Test Levels and Conditions.  ",
+            430
+        ],
+        [
+            4,
+            "2.3.1 General considerations - terminology.  ",
+            430
+        ],
+        [
+            4,
+            "2.3.2 Test conditions - shock spectrum transient duration and scaling.  ",
+            435
+        ],
+        [
+            5,
+            "2.3.2.1 Pyroshock source energy scaling (SES).  ",
+            435
+        ],
+        [
+            5,
+            "2.3.2.2 Pyroshock response location distance scaling (RLDS).  ",
+            435
+        ],
+        [
+            5,
+            "2.3.2.3 Measured data available from pyroshock.  ",
+            436
+        ],
+        [
+            5,
+            "2.3.2.4 Measured data not available from pyroshock.  ",
+            437
+        ],
+        [
+            4,
+            "2.3.3 Test axes, duration, and number of shock events.  ",
+            438
+        ],
+        [
+            5,
+            "2.3.3.1 General.  ",
+            438
+        ],
+        [
+            5,
+            "2.3.3.2 Procedure I Near-field with an actual configuration.  ",
+            439
+        ],
+        [
+            5,
+            "2.3.3.3 Procedure II Near-field with a simulated configuration.  ",
+            439
+        ],
+        [
+            5,
+            "Procedure III Mid-field with a mechanical test device.  For Procedure III, subject the test item to a sufficient number of suitable shocks to meet the specified test conditions or at least three shocks.  The measured response test requirements may be satisfied along more than one axis with a single test shock configuration.  Consequently, it is conceivable that a minimum of three test shock repetitions will satisfy the requirements for all directions of all three orthogonal axes.  At the other extreme, a total of nine shocks are required if each shock only satisfies the test requirements in one direction of one axis.  The objective of the test is to test the structural and functional integrity of the system under pyroshock in the mid-field of the pyrotechnic device.",
+            439
+        ],
+        [
+            5,
+            "2.3.3.5 Procedure IV Far-field with a mechanical test device.  ",
+            439
+        ],
+        [
+            5,
+            "2.3.3.6 Procedure V Far-field with an electrodynamic shaker.  ",
+            439
+        ],
+        [
+            3,
+            "2.4 Test Item Configuration.  ",
+            439
+        ],
+        [
+            2,
+            "3. INFORMATION REQUIRED.",
+            439
+        ],
+        [
+            3,
+            "3.1 Pretest.  ",
+            439
+        ],
+        [
+            3,
+            "3.2 During Test.  ",
+            440
+        ],
+        [
+            3,
+            "3.3 Post-test. ",
+            440
+        ],
+        [
+            2,
+            "4. TEST PROCESS.",
+            440
+        ],
+        [
+            3,
+            "4.1 Test Facility.  ",
+            440
+        ],
+        [
+            3,
+            "Controls.  ",
+            441
+        ],
+        [
+            4,
+            "4.2.1 Calibration.",
+            441
+        ],
+        [
+            4,
+            "4.2.2 Tolerances.",
+            441
+        ],
+        [
+            5,
+            "4.2.2.1 Procedure I Near-field with an actual configuration and Procedure II  Near-field with a simulated configuration.",
+            441
+        ],
+        [
+            5,
+            "4.2.2.2 Procedure III Mid-field with a mechanical test device.",
+            441
+        ],
+        [
+            5,
+            "4.2.2.3 Procedure IV Far-field with a mechanical test device.",
+            441
+        ],
+        [
+            5,
+            "Procedure V Far-field with an electrodynamic shaker.",
+            442
+        ],
+        [
+            4,
+            "4.2.3 Instrumentation.",
+            442
+        ],
+        [
+            4,
+            "4.2.4 Data Analysis.",
+            442
+        ],
+        [
+            3,
+            "Test interruption.",
+            443
+        ],
+        [
+            3,
+            "4.4 Test Execution.",
+            443
+        ],
+        [
+            4,
+            "4.4.1 Preparation for test.",
+            443
+        ],
+        [
+            5,
+            "4.4.1.1 Preliminary steps. ",
+            443
+        ],
+        [
+            5,
+            "4.4.1.2 Pretest checkout.  ",
+            443
+        ],
+        [
+            4,
+            "4.4.2 Test Procedures.  ",
+            1
+        ],
+        [
+            5,
+            "4.4.2.1 Procedure I - Near-field with actual configuration.",
+            1
+        ],
+        [
+            5,
+            "4.4.2.2 Procedure II - Near-field with simulated configuration.",
+            1
+        ],
+        [
+            5,
+            "Procedure III -Mid-field using mechanical test device.",
+            445
+        ],
+        [
+            5,
+            "4.4.2.4 Procedure IV - Far-field using mechanical test device.",
+            445
+        ],
+        [
+            5,
+            "Procedure V -  Far-field using electrodynamic shaker.",
+            446
+        ],
+        [
+            2,
+            "ANALYSIS OF RESULTS.  ",
+            446
+        ],
+        [
+            3,
+            "5.1 Procedure I - Near-field with Actual Configuration.  ",
+            446
+        ],
+        [
+            3,
+            "5.2 Procedure II - Near-field with Simulated Configuration.  ",
+            446
+        ],
+        [
+            3,
+            "5.3 Procedure III - Mid-field Using Mechanical Test Device.  ",
+            446
+        ],
+        [
+            3,
+            "5.4 Procedure IV - Far-field Using Mechanical Test Device.  ",
+            447
+        ],
+        [
+            3,
+            "5.5 Procedure V - Far-field Using Electrodynamic Shaker.  ",
+            447
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS.",
+            447
+        ],
+        [
+            3,
+            "6.1 Referenced Documents.",
+            447
+        ],
+        [
+            2,
+            "a. \u201cPyroshock Test Criteria,\u201d NASA Technical Standard, NASA-STD-7003, May 18, 1999.",
+            447
+        ],
+        [
+            3,
+            "6.2 Related Documents.",
+            448
+        ],
+        [
+            1,
+            "Method518",
+            449
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            449
+        ],
+        [
+            3,
+            "Purpose.  ",
+            449
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            449
+        ],
+        [
+            3,
+            "1.3 Limitations.  ",
+            449
+        ],
+        [
+            2,
+            "2. GUIDANCE/REQUIREMENTS.",
+            449
+        ],
+        [
+            3,
+            "2.1 Effects of the Environment.  ",
+            449
+        ],
+        [
+            3,
+            "2.2 Test Procedure.   ",
+            449
+        ],
+        [
+            3,
+            "2.3 Sequence.",
+            449
+        ],
+        [
+            3,
+            "Determine Test Levels and Conditions.  ",
+            450
+        ],
+        [
+            4,
+            "2.4.1 Temperature severities.  ",
+            450
+        ],
+        [
+            4,
+            "2.4.2 Test duration.  ",
+            450
+        ],
+        [
+            4,
+            "2.4.3 Test item configuration.  ",
+            450
+        ],
+        [
+            4,
+            "2.4.4 Chemical composition and concentration.  ",
+            450
+        ],
+        [
+            4,
+            "2.4.5 Operational considerations.  ",
+            450
+        ],
+        [
+            2,
+            "3. INFORMATION REQUIRED.  ",
+            451
+        ],
+        [
+            3,
+            "3.1 Pretest.  ",
+            451
+        ],
+        [
+            3,
+            "3.2 During Test.  ",
+            451
+        ],
+        [
+            3,
+            "3.3 Post Test. ",
+            451
+        ],
+        [
+            2,
+            "4. TEST PROCESS.  ",
+            451
+        ],
+        [
+            3,
+            "4.1 Test Facility.",
+            451
+        ],
+        [
+            3,
+            "4.2 Controls.  ",
+            452
+        ],
+        [
+            3,
+            "4.3 Test Interruptions. ",
+            452
+        ],
+        [
+            3,
+            "4.4 Test Setup.",
+            453
+        ],
+        [
+            3,
+            "4.5 Test Execution.  ",
+            453
+        ],
+        [
+            4,
+            "4.5.1 Preparation for test.  ",
+            453
+        ],
+        [
+            5,
+            "4.5.1.2 Pretest standard ambient checkout.  ",
+            454
+        ],
+        [
+            4,
+            "4.5.1.3 Procedure. ",
+            454
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS.  ",
+            455
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS.",
+            455
+        ],
+        [
+            3,
+            "6.1 Referenced Documents.",
+            455
+        ],
+        [
+            3,
+            "6.2 Related Documents.",
+            455
+        ],
+        [
+            1,
+            "Method519",
+            456
+        ],
+        [
+            2,
+            "1.1 Purpose.",
+            462
+        ],
+        [
+            2,
+            "Gunfire shock tests are performed to provide a degree of confidence that materiel can structurally and functionally withstand the relatively infrequent, short duration transient high rate repetitive shock input encountered in operational environments during the firing of  guns.",
+            462
+        ],
+        [
+            2,
+            "1.2 Application.",
+            462
+        ],
+        [
+            2,
+            "Use this method to evaluate the structural and functional performance of materiel likely to be exposed to a gunfire shock environment in its lifetime.  This test method is applicable when materiel is required to demonstrate its adequacy to resist a \u201cgunfire schedule\u201d environment without unacceptable degradation of its structural integrity and functional performance (\u201cgunfire schedule\u201d here refers to the firing rate and the number of rounds fired in a given firing).  The gunfire environment may be considered to be a high rate repetitive shock having form of a substantial transient vibration produced by (1) an air-borne gun muzzle blast pressure wave impinging on the materiel at the gun firing rate,  (2) a structure-borne repetitive shock transmitted through structure connecting the gun mechanism and the materiel, and/or a combination of (1) and (2).  The closer the materiel surface is to direct pressure pulse exposure, the more likely the measured acceleration environment appears as a repetitive shock producing high rise time and rapid decay of materiel response, and the less role the structure-borne repetitive shock contributes to the overall materiel response environment.  The farther the materiel surface is from direct pressure pulse exposure, the more the measured acceleration environment appears as a structure-borne high rate repetitive shock (or a substantial transient vibration) with some periodic nature that has been filtered by the structure intervening between the gun mechanism and the materiel.  Repetitive shock applied to a complex multi-modal materiel system will cause the materiel to respond (1) at forced frequencies imposed on the materiel from the external excitation environment, and (2) to the materiel\u2019s resonant natural frequencies either during or immediately after application of the external excitation.  Such response may cause: materiel failure as a result of increased or decreased friction between parts, or general interference between parts;",
+            462
+        ],
+        [
+            2,
+            "a. changes in materiel dielectric strength, loss of insulation resistance, variations in magnetic and electrostatic field strength;",
+            462
+        ],
+        [
+            2,
+            "b. materiel electronic circuit card malfunction, electronic circuit card damage, and electronic connector failure.  (On occasion, circuit card contaminants having the potential to cause short circuits may be dislodged under materiel response to gunfire environment);",
+            462
+        ],
+        [
+            2,
+            "c. permanent mechanical deformation of the materiel as a result of overstress of materiel structural and non-structural members;",
+            462
+        ],
+        [
+            2,
+            "d. collapse of mechanical elements of the materiel as a result of the ultimate strength of the element being exceeded.",
+            462
+        ],
+        [
+            2,
+            "e. accelerated fatiguing of materials (low cycle fatigue);",
+            462
+        ],
+        [
+            2,
+            "f. potential piezoelectric activity of materials; and",
+            462
+        ],
+        [
+            2,
+            "g. materiel failure as a result of cracks and fracture in crystals, ceramics, epoxies, or glass envelopes.",
+            462
+        ],
+        [
+            2,
+            "Limitations.",
+            462
+        ],
+        [
+            3,
+            "2.3.1 General considerations. ",
+            468
+        ],
+        [
+            3,
+            "2.3.2 Test conditions. ",
+            468
+        ],
+        [
+            3,
+            "2.3.3 Test axes and number of gunfire events. ",
+            468
+        ],
+        [
+            2,
+            "Configure the test item for gunfire shock testing as would be anticipated during in-service use, including particular attention to the details of the in-service mounting of the materiel to the platform.  Gunfire response is sensitive to the details of the materiel/platform configuration and input impedances.",
+            468
+        ],
+        [
+            2,
+            "a. For Procedures I and II, the vibration exciter is operated in an \u201copen loop\u201d SESA TWR configuration with materiel response replication at a single point.  ",
+            468
+        ],
+        [
+            2,
+            "b. For Procedure III, if testing of a preliminary design is required, the pulse train matching the sine-on-random spectrum may be generated stochastically, and Procedure II applied.  It is unusual for any of the procedures to require a MEMA test configuration, but controls provided in Method 527 should be applied if warranted by the configuration or measured data.",
+            468
+        ],
+        [
+            3,
+            "2.5.1 Control options.",
+            468
+        ],
+        [
+            4,
+            "2.5.1.1 Open/Closed loop.",
+            468
+        ],
+        [
+            4,
+            "2.5.1.2 Single point control.",
+            469
+        ],
+        [
+            4,
+            "2.5.1.3 Multiple point control.",
+            469
+        ],
+        [
+            3,
+            "2.5.2 Control methods.",
+            469
+        ],
+        [
+            4,
+            "2.5.2.1 Waveform control.",
+            469
+        ],
+        [
+            4,
+            "2.5.2.2 Spectrum control.  ",
+            469
+        ],
+        [
+            2,
+            "3.1 Pretest.",
+            469
+        ],
+        [
+            2,
+            "The following information is required to conduct a gunfire test for a significant gunfire shock environment.  (In this section SESA is assumed, however obtain the same pretest information if MEMA testing is required, and Method 527 MEMA is substituted for Method 525 SESA.  In addition if the gunfire environment is benign non-transient vibration, see Method 514.6 for SESA or Method 527 for MEMA spectrum control.).",
+            469
+        ],
+        [
+            2,
+            "a. General.  Information listed in Part One, paragraphs 5.7, 5.8, and 5.9, and Annex A, Task 405 of this standard.",
+            469
+        ],
+        [
+            2,
+            "b. Specific to this method.  ",
+            469
+        ],
+        [
+            2,
+            "(1) Knowledge of the test fixture, test item and combined test fixture/test item modal frequencies, and their relationship to the gunfire rate.  Ideally, this would consist of an experimental modal survey for the test configuration including fixturing.  If this is not practical, a supporting analytical assessment of the modal characteristics of the test configuration needs to be developed and interpreted by a trained analyst.",
+            469
+        ],
+        [
+            2,
+            "(2) Gunfire environment according to the gunfire schedule defining the number of individual firing events.  Either:",
+            469
+        ],
+        [
+            2,
+            "(a) measured time traces that are input directly as compensated waveforms into a exciter system under TWR control Method 525 (SESA) (Method 527 MEMA) for Procedure I.",
+            469
+        ],
+        [
+            2,
+            "(b) analytical time traces representing measured data that has been statistically processed, stochastically generated, and perhaps scaled appropriately, that are input as compensated waveforms into a exciter system under TWR control Method 525 (SESA) (Method 527 MEMA) for Procedure II.",
+            469
+        ],
+        [
+            2,
+            "(c) measured gun/materiel mechanical and geometrical parameters that have been specified and predicted Sine-on-Random spectrum derived.  The predicted Sine-on-Random spectrum is then used to generate a repetitive shock time trace input to the materiel at the gunfire rate.",
+            469
+        ],
+        [
+            2,
+            "(3) Techniques used in the processing of the input, and the materiel response data including means of satisfying the prescribed tolerance limits.",
+            470
+        ],
+        [
+            2,
+            "(4) An analog anti-alias filter configuration will be used that will:",
+            470
+        ],
+        [
+            2,
+            "(a) not alias more than a 5 percent measurement error into the frequency band of interest (5 Hz to 2 kHz).",
+            470
+        ],
+        [
+            2,
+            "(b) have linear phase-shift characteristics in the data passband.",
+            470
+        ],
+        [
+            2,
+            "(c) have a passband uniform to within one dB across the frequency band of interest (see paragraph 4.3).",
+            470
+        ],
+        [
+            2,
+            "(5) In subsequent processing of the data, use any additional filtering that is compatible with the anti-alias analog filtering.  In particular, additional digital filtering must maintain phase linearity for processing gunfire time traces for Procedures I and II.  In checking for test tolerance satisfaction, use the principles outlined in Method 525 - in particular, bandpass filter the control time trace to the bandwidth of the reference time trace or, alternatively, match the bandpass filter characteristics of the control time trace to the measured time trace. ",
+            470
+        ],
+        [
+            2,
+            "(6) Note:  Generally, there are three bandwidths of concern: (1) the field measured time trace bandwidth based upon the instrumentation signal conditioning configuration, (2) the reference time trace to be used in testing (5 Hz to 2kHz), and (3) the measured control time trace from the test that may have energy exceeding 2kHz.  Test tolerance procedures must compare common bandwidth information.  Common bandwidths may be established by digital filtering between either (1) the field measured time trace and the measured test control time trace, or (2) the test reference time trace and the bandlimited control time trace.  The procedures for establishing common bandwidths is provided in Method 525.",
+            470
+        ],
+        [
+            2,
+            "(7) For Procedures I and II, the time history trace should be over-sampled by a factor of 10.  Ideally, for 2 kHz data, a sample rate of 20,480 (with a linear phase anti-alias filter set at 2.5 kHz) will be suitable.  For spectral computations a maximum 5 Hz analysis filter bandwidth is recommended.",
+            470
+        ],
+        [
+            2,
+            "(8) Analysis procedures will be in accordance with those requirements and guidelines provided in paragraph 6.1, reference a.  In particular, the test item response acceleration time histories will be qualified according to the procedures in paragraph 6.1, reference a.  In severe cases of response acceleration, it may be necessary that each time history be integrated to detect any anomalies in the measurement system, e.g., cable breakage, amplifier slewrate exceedance, data clipped, unexplained accelerometer offset, etc.  The integrated amplitude time histories will be compared against criteria given in paragraph 6.1, reference a.",
+            470
+        ],
+        [
+            2,
+            "c. Tailoring.  Necessary variations in the basic test procedures to accommodate LCEP requirements.",
+            470
+        ],
+        [
+            2,
+            "3.2 During Test.",
+            470
+        ],
+        [
+            2,
+            "Collect the following information during conduct of the gunfire test for a significant gunfire shock environment.  (In this section SESA is assumed, however obtain the same test information if MEMA testing is required and Method 527 MEMA (TWR) is substituted for Method 525 SESA.  In addition, if the gunfire environment is benign and non-transient vibration, see Method 514.6 for SESA, or Method 527 for MEMA spectrum control).",
+            470
+        ],
+        [
+            2,
+            "a. General.  Information in Part One, paragraph 5.10, and in Part One, Annex A, Task 405 and 406 of this standard.",
+            470
+        ],
+        [
+            2,
+            "b. Specific to this method.  Information related to failure criteria.  Other environmental conditions at which testing is to be carried out if other than standard laboratory conditions, and the specific features of the test assembly (exciter, fixture, interface connections, etc.).  For test validation purposes, record achieved test parameters, deviations from pre-test procedures including parameter levels, any procedural anomalies and any test failures.  Save in digital form the reference, control, and monitoring acceleration time traces for post-test processing, including test tolerance verification, under the guidelines provided in Method 525.",
+            470
+        ],
+        [
+            2,
+            "3.3 Post-test.",
+            470
+        ],
+        [
+            2,
+            "The following post test data shall be included in the test report. (In this section SESA is assumed; however, obtain the same pretest information if MEMA testing is required and Method 527 MEMA TWR is substituted for Method 525 SESA.  In addition, if the gunfire environment is benign and non-transient vibration, see Method 514 for SESA or Method 527 for MEMA spectrum control).",
+            470
+        ],
+        [
+            2,
+            "a. General.  Information listed in Part One, paragraph. 5.13, and in Annex A, Task 406 of this standard.",
+            471
+        ],
+        [
+            2,
+            "b. Specific to this method.  ",
+            471
+        ],
+        [
+            2,
+            "(1) Duration of each exposure and number of exposures.",
+            471
+        ],
+        [
+            2,
+            "(2) Functional and physical integrity of the test item after each test based upon operational testing and visual examination.",
+            471
+        ],
+        [
+            2,
+            "(3) Reference, control, and monitor time traces along with the information processed from these time traces to ensure test tolerances were met in the course of testing (see Method 525).",
+            471
+        ],
+        [
+            2,
+            "(4) Results of operational checks.",
+            471
+        ],
+        [
+            2,
+            "(5) Test item and/or fixture modal analysis data.",
+            471
+        ],
+        [
+            2,
+            "4. TEST PROCESS.",
+            471
+        ],
+        [
+            3,
+            "4.1 Test Facility.",
+            471
+        ],
+        [
+            3,
+            "4.2 Controls.",
+            471
+        ],
+        [
+            4,
+            "In general, acceleration will be the quantity measured to meet specification with care taken to ensure acceleration measurements can be made that provide meaningful data (paragraph 6.1, reference a).  Give special consideration to the measurement instrumentation amplitude and frequency range specifications in order to satisfy the measurement and analysis requirements.  All measurement instrumentation must be calibrated to traceable national calibration standards (see Part One, paragraph 5.3.2).  In addition, instrumentation to measure test item function may be required.  In this case, obtain suitable calibration standards and adhere to them.",
+            471
+        ],
+        [
+            4,
+            "a. Accelerometer.",
+            471
+        ],
+        [
+            4,
+            "(1) Transverse sensitivity of less than or equal to 5 percent.",
+            471
+        ],
+        [
+            4,
+            "(2) An amplitude linearity within 10 percent from 5 percent to 100 percent of the peak acceleration amplitude required for testing.",
+            471
+        ],
+        [
+            4,
+            "(3) For all gunfire test procedures, a flat frequency response within +10 percent across the frequency range 5 \u2013 2 kHz.  The measurement devices may be of the piezoelectric or piezoresistive type.  ",
+            471
+        ],
+        [
+            4,
+            "(4) For cases in which response below 2 Hz is desired, piezoresistive accelerometer measurements are required with a flat frequency response within +10 percent across the frequency range DC-2 kHz.",
+            471
+        ],
+        [
+            4,
+            "(5) The measurement device and its mounting will be compatible with the requirements and guidelines provided in paragraph 6.1, reference a.",
+            471
+        ],
+        [
+            4,
+            "b. Other measurement devices.  Any other measurement devices used to collect data must be demonstrated to be consistent with the requirements of the test, in particular, the calibration and tolerances provided in paragraph 4.2.",
+            472
+        ],
+        [
+            4,
+            "c. Signal conditioning.  Use signal conditioning compatible with the instrumentation requirements on the materiel.  In particular, filtering will be consistent with the response time history requirements.  Use signal conditioning requirements in accordance with the guidelines provided in paragraph 6.1, reference a.  Use extreme care in filtering the acceleration signals at the amplifier output.  Do not filter the signal into the amplifier for fear of filtering bad measurement data and the inability to detect the bad measurement data.  The signal from the signal conditioning must be anti-alias filtered before digitizing. ",
+            472
+        ],
+        [
+            4,
+            "All measurement devices are to be calibrated in accordance with standard calibration procedures.  The complete test parameter control chains (checking, compensation, servoing, recording, etc.) should not produce uncertainties exceeding one third of the tolerances specified in paragraphs 4.2.1 through 4.2.4.  Because of the nature of the gunfire environment, tolerances may be given in the time, amplitude, and frequency domain according to the processing requirements of the procedure.  Knowledge of the bandwidth of the reference and control time traces will be important and an assessment of the out of band energy provided by limitations of impedance matching and fixture resonances will be important.  In Procedures I and II it is assumed that the test item response measurement data collected is representative of the true environment and not a function of the local materiel configuration, e.g., local resonances which may not be controllable to the tolerances in paragraphs 4.2.1 through 4.2.4.  Use test fixturing that will ensure test item response in other axes does not exceed twenty-five percent of the test item response in the test axis when measured in the time, amplitude or frequency domain.  Methods 525 and 527 provide guidelines on test tolerance specification under TWR and, in most cases, these test tolerances will be adequate for gunfire test.  The test tolerance guidelines provided below assume stochastic ensemble processing formulation, whereby there is variation in time but the frequency domain content remains the same over the ensemble of pulses.  These test tolerance guidelines may be superseded by more time trace form appropriate guidelines in Methods 525 or 527.  In conjunction with satisfaction of test tolerances, a dynamic simulant for the test materiel is initially recommended to compensate the input waveform.  In addition, an appropriate time trace compensation strategy may be applied to optimize the TWR input to the stimulant, and applied in subsequent testing of the materiel.",
+            472
+        ],
+        [
+            4,
+            "4.2.1 Direct Reproduction of Measured Materiel Input/Response Time Trace Data Under Guidelines Provided in Method 525 for Time Waveform Replication (TWR)",
+            472
+        ],
+        [
+            4,
+            "4.2.2 Stochastically Generated Materiel Input/Response Based Upon Measured Time Trace Information",
+            472
+        ],
+        [
+            4,
+            "4.2.3 Stochastically Predicted Materiel Input for Preliminary Design Based Upon Predicted Sine-on-Random Spectrum",
+            473
+        ],
+        [
+            4,
+            "4.3.2 Interruption due to test item operation failure.",
+            473
+        ],
+        [
+            3,
+            "4.4 Test Execution.  ",
+            473
+        ],
+        [
+            3,
+            "The following actions along with steps, alone or in combination, provide the basis for collecting necessary information concerning the durability and function of a test item in a gunfire shock environment.",
+            473
+        ],
+        [
+            4,
+            "4.4.1 Preparation for test.",
+            473
+        ],
+        [
+            5,
+            "4.4.1.1 Pretest checkout.",
+            473
+        ],
+        [
+            5,
+            "4.4.1.2 Procedure overview.",
+            474
+        ],
+        [
+            5,
+            "4.4.1.3 Test item considerations.",
+            474
+        ],
+        [
+            4,
+            "Procedure I - Direct Reproduction of Measured Materiel Input/Response Time Trace Information under Guidelines Provided in Method 525 for Time Waveform Replication (TWR).",
+            474
+        ],
+        [
+            5,
+            "4.4.2.1 Controls.",
+            474
+        ],
+        [
+            5,
+            "4.4.2.2 Test tolerances. ",
+            474
+        ],
+        [
+            5,
+            "4.4.2.3 Procedure steps.",
+            474
+        ],
+        [
+            5,
+            "4.4.2.4 Analysis of results.",
+            475
+        ],
+        [
+            4,
+            "4.4.3 Procedure II - Stochastically Generated Materiel Input/Response Based Upon Measured Time Trace Information ",
+            475
+        ],
+        [
+            5,
+            "4.4.3.1 Controls.",
+            475
+        ],
+        [
+            5,
+            "4.4.3.2 Test tolerances.",
+            475
+        ],
+        [
+            5,
+            "Procedure steps.",
+            475
+        ],
+        [
+            5,
+            "Analysis of results.",
+            476
+        ],
+        [
+            4,
+            "4.4.4 Procedure III - Stochastically Predicted Materiel Input for Preliminary Design Based Upon Predicted Sine-on-Random Spectrum",
+            476
+        ],
+        [
+            5,
+            "4.4.4.1 Controls. ",
+            476
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS.",
+            476
+        ],
+        [
+            2,
+            "6.  REFERENCE/RELATED DOCUMENTS",
+            477
+        ],
+        [
+            3,
+            "6.1  Referenced Documents.",
+            477
+        ],
+        [
+            2,
+            "a. Handbook for Dynamic Data Acquisition and Analysis, IEST-RP-DTE012.1, Institute of Environmental Sciences and Technology, Arlington Place One, 2340 S. Arlington Heights Road, Suite 100, Arlington Heights, IL  60005-4516.",
+            477
+        ],
+        [
+            2,
+            "SCOPE.",
+            479
+        ],
+        [
+            3,
+            "1.1 Purpose. ",
+            479
+        ],
+        [
+            3,
+            "1.2 Application. ",
+            479
+        ],
+        [
+            2,
+            "2. DEVELOPMENT.",
+            479
+        ],
+        [
+            3,
+            "2.1 Basic Considerations for Environment Determination.  ",
+            479
+        ],
+        [
+            3,
+            "2.2 Test Configuration.",
+            480
+        ],
+        [
+            3,
+            "2.3 Creating a Digital File of the Measured Gunfire Shock Input to the Materiel.",
+            480
+        ],
+        [
+            3,
+            "2.4 Replicating the Measured Gunfire Shock Materiel Input in Laboratory Test.",
+            481
+        ],
+        [
+            3,
+            "2.5 Post-Test Processing.",
+            481
+        ],
+        [
+            3,
+            "2.6 Conclusion.",
+            489
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            490
+        ],
+        [
+            3,
+            "1.1 Purpose. ",
+            490
+        ],
+        [
+            3,
+            "1.2 Application. ",
+            490
+        ],
+        [
+            2,
+            "2. BASIC CONSIDERATIONS FOR STOCHASTIC GENERATION OF A TIME TRACE FROM A SINGLE MEASUREMENT.",
+            491
+        ],
+        [
+            3,
+            "2.1 Introduction.",
+            491
+        ],
+        [
+            2,
+            "3. PULSE ENSEMBLE ALGORITHM FOR STOCHASTIC GENERATION.",
+            495
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            511
+        ],
+        [
+            3,
+            "1.1 Purpose.",
+            511
+        ],
+        [
+            3,
+            "1.2 Application.",
+            511
+        ],
+        [
+            2,
+            "2. DEVELOPMENT.",
+            511
+        ],
+        [
+            3,
+            "2.1 Overview.",
+            511
+        ],
+        [
+            3,
+            "2.2 Illustration.",
+            512
+        ],
+        [
+            2,
+            "3. CONCULSIONS.",
+            522
+        ],
+        [
+            2,
+            "METHOD 519.6 ANNEX D",
+            523
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            523
+        ],
+        [
+            3,
+            "1.1 Purpose. ",
+            523
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            523
+        ],
+        [
+            3,
+            "1.3 Limitations.",
+            523
+        ],
+        [
+            2,
+            "2. DEVELOPMENT.",
+            523
+        ],
+        [
+            3,
+            "2.1 Introduction. ",
+            523
+        ],
+        [
+            3,
+            "2.2 Predicting Gunfire Vibration Spectra.  ",
+            524
+        ],
+        [
+            3,
+            "2.3 Duration of Test.  ",
+            525
+        ],
+        [
+            3,
+            "2.4 Spectrum Generation Techniques.  ",
+            525
+        ],
+        [
+            3,
+            "2.5 Reference/Related Documents.",
+            525
+        ],
+        [
+            2,
+            "3. RECOMMENDED PROCEDURES.",
+            525
+        ],
+        [
+            3,
+            "3.1 Recommended Procedure. ",
+            525
+        ],
+        [
+            3,
+            "3.2 Uncertainty Factors. ",
+            525
+        ],
+        [
+            2,
+            "METHOD 519.6 ANNEX E",
+            533
+        ],
+        [
+            2,
+            "1.   BASIC CONSIDERATIONS FOR SCALING.",
+            533
+        ],
+        [
+            3,
+            "1.1 Background.",
+            533
+        ],
+        [
+            1,
+            "Method520",
+            540
+        ],
+        [
+            2,
+            "METHOD 520.3",
+            542
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            542
+        ],
+        [
+            3,
+            "1.1 Purpose.  ",
+            542
+        ],
+        [
+            3,
+            "1.2 Application. ",
+            542
+        ],
+        [
+            3,
+            "1.3 Limitations.",
+            542
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE.",
+            542
+        ],
+        [
+            3,
+            "2.1 Selecting the Temperature, Humidity, Vibration, and Altitude Method.  ",
+            542
+        ],
+        [
+            4,
+            "2.1.1 Effects of combined temperature/humidity/vibration/altitude environments.  ",
+            542
+        ],
+        [
+            4,
+            "2.1.2 Sequence among other methods.",
+            543
+        ],
+        [
+            3,
+            "2.2 Selecting Procedures.  ",
+            543
+        ],
+        [
+            4,
+            "2.2.1 Procedure selection considerations.",
+            543
+        ],
+        [
+            4,
+            "2.2.2 Difference among procedures.  ",
+            543
+        ],
+        [
+            5,
+            "2.2.2.1 Procedure I  Engineering Development.  ",
+            543
+        ],
+        [
+            5,
+            "2.2.2.2 Procedure II - Flight or Operation Support.  ",
+            543
+        ],
+        [
+            5,
+            "2.2.2.3 Procedure III - Qualification.  ",
+            544
+        ],
+        [
+            4,
+            "2.2.3 Selecting combined environments.  ",
+            544
+        ],
+        [
+            5,
+            "2.2.3.1 Vibration/temperature.  ",
+            544
+        ],
+        [
+            5,
+            "2.2.3.2 Temperature/altitude/humidity.  ",
+            544
+        ],
+        [
+            5,
+            "2.2.3.3 Supplemental-cooling air humidity, mass flow rate, and temperature.  ",
+            547
+        ],
+        [
+            5,
+            "2.2.3.4 Electrical stress.  ",
+            547
+        ],
+        [
+            5,
+            "2.2.3.5 Test item operation.  ",
+            547
+        ],
+        [
+            3,
+            "2.3 Determine Test Levels and Conditions.  ",
+            547
+        ],
+        [
+            4,
+            "2.3.1 Test cycle formulation.  ",
+            547
+        ],
+        [
+            4,
+            "Mission profile selection.  ",
+            548
+        ],
+        [
+            4,
+            "2.3.3 Environmental stresses.  ",
+            552
+        ],
+        [
+            4,
+            "2.3.4 Vibration stress.  ",
+            552
+        ],
+        [
+            4,
+            "2.3.5 Thermal stress.  ",
+            554
+        ],
+        [
+            5,
+            "2.3.5.1 Bay conditions.",
+            554
+        ],
+        [
+            4,
+            "2.3.6 Humidity stress.  ",
+            555
+        ],
+        [
+            4,
+            "2.3.7 Altitude stress.  ",
+            557
+        ],
+        [
+            4,
+            "2.3.8 Electrical stress.  ",
+            557
+        ],
+        [
+            5,
+            "2.3.8.1 AC & DC system normal operation stresses.  ",
+            558
+        ],
+        [
+            5,
+            "2.3.8.2 Normal ON/OFF cycling of materiel operation.  ",
+            558
+        ],
+        [
+            3,
+            "2.4 Test Item Configuration.",
+            558
+        ],
+        [
+            2,
+            "3. INFORMATION REQUIRED.",
+            558
+        ],
+        [
+            3,
+            "3.1 Pretest.  ",
+            558
+        ],
+        [
+            3,
+            "3.2 During Test.  ",
+            558
+        ],
+        [
+            3,
+            "3.3 Post Test.   ",
+            558
+        ],
+        [
+            2,
+            "4. TEST PROCESS.",
+            558
+        ],
+        [
+            3,
+            "4.1 Test Facility.  ",
+            558
+        ],
+        [
+            3,
+            "4.2 Controls.  ",
+            558
+        ],
+        [
+            3,
+            "4.3 Test Interruption.",
+            559
+        ],
+        [
+            3,
+            "4.4 Data Analysis.",
+            559
+        ],
+        [
+            3,
+            "4.5 Test Execution.",
+            559
+        ],
+        [
+            4,
+            "4.5.1 Preparation for test.",
+            559
+        ],
+        [
+            5,
+            "4.5.1.1 Preliminary steps.  ",
+            559
+        ],
+        [
+            5,
+            "4.5.1.2 Qualification test cycle.   (Figure 520.3-1.)",
+            559
+        ],
+        [
+            5,
+            "4.5.1.3 Test development schedule. ",
+            561
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS.  ",
+            562
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS.",
+            563
+        ],
+        [
+            3,
+            "6.1 Referenced Documents.",
+            563
+        ],
+        [
+            2,
+            " a. Hall, P.S.  Vibration Test Level Criteria for Aircraft Equipment.  AFWAL-TR-80-3119.  December 1980.",
+            563
+        ],
+        [
+            2,
+            " b. MIL-HDBK-310, Global Climatic Data for Developing Military Products.",
+            563
+        ],
+        [
+            3,
+            "6.2 Related Documents.",
+            563
+        ],
+        [
+            1,
+            "Method521",
+            564
+        ],
+        [
+            2,
+            "1. SCOPE.  ",
+            564
+        ],
+        [
+            3,
+            "1.1 Purpose.  ",
+            564
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            564
+        ],
+        [
+            3,
+            "1.3 Limitations.  ",
+            564
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE.   ",
+            564
+        ],
+        [
+            3,
+            "2.1 Selecting the Icing/Freezing Rain Method.  ",
+            564
+        ],
+        [
+            4,
+            "2.1.1 Effects of icing/freezing rain.  ",
+            564
+        ],
+        [
+            4,
+            "2.1.2 Sequence among other methods.",
+            565
+        ],
+        [
+            3,
+            "2.2 Selecting Procedure Variations.  ",
+            565
+        ],
+        [
+            4,
+            "2.2.1 Ice formation. ",
+            565
+        ],
+        [
+            5,
+            "2.2.1.1 Principal causes.  ",
+            565
+        ],
+        [
+            5,
+            "2.2.1.2 Types of ice.  (Paragraph 6.1, reference a.)  ",
+            565
+        ],
+        [
+            4,
+            "Configuration and orientation.  ",
+            566
+        ],
+        [
+            4,
+            "2.2.3 Test temperature.  ",
+            566
+        ],
+        [
+            4,
+            "2.2.4 Water delivery rate.  ",
+            566
+        ],
+        [
+            4,
+            "2.2.5 Water delivery method.  ",
+            566
+        ],
+        [
+            4,
+            "2.2.6 Droplet size.  ",
+            566
+        ],
+        [
+            4,
+            "2.2.7 Ice thickness.  ",
+            566
+        ],
+        [
+            3,
+            "2.3 Operational Considerations.   ",
+            566
+        ],
+        [
+            2,
+            "3. INFORMATION REQUIRED.",
+            567
+        ],
+        [
+            3,
+            "3.1 Pretest.  ",
+            567
+        ],
+        [
+            3,
+            "3.2 During Test.  ",
+            567
+        ],
+        [
+            3,
+            "3.3 Post Test.",
+            567
+        ],
+        [
+            2,
+            "4. TEST PROCESS.",
+            567
+        ],
+        [
+            3,
+            "4.1 Test Facility.  ",
+            567
+        ],
+        [
+            3,
+            "4.2 Controls.  ",
+            567
+        ],
+        [
+            3,
+            "4.3 Test Interruption.",
+            568
+        ],
+        [
+            3,
+            "4.4 Test Setup.  ",
+            568
+        ],
+        [
+            3,
+            "4.5 Test Execution.  ",
+            568
+        ],
+        [
+            4,
+            "4.5.1 Preparation for test.",
+            568
+        ],
+        [
+            5,
+            "4.5.1.1 Preliminary steps.  ",
+            568
+        ],
+        [
+            5,
+            "4.5.1.2 Pretest standard ambient checkout.  ",
+            569
+        ],
+        [
+            4,
+            "4.5.2 Procedure \u2013 Ice Accretion",
+            569
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS.  ",
+            570
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS.",
+            570
+        ],
+        [
+            3,
+            "6.1 Referenced Documents.",
+            570
+        ],
+        [
+            2,
+            "a. Glossary of Meteorology, Edited by Ralph E. Huschke, Published by the American Meteorological Society (1959); Air Force Institute of Technology Library.",
+            570
+        ],
+        [
+            2,
+            "b. Letter, Cold Regions Research and Engineering Laboratory, Corps of Engineers (U.S.), CECRL-RG, 22 October 1990, SUBJECT:  Ice Accretion Rates (Glaze).",
+            570
+        ],
+        [
+            3,
+            "6.2 Related Documents.",
+            570
+        ],
+        [
+            1,
+            "Method522",
+            571
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            571
+        ],
+        [
+            3,
+            "1.1 Purpose.",
+            571
+        ],
+        [
+            3,
+            "1.2 Application.",
+            571
+        ],
+        [
+            4,
+            "1.2.1 Ballistic shock definition.",
+            571
+        ],
+        [
+            4,
+            "1.2.2 Ballistic shock - momentum exchange.",
+            571
+        ],
+        [
+            4,
+            "1.2.3 Ballistic shock - physical phenomenon.",
+            572
+        ],
+        [
+            3,
+            "Limitations.  ",
+            572
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE.",
+            572
+        ],
+        [
+            3,
+            "2.1 Selecting the Ballistic Shock Method.  ",
+            572
+        ],
+        [
+            4,
+            "2.1.1 Effects of ballistic shock.  ",
+            573
+        ],
+        [
+            4,
+            "2.1.2 Sequence among other methods.",
+            573
+        ],
+        [
+            3,
+            "Selecting a Procedure.  ",
+            573
+        ],
+        [
+            4,
+            "2.2.1 Procedure selection considerations.  ",
+            574
+        ],
+        [
+            4,
+            "2.2.2 Difference among procedures.",
+            575
+        ],
+        [
+            5,
+            "2.2.2.1 Procedure I - BH&T.  ",
+            575
+        ],
+        [
+            5,
+            "2.2.2.2 2.2.2.2 Procedure II - LSBSS.  ",
+            575
+        ],
+        [
+            5,
+            "2.2.2.3 2.2.2.3 Procedure III - LWSM.  ",
+            575
+        ],
+        [
+            5,
+            "2.2.2.4 Procedure IV - Mechanical shock simulator. ",
+            575
+        ],
+        [
+            5,
+            "2.2.2.5 2.2.2.5 Procedure V - MWSM.",
+            575
+        ],
+        [
+            5,
+            "2.2.2.6 Procedure VI - Drop Table.  ",
+            576
+        ],
+        [
+            3,
+            "Determine Test Levels and Conditions.  ",
+            576
+        ],
+        [
+            4,
+            "2.3.1 General considerations - Terminology.  ",
+            576
+        ],
+        [
+            4,
+            "2.3.2 Test conditions - Shock spectrum transient duration and scaling.  ",
+            576
+        ],
+        [
+            5,
+            "2.3.2.1 2.3.2.1 Measured data available from ballistic shock.  ",
+            577
+        ],
+        [
+            5,
+            "2.3.2.2 2.3.2.2 Measured data not available from ballistic shock.  ",
+            577
+        ],
+        [
+            4,
+            "2.3.3 Ballistic shock qualification - Procedure I.  ",
+            578
+        ],
+        [
+            4,
+            "2.3.4 Ballistic shock qualification - Procedures II through VI.   ",
+            578
+        ],
+        [
+            3,
+            "2.4 Test Item Configuration.  ",
+            578
+        ],
+        [
+            2,
+            "3. INFORMATION REQUIRED.",
+            579
+        ],
+        [
+            3,
+            "3.1 Pretest.  ",
+            579
+        ],
+        [
+            3,
+            "3.2 During Test.  ",
+            579
+        ],
+        [
+            3,
+            "3.3 Post-test. ",
+            579
+        ],
+        [
+            2,
+            "4. TEST PROCESS.",
+            579
+        ],
+        [
+            3,
+            "4.1 Test Facility.  ",
+            579
+        ],
+        [
+            3,
+            "4.2 Controls.",
+            580
+        ],
+        [
+            3,
+            "4.3 Test Interruption.  ",
+            581
+        ],
+        [
+            3,
+            "4.4 Instrumentation.  ",
+            581
+        ],
+        [
+            3,
+            "4.5 Data Analysis.",
+            581
+        ],
+        [
+            3,
+            "4.6 Test Execution.",
+            581
+        ],
+        [
+            4,
+            "4.6.1 Preparation for test.",
+            581
+        ],
+        [
+            5,
+            "4.6.1.1 Preliminary steps.",
+            581
+        ],
+        [
+            5,
+            "4.6.1.2 Pretest checkout.",
+            582
+        ],
+        [
+            4,
+            "4.6.2 Procedures.  ",
+            582
+        ],
+        [
+            5,
+            "4.6.2.1 Procedure I \u2013 BH&T.",
+            582
+        ],
+        [
+            5,
+            "4.6.2.2 Procedure II - LSBSS.  ",
+            582
+        ],
+        [
+            5,
+            "4.6.2.3 Procedure III - LWSM",
+            583
+        ],
+        [
+            5,
+            "Procedure IV - Mechanical Shock Simulator.",
+            583
+        ],
+        [
+            5,
+            "4.6.2.5 Procedure V - MWSM",
+            583
+        ],
+        [
+            5,
+            "4.6.2.6 Procedure VI - Drop table.",
+            584
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS.  ",
+            584
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS.",
+            584
+        ],
+        [
+            3,
+            "6.1 Referenced Documents.",
+            584
+        ],
+        [
+            2,
+            "a. Walton, W. Scott, \u201cBallistic Shock Simulation Techniques for Testing Armored Vehicle Components,\u201d Proceedings of the 64th, Shock and Vibration Symposium, Volume I, October 1993, pp. 237-246.  Shock & Vibration Information Analysis Center (SAVIAC), Three Chopt Rd. (Suite 110), Richmond, VA 23229.",
+            584
+        ],
+        [
+            3,
+            "6.2 Related Documents.",
+            585
+        ],
+        [
+            1,
+            "Method523",
+            586
+        ],
+        [
+            2,
+            "CONTENTS - Continued",
+            587
+        ],
+        [
+            2,
+            "CONTENTS - Continued",
+            588
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            589
+        ],
+        [
+            3,
+            "1.1 Purpose.  ",
+            589
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            589
+        ],
+        [
+            3,
+            "1.3 Limitations.  ",
+            589
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE.",
+            590
+        ],
+        [
+            3,
+            "2.1 Selecting the Vibro-Acoustic/Temperature Method.  ",
+            590
+        ],
+        [
+            4,
+            "2.1.1 Effects of the vibro-acoustic/temperature environment.  ",
+            590
+        ],
+        [
+            5,
+            "2.1.1.1 Relative importance of environmental stresses.  ",
+            590
+        ],
+        [
+            5,
+            "2.1.1.2 Other environmental stresses.  ",
+            590
+        ],
+        [
+            5,
+            "2.1.1.3 Operation.  ",
+            590
+        ],
+        [
+            5,
+            "2.1.1.4 Temperature.  ",
+            590
+        ],
+        [
+            5,
+            "2.1.1.5 Vibration.  ",
+            591
+        ],
+        [
+            5,
+            "2.1.1.6 Moisture.  ",
+            592
+        ],
+        [
+            5,
+            "2.1.1.7 Shock.  ",
+            592
+        ],
+        [
+            5,
+            "2.1.1.8 Altitude.  ",
+            593
+        ],
+        [
+            5,
+            "2.1.1.9 Other environments.  ",
+            593
+        ],
+        [
+            4,
+            "2.1.2 Sequence among other methods.  ",
+            593
+        ],
+        [
+            3,
+            "2.2 Selecting a Procedure.  ",
+            593
+        ],
+        [
+            3,
+            "2.3 Determination of Test Levels and Conditions.  ",
+            593
+        ],
+        [
+            3,
+            "2.4 Test Item Configuration.",
+            594
+        ],
+        [
+            2,
+            "3. INFORMATION REQUIRED.",
+            594
+        ],
+        [
+            3,
+            "3.1 Pretest.  ",
+            594
+        ],
+        [
+            3,
+            "3.2 During Test.  ",
+            595
+        ],
+        [
+            3,
+            "3.3 Post-test. ",
+            595
+        ],
+        [
+            2,
+            "4. TEST PROCESS.",
+            595
+        ],
+        [
+            3,
+            "4.1 Test Facility.  ",
+            595
+        ],
+        [
+            4,
+            "4.1.1 General.  ",
+            595
+        ],
+        [
+            4,
+            "4.1.2 Acoustic chamber.  ",
+            595
+        ],
+        [
+            5,
+            "4.1.2.1 Acoustic chamber and acoustic source.  ",
+            596
+        ],
+        [
+            5,
+            "4.1.2.2 Vibration equipment.  ",
+            596
+        ],
+        [
+            4,
+            "4.1.3 Temperature equipment.  ",
+            596
+        ],
+        [
+            4,
+            "4.1.4 Electrical stress.  ",
+            596
+        ],
+        [
+            3,
+            "4.2 Instrumentation.  ",
+            596
+        ],
+        [
+            3,
+            "4.3 Controls.",
+            597
+        ],
+        [
+            4,
+            "Test interruption.",
+            598
+        ],
+        [
+            4,
+            "4.3.3 Functional monitoring.",
+            598
+        ],
+        [
+            4,
+            "4.3.4 Vibration monitoring and control.  ",
+            599
+        ],
+        [
+            4,
+            "4.3.5 Temperature monitoring and control.  ",
+            599
+        ],
+        [
+            4,
+            "4.3.6 Humidity monitoring.",
+            599
+        ],
+        [
+            4,
+            "4.3.7 Power monitoring.  ",
+            599
+        ],
+        [
+            3,
+            "4.4 Data Analysis.",
+            600
+        ],
+        [
+            3,
+            "4.5 Test Execution.",
+            600
+        ],
+        [
+            4,
+            "4.5.1 Preparation for test.  ",
+            600
+        ],
+        [
+            4,
+            "4.5.2 Pretest checkout.  ",
+            600
+        ],
+        [
+            4,
+            "4.5.3 Test setup and cycle check procedure.",
+            601
+        ],
+        [
+            4,
+            "4.5.4 Procedure.",
+            601
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS. ",
+            602
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS",
+            603
+        ],
+        [
+            3,
+            "6.1 Referenced Documents.",
+            603
+        ],
+        [
+            2,
+            "a. A. Dantowitz, G. Hirshberger, and D. Pravidlo, \"Analysis of Aeronautical Equipment Environmental Failures,\" Air Force Flight Dynamics Laboratory, TR-71-32, May 1971.",
+            603
+        ],
+        [
+            3,
+            "6.2 Related Documents.",
+            604
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            605
+        ],
+        [
+            3,
+            "1.1 Purpose.  ",
+            605
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            605
+        ],
+        [
+            2,
+            "2. DEVELOPMENT.",
+            605
+        ],
+        [
+            3,
+            "2.1 Background.  ",
+            605
+        ],
+        [
+            3,
+            "2.2 General.  ",
+            605
+        ],
+        [
+            3,
+            "2.3 Mission Characterization.  ",
+            606
+        ],
+        [
+            3,
+            "2.4 Mission Analysis.  ",
+            607
+        ],
+        [
+            4,
+            "2.4.1 Mission temperatures.  ",
+            607
+        ],
+        [
+            4,
+            "2.4.2 Mission vibration.  ",
+            609
+        ],
+        [
+            4,
+            "2.4.3 Test temperature profile.  ",
+            609
+        ],
+        [
+            4,
+            "2.4.4 Test vibration profile.  ",
+            611
+        ],
+        [
+            4,
+            "2.4.5 Operational duty cycle.  ",
+            612
+        ],
+        [
+            2,
+            "3. TEST CONFIGURATION.",
+            612
+        ],
+        [
+            1,
+            "Method524",
+            614
+        ],
+        [
+            2,
+            "SCOPE",
+            614
+        ],
+        [
+            3,
+            "1.1  Purpose.",
+            614
+        ],
+        [
+            3,
+            "1.2  Application.",
+            614
+        ],
+        [
+            3,
+            "1.3  Limitations.",
+            614
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE ",
+            614
+        ],
+        [
+            3,
+            "2.1 Effects of the Environment.",
+            614
+        ],
+        [
+            3,
+            "2.2  Test Procedure.",
+            614
+        ],
+        [
+            3,
+            "2.3  Determine Test Levels and Conditions",
+            615
+        ],
+        [
+            4,
+            "2.3.1  Test item configuration",
+            615
+        ],
+        [
+            4,
+            "2.3.2  Temperature range",
+            615
+        ],
+        [
+            4,
+            "2.3.3  Moisture",
+            615
+        ],
+        [
+            4,
+            "2.3.4  Number of cycles",
+            615
+        ],
+        [
+            2,
+            "3.  INFORMATION REQUIRED. ",
+            615
+        ],
+        [
+            3,
+            "3.1  Pretest.  ",
+            615
+        ],
+        [
+            3,
+            "3.2  During Test.  ",
+            616
+        ],
+        [
+            3,
+            "3.3  Post Test.",
+            616
+        ],
+        [
+            2,
+            "4.  TEST PROCESS",
+            616
+        ],
+        [
+            3,
+            "4.1  Test Facility.",
+            616
+        ],
+        [
+            3,
+            "4.2  Controls.",
+            616
+        ],
+        [
+            3,
+            "4.3  Test Interruptions.",
+            616
+        ],
+        [
+            3,
+            "4.4  Execution.",
+            617
+        ],
+        [
+            3,
+            "4.4.1  Preparation for test.",
+            617
+        ],
+        [
+            4,
+            "Step 3.  Install temperature sensors in, on, or around the test item (as described in the test plan) to measure temperature stabilization and surface temperatures.",
+            617
+        ],
+        [
+            4,
+            "4.4.2  Procedure I - Diurnal Cycling Effects",
+            617
+        ],
+        [
+            4,
+            "4.4.3  Procedure II - Fogging",
+            617
+        ],
+        [
+            4,
+            "4.4.4  Procedure III - Rapid Temperature Change",
+            618
+        ],
+        [
+            2,
+            "5.  ANALYSIS OF RESULTS",
+            618
+        ],
+        [
+            2,
+            "6.  REFERENCE/RELATED DOCUMENTS",
+            618
+        ],
+        [
+            1,
+            "Method525",
+            620
+        ],
+        [
+            2,
+            "CONTENTS - Continued",
+            621
+        ],
+        [
+            2,
+            "CONTENTS - Continued",
+            623
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            624
+        ],
+        [
+            3,
+            "1.1  Purpose.",
+            624
+        ],
+        [
+            3,
+            "1.2  Application.",
+            624
+        ],
+        [
+            4,
+            "1.2.1 Time waveform replication.",
+            624
+        ],
+        [
+            4,
+            "1.2.2  SESA Time Waveform Replication.",
+            624
+        ],
+        [
+            4,
+            "Time trace.",
+            625
+        ],
+        [
+            4,
+            "1.2.4 General considerations and terminology.",
+            625
+        ],
+        [
+            4,
+            " Time-varying time trace \u2013 Physical phenomenon.",
+            628
+        ],
+        [
+            4,
+            "1.2.6  General TWR test philosophy with regard to time trace simulation (and scaling).",
+            628
+        ],
+        [
+            3,
+            " Limitations.",
+            631
+        ],
+        [
+            2,
+            "2.  TAILORING GUIDANCE.",
+            631
+        ],
+        [
+            3,
+            "2.1  Selecting the TWR Method.",
+            631
+        ],
+        [
+            4,
+            "2.1.1  Effects of Transition to Time Trace TWR.",
+            631
+        ],
+        [
+            4,
+            "2.1.2  Sequence Among Other Methods.",
+            631
+        ],
+        [
+            3,
+            "2.2  Selecting a Procedure.",
+            632
+        ],
+        [
+            3,
+            "2.3  Determine Test Levels and Conditions.",
+            632
+        ],
+        [
+            4,
+            "2.3.1  General Considerations.",
+            632
+        ],
+        [
+            3,
+            " Test Item Operation.",
+            633
+        ],
+        [
+            2,
+            "3.  INFORMATION REQUIRED.",
+            633
+        ],
+        [
+            3,
+            "3.1 Pretest.",
+            633
+        ],
+        [
+            3,
+            "3.2  During Test.",
+            633
+        ],
+        [
+            3,
+            "3.3  Post-Test.",
+            634
+        ],
+        [
+            2,
+            "4.  TEST PROCESS.",
+            634
+        ],
+        [
+            3,
+            "4.1  Test Facility.",
+            634
+        ],
+        [
+            4,
+            "4.1.1  Procedure I \u2013 The SESA replication of a field measured materiel time trace input/response.",
+            634
+        ],
+        [
+            4,
+            "4.1.2  Procedure II \u2013The SESA replication of an analytically specified materiel time trace input/response.",
+            634
+        ],
+        [
+            3,
+            "4.2  Controls.",
+            634
+        ],
+        [
+            4,
+            "4.2.1  Calibration.",
+            634
+        ],
+        [
+            4,
+            "4.2.2  Tolerances. ",
+            634
+        ],
+        [
+            3,
+            "4.3 Test Interruption. ",
+            637
+        ],
+        [
+            4,
+            "4.3.1 Interruption due to laboratory equipment malfunction.",
+            637
+        ],
+        [
+            4,
+            "4.3.2 Interruption Due to Test Materiel Operation Failure.",
+            638
+        ],
+        [
+            4,
+            "4.3.3 Interruption Due to a Scheduled Event.",
+            638
+        ],
+        [
+            4,
+            "4.3.4 Interruption Due to Exceeding Test Tolerances.",
+            638
+        ],
+        [
+            3,
+            "4.4 Instrumentation.",
+            638
+        ],
+        [
+            3,
+            "4.5  Test Execution.",
+            639
+        ],
+        [
+            4,
+            "4.5.1  Preparation for Test.",
+            639
+        ],
+        [
+            5,
+            "4.5.1.1  Preliminary Steps. ",
+            639
+        ],
+        [
+            5,
+            "4.5.1.2  Pretest Checkout. ",
+            639
+        ],
+        [
+            4,
+            "4.5.2  Procedure Specific. ",
+            640
+        ],
+        [
+            5,
+            "4.5.2.1  Procedure I - SESA Replication of a Field Measured Materiel Time Trace Input/Response.",
+            640
+        ],
+        [
+            5,
+            "4.5.2.2  Procedure II \u2013 SESA Replication of an Analytically Specified Materiel Time Trace Input/Response",
+            640
+        ],
+        [
+            4,
+            "4.5.3 Data Analysis. ",
+            640
+        ],
+        [
+            2,
+            "5.  ANALYSIS OF RESULTS.",
+            641
+        ],
+        [
+            3,
+            "5.1  Physics of Failure.",
+            641
+        ],
+        [
+            3,
+            "5.2  Qualification Tests.",
+            641
+        ],
+        [
+            3,
+            "5.3  Other Tests.",
+            641
+        ],
+        [
+            2,
+            "6.  REFERENCE/RELATED DOCUMENTS.",
+            642
+        ],
+        [
+            3,
+            "6.1  Referenced Documents",
+            642
+        ],
+        [
+            3,
+            "6.2 Related Documents",
+            642
+        ],
+        [
+            1,
+            "Method526",
+            677
+        ],
+        [
+            2,
+            "1. SCOPE.",
+            677
+        ],
+        [
+            3,
+            "1.1 Purpose.  ",
+            677
+        ],
+        [
+            3,
+            "1.2 Application.  ",
+            677
+        ],
+        [
+            3,
+            "1.3 Limitations.",
+            677
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE",
+            677
+        ],
+        [
+            3,
+            "3.2   During Test.  ",
+            678
+        ],
+        [
+            3,
+            "3.3 Post-test.  ",
+            679
+        ],
+        [
+            2,
+            "4.  TEST PROCESS.",
+            679
+        ],
+        [
+            3,
+            "4.1 Test Facility and Equipment.",
+            679
+        ],
+        [
+            3,
+            "4.1.1  Buffer railcars.  Loaded cars are preferred for use as the buffer or struck cars.  However, empty cars may also be used.  In either case, the total weight of the buffer cars is to be at least 113,400kg (250,000 lb).  The first buffer car must be a standard draft gear car.  The remaining buffer cars should have standard draft gear, if possible.  ",
+            679
+        ],
+        [
+            4,
+            "4.1.2 Test railcar.  Equipped with chain tiedowns and end-of-car cushioned draft gear, unless other railcar types are approved by Director, SDDCTEA, Attn: SDTE-DPE, Building 1990, 709 Ward Drive, Scott AFB, IL 62225.  SDDCTEA is the designated DoD agent for land transportation.  Some materiel may require other types of railcars for testing to be representative of the intended shipping methods.",
+            679
+        ],
+        [
+            4,
+            "4.4.1 Preparation for Test.  ",
+            680
+        ],
+        [
+            5,
+            "4.5 Test tolerances.",
+            680
+        ],
+        [
+            5,
+            "5. ANALYSIS OF RESULTS.  ",
+            681
+        ],
+        [
+            3,
+            "6.1 Referenced Documents.",
+            682
+        ],
+        [
+            3,
+            "6.2 Related Documents.",
+            682
+        ],
+        [
+            1,
+            "Method527",
+            684
+        ],
+        [
+            2,
+            "CONTENTS - Continued",
+            685
+        ],
+        [
+            2,
+            "CONTENTS - Continued",
+            686
+        ],
+        [
+            2,
+            "CONTENTS - Continued",
+            687
+        ],
+        [
+            2,
+            "1. SCOPE",
+            688
+        ],
+        [
+            3,
+            "1.1  Purpose.",
+            688
+        ],
+        [
+            3,
+            "1.2   Application.",
+            688
+        ],
+        [
+            3,
+            "Limitations.",
+            692
+        ],
+        [
+            2,
+            "2. TAILORING GUIDANCE.   ",
+            692
+        ],
+        [
+            3,
+            "2.1  Selecting the MET Method.",
+            692
+        ],
+        [
+            4,
+            "2.1.1  Effects of the MET Environment.",
+            692
+        ],
+        [
+            4,
+            "Sequence Among Other Methods.",
+            693
+        ],
+        [
+            3,
+            "2.2  Selecting a Procedure.",
+            693
+        ],
+        [
+            4,
+            "2.2.1  Procedure Selection Considerations.",
+            693
+        ],
+        [
+            3,
+            "2.3  Determine Test Levels and Conditions. ",
+            693
+        ],
+        [
+            4,
+            "2.3.1  Laboratory Test Data Input.",
+            693
+        ],
+        [
+            4,
+            "2.3.2  Laboratory Test Output.",
+            694
+        ],
+        [
+            3,
+            "2.4    Test Item Operation.",
+            694
+        ],
+        [
+            3,
+            "3.1 Pretest.",
+            694
+        ],
+        [
+            3,
+            "3.3 Post-Test.",
+            695
+        ],
+        [
+            2,
+            "4  TEST PROCESS.",
+            695
+        ],
+        [
+            3,
+            "4.1 Test Facility.",
+            695
+        ],
+        [
+            3,
+            "4.2 Controls.",
+            695
+        ],
+        [
+            4,
+            "The accuracy in providing and measuring shock and vibration environments is highly dependent on fixtures and mountings for the test item, the measurement system, and the exciter control strategy.  Ensure all instrumentation considerations are in accordance with the best practices available (see paragraph 6.1, references d and e).  Careful design of the test set up, fixtures, transducer mountings, and wiring, along with good quality control will be necessary to meet the tolerances of paragraph 4.2.2 below.",
+            695
+        ],
+        [
+            4,
+            "4.2.1 Calibration.",
+            695
+        ],
+        [
+            3,
+            "4.3 Test interruption.",
+            696
+        ],
+        [
+            3,
+            "4.3.2  Interruption due to test item operation failure.",
+            696
+        ],
+        [
+            3,
+            "4.4 Test Setup. ",
+            697
+        ],
+        [
+            3,
+            "4.4.1  Instrumentation.",
+            697
+        ],
+        [
+            3,
+            "4.4.2  Data Analysis.",
+            697
+        ],
+        [
+            3,
+            "4.4.3  Platform Integration.",
+            697
+        ],
+        [
+            3,
+            "4.5  Test Execution.",
+            698
+        ],
+        [
+            4,
+            "4.5.1  Preparation for Test.",
+            698
+        ],
+        [
+            5,
+            "4.5.1.1 Preliminary steps.",
+            698
+        ],
+        [
+            5,
+            "4.5.1.2 Pretest standard ambient checkout.",
+            698
+        ],
+        [
+            2,
+            "5. ANALYSIS OF RESULTS.  ",
+            700
+        ],
+        [
+            3,
+            "5.1 Physics of Failure.",
+            700
+        ],
+        [
+            3,
+            "5.2 Qualification Tests.",
+            700
+        ],
+        [
+            3,
+            "5.3 Other Tests.",
+            700
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS.",
+            701
+        ],
+        [
+            1,
+            "Method528",
+            721
+        ],
+        [
+            2,
+            "CONTENTS - Continued",
+            722
+        ],
+        [
+            2,
+            "CONTENTS - Continued",
+            723
+        ],
+        [
+            3,
+            "3.1 Pretest.",
+            726
+        ],
+        [
+            3,
+            "3.2   During Test.",
+            727
+        ],
+        [
+            3,
+            "3.3 Post-Test.",
+            727
+        ],
+        [
+            3,
+            "4.1 Test Facility.  ",
+            728
+        ],
+        [
+            3,
+            "4.2 Controls.  ",
+            728
+        ],
+        [
+            4,
+            "4.2.1 Control strategy.",
+            728
+        ],
+        [
+            5,
+            "4.2.1.1 Acceleration input control strategy. ",
+            728
+        ],
+        [
+            5,
+            "4.2.1.2 Force control strategy. ",
+            728
+        ],
+        [
+            5,
+            "4.2.1.3 Acceleration limit strategy.",
+            728
+        ],
+        [
+            5,
+            "4.2.1.4 Acceleration response control strategy.",
+            728
+        ],
+        [
+            5,
+            "4.2.1.5 Waveform control strategy. ",
+            728
+        ],
+        [
+            4,
+            "4.2.2 Tolerances.",
+            728
+        ],
+        [
+            5,
+            "4.2.2.1 Acceleration spectral density. ",
+            729
+        ],
+        [
+            5,
+            "4.2.2.2 Peak sinusoidal acceleration.",
+            729
+        ],
+        [
+            5,
+            "4.2.2.3 Frequency measurement.",
+            729
+        ],
+        [
+            5,
+            "4.2.2.4 Cross axis sensitivity",
+            729
+        ],
+        [
+            3,
+            "4.3 Test interruption.",
+            729
+        ],
+        [
+            3,
+            "4.3.2  Interruption due to test item operation failure.",
+            730
+        ],
+        [
+            3,
+            "5. DETAILED REQUIREMENTS",
+            731
+        ],
+        [
+            3,
+            "5.3 ANALYSIS OF RESULTS.",
+            739
+        ],
+        [
+            3,
+            "5.3.1   Physics of Failure.",
+            739
+        ],
+        [
+            3,
+            "5.3.2   Qualification Tests.",
+            740
+        ],
+        [
+            3,
+            "5.3.3   Other Tests.",
+            740
+        ],
+        [
+            2,
+            "6. REFERENCE/RELATED DOCUMENTS  ",
+            740
+        ],
+        [
+            1,
+            "PartThree810G",
+            748
+        ],
+        [
+            2,
+            "1.  SCOPE.",
+            752
+        ],
+        [
+            3,
+            "1.1  Purpose..  ",
+            752
+        ],
+        [
+            3,
+            "1.2  Part Three organization.",
+            752
+        ],
+        [
+            3,
+            "1.4   General guidance.  ",
+            753
+        ],
+        [
+            3,
+            "1.5  Limitations.  (AR 70-38)",
+            753
+        ],
+        [
+            2,
+            "SECTION II \u2013 DISTRIBUTION OF CLIMATIC DESIGN TYPES",
+            1
+        ],
+        [
+            2,
+            "2.   Distribution of climatic design types.",
+            1
+        ],
+        [
+            3,
+            "2.1 Hot climatic design type (A1 and B3).  ",
+            1
+        ],
+        [
+            3,
+            "2.2  Basic climatic design type.  ",
+            1
+        ],
+        [
+            4,
+            "Although climatic conditions during a field test are not likely to be as extreme as the values specified in paragraph 4 and its subparagraphs, there are distinct advantages to conducting tests in real world environments where the combined effects of several climatic factors can cause difficulties not revealed by chamber testing.  On the other hand, if natural field environment tests are conducted under conditions that are less extreme than those called for by the system LCEP and requirements documents, additional laboratory tests may be required - particularly when natural field test results are marginal.  Data describing climatic conditions prevailing during natural field tests should be recorded at the test site, and documented in the final report to provide a basis for future evaluation.  ",
+            759
+        ],
+        [
+            5,
+            "4.1.3.1   Hot-humid cycle (B3).",
+            766
+        ],
+        [
+            5,
+            "4.3.5 Low relative humidity with low temperature.  not available",
+            775
+        ],
+        [
+            5,
+            "5.2.2 Rainfall rate.  ",
+            779
+        ],
+        [
+            5,
+            "The highest rates of rainfall occur when there is strong convection (rising currents of air) and available moisture.  Thunderstorms and tropical cyclones (including hurricanes and typhoons), are systems that most commonly have these ingredients.  Thunderstorms, that are relatively small and localized, produce the heaviest rainfalls over periods of a few hours or less.",
+            779
+        ],
+        [
+            5,
+            "5.6 Ozone concentration.",
+            784
+        ],
+        [
+            3,
+            "1.2 Risk policy.  ",
+            803
+        ]
+    ],
+    "pages": 804,
+    "ocr_stats": {
+        "ocr_pages": 41,
+        "ocr_failed": 41,
+        "ocr_success": 0
+    },
+    "block_stats": {
+        "header_footer": 734,
+        "code": 87,
+        "table": 105,
+        "equations": {
+            "successful_ocr": 135,
+            "unsuccessful_ocr": 26,
+            "equations": 161
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}
