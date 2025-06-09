@@ -1,4 +1,4 @@
-# scripts/chunk_documents.py
+# chunk_documents.py
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from pathlib import Path
