@@ -49,6 +49,7 @@ def setup_llm():
         tokenizer=tokenizer,
         max_new_tokens=512,
         do_sample=True,
+        use_cache=True,
         temperature=0.7,
         top_p=0.95,
         repetition_penalty=1.15,
