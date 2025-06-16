@@ -6,7 +6,7 @@ from langchain_community.vectorstores import FAISS
 from langchain.prompts import PromptTemplate
 from langchain_huggingface import HuggingFacePipeline
 from langchain.chains import RetrievalQA
-from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
+from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline, BitsAndBytesConfig
 
 import torch
 
@@ -34,6 +34,10 @@ def setup_llm():
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
+        quantization_config=BitsAndBytesConfig(
+            load_in_8bit=True,
+            llm_int8_enable_fp32_cpu_offload=False,
+        ),
         device_map="auto",
         torch_dtype=torch.float16
     )
