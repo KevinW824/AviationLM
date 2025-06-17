@@ -47,7 +47,7 @@ def setup_llm():
         "text-generation",
         model=model,
         tokenizer=tokenizer,
-        max_new_tokens=512,
+        max_new_tokens=256,
         do_sample=True,
         use_cache=True,
         temperature=0.7,
@@ -62,8 +62,8 @@ def setup_llm():
 
 def create_rag_chain(vectorstore, llm):
     # Create the prompt template
-    template = """<s>[INST] You are a helpful AI assistant. Use the following pieces of context to answer the question at the end.
-    If you don't know the answer, just say that you don't know, don't try to make up an answer.
+    template = """<s>[INST] Answer the question based on the context provided. Response should be relevant to the question.
+    If the answer cannot be deduced from the context, do not give an answer, don't try to make up an answer.
     
     Context: {context}
     
