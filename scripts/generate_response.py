@@ -77,7 +77,7 @@ def main(
                     
                     # Update row with results
                     row["response"] = result["result"].replace("\n", " ").strip()
-                    sources = [doc["metadata"]["source"] for doc in result["source_documents"]]
+                    sources = [doc.metadata["source"] for doc in result["source_documents"]]
                     row["response_sources"] = "; ".join(sources)
                     row["processing_time"] = f"{processing_time:.2f}s"
                     
