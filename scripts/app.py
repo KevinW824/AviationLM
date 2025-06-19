@@ -1,8 +1,8 @@
-# app.py
+# scripts/app.py
 
 from fastapi import FastAPI
 from pydantic import BaseModel
-from scripts.run_rag import load_vectorstore, setup_llm, create_rag_chain
+from scripts.rag import load_vectorstore, setup_llm, create_rag_chain
 import torch
 from contextlib import asynccontextmanager
 

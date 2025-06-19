@@ -1,0 +1,101 @@
+instruction,reference_answer,sources
+What are the requirements for hose assemblies regarding burst pressure and bulge?,"Hose assemblies must not leak, burst, or blow off the hose at any pressure less than the burst pressure specified in Table I and the bulge shall not exceed the value specified in Figure 1 of Specification MIL-H-8794.",MIL-H-8795A 1958.md
+What is the MOD Rate for the amount of 240.00 with a rate of 1/8?,0.25,IEEE 802.16-2009.md
+"What should be measured for the first, second, third, and fourth adjacent channels on both sides of the carrier frequency?",The adjacent channel measurement should be performed.,RTCA DO-281B 2012.md
+What is the section number related to Image Retention?,4.2.11,SAE AS8034B.md
+What should be verified within 66 seconds of starting the interrogations?,The transponder should reply with a DF=20 reply.,RTCA DO-181E 2011.md
+What is the address of the Information Center (DTIC)?,"Suite 0944, 8725 John J. Kingman Road, Fort Belvoir VA 22060-6218.",MIL-STD-810G.md
+What fields does SETDISPLAYDATAACTIVE populate in the STMREPORT for displaying each intruder?,"The fields include the reported Mode S address (*mode_s*), an indication of ICAO compliance (*is_icao*), the track id of the target (id), the vertical state validity (*alt_reporting*), the validity of the bearing data (*bearing_valid*), the direction of the intruder's relative vertical velocity (*arrow*), and the relative altitude of the intruder (*z_rel*).",RTCA DO-385-2018.md
+What are the recommendations of international organizations used for?,"They are used as the basis for government and private sector decisions, as well as the foundation for many Federal Aviation Administration Technical Standard Orders and several advisory circulars.",RTCA DO-373-2018.md
+What is the purpose of coalescing aviation system user and provider technical requirements?,To help government and industry meet their mutual objectives and responsibilities.,RTCA DO-93A 2016.md
+What can image recordings capture in cockpit investigations?,Image recordings can capture other cockpit information that would otherwise be impractical or impossible to record.,EUROCAE  ED-155-2009.md
+What is the power input indicated in the context?,16,RTCA DO-334(OCR).md
+"What value does the TCAS logic recognize for ""TA-ONLY"" mode?","The TCAS logic recognizes the value of 2 for ""TA-ONLY"" mode.",RTCA DO-185B 2008.md
+What is the numerical value associated with 'X' in the context?,827,RTCA DO-362-2016.md
+What does ATSA-SURF specify regarding Ownship?,ATSA-SURF shall specify the Ownship horizontal position.,RTCA DO-317B 2014.md
+What is the primary intent of Part 5 in Register 4016?,"The primary intent of Part 5 in Register 4016 is to validate that the MCP/FCU Selected Altitude, FMS Selected Altitude, Barometric Pressure Setting, and FMS Vertical Mode Bit Counts in Register 5F16 go to ""01"" as opposed to ""00"".",RTCA DO-181E 2011.md
+When should the application of the test be conducted to avoid damage to the equipment?,After the other tests.,RTCA DO-362-2016.md
+What is the section number for Lightning Induced Transient Susceptibility?,2.2.1.3.10,RTCA DO-271C 2005.md
+What is the maximum range at which synchronous garble interference occurs for ATCRBS transponder-equipped aircraft relative to TCAS II?,Approximately 5 NM.,RTCA DO-185B 2008.md
+What does the system allow for in terms of aircraft flight plan regarding RNP?,The system allows for variable RNP to be applied to the aircraft flight plan.,RTCA DO-283B 2015.md
+How do you verify that the transponder has entered the Active Hijack mode?,By proceeding to Part 3 of the test procedures and performing the Airborne General Requirements tests as called out in Part 3.a.(1).,RTCA DO-181E 2011.md
+How is the carbon black content of a specimen calculated?,"Carbon black content is calculated using the formula: Carbon black, % = [(A-B)/C] × 100, where A is the grams of combustion boat and residue after pyrolysis in nitrogen, B is the grams after ignition in air, and C is the grams of the specimen.",ASTM D297-21.md
+What temperature is the anneal process slowly cooled to?,Room temperature.,SAE AMS-H-6088 1997.md
+What is the requirement for the Receive Aircraft Domain?,The Receive Aircraft Domain shall be capable of receiving.,RTCA DO-317B 2014.md
+What is the purpose of modifying the equipment in the control segment?,To comply with a different set of MI failure probabilities.,RTCA DO-316 2009.md
+What mode is used to manually adjust the heading in the AHRS system?,DG mode,DO-334对照.md
+How do you calculate the percentage of sulfur in a specimen?,"Sulfur, % = [($A \times 0.1373$) / $B$] × 100, where A is grams of BaSO4 and B is grams of specimen used.",ASTM D297-21.md
+What is the interval range for broadcasting the ADS-B Surface Position Message?,The interval range for broadcasting the ADS-B Surface Position Message is distributed over the range of 0.4 to 0.6 seconds.,RTCA DO-260B 2009   Corr 1 2011.md
+What should be verified regarding TIS-B service status when testing aircraft without an operable TCAS?,"It should be verified that the TIS-B service status indication on the CDTI indicates that TIS-B service is not available, or that the traffic picture is incomplete.",RTCA DO-317B 2014.md
+What does DO-300A reflect regarding surveillance algorithm changes?,DO-300A reflects multiple surveillance algorithm changes.,RTCA DO-300A-2013.md
+What must an applicant submit to support design and production approval according to CCAR-21-R4 Section 21.353?,"An applicant must submit a compliance statement and copies of relevant technical materials, including operational instructions and equipment limitations, installation procedures and limitations, and descriptions of functionality if the device is incomplete or a multi-purpose system.",CTSO-C158 航空移动高频数据链（HFDL）通信设备.md
+"What does ""Preferred sources are"" refer to in the context?",It refers to the recommended or favored sources of information.,RTCA DO-260B 2009   Corr 1 2011.md
+What is the value of Tcs in the context of 2.2.23.1.7.1.2?,2,RTCA DO-181E 2011.md
+What is the maximum lifetime for the wmanIf2BsSsPkmV1TekN-1 in seconds?,604800 seconds.,IEEE 802.16-2009.md
+What event is sent to the TEK FSM when the Authorization FSM starts re-authentication?,TEK Authorization Complete (Auth Comp).,IEEE 802.16-2009.md
+What is the purpose of performance metrics in the context of sensors?,Performance metrics are used as a function of range to measure sensor performance in relation to their respective requirements.,RTCA DO-365-2017.md
+What is the binary value for no repetition coding in the repetition coding indication?,0b00,IEEE 802.16-2009.md
+"What year was ""Resource Management Information System"" published?",1995,RTCA DO-272B.m
+What is the title of section 4.0 in the document?,Functional Capability,ARINC 758-1 1998.md
+What is the ideal situation for obtaining data on materiel during testing?,The ideal situation is to obtain data on the same type of materiel on the same platform type that will carry the materiel to be tested.,MIL-STD-810G.md
+How can you verify the encoding format of a received message?,By correlating the received message to the stimulus data provided by the test equipment.,RTCA DO-260B 2009   Corr 1 2011.md
+"What is the maximum size of the User Data Field in the CALL REQUEST, DATA, CLEAR REQUEST, and CALL ACCEPTED packets?",The maximum size of the User Data Field is up to 128 bytes.,DO-210D_laz54.md
+What is the resolution for entering coordinates of a waypoint in the equipment?,The resolution for entering coordinates of a waypoint is 0.1 minute or better.,RTCA DO-229E 2016.md
+What does MOPS refer to in the context of radio location beacons?,MOPS refers to Minimum Performance Specification.,EUROCAE  ED-155-2009.md
+How can suppliers distribute the fungus?,Suppliers may distribute the fungus in a lyophilized state or on agar slants.,MIL-STD-810G.md
+What measurement technologies are used in processing ballistic shock data?,"Accelerometers, strain gages, and shock sensing gages are used in processing ballistic shock data.",MIL-STD-810G.md
+What is the definition of a final approach path?,The final approach path is a defined route that an aircraft follows to land at an airport.,RTCA DO-229D W Change 1 2013.md
+What are the supported Xo modes for a Class 2 ACAS X?,The supported Xo modes for a Class 2 ACAS X are DNA and CSPO-3000.,RTCA DO-385-2018.md
+"What are the directions associated with the ""Normal Operation/Plus"" status?",North and East.,ARINC 429P1-17-2004.md
+What is the title of the test procedure in section 2.5.4.21A?,Procedure #21A Comm-B Broadcast,RTCA DO-181E 2011.md
+What is the range of the appropriate Register for extracting contents?,6116 to 6F16,RTCA DO-260B 2009   Corr 1 2011.md
+"How many bits are used to determine the output value of the ""North/South Velocity"" subfield?",10 bits or less.,RTCA DO-260B 2009   Corr 1 2011.md
+What should be attached to the crash-protected memory module for underwater location?,An underwater locator beacon or equivalent dummy.,EUROCAE ED-112A-2013.md
+"What new satellite links were introduced in the supplement published on October 12, 2001?","HFDR Right, TAWS, and CVR.",ARINC 429P4 2012.md
+What does INMARSAT stand for?,International Maritime Satellite Organization,DO-210D_laz54.md
+What happens after a missed approach is initiated?,The system automatically switches to terminal mode after the missed approach.,RTCA DO-229E 2016.md
+What section was added regarding satellite-to-satellite handover?,User Commanded Satellite-to-Satellite Handover.,ARINC 741P2-9-2006.md
+What is component name of the minimum vertical rate for RA compliance in feet per second?,dz_min,RTCA DO-385-2018.md
+What is the section number related to Single Intruder Rate Selection?,3.3.1,RTCA DO-385-2018.md
+What does §2.2.4.5.1.3.1 refer to?,Verification of ICAO 24-bit Aircraft Address of Transmitting Aircraft.,RTCA DO-282B-2009+CORR-2011.md
+What procedures are entered during normal operation when equipment is in L?,LNAV/VNAV procedures.,RTCA DO-229D W Change 1 2013.md
+What words indicate a display mode capable of showing traffic symbology?,"""TRAFFIC"", ""TFC"", or ""TCAS"".",RTCA DO-385-2018.md
+What bit numbers are used in the word for encoding degree ranges?,Bit nos. 9 and 10.,ARINC 429P1-17-2004.md
+What is the section number that discusses the concept of security effectiveness?,3.3.1.1,RTCA DO-326A 2014.md
+What should not decrease following all system processing in an image?,The severe level within an image should not decrease.,RTCA DO-267A.md
+What sections contain the specific requirements for the Transmitting Subsystem?,"§2.2.2, §2.2.3, and §2.2.5.",RTCA DO-260B 2009   Corr 1 2011.md
+What is the ICAO 24-bit aircraft address used for in SATCOM?,The ICAO 24-bit aircraft address is used throughout SATCOM to ensure compatibility between organizations and systems.,ARINC 741P2-9-2006.md
+"What does the ""B2 Low"" subfield indicate when set to ONE in the Aircraft Operational Status Message?",It indicates that the Transmitting Subsystem is a Non-Transponder-Based Transmitting Subsystem on a Ground Vehicle that meets the requirements of Class B2 and transmits with less than 70 watts of power.,RTCA DO-260B 2009   Corr 1 2011.md
+What is the name of the integrated static probe listed in the context?,ISP1-2 (Integrated Static Probe),ARINC 429P4 2012.md
+What is the value of horizontal acceleration derived for high performance business jets?,14.7 m/s² (1.5 g),RTCA DO-317B 2014.md
+What is the purpose of submitting a software qualification assurance plan (PSAC) early in the software development process?,"Submitting a software qualification assurance plan (PSAC) early helps the authorities to resolve issues quickly, such as determining software partitioning and software levels.",CTSO-C174 蓄电池应急电源装置（BEPU）.md
+What does the WmanIf2TcSduType TEXTUAL-CONVENTION specify?,It specifies whether the SDUs on the service flow are fixed-length or variable length.,IEEE 802.16-2009.md
+What should be established before continuing with further testing in Step 5?,A state where the ADS-B Transmission Function is operational and indicating no Fail Warn conditions.,RTCA DO-260B 2009   Corr 1 2011.md
+What is the SN Reporting Base number?,44,IEEE 802.16-2009.md
+What type of wires are used for data transmission in avionics systems according to ARINC Specification 429?,A single twisted and shielded pair of wires.,ARINC 429P3-18-2001.md
+What sections define the CDTI input requirements from the ASSAP?,"The CDTI input requirements from the ASSAP are defined in Sections §2.2.2.1.5, §2.2.2.3.3, §2.2.2.4.3, §2.2.2.4.4.3, §2.2.2.5.3, §2.2.2.6.2, §2.2.2.7.3, and §2.2.2.8.3.",RTCA DO-317B 2014.md
+What is the standard pressure used for barometric pressure altitude in the ADS-B system?,1013.25 millibars (29.92 in.Hg.),RTCA DO-282B-2009+CORR-2011.md
+What happens if an SS fails to reauthorize before the expiration of its current AK?,The BS shall hold no active AKs for the SS and shall consider the SS unauthorized.,IEEE 802.16-2009.md
+What is the main requirement for the $AA 0236 system in terms of validation testing?,The $AA 0236 system will need requirements to address platform and performance differences between manned aircraft and UAS.,RTCA DO-365-2017.md
+What is the definition of Class A equipment in relation to ADS-B?,Class A equipment is defined as equipment that can transmit and receive ADS-B messages.,RTCA DO-282B-2009+CORR-2011.md
+What does TP stand for in the context of ARINC 600 connectors?,Top plug insert section.,ARINC 741P2-9-2006.md
+What is the duration of the random_number in the Version 1 Williamsburg Protocol?,The duration of the random_number is 1.,ARINC 429P3-18-2001.md
+What is the purpose of the tests mentioned in section 2.4.3.1.1?,The purpose of the tests mentioned in section 2.4.3.1.1 is to conduct an altitude test.,RTCA DO-262B 2014.md
+What is the role of the MAC SAP in the context of CS PDU delivery?,The MAC SAP is responsible for delivering the resulting CS PDU to the associated service flow for transport to the peer MAC SAP.,IEEE 802.16-2009.md
+What is the data type of wmanIf2BsCmnPhyUplinkCenterFreq?,Unsigned32,IEEE 802.16-2009.md
+What is the minimum Mode S Subnetwork Version Number required for consistency with Elementary and Enhance Surveillance requirements?,"The minimum Mode S Subnetwork Version Number required is ""35"" or higher.",RTCA DO-181E 2011.md
+What is the purpose of decomposing aircraft functions in relation to security measures?,To implement the aircraft security measures and define the systems necessary to implement the system security measures.,RTCA DO-326A 2014.md
+What is the primary purpose of the original text?,The primary purpose of the original text is to provide information or insight on a specific topic.,ARINC 429P4 2012.md
+What is the purpose of a combustion heater in aircraft systems?,The purpose of a combustion heater is to utilize the heat produced by combustion of a fuel for heating air being supplied to various aircraft systems.,SAE AS8040B 2013.md
+What is the minimum threshold level (MTL) for version ≥2 ADS-B messages before the start of the test?,-74 dBm,RTCA DO-385-2018.md
+What is the title of the section related to the External Ber Test Fixture?,2.4.2.2.1 External Ber Test Fixture,RTCA DO-281B 2012.md
+What does the Ground Domain indicate for an Aircraft/Vehicle?,The Ground Domain indicates when the transmitted horizontal position has been compensated to the surveillance position reference point (SPRP).,RTCA DO-317B 2014.md
+什么是模块的问题报告的主要目的？,模块的问题报告的主要目的是识别并记录模块错误、失效和异常行的解决情况，以及与模块计划不符的过程和模块生命周期数据中的缺陷。,DO-297中文.md
+What is the purpose of power monitors in a power supply?,"The purpose of power monitors is to check the output voltage levels and current loading of the power supply, generating binary signals to alert the processor to ""out of spec"" conditions and potentially shut down the power supply to prevent damage.",TSO-C153a.md
+What is the function name in Algorithm 347 used to correlate positions?,CorrelatePosition,RTCA DO-385-2018.md
+What is the purpose of the wmanIf2BsTrapControlRegister?,It is used to enable or disable Base Station traps independently.,IEEE 802.16-2009.md
+What tables are included in the wmanIf2BsPm subtree?,"The wmanIf2BsPm subtree includes the following tables: wmanIf2BsPmConfigurationTable, wmanIf2BsRssiCinrMetricsTable, wmanIf2BsStartupMetricsTable, wmanIf2BsThroughputMetricsTable, wmanIf2BsNetworkEntryMetricsTable, wmanIf2BsPacketErrorRateTable, wmanIf2BsHandoverMetricsTable, wmanIf2BsUserMetricsTable, wmanIf2BsCidMetricsTable, wmanIf2BsServiceFlowMetricsTable, wmanIf2BsArqHarqMetricsTable, and wmanIf2BsAuthenticationMetricsTable.",IEEE 802.16-2009.md
+What is the minimum roll angle specified in the context?,Greater than 5º.,RTCA DO-362-2016.md
+What is the MLS Station ID #2?,055,ARINC 429P1-17-2004.md
+What is the source of the information regarding associated assets?,ISO 17799,RTCA DO-356A 2018.md
+All materials used shall be self-extinguishing except for what?,"Except for small quantities of materials used for heat insulation or dissipation (such as ablative paints and thermo-chemical compounds) and small parts (such as knobs, fasteners, seals, grommets and small electrical parts) that would not contribute significantly to the propagation of a fire.",EUROCAE ED-112A-2013.md

@@ -23,6 +23,7 @@ protobuf
 accelerate
 fastapi
 uvicorn
+openai
 
 # Optional
 python-dotenv
