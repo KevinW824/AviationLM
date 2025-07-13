@@ -19,6 +19,16 @@ client = OpenAI(
 )
 
 def call_llm(client: OpenAI, prompt: str):
+    """
+    Call OpenAI API to generate responses.
+    
+    Args:
+        client (OpenAI): OpenAI client instance
+        prompt (str): The prompt to send to the model
+        
+    Returns:
+        str: The model's response content
+    """
     response = client.chat.completions.create(
         model="gpt-4o-mini", 
         messages=[

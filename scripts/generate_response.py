@@ -52,7 +52,7 @@ def main(
     print(f"📊 Found {total_questions} questions to process")
 
     # 3) Process questions with progress tracking
-    fieldnames = list(all_rows[0].keys()) + ["response", "response_sources", "processing_time"]
+    fieldnames = list(all_rows[0].keys()) + ["response", "response_sources"]
     
     with outfile.open("w", newline="", encoding="utf-8") as f_out:
         writer = csv.DictWriter(f_out, fieldnames=fieldnames)
@@ -79,7 +79,6 @@ def main(
                     row["response"] = result["result"].replace("\n", " ").strip()
                     sources = [doc.metadata["source"] for doc in result["source_documents"]]
                     row["response_sources"] = "; ".join(sources)
-                    row["processing_time"] = f"{processing_time:.2f}s"
                     
                     # Write immediately to avoid losing progress
                     writer.writerow(row)
@@ -98,7 +97,6 @@ def main(
                     # Write error information to row
                     row["response"] = f"ERROR: {str(e)}"
                     row["response_sources"] = ""
-                    row["processing_time"] = "ERROR"
                     
                     writer.writerow(row)
                     f_out.flush()

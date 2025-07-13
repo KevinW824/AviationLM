@@ -11,14 +11,20 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline, BitsAndB
 import torch
 
 def load_vectorstore():
-    # 1. Reinstantiate the same embedding model
+    """
+    Load a pre-built FAISS vector store with BGE-M3 embeddings.
+    
+    Returns:
+        FAISS: Loaded vector store instance with embeddings
+    """
+    # Reinstantiate the same embedding model
     embedding_model = HuggingFaceEmbeddings(
         model_name="BAAI/bge-m3",
         model_kwargs={"device": "cuda"},
         encode_kwargs={"normalize_embeddings": True},
     )
 
-    # 2. Load from the directory where you saved index.faiss + index.pkl
+    # Load from the directory where you saved index.faiss + index.pkl
     index_path = Path("data/vectorstore/faiss_bge_m3_index")
     vectorstore = FAISS.load_local(
         str(index_path),
@@ -29,6 +35,12 @@ def load_vectorstore():
     return vectorstore
 
 def setup_llm():
+    """
+    Load and configure the Mistral-7B-Instruct-v0.3 model with quantization.
+    
+    Returns:
+        HuggingFacePipeline: Configured pipeline for the LLM
+    """
     # Load the LLM model and tokenizer
     model_name = "mistralai/Mistral-7B-Instruct-v0.3"
     tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -61,6 +73,16 @@ def setup_llm():
     return llm
 
 def create_rag_chain(vectorstore, llm):
+    """
+    Create a Retrieval-Augmented Generation chain.
+    
+    Args:
+        vectorstore (FAISS): Vector store containing document chunks
+        llm (HuggingFacePipeline): Language model pipeline
+        
+    Returns:
+        RetrievalQA: RAG chain for question-answering
+    """
     # Create the prompt template
     template = """<s>[INST] Answer the question based on the context provided. Response should be relevant to the question.
     If the answer cannot be deduced from the context, do not give an answer, don't try to make up an answer.

@@ -24,6 +24,7 @@ accelerate
 fastapi
 uvicorn
 openai
+pandas
 
 # Optional
 python-dotenv

@@ -13,7 +13,6 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 try:
-    # Use bge-m3 with appropriate prefix
     embedding_model = HuggingFaceEmbeddings(
         model_name="BAAI/bge-m3",
         model_kwargs={"device": "cuda"},  
@@ -28,7 +27,6 @@ chunk_dir = Path("data/chunks")
 documents = []
 
 try:
-    # Get list of files first for progress bar
     files = list(chunk_dir.glob("*.json"))
     logger.info(f"Found {len(files)} JSON files to process")
     

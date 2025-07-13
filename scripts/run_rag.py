@@ -3,10 +3,15 @@ from scripts.rag import load_vectorstore, setup_llm, create_rag_chain
 import torch
 
 def query_rag(qa_chain, question):
-    # Get the response
+    """
+    Query the RAG chain with a question and print the result to display functionality.
+    
+    Args:
+        qa_chain (RetrievalQA): RAG chain for question-answering
+        question (str): The question to ask the RAG chain
+    """
     result = qa_chain.invoke({"query": question})
     
-    # Print the answer and sources
     print("\nAnswer:", result["result"])
     print("\nSources:")
     for doc in result["source_documents"]:
